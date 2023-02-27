@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid df521c2a-9827-4355-b809-366f4b88d5d7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 20.32 25.4) (size 20.32 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d01f2b57-4c31-4f7a-aff7-e5f88531affb)
+    (property "Sheetname" "leds" (at 20.32 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leds.kicad_sch" (at 20.32 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 20.32 59.69) (size 21.59 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e0e8fe71-102f-4387-ab09-5b5a9ebe3509)
+    (property "Sheetname" "inputs" (at 20.32 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inputs.kicad_sch" (at 20.32 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
