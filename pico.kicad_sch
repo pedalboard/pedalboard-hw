@@ -1360,7 +1360,6 @@
     )
   )
 
-
   (junction (at 226.06 144.78) (diameter 0) (color 0 0 0 0)
     (uuid 04c0c8c9-d2f0-4087-a53a-b416f9502495)
   )
@@ -2910,7 +2909,7 @@
     (property "Value" "Pico" (at 142.24 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH" (at 142.24 63.5 90)
+    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (at 142.24 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "" (at 142.24 63.5 0)
