@@ -8,14 +8,14 @@
   )
 
 
-  (sheet (at 72.39 25.4) (size 59.69 53.34) (fields_autoplaced)
+  (sheet (at 21.59 25.4) (size 59.69 53.34) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d36964e5-9373-47ae-95a7-088f8df77199)
-    (property "Sheetname" "pico" (at 72.39 24.6884 0)
+    (property "Sheetname" "pico" (at 21.59 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "pico.kicad_sch" (at 72.39 79.3246 0)
+    (property "Sheetfile" "pico.kicad_sch" (at 21.59 79.3246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
