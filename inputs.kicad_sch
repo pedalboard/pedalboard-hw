@@ -161,10 +161,35 @@
     (uuid f311b48e-ed84-42e5-a387-4217314af153)
   )
 
+  (label "SW_D" (at 34.29 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 0c9f7b85-674c-4c90-95f1-5eee358e153b)
+  )
+  (label "SW_E" (at 77.47 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3b8429fb-0629-444b-94ff-03ac89974904)
+  )
+  (label "SW_B" (at 77.47 73.66 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3ed70cf9-dc17-47ed-8a14-c5b697d256ec)
+  )
+  (label "SW_F" (at 118.11 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 54ff2454-74b6-4f1d-9070-e3e91f528b08)
+  )
+  (label "SW_A" (at 34.29 73.66 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid d8bd6655-1145-4306-877d-f9fc37c44930)
+  )
+  (label "SW_C" (at 118.11 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid e4c18f2f-7bd9-49fa-b188-aa1949aa777a)
+  )
+
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 39.37 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ce9972b-f4dc-4091-94c2-a13780f6d4bb)
-    (property "Reference" "SW4" (at 39.37 67.31 0)
+    (property "Reference" "SW_A" (at 39.37 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 39.37 69.85 0)
@@ -181,7 +206,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW4") (unit 1)
+          (reference "SW_A") (unit 1)
         )
       )
     )
@@ -190,7 +215,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 82.55 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28674ce9-e84a-4e7e-924a-11409b1287bf)
-    (property "Reference" "SW2" (at 82.55 35.56 0)
+    (property "Reference" "SW_E" (at 82.55 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 82.55 38.1 0)
@@ -207,7 +232,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW2") (unit 1)
+          (reference "SW_E") (unit 1)
         )
       )
     )
@@ -216,7 +241,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 123.19 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 779fbf49-4b32-4ab2-94ca-47d8f38a984f)
-    (property "Reference" "SW6" (at 123.19 66.04 0)
+    (property "Reference" "SW_C" (at 123.19 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 123.19 68.58 0)
@@ -233,7 +258,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW6") (unit 1)
+          (reference "SW_C") (unit 1)
         )
       )
     )
@@ -242,7 +267,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 82.55 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eb003ff-2eb9-4857-a4d9-1fe602d9f12b)
-    (property "Reference" "SW5" (at 82.55 67.31 0)
+    (property "Reference" "SW_B" (at 82.55 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 82.55 69.85 0)
@@ -259,7 +284,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW5") (unit 1)
+          (reference "SW_B") (unit 1)
         )
       )
     )
@@ -268,7 +293,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 39.37 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83f4696a-9f5f-4553-8581-bef081289ab3)
-    (property "Reference" "SW1" (at 39.37 35.56 0)
+    (property "Reference" "SW_D" (at 39.37 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 39.37 38.1 0)
@@ -285,7 +310,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW1") (unit 1)
+          (reference "SW_D") (unit 1)
         )
       )
     )
@@ -294,7 +319,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 123.19 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 842265f4-ec18-4515-8766-66a590440502)
-    (property "Reference" "SW3" (at 123.19 35.56 0)
+    (property "Reference" "SW_F" (at 123.19 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Omron_B3FS" (at 123.19 38.1 0)
@@ -311,7 +336,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/e0e8fe71-102f-4387-ab09-5b5a9ebe3509"
-          (reference "SW3") (unit 1)
+          (reference "SW_F") (unit 1)
         )
       )
     )

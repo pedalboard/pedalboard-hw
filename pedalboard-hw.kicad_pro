@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -477,8 +485,8 @@
       "leds"
     ],
     [
-      "e0e8fe71-102f-4387-ab09-5b5a9ebe3509",
-      "inputs"
+      "d36964e5-9373-47ae-95a7-088f8df77199",
+      "pico"
     ]
   ],
   "text_variables": {}
