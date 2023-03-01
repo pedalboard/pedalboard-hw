@@ -24,5 +24,14 @@ An open hardware for processing Audio and/or Midi data on a pedalboard.
 
 ## Notes
 
-https://github.com/nebs/eurocad
-Switch https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826
+### KiCad components
+
+* [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
+* [RPI pico](https://github.com/ncarandini/KiCad-RP-Pico)
+* [MIDI DIN5/180](https://github.com/nebs/eurocad)
+
+### Hardware
+
+* Switch https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826
+
+FIXME: Replace the above list with a proper BOM
