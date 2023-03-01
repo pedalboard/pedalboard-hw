@@ -2,5 +2,6 @@
 
 
 ## Notes
-https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
 
+https://github.com/nebs/eurocad
+Switch https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826
