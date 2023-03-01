@@ -2,11 +2,13 @@
 
 An open hardware for processing Audio and/or MIDI data on a pedalboard.
 
-## Audio Processing
+## Modules
+
+### Audio Processing
 - RPI Compute Module 4
 - HIFIBERRY DAC+ ADC PRO
 
-## MIDI and Control Surface
+### MIDI and Control Surface
 - RPI pico processor
 - 6 Buttons
 - 2 Rotary Encoders
