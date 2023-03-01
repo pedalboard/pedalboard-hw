@@ -1,19 +1,19 @@
 # Pedalboard Audio/MIDI Processer Hardware
 
-An open hardware for processing Audio and/or Midi data on a pedalboard.
+An open hardware for processing Audio and/or MIDI data on a pedalboard.
 
 ## Audio Processing
 - RPI Compute Module 4
 - HIFIBERRY DAC+ ADC PRO
 
-## Midi and Control Surface
+## MIDI and Control Surface
 - RPI pico processor
 - 6 Buttons
 - 2 Rotary Encoders
 - Input for Expression Pedalb
 - 10 RGB Leds
+- Optional RGB Matrix
 - MIDI I/O
-
 
 ## Design Goals
 - Modular Design (Audio Processor is optional)
