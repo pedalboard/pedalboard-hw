@@ -8,11 +8,28 @@
   )
 
 
+  (sheet (at 120.65 25.4) (size 66.04 53.34) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6bd0afd4-cd8b-4c1d-a236-891eed0b2d91)
+    (property "Sheetname" "Audio" (at 120.65 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 120.65 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "3"))
+      )
+    )
+  )
+
   (sheet (at 21.59 25.4) (size 59.69 53.34) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d36964e5-9373-47ae-95a7-088f8df77199)
-    (property "Sheetname" "pico" (at 21.59 24.6884 0)
+    (property "Sheetname" "MIDI" (at 21.59 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "pico.kicad_sch" (at 21.59 79.3246 0)

@@ -495,7 +495,11 @@
     ],
     [
       "d36964e5-9373-47ae-95a7-088f8df77199",
-      "pico"
+      "MIDI"
+    ],
+    [
+      "6bd0afd4-cd8b-4c1d-a236-891eed0b2d91",
+      "Audio"
     ]
   ],
   "text_variables": {}
