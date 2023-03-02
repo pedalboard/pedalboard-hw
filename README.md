@@ -38,3 +38,7 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
 * Switch https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826
 
 FIXME: Replace the above list with a proper BOM
+
+### Ideas
+
+* Output stage https://www.amb.org/audio/
