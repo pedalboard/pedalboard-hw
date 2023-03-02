@@ -31,6 +31,7 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
 * [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
 * [RPI pico](https://github.com/ncarandini/KiCad-RP-Pico)
 * [MIDI DIN5/180](https://github.com/nebs/eurocad)
+* [PIHat Mechanical Spec](https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf)
 
 ### Hardware
 
