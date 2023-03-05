@@ -42,3 +42,4 @@ FIXME: Replace the above list with a proper BOM
 ### Ideas
 
 * Output stage https://www.amb.org/audio/
+* Ribbon Mic: https://www.bumblebeepro.com/rm-5-diy-ribbon-mic-full-kit/
