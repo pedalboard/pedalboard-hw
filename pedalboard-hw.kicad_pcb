@@ -877,6 +877,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
+    (model "${KIPRJMOD}/3d-models/cm-min.step"
+      (offset (xyz 37.5 4 -11))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
   )
 
   (footprint "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716" locked (layer "F.Cu")
