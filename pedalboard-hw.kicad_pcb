@@ -1034,7 +1034,7 @@
 
   (footprint "Package_DIP:DIP-6_W7.62mm_LongPads" (layer "F.Cu")
     (tstamp 5eadde4d-f799-48b9-8cd0-dd9a04f7238b)
-    (at 123.825 74.525 180)
+    (at 72.825 79.525 180)
     (descr "6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "pico.kicad_sch")
@@ -1670,7 +1670,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tstamp 731ee5a8-aeea-40e8-8420-08b217ad1612)
-    (at 99.65 94)
+    (at 49.65 96.8)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -1982,7 +1982,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tstamp 8d247175-ce1f-4c0a-a66f-0c30391d2d02)
-    (at 99.65 90)
+    (at 49.65 92.8)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2116,7 +2116,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tstamp a86c0fc1-be7d-4ec8-bddc-39413297aeb9)
-    (at 112.35 98 180)
+    (at 62.35 100.8 180)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2250,7 +2250,7 @@
 
   (footprint "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (layer "F.Cu")
     (tstamp a9add077-3387-43f6-a8d2-30f362ba866a)
-    (at 123 84)
+    (at 73 87)
     (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
     (tags "inductor axial horizontal")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2263,11 +2263,11 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb32027d-f5d5-4ae9-8120-5ad82a594d00)
     )
-    (fp_text value "1K@100MHz" (at 5 3) (layer "F.Fab")
+    (fp_text value "1K@100MHz" (at -45 5.8) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1b94e82-2606-4eca-80e2-a6ea42e65de4)
     )
-    (fp_text user "${REFERENCE}" (at 5 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -45 2.8) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7cd9067b-18ed-4999-ba88-639529dd4b73)
     )
@@ -2316,7 +2316,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp aa8d67fd-2428-4097-a98b-41e4e55b7150)
-    (at 117 93.81 90)
+    (at 67 96.61 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2404,7 +2404,7 @@
 
   (footprint "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (layer "F.Cu")
     (tstamp b52e9f65-1056-4b4f-ab58-cb477de9892b)
-    (at 123 89.15)
+    (at 73 91.95)
     (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
     (tags "inductor axial horizontal")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2487,7 +2487,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 959551c1-4e2d-40ef-a6fc-c02272bb6972)
     )
-    (fp_text user "1" (at 3.65 -3.05905) (layer "F.SilkS")
+    (fp_text user "1" (at -4 -2) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f0a03ed-0ecb-41ed-9dea-cbb9f2fd8277)
     )
@@ -2754,7 +2754,7 @@
 
   (footprint "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (layer "F.Cu")
     (tstamp ddd2570b-2cea-4448-a93c-d2559eaa6d4d)
-    (at 123 99.45)
+    (at 73 102.25)
     (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
     (tags "inductor axial horizontal")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2914,7 +2914,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tstamp ea25c181-7e1e-4a0c-948e-9d7f74071a1e)
-    (at 99.65 86)
+    (at 49.65 88.8)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -3362,7 +3362,7 @@
 
   (footprint "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (layer "F.Cu")
     (tstamp fd2c2850-c4a7-48bd-ac26-b982db298168)
-    (at 123 94.3)
+    (at 73 97.1)
     (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
     (tags "inductor axial horizontal")
     (property "Sheetfile" "pico.kicad_sch")
@@ -3504,7 +3504,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "B.Cu")
     (tstamp 496784fe-152e-49ad-bf07-2cbff33fa67d)
-    (at 156.0108 41.2194)
+    (at 44.625 54.525)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "pico.kicad_sch")
@@ -4396,7 +4396,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "B.Cu")
     (tstamp bf7af4a8-aff6-46dc-ac9f-17b787a5544d)
-    (at 74 45 180)
+    (at 165 34 180)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "pico.kicad_sch")
