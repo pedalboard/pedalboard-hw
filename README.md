@@ -24,6 +24,13 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
   - Use of existing modules for the heavy lifting
 - Avialabilit of components
 
+## 3D View
+
+The Design is still in progress, the pictures are previews.
+
+![Front View](img/pedalboard-hw-front.png)
+![Rear View](img/pedalboard-hw-back.png)
+
 ## Notes
 
 ### KiCad components
