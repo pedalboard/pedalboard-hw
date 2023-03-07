@@ -1506,7 +1506,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" (layer "F.Cu")
     (tstamp 601c65be-bda4-4fff-b0ad-62ad2b46d163)
-    (at 93 80)
+    (at 65.35 69.8)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (property "Sheetfile" "pico.kicad_sch")
@@ -4871,7 +4871,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "B.Cu")
     (tstamp bf7af4a8-aff6-46dc-ac9f-17b787a5544d)
-    (at 166.025 54.475 90)
+    (at 169.725 52.125 90)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "pico.kicad_sch")
@@ -5192,7 +5192,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" (layer "B.Cu")
     (tstamp edd46f30-a93b-483c-90cc-9a7ffe6e939f)
-    (at 61.225 57.35 90)
+    (at 160.925 54.7 90)
     (descr "Through hole angled pin header, 2x03, 2.54mm pitch, 6mm pin length, double rows")
     (tags "Through hole angled pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "pico.kicad_sch")
