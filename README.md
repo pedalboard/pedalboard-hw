@@ -36,6 +36,8 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
 ### Hardware
 
 * Switch https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826
+* Pogo Pin: https://www.farnell.com/datasheets/2625427.pdf
+* USB-A: https://www.mouser.ch/ProductDetail/GCT/USB1061-GF-L-A?qs=KUoIvG%2F9IlYSthVIrIBVzQ%3D%3D
 
 FIXME: Replace the above list with a proper BOM
 
