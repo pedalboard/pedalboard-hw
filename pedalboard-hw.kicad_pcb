@@ -1462,7 +1462,7 @@
 
   (footprint "Package_DIP:DIP-6_W7.62mm_LongPads" placed (layer "F.Cu")
     (tstamp 5eadde4d-f799-48b9-8cd0-dd9a04f7238b)
-    (at 59.25 103.36 180)
+    (at 66.497 89.52 180)
     (descr "6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2212,7 +2212,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" placed (layer "F.Cu")
     (tstamp 731ee5a8-aeea-40e8-8420-08b217ad1612)
-    (at 67.25 91.36)
+    (at 80.325 89.916 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "pico.kicad_sch")
@@ -2265,9 +2265,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1673dd68-d70b-4676-a587-228d0bfaa022))
     (fp_line (start 10.16 0) (end 8.23 0)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9b7ab400-1855-496a-ad44-40ce90623f58))
-    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 114 "Net-(L1-Pad2)") (pintype "passive") (tstamp 38b14e57-a2a2-49f4-80be-42f4b6d61430))
-    (pad "2" thru_hole oval (at 10.16 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 10.16 0 180) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(D11-K)") (pintype "passive") (tstamp 37ff1ea6-a779-4b80-a274-c7e0f442e618))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -2844,7 +2844,7 @@
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" placed (layer "F.Cu")
     (tstamp a9add077-3387-43f6-a8d2-30f362ba866a)
-    (at 68.25 85.36)
+    (at 69.657 85.471)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
     (property "Sheetfile" "pico.kicad_sch")
