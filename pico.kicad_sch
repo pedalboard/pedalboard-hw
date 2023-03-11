@@ -2879,7 +2879,7 @@
     (uuid f4aa472b-b0c4-456b-bca3-f927a7bfb2ec)
   )
 
-  (hierarchical_label "USB_DM" (shape input) (at 219.71 22.86 0) (fields_autoplaced)
+  (hierarchical_label "USB_DN" (shape input) (at 219.71 22.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8e267653-6e3a-4d54-a1c4-b40e6f84a01a)
   )
