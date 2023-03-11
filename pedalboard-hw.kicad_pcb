@@ -5410,7 +5410,7 @@
       (rotate (xyz 0 0 0))
     )
     (model "3d-models/hifiberry-dac-plus-adc-1.2.step"
-      (opacity 0.5800)      (offset (xyz -26.75 35 11))
+      (offset (xyz -26.75 35 11))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 -90))
     )
