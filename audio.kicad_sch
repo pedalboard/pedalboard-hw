@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Pedalboard")
+    (rev "0.1")
+    (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
+    (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
+  )
+
   (lib_symbols
     (symbol "Connector:Raspberry_Pi_2_3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -17.78 31.75 0)
