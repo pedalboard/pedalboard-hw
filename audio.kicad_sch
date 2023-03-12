@@ -1593,7 +1593,7 @@
     (property "Value" "Raspberry_pi" (at 132.7659 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (at 125.73 80.01 0)
+    (property "Footprint" "Pedalboard Library:Raspberry PI Compute Module CM4 Nano A" (at 125.73 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" (at 125.73 80.01 0)
