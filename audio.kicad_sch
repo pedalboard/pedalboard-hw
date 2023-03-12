@@ -1776,7 +1776,7 @@
     (property "Value" "USB_A" (at 260.35 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 264.16 81.28 0)
+    (property "Footprint" "Pedalboard Library:USB A BCB Male Plug" (at 264.16 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 264.16 81.28 0)
