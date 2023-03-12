@@ -4455,7 +4455,7 @@
     (property "Value" "Pico USB TP" (at 189.23 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" (at 179.07 22.86 0)
+    (property "Footprint" "Pedalboard Library:Spring_Loaded_Pins_2mm" (at 179.07 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Mill%20Max%20PDFs/Spring%20Loaded%20Connectors.pdf" (at 179.07 22.86 0)
