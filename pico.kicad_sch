@@ -4147,7 +4147,7 @@
     (property "Value" "Pico" (at 142.24 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (at 142.24 63.5 90)
+    (property "Footprint" "Pedalboard Library:RPi_Pico_SMD_TH" (at 142.24 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "" (at 142.24 63.5 0)
