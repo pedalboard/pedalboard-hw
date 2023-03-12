@@ -20,7 +20,7 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
 ## Design Goals
 - Modular Design (Audio Processor is optional)
 - Maker friendly
-  - Minimal SMD soldering (to make it more Maker friendly)
+  - No SMD soldering
   - Use of existing modules for the heavy lifting
 - Avialabilit of components
 
