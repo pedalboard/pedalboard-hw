@@ -22,7 +22,14 @@ An open hardware for processing Audio and/or MIDI data on a pedalboard.
 - Maker friendly
   - No SMD soldering
   - Use of existing modules for the heavy lifting
-- Avialabilit of components
+- Good avialability of components
+
+## Future Improvements
+- Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
+    - survive 48V Phantom Power on output
+    - Differential Ouptuts
+- Input Protection
+
 
 ## 3D View
 
