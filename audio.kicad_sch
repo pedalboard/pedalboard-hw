@@ -1687,7 +1687,7 @@
     (property "Value" "HiFi Berry" (at 177.1141 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" (at 184.15 80.01 0)
+    (property "Footprint" "Pedalboard Library:HiFi Berry DAC ADC+" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-pro/" (at 184.15 80.01 0)
