@@ -24,9 +24,9 @@
   (fp_circle (center 0 0) (end 0.9652 0.0254)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 6926ac6c-284b-45df-b2a0-6deb1135930a))
   (pad "1" thru_hole circle (at 0 0) (size 1.35 1.35) (drill 0.508) (layers "*.Cu" "*.Mask")
-    (clearance 0.762) (tstamp 7b000ec1-4dd6-4c90-b830-1309894104e7))
+    (clearance 0.635) (tstamp 7b000ec1-4dd6-4c90-b830-1309894104e7))
   (pad "2" thru_hole oval (at 0 2) (size 1.35 1.35) (drill 0.508) (layers "*.Cu" "*.Mask")
-    (clearance 0.762) (tstamp 47bf8256-28d2-43c3-8582-7d6c7bb45c22))
+    (clearance 0.635) (tstamp 47bf8256-28d2-43c3-8582-7d6c7bb45c22))
   (model "${KIPRJMOD}/3d-models/mill-max-0906-2-15-20-75-14-11-0.step"
     (offset (xyz 0 0 -1.905))
     (scale (xyz 1 1 1))
