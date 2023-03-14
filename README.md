@@ -2,6 +2,8 @@
 
 An open hardware for processing Audio and/or MIDI data on a pedalboard.
 
+This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
+
 ## Modules
 
 ### Audio Processing
