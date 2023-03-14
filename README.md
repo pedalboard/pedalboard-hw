@@ -8,7 +8,9 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 
 ### Audio Processing
 - RPI Compute Module 4
-- HIFIBERRY DAC+ ADC PRO
+- HIFIBERRY DAC+ ADC PRO 
+    - Hiqh Quality Stereo Input/Output
+    - Very low latency (around 2ms when using ELK Audio OS)
 
 ### MIDI and Control Surface
 - RPI pico processor
@@ -16,13 +18,25 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 - 2 Rotary Encoders
 - Input for Expression Pedalb
 - 10 RGB Leds
-- Optional RGB Matrix
-- MIDI I/O
+- (Optional) RGB Matrix (Instead of screen
+- Flexibile MIDI I/O
+  - DIN 5 Plug
+  - or 3.5mm Mini TRS Plug
+  - and/or Header Pins for wiring off-board plug
+  - USB Midi
 
 ## Design Goals
-- Modular Design (Audio Processor is optional)
+- No Screen by default. (Although can be added easily, if needed).
+  Usually small screens are not really useful on stage.
+  Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
+- Modular Design: 
+  - The device can be used:
+     a) only for MIDI (Low Cost), including USB MIDI
+     b) only for Audio
+     c) both for MIDI and Audio, communication between the modules is done via USB MIDI.
+   - MIDI Moudule has independent microcontroller firmware with immediate startup
 - Maker friendly
-  - No SMD soldering
+  - No SMD soldering, only through hole components are used.
   - Use of existing modules for the heavy lifting
 - Good avialability of components
 
