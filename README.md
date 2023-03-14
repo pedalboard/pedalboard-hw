@@ -53,6 +53,12 @@ with additional field "Supplier" (add to the end of the command line)
 
 ## Notes
 
+### Mechanical Components
+
+Mounting case will be designed in a separate project
+
+* https://www.cliffuk.co.uk/products/switches/FC7125.pdf
+
 ### Custom KiCad components
 
 * [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
