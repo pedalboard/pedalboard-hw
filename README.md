@@ -31,9 +31,9 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
   Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
 - Modular Design: 
   - The device can be used:
-     a) only for MIDI (Low Cost), including USB MIDI
-     b) only for Audio
-     c) both for MIDI and Audio, communication between the modules is done via USB MIDI.
+     A. only for MIDI (Low Cost), including USB MIDI
+     A. only for Audio
+     A. both for MIDI and Audio, communication between the modules is done via USB MIDI.
    - MIDI Moudule has independent microcontroller firmware with immediate startup
 - Maker friendly
   - No SMD soldering, only through hole components are used.
