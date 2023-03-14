@@ -46,7 +46,9 @@ Generated with eeschema -> Tools -> Generate BOM -> bom_csv_grouped_extra
 
 with additional field "Supplier" (add to the end of the command line)
 
-see ./pedalboard-hw.csv 
+* [CSV version of BOM](./pedalboard-hw.csv)
+* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
+
 
 
 ## Notes

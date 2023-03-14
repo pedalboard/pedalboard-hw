@@ -1705,7 +1705,7 @@
     (property "Datasheet" "https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-pro/" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/61302021821/16608495" (at 184.15 80.01 0)
+    (property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/61304021821/16608657" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b658829d-2864-445d-b541-1570097b5608))

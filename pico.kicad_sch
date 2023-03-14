@@ -3910,7 +3910,7 @@
     (property "Datasheet" "https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18584" (at 31.75 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Supplier" "https://www.digikey.de/en/products/detail/fair-rite-products-corp/2743005111/8599429" (at 31.75 80.01 0)
+    (property "Supplier" "https://www.digikey.ch/en/products/detail/fair-rite-products-corp/2743005111/8599429" (at 31.75 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2368d9bb-0670-4b66-9538-d7e7c30a7298))
