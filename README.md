@@ -7,14 +7,17 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 ## Modules
 
 ### Audio Processing
-- RPI Compute Module 4
-- HIFIBERRY DAC+ ADC PRO 
+- Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
+    - WiFi (optional)
+    - Flexibile memory options for cost optimisation
+- HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
     - Hiqh Quality Stereo Input/Output
     - Very low latency (around 2ms when using ELK Audio OS)
 
 ### MIDI and Control Surface
-- RPI pico processor
-- 6 Buttons
+- 200mm x 100mm control surface
+- Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor
+- 6 Buttons 
 - 2 Rotary Encoders
 - Input for Expression Pedalb
 - 10 RGB Leds
@@ -24,6 +27,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
   - or 3.5mm Mini TRS Plug
   - and/or Header Pins for wiring off-board plug
   - USB Midi
+  - Wifi
 
 ## Design Goals
 - No Screen by default. (Although can be added easily, if needed).
