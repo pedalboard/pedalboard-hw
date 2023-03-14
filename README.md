@@ -49,7 +49,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 ## Future Improvements
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
     - survive 48V Phantom Power on output
-    - Differential Ouptuts
+    - Differential Ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
 - Input Protection
 
 
