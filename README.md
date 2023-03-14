@@ -40,23 +40,23 @@ The Design is still in progress, the pictures are previews.
 ![Front View](img/pedalboard-hw-front.png)
 ![Rear View](img/pedalboard-hw-back.png)
 
+## BOM
+
+Generated with eeschema -> Tools -> Generate BOM -> bom_csv_grouped_extra
+
+with additional field "Supplier" (add to the end of the command line)
+
+see ./pedalboard-hw.csv 
+
+
 ## Notes
 
-### KiCad components
+### Custom KiCad components
 
 * [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
 * [RPI pico](https://github.com/ncarandini/KiCad-RP-Pico)
 * [MIDI DIN5/180](https://github.com/nebs/eurocad)
 * [PIHat Mechanical Spec](https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf)
-
-### Hardware
-
-* [Switch](https://www.digikey.ch/de/products/detail/cui-devices/TS14-1212-50-BK-100-SCR-D/16562826)
-* [Pogo Piny](https://www.farnell.com/datasheets/2625427.pdf)
-* [USB-A](https://www.mouser.ch/ProductDetail/GCT/USB1061-GF-L-A?qs=KUoIvG%2F9IlYSthVIrIBVzQ%3D%3D)
-* [USB-C](https://www.digikey.ch/de/products/detail/adafruit-industries-llc/5180/15287551)
-
-FIXME: Replace the above list with a proper BOM
 
 ### Ideas
 
