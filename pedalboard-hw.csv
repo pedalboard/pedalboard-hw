@@ -2,7 +2,7 @@
 "1","C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12","12","100nF","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","","https://www.digikey.ch/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K20X7RH5TL2/286568"
 "2","D1, D2, D3, D4, D5, D6, D7, D8, D9, D10","10","NEOPIX","LED_THT:LED_D5.0mm-NeoPixel","","https://www.digikey.ch/en/products/detail/adafruit-industries-llc/1938/6827082"
 "3","D11","1","1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","","https://www.digikey.ch/en/products/detail/onsemi/1N4148/458603"
-"4","J1","1","MIDI_OUT","Audio_Module:CP-2350","","https://www.digikey.ch/de/products/detail/cui-devices/SDS-50J/97033"
+"4","J1","1","MIDI_OUT","Audio_Module:CP-2350","","https://www.digikey.ch/de/products/detail/switchcraft-inc/57PC5F/275385"
 "5","J2","1","MIDI_IN","Audio_Module:CP-2350","","https://www.digikey.ch/de/products/detail/cui-devices/SDS-50J/97033"
 "6","J3","1","EXP","Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal","","https://www.digikey.ch/de/products/detail/schurter-inc/4833-2330/9451854"
 "7","J4","1","RGB_LED_EXT","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal","","https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/61300311021/4846824"
