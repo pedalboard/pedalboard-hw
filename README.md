@@ -21,7 +21,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 - Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor
 - 6 Buttons 
 - 2 Rotary Encoders
-- Input for Expression Pedalb
+- Input for Expression Pedal
 - 10 RGB Leds
 - (Optional) RGB Matrix (Instead of screen
 - Flexibile MIDI I/O
