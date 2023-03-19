@@ -1507,7 +1507,7 @@
     (uuid feb5973c-d6fd-48fe-9136-09b876691ced)
   )
 
-  (label "audio_in_L+" (at 39.37 157.48 0) (fields_autoplaced)
+  (label "in_L+" (at 39.37 157.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0302f74e-9276-4a5c-81d8-bdbfb4ad905c)
   )
