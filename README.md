@@ -46,6 +46,10 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
   - Use of existing modules for the heavy lifting
 - Good avialability of components
 
+## TODO (Before producing the prototype)
+- Check HiFi Berry 1:1 Connection (Better move the socket?)
+- Test LEDs, and output to LED panel.
+
 ## Future Improvements
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
     - survive 48V Phantom Power on output
