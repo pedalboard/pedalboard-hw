@@ -47,7 +47,6 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 - Good avialability of components
 
 ## TODO (Before producing the prototype)
-- Check HiFi Berry 1:1 Connection (Better move the socket?)
 - Test LEDs, and output to LED panel.
 
 ## Future Improvements
