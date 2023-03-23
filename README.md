@@ -48,6 +48,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 
 ## TODO (Before producing the prototype)
 - Test LEDs, and output to LED panel.
+- Ground Audio input when no Jack is plugged in
 
 ## Future Improvements
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
