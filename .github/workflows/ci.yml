@@ -1,4 +1,4 @@
-name: "Variants demo using --quick-start"
+name: "Generate output"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -30,7 +30,7 @@ jobs:
 
     - name: Quick Start
       run: |
-        kibot --quick-start
+        kibot --quick-start --dry
     - name: Retrieve results
       uses: actions/upload-artifact@v2
       with:
