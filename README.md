@@ -57,13 +57,17 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
     - Output stage https://www.amb.org/audio/
 - Input Protection
 
+## Generated Hardware Documentation and Fabrication data
+
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## 3D View
 
 The Design is still in progress, the pictures are previews.
 
-![Front View](img/pedalboard-hw-front.png)
-![Rear View](img/pedalboard-hw-back.png)
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
 
 ## BOM
 
