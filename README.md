@@ -54,6 +54,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
     - survive 48V Phantom Power on output
     - Differential Ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
+    - Output stage https://www.amb.org/audio/
 - Input Protection
 
 
@@ -92,5 +93,4 @@ Mounting case will be designed in a separate project
 
 ### Ideas
 
-* Output stage https://www.amb.org/audio/
 * Ribbon Mic: https://www.bumblebeepro.com/rm-5-diy-ribbon-mic-full-kit/
