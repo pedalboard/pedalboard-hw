@@ -59,4 +59,4 @@ jobs:
         branch: main
         folder: generated
         repository-name: pedalboard/pedalboard-hw-site
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.DEPLOY_TO_PEDALBOARD_HW_SITE }}
