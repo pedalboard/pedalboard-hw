@@ -4900,7 +4900,7 @@
     (property "Value" "EXP" (at 251.46 52.705 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal" (at 243.84 52.07 0)
+    (property "Footprint" "Pedalboard Library:Jack_6.35mm_Horizontal" (at 243.84 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.digikey.ch/de/products/detail/schurter-inc/4833-2320/2644235" (at 243.84 52.07 0)
