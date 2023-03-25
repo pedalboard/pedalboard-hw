@@ -71,13 +71,8 @@ The Design is still in progress, the pictures are previews.
 
 ## BOM
 
-Generated with eeschema -> Tools -> Generate BOM -> bom_csv_grouped_extra
-
-with additional field "Supplier" (add to the end of the command line)
-
-* [CSV version of BOM](./pedalboard-hw.csv)
+* [Generated BOM](https://pedalboard.github.io/pedalboard-hw-site/BoM/Generic/pedalboard-hw-bom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
-
 
 
 ## Notes
