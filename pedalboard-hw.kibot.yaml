@@ -1122,13 +1122,6 @@ outputs:
     ray_tracing: true
     orthographic: true
     view: bottom
-- name: report_simple
-  comment: Simple design report
-  type: report
-  output_id: _simple
-  options:
-    template: simple_ASCII
-    do_convert: true
 - name: report_full
   comment: Full design report
   type: report
