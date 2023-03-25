@@ -1122,12 +1122,6 @@ outputs:
     ray_tracing: true
     orthographic: true
     view: bottom
-- name: report_full
-  comment: Full design report
-  type: report
-  options:
-    template: full_SVG
-    do_convert: true
 - name: basic_stencil_3d
   comment: 3D self-registering stencil
   type: stencil_3d
