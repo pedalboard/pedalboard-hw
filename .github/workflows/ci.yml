@@ -31,6 +31,9 @@ jobs:
     - name: Quick Start
       run: |
         kibot --quick-start --dry
+    - name: Output
+      run: |
+        cat kibot_generated.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v2
       with:
