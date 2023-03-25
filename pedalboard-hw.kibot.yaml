@@ -15,6 +15,12 @@ import:
 - file: PCB2Blender_2_1
 - file: PCBWay
 
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
 outputs:
 - name: basic_blender_export
   comment: 3D view from top/30 deg/bottom (Blender)

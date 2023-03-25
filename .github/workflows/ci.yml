@@ -57,6 +57,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
         branch: main
-        folder: Generated
+        folder: generated
         repository-name: pedalboard/pedalboard-hw-site
         token: ${{ secrets.TOKEN }}
