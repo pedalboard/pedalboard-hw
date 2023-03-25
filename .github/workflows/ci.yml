@@ -32,10 +32,10 @@ jobs:
 
     - name: Kibot Generator
       run: |
-        kibot -e pedalboard-hw.kicad_sch
+        kibot -e pedalboard-hw.kicad_sch -d generated
     - name: Retrieve results
       uses: actions/upload-artifact@v2
       with:
         name: Automatic_outputs
-        path: Generated
+        path: generated
 
