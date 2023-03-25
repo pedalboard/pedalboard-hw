@@ -1,5 +1,5 @@
 (footprint "USB A BCB Male Plug" (version 20221018) (generator pcbnew)
-  locked (layer "F.Cu")
+  (layer "F.Cu")
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (property "Sheetfile" "audio.kicad_sch")
@@ -49,11 +49,11 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a54d120a-7f2e-4a5b-b65a-a07ec419eab2))
   (fp_line (start 1.27 8.89) (end -1.27 8.89)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 936b481d-0456-4d16-9c74-6a651b13c9ef))
-  (pad "1" thru_hole rect locked (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7284c6ae-adca-4bd9-adb8-1bfebcbdb408))
-  (pad "2" thru_hole oval locked (at 0 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp eeff35c2-554f-4add-a894-2a09118be831))
-  (pad "3" thru_hole oval locked (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c3192048-ebef-4d76-b214-b82bd32dd2f2))
-  (pad "4" thru_hole oval locked (at 0 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 55a2556e-f295-439a-a667-79dd1cabdd08))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+  (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7284c6ae-adca-4bd9-adb8-1bfebcbdb408))
+  (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp eeff35c2-554f-4add-a894-2a09118be831))
+  (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c3192048-ebef-4d76-b214-b82bd32dd2f2))
+  (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 55a2556e-f295-439a-a667-79dd1cabdd08))
+  (model "${KIPRJMOD}/3d-models/PinHeader_1x04_P2.54mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
