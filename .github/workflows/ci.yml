@@ -8,17 +8,19 @@ on:
       - '*.kicad_sch'
       - '*.kicad_pcb'
       - '.github/workflows/ci.yml'
+      - 'pedalboard-hw.kibot.yaml'
   pull_request:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
       - '.github/workflows/ci.yml'
+      - 'pedalboard-hw.kibot.yaml'
   repository_dispatch:
     types: [run_qs]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  quick:
+  kibot:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad7_auto_full:latest
 
@@ -30,7 +32,7 @@ jobs:
 
     - name: Kibot Generator
       run: |
-        kibot
+        kibot -e pedalboard-hw.kicad_sch
     - name: Retrieve results
       uses: actions/upload-artifact@v2
       with:
