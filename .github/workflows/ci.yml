@@ -18,7 +18,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  quick:
+  kibot:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad7_auto_full:latest
 
