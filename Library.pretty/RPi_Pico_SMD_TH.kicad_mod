@@ -335,7 +335,7 @@
   (pad "38" thru_hole rect (at 8.89 -19.05) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 6d93fea9-a817-4612-bc43-9c07c54224bf))
   (pad "39" thru_hole oval (at 8.89 -21.59) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 05f95b85-892f-427e-80ea-f92da30b50fa))
   (pad "40" thru_hole oval (at 8.89 -24.13) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 7a849447-ad03-43b0-b3c0-c1280d37ae08))
-  (model "/Users/tzhlach2/dev/gh/embedded/KiCad-RP-Pico/RP-Pico Libraries/Pico.wrl"
+  (model "${KIPRJMOD}/3d-models/Pico.wrl"
     (offset (xyz 0 0 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
