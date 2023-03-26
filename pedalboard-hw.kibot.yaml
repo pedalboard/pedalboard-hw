@@ -1110,7 +1110,7 @@ outputs:
   dir: 3D
   options:
     ray_tracing: true
-    zoom: 100
+    zoom: 10
     orthographic: true
 - name: basic_render_3d_30deg
   comment: 3D view from 30 degrees
