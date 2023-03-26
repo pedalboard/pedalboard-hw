@@ -1110,8 +1110,8 @@ outputs:
   dir: 3D
   options:
     ray_tracing: true
-    zoom: 10
     orthographic: true
+    zoom: 9.5
 - name: basic_render_3d_30deg
   comment: 3D view from 30 degrees
   type: render_3d
@@ -1121,6 +1121,7 @@ outputs:
     ray_tracing: true
     rotate_x: 3
     rotate_z: -2
+    zoom: 9.5
 - name: basic_render_3d_bottom
   comment: 3D view from bottom
   type: render_3d
@@ -1128,6 +1129,7 @@ outputs:
   options:
     ray_tracing: true
     orthographic: true
+    zoom: 9.5
     view: bottom
 - name: basic_stencil_3d
   comment: 3D self-registering stencil
