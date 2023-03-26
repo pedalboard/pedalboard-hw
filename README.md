@@ -60,6 +60,11 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
+## BOM
+
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
+* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
+
 ## 3D View
 
 The Design is still in progress, the pictures are previews.
@@ -67,12 +72,6 @@ The Design is still in progress, the pictures are previews.
 ![Top View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top.png)
 ![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
 ![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
-
-## BOM
-
-* [Generated BOM](https://pedalboard.github.io/pedalboard-hw-site/BoM/Generic/pedalboard-hw-bom.html)
-* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
-
 
 ## Notes
 
