@@ -47,7 +47,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 - Good avialability of components
 
 ## TODO (Before producing the prototype)
-- Ground Audio input when no Jack is plugged in
+- Audio input plug detection (including breakup line) 
 
 ## Future Improvements
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
