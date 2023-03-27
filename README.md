@@ -31,6 +31,10 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
   - USB Midi
   - Wifi
 
+### Power Supply
+- 9-36V Power Input to feed with Pedalboard Power Supply
+- 3A isolated DC-DC converter
+
 ## Design Goals
 - No Screen by default. (Although can be added easily, if needed).
   Usually small screens are not really useful on stage.
@@ -41,6 +45,7 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
      1. only for Audio
      1. both for MIDI and Audio, communication between the modules is done via USB MIDI.
    - MIDI Moudule has independent microcontroller firmware with immediate startup
+   - Optional Power supply module if no USB Power is available on the board.
 - Maker friendly
   - No SMD soldering, only through hole components are used.
   - Use of existing modules for the heavy lifting
