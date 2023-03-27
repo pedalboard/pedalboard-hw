@@ -48,8 +48,6 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 
 ## TODO (Before producing the prototype)
 - Audio input plug detection (including breakup line) 
-- Power Supply needs to be finished
-- Midi Bites are missing
 
 ## Future Improvements
 - Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
