@@ -505,7 +505,6 @@
     )
   )
 
-
   (junction (at 96.52 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 266e922f-5a97-44da-a1e9-4804aae6b9da)
   )
@@ -1103,10 +1102,10 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (at 238.76 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 238.76 22.86 0)
+    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/68015.pdf" (at 238.76 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Supplier" "" (at 238.76 22.86 0)
+    (property "Supplier" "https://www.digikey.ch/de/products/detail/amphenol-cs-fci/68016-202HLF/4273561" (at 238.76 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f0797a70-0da7-4bc2-9619-177796393e63))
