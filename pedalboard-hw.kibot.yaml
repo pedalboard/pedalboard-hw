@@ -1121,7 +1121,7 @@ outputs:
     ray_tracing: true
     rotate_x: 3
     rotate_z: -2
-    zoom: 6
+    zoom: 5
 - name: basic_render_3d_bottom
   comment: 3D view from bottom
   type: render_3d
