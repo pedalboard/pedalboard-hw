@@ -194,7 +194,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 0d7c87b0-1309-475f-a9d7-edcf3dee5e4e)
-    (property "Sheetname" "psu" (at 21.59 98.3484 0)
+    (property "Sheetname" "Power Supply" (at 21.59 98.3484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "psu.kicad_sch" (at 21.59 128.8546 0)
