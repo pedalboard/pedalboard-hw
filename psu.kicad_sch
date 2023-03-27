@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Pedalboard")
+    (rev "1.0.0")
+    (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
+    (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
+  )
+
   (lib_symbols
     (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J13" (at 10.16 7.62 0)
