@@ -45,6 +45,10 @@
   )
 
 
+  (wire (pts (xy 81.28 30.48) (xy 120.65 30.48))
+    (stroke (width 0) (type default))
+    (uuid 2ceac314-a7f5-409b-8cd9-30f511d33c7d)
+  )
   (wire (pts (xy 81.28 38.1) (xy 120.65 38.1))
     (stroke (width 0) (type default))
     (uuid 75f96ac5-ebc2-406a-8e9e-aa51b9db57ae)
@@ -53,13 +57,14 @@
     (stroke (width 0) (type default))
     (uuid 822fcc5a-3452-4227-adb3-824aedf891df)
   )
-  (wire (pts (xy 81.28 30.48) (xy 120.65 30.48))
-    (stroke (width 0) (type default))
-    (uuid a75f5878-d273-40a3-84ca-743f7ae35247)
-  )
   (wire (pts (xy 81.28 34.29) (xy 120.65 34.29))
     (stroke (width 0) (type default))
     (uuid ee2049cd-c8ed-40fc-94c3-352c8f930121)
+  )
+
+  (label "VBUS" (at 99.06 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f241e8ef-b95f-4e03-8c5e-860ff38be453)
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 167.64 0) (unit 1)
@@ -185,6 +190,23 @@
     )
   )
 
+  (sheet (at 21.59 99.06) (size 39.37 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0d7c87b0-1309-475f-a9d7-edcf3dee5e4e)
+    (property "Sheetname" "psu" (at 21.59 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu.kicad_sch" (at 21.59 128.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 120.65 25.4) (size 66.04 53.34) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -199,7 +221,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6978c879-8418-4ed0-8d39-0ea2cc5f0a50)
     )
-    (pin "V_BUS" input (at 120.65 30.48 180)
+    (pin "VBUS" input (at 120.65 30.48 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c8f5f09f-6ff7-4471-af4d-2ec546a19215)
     )
