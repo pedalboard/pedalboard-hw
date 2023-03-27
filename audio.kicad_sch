@@ -2554,31 +2554,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5VP") (at 184.15 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb04051c-f17a-4d24-a56a-f57c093d7ca4)
-    (property "Reference" "#PWR032" (at 184.15 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5VP" (at 184.15 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 184.15 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 184.15 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 22318902-8846-440b-82b5-f37827fe23fa))
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5VP") (at 194.31 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7719ebf-5c8d-4e86-aeb2-1522f0adad3c)
