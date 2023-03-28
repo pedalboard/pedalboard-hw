@@ -52,14 +52,6 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
   - Use of existing modules for the heavy lifting
 - Good avialability of components
 
-## Improvements for future revisions
-- Better output drivers (currently the DAC output of the HiFi Berry board are used)
-    - survive 48V phantom power on output
-    - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
-    - Output stage https://www.amb.org/audio/
-- Better input protection
-- Reverse polarity protection for PSU
-
 ## Generated Hardware Documentation
 
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
@@ -83,6 +75,14 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 Mounting case will be designed in a separate project
 
 * https://www.cliffuk.co.uk/products/switches/FC7125.pdf
+
+### Improvements for future revisions
+- Better output drivers (currently the DAC output of the HiFi Berry board are used)
+    - survive 48V phantom power on output
+    - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
+    - Output stage https://www.amb.org/audio/
+- Better input protection
+- Reverse polarity protection for PSU
 
 ### KiCad component sources
 
