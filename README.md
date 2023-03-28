@@ -58,6 +58,7 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
     - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
 - Better input protection
+- Reverse polarity protection for PSU
 
 ## Generated Hardware Documentation
 
