@@ -73,8 +73,6 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 
 ## 3D Views
 
-The Design is still in progress, the pictures are previews.
-
 ![Top View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top.png)
 ![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
 ![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
