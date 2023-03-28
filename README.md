@@ -2,16 +2,17 @@
 
 An open hardware for processing Audio and/or MIDI data on a pedalboard.
 
-This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
+This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
 
 ## Modules
 
 ### Audio Processing
+
 - Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
-    - WiFi (optional)
     - Flexibile memory options for cost optimisation
+    - optional WiFi
 - Waveshare [CM4 Nano A](https://www.waveshare.com/wiki/CM4-NANO-A)
-    - Low cost CM4 carrier with standard GPIO header and USB-C
+    - Small form factor CM4 carrier with standard GPIO header and USB-C power input
 - HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
     - Hiqh Quality Stereo Input/Output
     - Very low latency (around 2ms when using ELK Audio OS)
