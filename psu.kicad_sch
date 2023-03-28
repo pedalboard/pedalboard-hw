@@ -849,7 +849,7 @@
     (property "Value" "PDQE15-Q24-S5-D" (at 196.85 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CONV_PDQE15-Q24-S5-D" (at 191.77 33.02 0)
+    (property "Footprint" "Pedalboard Library:CONV_PDQE15-Q24-S5-D" (at 191.77 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.cui.com/product/resource/pdqe15-d.pdf" (at 196.85 48.26 0)

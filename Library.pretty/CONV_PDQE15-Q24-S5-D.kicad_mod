@@ -1,5 +1,6 @@
 (footprint "CONV_PDQE15-Q24-S5-D" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "DC-DC Converter 24V/5V 15W")
   (attr through_hole)
   (fp_text reference "REF**" (at -8.89 -13.97) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
