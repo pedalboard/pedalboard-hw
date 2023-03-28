@@ -54,24 +54,24 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 ## TODO (Before producing the prototype)
 - Audio input plug detection (including breakup line) 
 
-## Future Improvements
-- Better Output Drivers (currently the DAC output of the HiFi Berry Board are used)
+## Improvements for future revisions
+- Better output drivers (currently the DAC output of the HiFi Berry Board are used)
     - survive 48V Phantom Power on output
     - Differential Ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
-- Input Protection
+- Better input Protection
 
-## Generated Hardware Documentation and Fabrication data
+## Generated Hardware Documentation
 
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
-## Manifacturing
+## Fabrication
 
 * [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
 * [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
 
-## 3D View
+## 3D Views
 
 The Design is still in progress, the pictures are previews.
 
@@ -87,7 +87,7 @@ Mounting case will be designed in a separate project
 
 * https://www.cliffuk.co.uk/products/switches/FC7125.pdf
 
-### Custom KiCad components
+### KiCad component sources
 
 * [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
 * [RPI pico](https://github.com/ncarandini/KiCad-RP-Pico)
