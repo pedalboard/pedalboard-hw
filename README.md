@@ -65,10 +65,11 @@ This project was created with [KiCad 7](https://www.kicad.org/blog/2023/02/Versi
 
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
-## BOM
+## Manifacturing
 
 * [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
+* [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
 
 ## 3D View
 
