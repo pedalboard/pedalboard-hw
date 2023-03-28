@@ -1,6 +1,6 @@
 # Pedalboard Audio/MIDI Processer Hardware
 
-An open hardware for processing Audio and/or MIDI data on a pedalboard.
+An open hardware for processing audio and/or MIDI data on a pedalboard.
 
 This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
 
@@ -37,7 +37,7 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
 - 3A isolated DC-DC converter
 
 ## Design Goals
-- No Screen by default. (Although can be added easily, if needed).
+- No screen by default. (Although can be added easily, if needed).
   Usually small screens are not really useful on stage.
   Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
 - Modular Design: 
@@ -53,11 +53,11 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
 - Good avialability of components
 
 ## Improvements for future revisions
-- Better output drivers (currently the DAC output of the HiFi Berry Board are used)
-    - survive 48V Phantom Power on output
-    - Differential Ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
+- Better output drivers (currently the DAC output of the HiFi Berry board are used)
+    - survive 48V phantom power on output
+    - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
-- Better input Protection
+- Better input protection
 
 ## Generated Hardware Documentation
 
