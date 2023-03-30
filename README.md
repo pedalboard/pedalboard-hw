@@ -18,13 +18,19 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
     - Very low latency (around 2ms when using ELK Audio OS)
 
 ### MIDI and Control Surface
-- 200mm x 100mm control surface
-- Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor
-- 6 Buttons 
-- 2 Rotary Encoders
+- 200mm x 100mm control surface. Still not too large but can hold 6 buttons.
+- Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor with
+  a custom [firmware](https://github.com/pedalboard/pedalboard-midi) 
+  that can be updated via USB or also from the audio module via WLAN.
+- 6 Buttons supporting to trigger on push, on release, long and short presses
+- 2 Rotary Encoders with additional push button
 - Input for Expression Pedal
-- 10 RGB Leds
-- (Optional) RGB Matrix (Instead of screen
+- 10 RGB Leds: RGB Leds are visible from long distance and with the color its possible
+  to express a lot of information. For example some intensity value can be expressed with a 
+  color gradient.
+- (Optional) RGB Matrix: in a Matrix of RGB Pins even more information can be expressed and
+  readable from a large distance. For example the current preset number or a db meter
+  value.
 - Flexibile MIDI I/O
   - DIN 5 Plug
   - or 3.5mm Mini TRS Plug
