@@ -76,6 +76,9 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 
 ## Notes
 
+### TODO (before next fabrication)
+- Add more description text on silkscreen.
+
 ### Mechanical Components
 
 Mounting case will be designed in a separate project
@@ -89,6 +92,7 @@ Mounting case will be designed in a separate project
     - Output stage https://www.amb.org/audio/
 - Better input protection
 - Reverse polarity protection for PSU
+- Support more sound cards (e.g. https://shop.audioinjector.net)`
 
 ### KiCad component sources
 
