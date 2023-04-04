@@ -3002,6 +3002,10 @@
     (uuid 90d5d763-8758-4623-b8be-014cf427f73e)
   )
 
+  (label "VBUS-flitered" (at 166.37 39.37 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 07d106f7-1454-4fff-84cf-4ad9e6dbdbae)
+  )
   (label "ROT_GAIN_A" (at 133.35 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f8b8d55-9a1c-4eb8-a6d3-4bb6297d6121)

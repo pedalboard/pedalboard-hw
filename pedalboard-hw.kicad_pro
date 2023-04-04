@@ -538,7 +538,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "*VBUS"
+        "pattern": "*VBUS*"
       }
     ]
   },
