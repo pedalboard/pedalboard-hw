@@ -59,8 +59,8 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/3d-models/USB1061-GF-L-A.stp"
-    (offset (xyz 21.6 -3.9 3.5))
+    (offset (xyz -21.6 -3.9 3.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 90))
+    (rotate (xyz 90 0 -90))
   )
 )
