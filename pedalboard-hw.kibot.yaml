@@ -1122,6 +1122,9 @@ outputs:
   output_id: 30deg
   options:
     ray_tracing: true
+    board: '#ffffff' 
+    silk: '#000000'
+    solder_mask: '#ffffff'
     rotate_x: 3
     rotate_z: -2
     zoom: 5
@@ -1132,6 +1135,9 @@ outputs:
   options:
     ray_tracing: true
     orthographic: true
+    board: '#ffffff' 
+    silk: '#000000'
+    solder_mask: '#ffffff'
     zoom: 9
     view: bottom
 - name: basic_stencil_3d
