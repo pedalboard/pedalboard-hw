@@ -77,7 +77,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 ## Notes
 
 ### TODO (before next fabrication)
-- Add more description text on silkscreen
+- Add more description text on silkscreen: MIDI connector and Power In
 - Reverse polarity protection for PSU
 - Jumper for using PSU just for MIDI module
 
