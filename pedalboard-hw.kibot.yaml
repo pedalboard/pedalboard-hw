@@ -1111,6 +1111,10 @@ outputs:
   options:
     ray_tracing: true
     orthographic: true
+    board: '#ffffff' 
+    silk: '#000000'
+    solder_mask: '#208b47'
+    solder_paste: '#808080' 
     zoom: 9
 - name: basic_render_3d_30deg
   comment: 3D view from 30 degrees
