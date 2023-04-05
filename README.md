@@ -77,7 +77,9 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 ## Notes
 
 ### TODO (before next fabrication)
-- Add more description text on silkscreen.
+- Add more description text on silkscreen
+- Reverse polarity protection for PSU
+- Jumper for using PSU just for MIDI module
 
 ### Mechanical Components
 
@@ -91,7 +93,6 @@ Mounting case will be designed in a separate project
     - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
 - Better input protection
-- Reverse polarity protection for PSU
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 
 ### KiCad component sources
