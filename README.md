@@ -68,6 +68,7 @@ CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used to
   - No SMD soldering, only through hole components are used.
   - Use of existing modules for the heavy lifting
 - Good avialability of components
+- Flat design: target for case height: 30mm
 
 ## Generated Hardware Documentation
 
