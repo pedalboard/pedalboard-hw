@@ -539,6 +539,14 @@
       {
         "netclass": "Power",
         "pattern": "*VBUS*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5VD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/MIDI/VSYS"
       }
     ]
   },
