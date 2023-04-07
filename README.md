@@ -2,7 +2,7 @@
 
 An open hardware for processing audio and/or MIDI data on a pedalboard.
 
-This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
+This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/)
 
 ## Modules
 
