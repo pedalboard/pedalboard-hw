@@ -39,8 +39,19 @@ This PCB is developed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-
   - Wifi
 
 ### Power Supply
-- 9-36V Power Input to feed with Pedalboard Power Supply
-- 3A isolated DC-DC converter
+Flexible power supply options
+
+- (Optional) 9-36V Power Input to connect to usual pedalboard power supply units.
+  - 3A isolated DC-DC converter
+  - Also powers MIDI module
+- Board can also be powered with USB power.
+  a) into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
+  b) into the USBC connector of the `CM4 Nano A` which optinally also can feed the Pico via USB.
+
+CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used together with the onboard PSU!
+        Make sure to remove J14 before connecting the USBC input to a Power Source or Computer. Otherwise
+        the computer might be damaged!
+
 
 ## Design Goals
 - No screen by default. (Although can be added easily, if needed).
@@ -75,9 +86,6 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 ![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
 
 ## Notes
-
-### TODO (before next fabrication)
-- Jumper for using PSU just for MIDI module
 
 ### Mechanical Components
 
