@@ -530,7 +530,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "/psu/*"
+        "pattern": "/Power Supply/*"
       },
       {
         "netclass": "Power",

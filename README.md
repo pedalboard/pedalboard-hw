@@ -77,7 +77,6 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 ## Notes
 
 ### TODO (before next fabrication)
-- Reverse polarity protection for PSU
 - Jumper for using PSU just for MIDI module
 
 ### Mechanical Components
