@@ -10,7 +10,7 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/02/Version-7
 
 - Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
     - Flexibile memory options for cost optimisation
-    - optional WiFi
+    - (optional) WiFi
 - Waveshare [CM4 Nano A](https://www.waveshare.com/wiki/CM4-NANO-A)
     - Small form factor CM4 carrier with standard GPIO header and USB-C power input
 - HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
