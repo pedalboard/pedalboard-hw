@@ -100,6 +100,7 @@ Mounting case will be designed in a separate project
     - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
 - Better input protection
+- Support for USB otg connection
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 
 ### KiCad component sources
