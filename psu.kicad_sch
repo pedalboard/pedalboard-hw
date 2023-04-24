@@ -6,7 +6,7 @@
 
   (title_block
     (title "Open Pedalboard")
-    (rev "2.0.0-RC1")
+    (rev "2.0.0")
     (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
     (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
   )

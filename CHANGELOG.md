@@ -1,13 +1,13 @@
 # Change Log
  
-## [Unreleased] - yyyy-mm-dd
+## [2.0.0] - 2023-04-24
  
 ### Added
 
 - Silkscreen information for connectors to avoid having to refer to the schematics
 - Reverse power protection circuit added to Power input.
 - Power Raspberry Pico from 5V power supply
-- Added an internal MIDI connection to free up USB.
+- Add internal MIDI connection to free up USB.
  
 ### Changed
 - BOM: Change LEDs which support 3.3V
