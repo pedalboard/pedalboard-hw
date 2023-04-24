@@ -61,7 +61,7 @@ CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used to
   - The device can be used:
      1. only for MIDI (Low Cost), including USB MIDI
      1. only for Audio
-     1. both for MIDI and Audio, communication between the modules is done via USB MIDI.
+     1. both for MIDI and Audio, communication between the modules is done via MIDI.
    - MIDI Moudule has independent microcontroller firmware with immediate startup
    - Optional Power supply module if no USB Power is available on the board.
 - Maker friendly
