@@ -91,6 +91,8 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 
 Mounting case can be foud in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
 
+![Case](https://raw.githubusercontent.com/pedalboard/pedalboard-case/main/generated/pedalboard-case.png)
+
 ## Notes
 
 ### Improvements for future revisions
