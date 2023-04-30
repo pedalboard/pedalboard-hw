@@ -86,13 +86,12 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 ![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
 ![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
 
+
+## Mechanical Parts
+
+Mounting case can be foud in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
+
 ## Notes
-
-### Mechanical Components
-
-Mounting case will be designed in a separate project
-
-* https://www.cliffuk.co.uk/products/switches/FC7125.pdf
 
 ### Improvements for future revisions
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
