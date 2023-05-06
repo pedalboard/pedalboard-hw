@@ -4,6 +4,23 @@ An open hardware for processing audio and/or MIDI data on a pedalboard.
 
 This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0.1-Release/)
 
+## Design Goals
+- No screen by default. (Although can be added easily, if needed).
+  Usually small screens are not really useful on stage.
+  Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
+- Modular Design: 
+  - The device can be used:
+     1. only for MIDI (Low Cost), including USB MIDI
+     1. only for Audio
+     1. both for MIDI and Audio, communication between the modules is done via MIDI.
+   - MIDI Moudule has independent microcontroller firmware with immediate startup
+   - Optional Power supply module if no USB Power is available on the board.
+- Maker friendly
+  - No SMD soldering, only through hole components are used.
+  - Use of existing modules for the heavy lifting
+- Good avialability of components
+- Flat design: target for case height: 30mm
+
 ## Modules
 
 ### Audio Processing
@@ -52,23 +69,7 @@ CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used to
         Make sure to remove J14 before connecting the USBC input to a Power Source or Computer. Otherwise
         the computer might be damaged!
 
-
-## Design Goals
-- No screen by default. (Although can be added easily, if needed).
-  Usually small screens are not really useful on stage.
-  Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
-- Modular Design: 
-  - The device can be used:
-     1. only for MIDI (Low Cost), including USB MIDI
-     1. only for Audio
-     1. both for MIDI and Audio, communication between the modules is done via MIDI.
-   - MIDI Moudule has independent microcontroller firmware with immediate startup
-   - Optional Power supply module if no USB Power is available on the board.
-- Maker friendly
-  - No SMD soldering, only through hole components are used.
-  - Use of existing modules for the heavy lifting
-- Good avialability of components
-- Flat design: target for case height: 30mm
+![Modules](https://pedalboard.github.io/pedalboard-hw-site/Schematic/pedalboard-hw-schematic.svg)
 
 ## Generated Hardware Documentation
 
