@@ -1,4 +1,11 @@
 # Change Log
+
+## [2.1.0-RC1] - TBD
+
+### Added
+- [Pedalboard LED Ring](https://github.com/pedalboard/pedalboard-led-ring) added.
+
+
  
 ## [2.0.0] - 2023-04-24
  
