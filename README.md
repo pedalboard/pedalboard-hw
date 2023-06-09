@@ -90,9 +90,13 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 
 ## Mechanical Parts
 
-Mounting case can be foud in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
+Mounting case can be found in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
 
 ![Case](https://raw.githubusercontent.com/pedalboard/pedalboard-case/main/generated/pedalboard-case.png)
+
+SMT spacers: 
+- https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/merge_requests/608
+- https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625
 
 ## Notes
 

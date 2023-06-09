@@ -2,6 +2,12 @@
 
 ## [2.1.0-RC1] - TBD
 
+TODO:
+ - 3D model for LED-Rings
+ - 3.3V to 5V adapter for LEDs
+ - Footprint for Mounting Holes
+
+
 ### Added
 - [Pedalboard LED Ring](https://github.com/pedalboard/pedalboard-led-ring) added.
 

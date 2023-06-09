@@ -1208,7 +1208,6 @@
     )
   )
 
-
   (junction (at 118.11 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 0cf6544a-d5b1-445a-ad2f-9f5c45ff93af)
   )
@@ -2217,7 +2216,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 20.32 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c6780d-523e-4fcb-a4d1-12027cd69823)
-    (property "Reference" "H4" (at 22.86 26.035 0)
+    (property "Reference" "H10" (at 22.86 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 22.86 28.575 0)
@@ -2232,7 +2231,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H4") (unit 1)
+          (reference "H10") (unit 1)
         )
       )
     )
@@ -2292,30 +2291,6 @@
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
           (reference "J10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 40.64 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 20071f9e-677d-40b8-991f-ca603379996c)
-    (property "Reference" "H1" (at 43.18 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 43.18 56.515 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 40.64 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 40.64 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H1") (unit 1)
         )
       )
     )
@@ -2388,30 +2363,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 40.64 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5ed2c925-25f5-454a-872d-6ca5fecde7c9)
-    (property "Reference" "H2" (at 43.18 26.035 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 43.18 28.575 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 40.64 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 40.64 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 104.14 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81af83f0-ec6c-48b4-9f66-c645c3893aae)
@@ -2448,7 +2399,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 20.32 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8317f64b-123f-451c-a399-32fdb1c6022c)
-    (property "Reference" "H3" (at 22.86 53.975 0)
+    (property "Reference" "H11" (at 22.86 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 22.86 56.515 0)
@@ -2463,7 +2414,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H3") (unit 1)
+          (reference "H11") (unit 1)
         )
       )
     )
