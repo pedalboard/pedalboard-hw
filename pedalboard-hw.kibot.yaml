@@ -2,6 +2,7 @@ kibot:
   version: 1
 
 global:
+  kicad_dnp_applies_to_3D: false
   filters:
   - number: 1007
   - number: 1015
