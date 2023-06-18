@@ -45,6 +45,8 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - 10 RGB Leds: RGB Leds are visible from long distance and with the color its possible
   to express a lot of information. For example some intensity value can be expressed with a 
   color gradient.
+  Alternative: Instead of a single LED, for the 6 foot buttons,
+  a [LED-ring](https://github.com/pedalboard/pedalboard-led-ring) can be used.
 - (Optional) RGB Matrix: in a Matrix of RGB Pins even more information can be expressed and
   readable from a large distance. For example the current preset number or a db meter
   value.
