@@ -66,7 +66,7 @@ Flexible power supply options
   b) into the USBC connector of the `CM4 Nano A` which optinally also can feed the Pico via USB.
 
 CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used together with the onboard PSU!
-        Make sure to remove J14 before connecting the USBC input to a Power Source or Computer. Otherwise
+        Make sure to remove Jumper J14 before connecting the USBC input to a Power Source or Computer. Otherwise
         the computer might be damaged!
 
 ![Modules](https://pedalboard.github.io/pedalboard-hw-site/Schematic/pedalboard-hw-schematic.svg)
@@ -80,6 +80,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/ped
 * [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
 * [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
+* For detailed build instruction follow the [wiki](https://github.com/pedalboard/pedalboard-hw/wiki)
 
 ## 3D Views
 
