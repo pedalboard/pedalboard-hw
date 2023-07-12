@@ -4,11 +4,14 @@
 
 TODO:
  - 3.3V to 5V adapter for LEDs
- - Footprint for Mounting Holes
+ - Footprint for Mounting Holes (spacers)
 
 
 ### Added
 - [Pedalboard LED Ring](https://github.com/pedalboard/pedalboard-led-ring) added.
+
+### Changed
+- Use of SMD Spacers
 
 
  
