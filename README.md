@@ -64,11 +64,11 @@ Flexible power supply options
   - 3A isolated DC-DC converter
   - Also powers MIDI module
 - Board can also be powered with USB power.
-  a) into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
-  b) into the USBC connector of the `CM4 Nano A` which optinally also can feed the Pico via USB.
+  - into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
+  - into the USB-C connector of the `CM4 Nano A` which optinally also can feed the Pico via USB.
 
-CAUTON: Due to limitations of the `CM4 Nano A` board the USBC can not be used together with the onboard PSU!
-        Make sure to remove Jumper J14 before connecting the USBC input to a Power Source or Computer. Otherwise
+CAUTON: Due to limitations of the `CM4 Nano A` board the USB-C can not be used together with the onboard PSU!
+        Make sure to remove Jumper J14 before connecting the USB-C input to a Power Source or Computer. Otherwise
         the computer might be damaged!
 
 ![Modules](https://pedalboard.github.io/pedalboard-hw-site/Schematic/pedalboard-hw-schematic.svg)
