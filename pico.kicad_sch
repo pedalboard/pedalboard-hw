@@ -2629,6 +2629,11 @@
     (uuid ff63296f-2428-4670-8401-f0e05f7b11e7)
   )
 
+  (text "Alternative to USB connection \nbetween CM4 and Pico\n(Can be used for MIDI)"
+    (at 97.79 69.85 90)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 4281b174-4078-4910-9c8f-1ebe16a9c9fb)
+  )
   (text "MIDI Bites allow to remove some of the \nboard material that is used to hold the\nDIN5 or 3.5mm Jack connectors and instead\nmount the connectors to the case and wire \nthem up with J15 "
     (at 17.78 181.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
