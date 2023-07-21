@@ -2,7 +2,7 @@
 
 An open hardware for processing audio and/or MIDI data on a pedalboard.
 
-[![](img/certification-mark-CH000018-stacked.png)](https://certification.oshwa.org/CH000018.html)
+| ![](https://i0.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-200-px.png) | [![OSHWA](img/certification-mark-CH000018-stacked.png)](https://certification.oshwa.org/ch000018.html) |
 
 
 This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0.1-Release/)
