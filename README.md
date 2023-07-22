@@ -123,7 +123,3 @@ SMT spacers:
 * [RPI pico](https://github.com/ncarandini/KiCad-RP-Pico)
 * [MIDI DIN5/180](https://github.com/nebs/eurocad)
 * [PIHat Mechanical Spec](https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf)
-
-### Ideas
-
-* Ribbon Mic: https://www.bumblebeepro.com/rm-5-diy-ribbon-mic-full-kit/
