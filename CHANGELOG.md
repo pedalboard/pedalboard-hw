@@ -6,7 +6,7 @@ TODO:
  - 3.3V to 5V adapter for LEDs
  - Footprint for Mounting Holes (spacers)
  - Compatiblility to compatible with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
- - Additional Analog input
+ - Additional analog input
 
 
 ### Added
