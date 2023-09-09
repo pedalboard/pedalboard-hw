@@ -18,7 +18,9 @@ TODO:
 
 ### Changed
 
-- Use of SMD Spacers
+- Use of [SMD Spacers](https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625) 
+  under the foot buttons for improved mechanical stabilty. 
+- Changed the power supply for LEDs from 3.3V to 5V. Allows the use of much larger LED matrices.
 
 ## [2.0.0] - 2023-04-24
 
