@@ -1,14 +1,17 @@
 # Change Log
 
-## [2.1.0-RC1] - TBD
-
 TODO:
 
 - 3.3V to 5V adapter for LEDs
 - Footprint for Mounting Holes (spacers)
 - Compatiblility to compatible with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog input
-- Capacitor on analog input?
+- Analog input filter?
+
+## [3.0.0-RC1] - CM4 - TBD 
+
+
+## [2.1.0-RC1] - LED rings - TBD
 
 ### Added
 
