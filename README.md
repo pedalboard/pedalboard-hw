@@ -122,7 +122,9 @@ The release procedure is not yet fully automated. Please follow below steps:
   - In Schematic Editor: File -> Page Settings -> Update Issue Date and Revision (with export to other sheets)
   - In PCB Editor: File -> Page Settings -> Update Issue Date and Revision
   - Update CHANGES.md (release date)
-  - Update the README.md to link the versioned docs.
+  - UpdateREADME.md 
+     - link the versioned docs.
+     - link to a (optinally new) Digikey revision
 
 2. Create a Tag and push it.
 
