@@ -76,24 +76,24 @@ CAUTON: Due to limitations of the `CM4 Nano A` board the USB-C can not be used t
         Make sure to remove Jumper J14 before connecting the USB-C input to a Power Source or Computer. Otherwise
         the computer might be damaged!
 
-![Modules](https://pedalboard.github.io/pedalboard-hw-site/Schematic/pedalboard-hw-schematic.svg)
+![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest/Schematic/pedalboard-hw-schematic.svg)
 
 ## Generated Hardware Documentation
 
-Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/latest/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
 * [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
 * For detailed build instruction follow the [wiki](https://github.com/pedalboard/pedalboard-hw/wiki)
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top30deg.png)
 
 
 ## Mechanical Parts
@@ -122,6 +122,7 @@ The release procedure is not yet fully automated. Please follow below steps:
   - In Schematic Editor: File -> Page Settings -> Update Issue Date and Revision (with export to other sheets)
   - In PCB Editor: File -> Page Settings -> Update Issue Date and Revision
   - Update CHANGES.md (release date)
+  - Update the README.md to link the versioned docs.
 
 2. Create a Tag and push it.
 
@@ -134,6 +135,7 @@ The release procedure is not yet fully automated. Please follow below steps:
 
 4. Tag the pedalboard-hw-site commit of the tagged Action run.
   - Add a link to the tag on pedalboard-hw-site also in the release descritpion
+  - copy the tagged files into a subdirectory
 
 5. Bump the version on main to RC1 (as described above)
   - Change old version for diff on pedalboard-hw.kibot.yaml (2 lines!)
