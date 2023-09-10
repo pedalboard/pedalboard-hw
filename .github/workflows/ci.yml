@@ -62,6 +62,6 @@ jobs:
       with:
         branch: main
         folder: generated
-        target-folder: latest
+        target-folder: latest-v2
         repository-name: pedalboard/pedalboard-hw-site
         token: ${{ secrets.DEPLOY_TO_PEDALBOARD_HW_SITE }}
