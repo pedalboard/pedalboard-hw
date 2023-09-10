@@ -6,8 +6,8 @@
 
   (title_block
     (title "Open Pedalboard")
-    (date "2023-03-12")
-    (rev "2.1.0-RC1")
+    (date "2023-09-10")
+    (rev "2.1.0")
     (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
     (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
   )
