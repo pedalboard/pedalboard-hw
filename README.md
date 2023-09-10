@@ -76,24 +76,24 @@ CAUTON: Due to limitations of the `CM4 Nano A` board the USB-C can not be used t
         Make sure to remove Jumper J14 before connecting the USB-C input to a Power Source or Computer. Otherwise
         the computer might be damaged!
 
-![Modules](https://pedalboard.github.io/pedalboard-hw-site/Schematic/pedalboard-hw-schematic.svg)
+![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/Schematic/pedalboard-hw-schematic.svg)
 
 ## Generated Hardware Documentation
 
-Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/Assembly/pedalboard-hw-ibom.html)
-* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/Assembly/pedalboard-hw-ibom.html)
+* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222/revision/89T9LHHN6M)
 * [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
 * For detailed build instruction follow the [wiki](https://github.com/pedalboard/pedalboard-hw/wiki)
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3D/pedalboard-hw-3D_top30deg.png)
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest-v2/3D/pedalboard-hw-3D_top30deg.png)
 
 
 ## Mechanical Parts
