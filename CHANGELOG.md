@@ -15,7 +15,7 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 
-## [3.0.0-RC1] - Native CM4 - TBD
+## [3.0.0-RC1] - Cost optimisation - TBD
 
 
 ## [2.1.0] - LED rings - 2023-10-09

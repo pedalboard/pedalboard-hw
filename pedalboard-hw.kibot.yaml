@@ -224,7 +224,7 @@ outputs:
   type: diff
   dir: diff
   options:
-    old: v2.0.0
+    old: v2.1.0
     old_type: git
     new: HEAD
     new_type: git
