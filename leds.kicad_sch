@@ -1973,7 +1973,7 @@
           (reference "R5") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2297,7 +2297,7 @@
     (property "Value" "74AHCT1G32SE-7" (at 100.33 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 100.33 50.8 0)
+    (property "Footprint" "Pedalboard Library:SOT65P210X110-5N" (at 100.33 50.8 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHCT1G32.pdf" (at 100.33 50.8 0)
