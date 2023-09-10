@@ -1,16 +1,24 @@
 # Change Log
 
-TODO:
+FUTURE-IMPROVEMENTS:
 
-- 3.3V to 5V adapter for LEDs
-- Compatiblility to compatible with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
+
+- Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog input
 - Analog input filter?
+- Better output drivers (currently the DAC output of the HiFi Berry board are used)
+    - survive 48V phantom power on output
+    - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
+    - Output stage https://www.amb.org/audio/
+- Better input protection
+- Support for USB OTG connection
+- Support more sound cards (e.g. https://shop.audioinjector.net)`
+- Our own sound card.
 
-## [3.0.0-RC1] - CM4 - TBD 
+## [3.0.0-RC1] - Native CM4 - TBD
 
 
-## [2.1.0-RC1] - LED rings - TBD
+## [2.1.0] - LED rings - 2023-10-09
 
 ### Added
 
@@ -18,9 +26,10 @@ TODO:
 
 ### Changed
 
-- Use of [SMD Spacers](https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625) 
-  under the foot buttons for improved mechanical stabilty. 
-- Changed the power supply for LEDs from 3.3V to 5V. Allows the use of much larger LED matrices.
+- Use of [SMD Spacers](https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625)
+  under the foot buttons for improved mechanical stabilty.
+- The power supply for LEDs from 3.3V to 5V. Allows the use of much larger LED matrices.
+- Therefore, a level shifter from 3.3V to 5V had to be added.
 
 ## [2.0.0] - 2023-04-24
 

@@ -13,7 +13,7 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - No screen by default. (Although can be added easily, if needed).
   Usually small screens are not really useful on stage.
   Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
-- Modular Design: 
+- Modular Design:
   - The device can be used:
      1. only for MIDI (Low Cost), including USB MIDI
      1. only for Audio
@@ -42,13 +42,13 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 ### MIDI and Control Surface
 - 200mm x 100mm control surface. Still not too large but can hold 6 buttons.
 - Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor with
-  a custom [firmware](https://github.com/pedalboard/pedalboard-midi) 
+  a custom [firmware](https://github.com/pedalboard/pedalboard-midi)
   that can be updated via USB or also from the audio module via WLAN.
 - 6 Buttons supporting to trigger on push, on release, long and short presses
 - 2 Rotary Encoders with additional push button
 - Input for Expression Pedal
 - 10 RGB Leds: RGB Leds are visible from long distance and with the color its possible
-  to express a lot of information. For example some intensity value can be expressed with a 
+  to express a lot of information. For example some intensity value can be expressed with a
   color gradient.
   Alternative: Instead of a single LED, for the 6 foot buttons,
   a [LED-ring](https://github.com/pedalboard/pedalboard-led-ring) can be used.
@@ -102,20 +102,10 @@ Mounting case can be found in the [pedalboard-case](https://github.com/pedalboar
 
 ![Case](https://raw.githubusercontent.com/pedalboard/pedalboard-case/main/generated/pedalboard-case.png)
 
-SMT spacers: 
-- https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/merge_requests/608
+SMT spacers:
 - https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625
 
 ## Notes
-
-### Improvements for future revisions
-- Better output drivers (currently the DAC output of the HiFi Berry board are used)
-    - survive 48V phantom power on output
-    - Differential ouptuts (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
-    - Output stage https://www.amb.org/audio/
-- Better input protection
-- Support for USB otg connection
-- Support more sound cards (e.g. https://shop.audioinjector.net)`
 
 ### KiCad component sources
 
