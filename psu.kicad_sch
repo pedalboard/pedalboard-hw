@@ -1095,13 +1095,13 @@
     (property "Value" "2.2uH" (at 125.73 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P" (at 125.73 40.64 0)
+    (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (at 125.73 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/7447471022.pdf" (at 125.73 40.64 0)
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf" (at 125.73 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/7447471022/2794428" (at 125.73 40.64 90)
+    (property "Supplier" "https://www.digikey.ch/de/products/detail/bourns-inc/SRP3212-2R2M/16394422" (at 125.73 40.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2ca332bf-a3b9-4283-8fc3-17443d3a2407))
@@ -1133,12 +1133,12 @@
     (property "Supplier" "https://www.digikey.ch/de/products/detail/cui-inc/PDQE15-Q24-S5-D/10230147" (at 196.85 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2506a19-7cd1-4690-b3e6-6fe608fa2080))
-    (pin "2" (uuid 476f1f43-8407-451b-bb19-9f7351c4abe6))
-    (pin "3" (uuid 990798d5-bd37-4b87-9c73-405ec93004c1))
-    (pin "4" (uuid 9350b6f0-c1d4-4bb5-8396-6e9a5d89f494))
-    (pin "5" (uuid 9417c844-244c-411e-8a68-3de045c8b16b))
-    (pin "6" (uuid 8e55c06e-b43c-4b96-9189-a58d182e90eb))
+    (pin "1" (uuid 8be2a485-e675-49d9-8652-66ebd710cae6))
+    (pin "2" (uuid 129b8a5e-590f-4482-8076-673b9f8fe20c))
+    (pin "3" (uuid 0ce46455-aeab-412c-ae2d-e41cdd44f268))
+    (pin "4" (uuid 4594803b-919c-4785-b422-54d03cc9876d))
+    (pin "5" (uuid ed773dbb-710f-4932-868f-89a39e961443))
+    (pin "6" (uuid 837e91ea-4da4-43c4-86b8-ed607c86feab))
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
@@ -1339,8 +1339,8 @@
     (property "Supplier" "https://www.digikey.ch/de/products/detail/littelfuse-inc/1812L150-24MR/2023969" (at 66.04 40.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6d51f52-6580-4cd4-9675-ee61b67fe147))
-    (pin "2" (uuid 68c602f1-f592-41af-94d7-1b2517fd56b1))
+    (pin "1" (uuid d3d0a97e-20be-4324-a1af-209634282dd3))
+    (pin "2" (uuid d3ae9439-cea2-4a59-abcd-15bd1b703b59))
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
