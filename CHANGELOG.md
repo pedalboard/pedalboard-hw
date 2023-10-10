@@ -5,6 +5,7 @@ FUTURE-IMPROVEMENTS:
 
 - Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog input
+- Support analog input to be used for switch.
 - Analog input filter?
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
     - survive 48V phantom power on output
@@ -15,7 +16,7 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 
-## [3.0.0-RC1] - Cost optimisation - TBD
+## [3.0.0-RC1] - Cost optimization - TBD
 
 
 ## [2.1.0] - LED rings - 2023-10-09
@@ -27,7 +28,7 @@ FUTURE-IMPROVEMENTS:
 ### Changed
 
 - Use of [SMD Spacers](https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625)
-  under the foot buttons for improved mechanical stabilty.
+  under the foot buttons for improved mechanical stability.
 - The power supply for LEDs from 3.3V to 5V. Allows the use of much larger LED matrices.
 - Therefore, a level shifter from 3.3V to 5V had to be added.
 
