@@ -15,8 +15,19 @@ FUTURE-IMPROVEMENTS:
 - Support for USB OTG connection
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
+- Combined power input socket.
 
 ## [3.0.0-RC1] - Cost optimization - TBD
+
+### Changed
+
+- Use SMD components for MIDI I/O
+- Use SMD actuator buttons
+- Use SMD components for PSU.
+- Use transistor instead of diode for reverse polarity protection.
+- Use official solder jumper instead of homegrown PCB fuses.
+- Increase size of PCB and use 5V zone around the edges.
+
 
 
 ## [2.1.0] - LED rings - 2023-10-09
