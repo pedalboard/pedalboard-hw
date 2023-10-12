@@ -16,7 +16,7 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 - Combined power input socket.
-- Use Connector_JST (XH)
+- Check LED Locations
 
 ## [3.0.0-RC1] - Cost optimization - TBD
 
@@ -28,6 +28,8 @@ FUTURE-IMPROVEMENTS:
 - Use transistor instead of diode for reverse polarity protection.
 - Use official solder jumper instead of homegrown PCB fuses.
 - Increase size of PCB and use 5V zone around the edges.
+- Use Connector_JST (XH) for MIDI and LED Ext.
+
 
 
 
