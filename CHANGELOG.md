@@ -16,6 +16,7 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 - Combined power input socket.
+- Use Connector_JST (XH)
 
 ## [3.0.0-RC1] - Cost optimization - TBD
 

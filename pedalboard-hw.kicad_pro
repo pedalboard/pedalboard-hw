@@ -518,6 +518,10 @@
       {
         "netclass": "Power",
         "pattern": "/MIDI/VSYS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5VP"
       }
     ]
   },
