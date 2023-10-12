@@ -1304,7 +1304,7 @@
     (property "Value" "RGB_LED_EXT" (at 266.7 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (at 265.43 143.51 0)
+    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" (at 265.43 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/6130xx11021.pdf" (at 265.43 143.51 0)
