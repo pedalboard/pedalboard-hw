@@ -3,7 +3,7 @@
 FUTURE-IMPROVEMENTS:
 
 
-- Additional analog input
+
 - Support analog input to be used for switch.
 - Analog input filter?
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
@@ -32,6 +32,7 @@ FUTURE-IMPROVEMENTS:
 ### Added
 
 - Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
+- Additional analog (EXP 2) input
 
 
 
