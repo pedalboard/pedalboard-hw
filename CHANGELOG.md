@@ -15,7 +15,6 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 - Combined power input socket.
-- Check LED and rotary encoder Locations
 
 ## [3.0.0-RC1] - Cost optimization - TBD
 
