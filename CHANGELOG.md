@@ -3,7 +3,6 @@
 FUTURE-IMPROVEMENTS:
 
 
-- Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog input
 - Support analog input to be used for switch.
 - Analog input filter?
@@ -16,7 +15,7 @@ FUTURE-IMPROVEMENTS:
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 - Combined power input socket.
-- Check LED Locations
+- Check LED and rotary encoder Locations
 
 ## [3.0.0-RC1] - Cost optimization - TBD
 
@@ -30,6 +29,9 @@ FUTURE-IMPROVEMENTS:
 - Increase size of PCB and use 5V zone around the edges.
 - Use Connector_JST (XH) for MIDI and LED Ext.
 
+### Added
+
+- Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 
 
 
