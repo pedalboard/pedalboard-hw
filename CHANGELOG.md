@@ -2,8 +2,6 @@
 
 FUTURE-IMPROVEMENTS:
 
-
-
 - Support analog input to be used for switch.
 - Analog input filter?
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
