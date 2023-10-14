@@ -444,7 +444,9 @@
       "Library",
       "Pedalboard Library"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "pedalboard"
+    ]
   },
   "meta": {
     "filename": "pedalboard-hw.kicad_pro",
