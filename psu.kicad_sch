@@ -1008,11 +1008,15 @@
     (uuid fce2227b-61f2-41df-bb59-3c0a73be7c4f)
   )
 
+  (text "Reverse polarity\nprotection" (at 80.01 27.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2b1fcef9-75d4-49c4-a230-e300a98766c0)
+  )
   (text "5.5mm x 2.1mm, Center Negative." (at 16.51 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 682e6e90-752d-4f42-9698-47df6b0b5abf)
   )
-  (text "EMC filter: https://www.cui.com/blog/emi-filter-components-what-they-are-and-how-they-work\nCM Noixe: https://www.cui.com/blog/reducing-supply-rail-common-mode-noise-in-audio-applications"
+  (text "EMC filter: https://www.cui.com/blog/emi-filter-components-what-they-are-and-how-they-work\nCM Noise: https://www.cui.com/blog/reducing-supply-rail-common-mode-noise-in-audio-applications\nReveser Polarity Protection: https://components101.com/articles/design-guide-pmos-mosfet-for-reverse-voltage-polarity-protection"
     (at 21.59 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 75c832aa-7d0c-4645-a8f7-13f60252499f)
