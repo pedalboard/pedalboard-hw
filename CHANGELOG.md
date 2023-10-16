@@ -9,6 +9,8 @@ FUTURE-IMPROVEMENTS:
     - Output stage https://www.amb.org/audio/
 - Better input protection
 - USB slave for audio data
+- SD Card
+- Debug connection.
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 PSU:
