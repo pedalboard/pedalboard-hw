@@ -23,7 +23,7 @@ PSU:
 
 - Use SMD components for MIDI I/O
 - Use SMD actuator buttons
-- Use SMD components for PSU.
+- Use concrete PSU implemented with SMD components.
 - Use MOS FET instead of diode for reverse polarity protection.
 - Use official solder jumper instead of homegrown PCB fuses.
 - Increase size of PCB and use 5V zone around the edges.
