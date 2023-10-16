@@ -3178,7 +3178,7 @@
     (property "Reference" "C1" (at 38.1 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 36.83 105.41 0)
+    (property "Value" "100n" (at 36.83 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 44.1452 105.41 0)
