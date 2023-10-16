@@ -1669,7 +1669,7 @@
     (property "Value" "74AHCT1G32SE-7" (at 100.33 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Pedalboard Library:SOT65P210X110-5N" (at 100.33 50.8 0)
+    (property "Footprint" "SOT-353_SC-70-5" (at 100.33 50.8 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHCT1G32.pdf" (at 100.33 50.8 0)
