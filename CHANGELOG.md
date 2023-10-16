@@ -2,20 +2,20 @@
 
 FUTURE-IMPROVEMENTS:
 
-- Support analog input to be used for switch.
-- Analog input filter?
+- Support analog input to be used with a switch.
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
     - survive 48V phantom power on output
     - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
 - Better input protection
-- Support for USB OTG connection
+- USB slave for audio data
+- SD Card
+- Debug connection.
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
 PSU:
 - Combined power input socket.
 - Improve reverse polarity protection.
-
 
 ## [3.0.0-RC1] - Cost optimization - TBD
 
@@ -28,6 +28,7 @@ PSU:
 - Use official solder jumper instead of homegrown PCB fuses.
 - Increase size of PCB and use 5V zone around the edges.
 - Use Connector_JST (XH) for MIDI and LED Ext.
+- Directly interface CM4 (Remove CM4 Nano carrier)
 
 ### Added
 

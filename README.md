@@ -33,8 +33,6 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
     - Flexibile memory options for cost optimisation
     - (optional) WiFi
-- Waveshare [CM4 Nano A](https://www.waveshare.com/wiki/CM4-NANO-A)
-    - Small form factor CM4 carrier with standard GPIO header and USB-C power input
 - HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
     - Hiqh Quality Stereo Input/Output
     - Very low latency (around 2ms when using ELK Audio OS)
@@ -70,11 +68,6 @@ Flexible power supply options
   - Also powers MIDI module
 - Board can also be powered with USB power.
   - into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
-  - into the USB-C connector of the `CM4 Nano A` which optinally also can feed the Pico via USB.
-
-CAUTON: Due to limitations of the `CM4 Nano A` board the USB-C can not be used together with the onboard PSU!
-        Make sure to remove Jumper J14 before connecting the USB-C input to a Power Source or Computer. Otherwise
-        the computer might be damaged!
 
 ![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest/Schematic/pedalboard-hw-schematic.svg)
 

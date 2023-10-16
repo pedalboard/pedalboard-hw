@@ -1028,11 +1028,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.cui.com/blog/emi-filter-components-what-they-are-and-how-they-work"))
     (uuid dc0c5bf7-d986-403a-b896-be180ab3e563)
   )
-  (text "CAUTON: Due to a limitation of the \nCM4 Nano A board the Jumper J14 must \nbe removed when the CM4 is powered\nvia USBC!"
-    (at 236.22 33.02 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid eb2787e9-59dd-487c-b589-64ebf70868d0)
-  )
   (text "Larger value has the detrimental\neffect of causing greater ac leakage\ncurrent between the input and the \noutput of the power supply"
     (at 147.32 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
