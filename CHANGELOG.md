@@ -8,7 +8,8 @@ FUTURE-IMPROVEMENTS:
     - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
 - Better input protection
-- USB slave for audio data
+- USB Hub (to access other pedals over USB)
+- USB slave (for audio data)
 - SD Card
 - Debug connection.
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
@@ -34,7 +35,7 @@ PSU:
 
 - Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog (EXP 2) input
-
+- Fidcuials for PnP
 
 
 ## [2.1.0] - LED rings - 2023-10-09
