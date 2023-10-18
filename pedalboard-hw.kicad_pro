@@ -74,8 +74,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 0.2
+          "height": 0.2,
+          "width": 0.875
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -97,7 +97,6 @@
       "drc_exclusions": [
         "courtyards_overlap|104640580|115810062|87f4b1d3-1709-4f19-b608-19f1eb0b2e55|eb0ee021-ba81-4096-b535-b932ff7bf675",
         "courtyards_overlap|104640580|63810062|3178626e-5ba1-4429-aa71-135477768565|5241c31f-6d1a-4833-9e03-2d5bbf488298",
-        "courtyards_overlap|126700283|49078386|29baae15-b511-4a82-9290-8df135bbbf0f|99233a07-a967-48e6-823d-cbdba68a5975",
         "courtyards_overlap|172000001|112750001|39abbc55-ff7d-4c26-82a0-6c3d21c62cea|c4294aac-0000-4121-9e46-0a69b3f82b6d",
         "courtyards_overlap|179640580|115810062|c4294aac-0000-4121-9e46-0a69b3f82b6d|c905bf13-50fd-4662-ba74-df5afdd44194",
         "courtyards_overlap|179640580|63810062|7202c9bb-6b4d-473c-a906-21891e4af4a2|cd82386e-3f70-4974-9afa-7939cf97ef85",
@@ -244,8 +243,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      "pin_to_pin|1587500|596900|c5fa7be4-037c-4251-a867-44a4d250f3d2|538a4ce4-4496-425c-bbd1-e95986c86f61|/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e|/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e|/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e",
       "pin_to_pin|406400|1282700|c72e2dd9-7f86-4070-b4e0-d3c5a7efb937|71199d99-9561-4c09-a6d4-c11a01070a56|/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91|/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91|/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91",
       "power_pin_not_driven|1016000|1231900|98e7c77a-b502-4319-9e4a-73fdd1db4df5|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2159000|444500|614137b2-3223-4c23-b63c-7270653313b1|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|736600|1155700|51537f12-8c39-49d9-8c08-1597e134e181|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
@@ -484,7 +485,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -508,7 +509,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -570,6 +571,10 @@
       {
         "netclass": "USB Data",
         "pattern": "/Connectivity/USB2_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
       }
     ]
   },
