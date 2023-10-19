@@ -66,24 +66,24 @@ Flexible power supply options
 - MIDI module can also be powered with USB power.
   - Supports ORing with the onboard PSU.
 
-![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest/Schematic/pedalboard-hw-schematic.svg)
+![Modules](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/Schematic/pedalboard-hw-schematic.svg)
 
 ## Generated Hardware Documentation
 
-Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/latest/Assembly/pedalboard-hw-ibom.html)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
 * [PCBWay manifacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
 * For detailed build instruction follow the [wiki](https://github.com/pedalboard/pedalboard-hw/wiki)
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top30deg.png)
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/3.0.0/3D/pedalboard-hw-3D_top30deg.png)
 
 
 ## Mechanical Parts
@@ -109,7 +109,7 @@ The release procedure is not yet fully automated. Please follow below steps:
 1. Bump Version
   - In Schematic Editor: File -> Page Settings -> Update Issue Date and Revision (with export to other sheets)
   - In PCB Editor: File -> Page Settings -> Update Issue Date and Revision
-  - Update CHANGES.md (release date)
+  - Update CHANGELOG.md (release date)
   - Update README.md
      - link the versioned docs.
      - link to a (optinally new) Digikey revision
