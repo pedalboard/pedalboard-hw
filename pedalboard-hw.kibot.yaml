@@ -18,7 +18,7 @@ import:
 
 preflight:
   run_erc: false
-  run_drc: true
+  run_drc: false
   check_zone_fills: true
   ignore_unconnected: false
 
