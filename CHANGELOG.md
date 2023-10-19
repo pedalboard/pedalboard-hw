@@ -2,17 +2,18 @@
 
 FUTURE-IMPROVEMENTS:
 
-- Better output drivers (currently the DAC output of the HiFi Berry board are used)
-    - survive 48V phantom power on output
-    - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
+- Our own sound card.
+    - Better output drivers (currently the DAC output of the HiFi Berry board are used)
+        - survive 48V phantom power on output
+        - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
     - Output stage https://www.amb.org/audio/
-- Better input protection
+    - Better input protection
 - USB Hub (to access other pedals over USB)
 - USB slave (for audio data)
 - SD Card
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
-- Our own sound card.
 - Improve reverse polarity protection.
+- EPROM storage for settings.
 
 ## [3.0.0] - Cost optimization - 2023-10-19 
 
