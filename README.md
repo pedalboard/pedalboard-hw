@@ -17,7 +17,7 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
   - The device can be used:
      1. only for MIDI (Low Cost), including USB MIDI
      1. both for MIDI and Audio, communication between the modules is done via MIDI.
-   - MIDI Moudule has independent microcontroller firmware with immediate startup
+   - MIDI Moudule has independent microcontroller and firmware with immediate startup
    - Optional Power supply module if no USB Power is available on the board.
 - Maker friendly
   - Use of existing modules for the heavy lifting
@@ -43,11 +43,10 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - 6 Buttons supporting to trigger on push, on release, long and short presses
 - 2 Rotary Encoders with additional push button
 - Input for Expression Pedal
-- 10 RGB Leds: RGB Leds are visible from long distance and with the color its possible
+- 4 RGB Leds: RGB Leds are visible from long distance and with the color its possible
   to express a lot of information. For example some intensity value can be expressed with a
   color gradient.
-  Alternative: Instead of a single LED, for the 6 foot buttons,
-  a [LED-ring](https://github.com/pedalboard/pedalboard-led-ring) can be used.
+- [LED-ring](https://github.com/pedalboard/pedalboard-led-ring) around the foot buttons.
 - (Optional) RGB Matrix: in a Matrix of RGB Pins even more information can be expressed and
   readable from a large distance. For example the current preset number or a db meter
   value.
@@ -61,10 +60,10 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 ### Power Supply
 Flexible power supply options
 
-- (Optional) 9-36V Power Input to connect to usual pedalboard power supply units.
-  - 3A isolated DC-DC converter
+- 6-28V Power input to connect to usual pedalboard power supply units.
+  - 3A DC-DC buck converter
   - Also powers MIDI module
-- Board can also be powered with USB power.
+- MIDI module can also be powered with USB power.
   - into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
 
 ![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest/Schematic/pedalboard-hw-schematic.svg)
