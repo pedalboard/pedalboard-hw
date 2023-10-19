@@ -14,7 +14,7 @@ FUTURE-IMPROVEMENTS:
 - Our own sound card.
 - Improve reverse polarity protection.
 
-## [3.0.0-RC1] - Cost optimization - TBD
+## [3.0.0] - Cost optimization - 2023-10-19 
 
 ### Changed
 
@@ -26,6 +26,7 @@ FUTURE-IMPROVEMENTS:
 - Increase size of PCB and use 5V zone around the edges.
 - Use Connector_JST (XH) for MIDI and LED Ext.
 - Directly interface CM4 (Remove CM4 Nano carrier)
+- Replace the Pico by directly use RP2040
 
 ### Added
 
@@ -35,7 +36,7 @@ FUTURE-IMPROVEMENTS:
 - Alternative screw terminal for power input
 
 
-## [2.1.0] - LED rings - 2023-10-09
+## [2.1.0] - LED rings - 2023-08-09
 
 ### Added
 

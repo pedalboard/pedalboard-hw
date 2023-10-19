@@ -37,7 +37,7 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 
 ### MIDI and Control Surface
 - 200mm x 100mm control surface. Still not too large but can hold 6 buttons.
-- Raspberry Pi [Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) processor with
+- Raspberry [RPI-2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) processor with
   a custom [firmware](https://github.com/pedalboard/pedalboard-midi)
   that can be updated via USB or also from the audio module via WLAN.
 - 6 Buttons supporting to trigger on push, on release, long and short presses
@@ -64,7 +64,7 @@ Flexible power supply options
   - 3A DC-DC buck converter
   - Also powers MIDI module
 - MIDI module can also be powered with USB power.
-  - into the micro USB connector of the Pico board. Supports ORing with the onboard PSU.
+  - Supports ORing with the onboard PSU.
 
 ![Modules](https://pedalboard.github.io/pedalboard-hw-site/latest/Schematic/pedalboard-hw-schematic.svg)
 

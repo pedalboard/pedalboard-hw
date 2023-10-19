@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "3.0.0")
+  )
+
   (lib_symbols
     (symbol "pedalboard:ComputeModule4-CM4" (in_bom yes) (on_board yes)
       (property "Reference" "Module" (at 113.03 -68.58 0)
