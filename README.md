@@ -118,7 +118,7 @@ The release procedure is not yet fully automated. Please follow below steps:
 
 3. Create a release.
   - Generate Release Notes
-  - Add the relevant content from CHANGES.md
+  - Add the relevant content from CHANGELOG.md
   - Download the generated_output.zip file from the tagged Action run.
   - Add the version to generated_output-x.y.z.zip
   - Upload the zip as artifact of the release
