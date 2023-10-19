@@ -5113,7 +5113,7 @@
     (property "Value" "W25Q128JVS" (at 128.27 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 120.65 57.15 0)
+    (property "Footprint" "Pedalboard Library:SOIC-8_5.23x5.23mm_P1.27mm" (at 120.65 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 120.65 57.15 0)
