@@ -2,7 +2,6 @@
 
 FUTURE-IMPROVEMENTS:
 
-- Support analog input to be used with a switch.
 - Better output drivers (currently the DAC output of the HiFi Berry board are used)
     - survive 48V phantom power on output
     - Differential outputs (e.g. https://thatcorp.com/datashts/THAT_1606-1646_Datasheet.pdf)
@@ -11,11 +10,8 @@ FUTURE-IMPROVEMENTS:
 - USB Hub (to access other pedals over USB)
 - USB slave (for audio data)
 - SD Card
-- Debug connection.
 - Support more sound cards (e.g. https://shop.audioinjector.net)`
 - Our own sound card.
-PSU:
-- Combined power input socket.
 - Improve reverse polarity protection.
 
 ## [3.0.0-RC1] - Cost optimization - TBD
@@ -36,6 +32,7 @@ PSU:
 - Compatibility with the [Hammond Manufacturing 1590DD](https://www.hammfg.com/files/parts/pdf/1590DD.pdf) case.
 - Additional analog (EXP 2) input
 - Fidcuials for PnP
+- Alternative screw terminal for power input
 
 
 ## [2.1.0] - LED rings - 2023-10-09
