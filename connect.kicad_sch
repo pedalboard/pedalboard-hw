@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (rev "3.0.1-RC")
+    (rev "3.0.1")
   )
 
   (lib_symbols

@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.1] - Cost optimization - 2023-10-19 
+
+### Changed
+
+- Increase slot size to (restriction of PCBway) 
+
 ## [3.0.0] - Cost optimization - 2023-10-19 
 
 ### Changed
