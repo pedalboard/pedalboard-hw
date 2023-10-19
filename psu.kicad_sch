@@ -1915,7 +1915,7 @@
     (property "Value" "USB_B_Micro" (at 172.72 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal" (at 162.56 50.8 0)
+    (property "Footprint" "Pedalboard Library:USB_Micro-B_Wuerth_614105150721_Vertical" (at 162.56 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 50.8 0)

@@ -1,6 +1,6 @@
 (footprint "SO08-E3" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>body 3.9 mm/JEDEC MS-012AA<p>(combined pins variation)")
+  (descr "SMALL OUTLINE INTEGRATED CIRCUIT body 3.9 mm/JEDEC MS-012AA (combined pins variation)")
   (attr smd)
   (fp_text reference "REF**" (at -3.684205 -0.635205 180) (layer "F.SilkS")
       (effects (font (size 0.80026 0.80026) (thickness 0.15)))
