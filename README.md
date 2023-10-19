@@ -16,14 +16,12 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - Modular Design:
   - The device can be used:
      1. only for MIDI (Low Cost), including USB MIDI
-     1. only for Audio
      1. both for MIDI and Audio, communication between the modules is done via MIDI.
    - MIDI Moudule has independent microcontroller firmware with immediate startup
    - Optional Power supply module if no USB Power is available on the board.
 - Maker friendly
-  - No SMD soldering, only through hole components are used.
   - Use of existing modules for the heavy lifting
-- Good avialability of components
+  - Use of common components
 - Flat design: target for case height: 30mm
 
 ## Modules
