@@ -3391,7 +3391,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 20.32 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 015c62e4-9bf9-4183-8585-abc73afc454a)
-    (property "Reference" "H12" (at 22.86 188.595 0)
+    (property "Reference" "H2" (at 22.86 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Midi Bites" (at 22.86 191.135 0)
@@ -3406,7 +3406,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H12") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -3445,7 +3445,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 273.05 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05f5e8fa-5483-4a2e-804c-3e936e2dac8c)
-    (property "Reference" "J15" (at 280.67 149.86 0)
+    (property "Reference" "J9" (at 280.67 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EXP2" (at 280.67 152.4 0)
@@ -3469,7 +3469,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J15") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3500,7 +3500,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C21") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3561,7 +3561,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C23") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3622,7 +3622,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H5") (unit 1)
+          (reference "H10") (unit 1)
         )
       )
     )
@@ -3656,7 +3656,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 52.07 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 141b6fdf-01fe-4402-aeff-782f8accadf9)
-    (property "Reference" "L2" (at 52.07 86.36 90)
+    (property "Reference" "L1" (at 52.07 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 52.07 88.9 90)
@@ -3676,7 +3676,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L2") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -3825,7 +3825,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 102.87 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 327fb511-7a13-4a6c-9e20-4a221c1a9432)
-    (property "Reference" "SW4" (at 102.87 175.26 0)
+    (property "Reference" "SW6" (at 102.87 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "A" (at 102.87 177.8 0)
@@ -3845,7 +3845,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW4") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -3900,7 +3900,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H2") (unit 1)
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -3909,7 +3909,7 @@
   (symbol (lib_id "Device:R") (at 259.08 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ef0a4f8-16a8-45ac-9c4e-cbee60ee9940)
-    (property "Reference" "R13" (at 261.62 142.24 0)
+    (property "Reference" "R5" (at 261.62 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 261.62 144.78 0)
@@ -3926,7 +3926,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R13") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3960,7 +3960,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 132.08 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44ede4b1-5ce6-41be-a910-4e3a731e938a)
-    (property "Reference" "SW5" (at 132.08 175.26 0)
+    (property "Reference" "SW7" (at 132.08 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B" (at 132.08 177.8 0)
@@ -3980,7 +3980,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW5") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -3989,7 +3989,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 66.04 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 465cb268-c590-4cc4-b14f-6e5020047d38)
-    (property "Reference" "J25" (at 67.31 67.31 0)
+    (property "Reference" "J24" (at 67.31 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EXT-MIDI" (at 54.61 72.39 0)
@@ -4007,7 +4007,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J25") (unit 1)
+          (reference "J24") (unit 1)
         )
       )
     )
@@ -4038,7 +4038,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C31") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4047,7 +4047,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 58.42 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a27659c-364b-4484-98fa-a9d42873fc6f)
-    (property "Reference" "J17" (at 57.15 101.6 0)
+    (property "Reference" "J2" (at 57.15 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIDI IN J" (at 55.88 118.11 0)
@@ -4070,7 +4070,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J17") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -4079,7 +4079,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 102.87 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e9fb43c-2c15-4cce-939a-cdea65d79332)
-    (property "Reference" "SW1" (at 102.87 160.02 0)
+    (property "Reference" "SW3" (at 102.87 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 102.87 162.56 0)
@@ -4099,7 +4099,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW1") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -4130,7 +4130,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C30") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4223,7 +4223,7 @@
   (symbol (lib_id "Device:R") (at 21.59 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56d1c6ab-18cf-4dc2-8c30-eab8cb4b184c)
-    (property "Reference" "R3" (at 24.13 27.305 0)
+    (property "Reference" "R1" (at 24.13 27.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33" (at 24.13 29.845 0)
@@ -4243,7 +4243,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4282,7 +4282,7 @@
   (symbol (lib_id "Diode:1N4148") (at 58.42 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6563c559-d28a-489e-a1cc-06d098bee909)
-    (property "Reference" "D11" (at 59.69 83.82 90)
+    (property "Reference" "D1" (at 59.69 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM4007" (at 53.34 77.47 90)
@@ -4302,7 +4302,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "D11") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4333,7 +4333,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J5") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -4364,7 +4364,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C26") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4450,7 +4450,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C22") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -4481,7 +4481,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C19") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4490,7 +4490,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 132.08 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 716f6730-535b-4d35-a2f6-c669318ef25b)
-    (property "Reference" "SW2" (at 132.08 160.02 0)
+    (property "Reference" "SW4" (at 132.08 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "E" (at 132.08 162.56 0)
@@ -4510,7 +4510,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW2") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -4544,7 +4544,7 @@
   (symbol (lib_id "Device:R") (at 46.99 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76bb0224-9809-453f-abd9-b0e1b5d93eaf)
-    (property "Reference" "R4" (at 46.99 21.59 90)
+    (property "Reference" "R2" (at 46.99 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 46.99 24.13 90)
@@ -4564,7 +4564,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4573,7 +4573,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 31.75 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bda87b1-83a2-4e58-8c39-fd6637cea02b)
-    (property "Reference" "L1" (at 31.75 76.2 90)
+    (property "Reference" "L4" (at 31.75 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 31.75 78.74 90)
@@ -4593,7 +4593,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L1") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -4602,7 +4602,7 @@
   (symbol (lib_id "Connector:DIN-5_180degree") (at 31.75 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c9812e3-337d-477b-9818-645ce03669d1)
-    (property "Reference" "J2" (at 34.29 86.36 0)
+    (property "Reference" "J1" (at 34.29 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIDI_IN" (at 33.02 83.82 0)
@@ -4625,7 +4625,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4656,7 +4656,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C25") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4690,7 +4690,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 60.96 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 837bcae8-dd78-4ba4-beb4-7807e1ac6f67)
-    (property "Reference" "J16" (at 59.69 40.64 0)
+    (property "Reference" "J4" (at 59.69 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIDI OUT J" (at 58.42 57.15 0)
@@ -4713,7 +4713,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J16") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4743,7 +4743,7 @@
           (reference "J6") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J14") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4774,7 +4774,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C27") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4783,7 +4783,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 158.75 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a66db3c-d7b7-4caa-8ae7-0515d08d00f7)
-    (property "Reference" "SW6" (at 158.75 173.99 0)
+    (property "Reference" "SW8" (at 158.75 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 158.75 176.53 0)
@@ -4803,7 +4803,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW6") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -4834,7 +4834,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C29") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -4865,7 +4865,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R16") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4921,7 +4921,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C32") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4930,7 +4930,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 158.75 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95ba0cce-bc42-409b-8e0b-3e41042db0ef)
-    (property "Reference" "SW3" (at 158.75 160.02 0)
+    (property "Reference" "SW5" (at 158.75 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "F" (at 158.75 162.56 0)
@@ -4950,7 +4950,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW3") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -4989,7 +4989,7 @@
   (symbol (lib_id "Device:R") (at 259.08 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 973889a2-4d55-4631-9dc0-dc6800006f38)
-    (property "Reference" "R12" (at 261.62 116.84 0)
+    (property "Reference" "R4" (at 261.62 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 261.62 119.38 0)
@@ -5006,7 +5006,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R12") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5037,7 +5037,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C24") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5067,7 +5067,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H6") (unit 1)
+          (reference "H13") (unit 1)
         )
       )
     )
@@ -5098,7 +5098,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C33") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5135,7 +5135,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -5144,7 +5144,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fe876cc-5235-41fc-a9b6-a2315d63303e)
-    (property "Reference" "JP4" (at 255.27 92.71 0)
+    (property "Reference" "JP2" (at 255.27 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SJP" (at 265.43 95.25 0)
@@ -5161,7 +5161,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "JP4") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -5217,7 +5217,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5247,7 +5247,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H4") (unit 1)
+          (reference "H9") (unit 1)
         )
       )
     )
@@ -5256,7 +5256,7 @@
   (symbol (lib_id "Device:R") (at 44.45 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae0661ab-839a-47f3-933d-4be69259bd02)
-    (property "Reference" "R1" (at 44.45 76.2 90)
+    (property "Reference" "R3" (at 44.45 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 44.45 78.74 90)
@@ -5276,7 +5276,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5387,7 +5387,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U7") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5396,7 +5396,7 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 43.18 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb5b798c-1834-4420-a1b7-233d6852de33)
-    (property "Reference" "SW8" (at 43.18 156.21 0)
+    (property "Reference" "SW2" (at 43.18 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GAIN Rotary" (at 43.18 158.75 0)
@@ -5419,7 +5419,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW8") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -5458,7 +5458,7 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 43.18 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd29f98c-2393-406a-a7f5-1e04e30ba1fe)
-    (property "Reference" "SW7" (at 43.18 133.35 0)
+    (property "Reference" "SW1" (at 43.18 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VOL Rotary" (at 43.18 135.89 0)
@@ -5481,7 +5481,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW7") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5490,7 +5490,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 62.23 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf8413e9-c3d1-4980-932e-f6b98bb3d66e)
-    (property "Reference" "J24" (at 63.5 125.73 0)
+    (property "Reference" "J23" (at 63.5 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EXT-MIDI" (at 48.26 132.08 0)
@@ -5508,7 +5508,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J24") (unit 1)
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -5517,7 +5517,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c34112cf-a8ad-4860-8def-12fe38e878f9)
-    (property "Reference" "JP3" (at 255.27 90.17 0)
+    (property "Reference" "JP1" (at 255.27 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SJP" (at 265.43 92.71 0)
@@ -5534,7 +5534,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "JP3") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -5543,7 +5543,7 @@
   (symbol (lib_id "Isolator:TLP2761") (at 72.39 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6a3d7c5-f42e-4df9-9164-2ff6c0432b69)
-    (property "Reference" "U2" (at 67.31 95.25 0)
+    (property "Reference" "U1" (at 67.31 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP2761" (at 78.74 76.2 0)
@@ -5567,7 +5567,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5598,7 +5598,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R15") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5683,7 +5683,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H3") (unit 1)
+          (reference "H8") (unit 1)
         )
       )
     )
@@ -5692,7 +5692,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 43.18 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db1c8a8c-9ea3-45d7-8c23-17c95511e6bb)
-    (property "Reference" "L4" (at 44.45 34.925 0)
+    (property "Reference" "L3" (at 44.45 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120_100MHz" (at 44.45 37.465 0)
@@ -5712,7 +5712,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L4") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -5743,7 +5743,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R14") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5782,7 +5782,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 271.78 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b01da3-b68a-4679-9df8-5ffc35c241f7)
-    (property "Reference" "J3" (at 279.4 124.46 0)
+    (property "Reference" "J7" (at 279.4 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EXP1" (at 279.4 127 0)
@@ -5806,7 +5806,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J3") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -5867,7 +5867,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5876,7 +5876,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 21.59 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2bab053-51d7-4c87-8986-196f61f27035)
-    (property "Reference" "L3" (at 22.86 37.465 0)
+    (property "Reference" "L2" (at 22.86 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120_100MHz" (at 17.78 44.45 90)
@@ -5896,7 +5896,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L3") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -5905,7 +5905,7 @@
   (symbol (lib_id "Connector:DIN-5_180degree") (at 35.56 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f567f89f-d25b-4de4-b939-8b2f76ae093a)
-    (property "Reference" "J1" (at 35.5601 54.61 0)
+    (property "Reference" "J3" (at 35.5601 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIDI_OUT" (at 35.5601 57.15 0)
@@ -5928,7 +5928,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6008,7 +6008,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H1") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )

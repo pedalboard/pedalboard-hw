@@ -1966,7 +1966,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C12") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -2038,7 +2038,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "J7") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2047,7 +2047,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 31.75 46.99 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e7a8003-6827-4a30-9e96-a8e87e96f0b7)
-    (property "Reference" "J13" (at 41.91 54.61 0)
+    (property "Reference" "J6" (at 41.91 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 31.75 52.07 0)
@@ -2068,7 +2068,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "J13") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2108,7 +2108,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2148,7 +2148,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C11") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2210,7 +2210,7 @@
           (reference "D13") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2280,7 +2280,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C14") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -2289,7 +2289,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 30.48 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4e33789a-2c69-4baa-87a3-cb2cc51063bc)
-    (property "Reference" "J26" (at 30.48 59.69 0)
+    (property "Reference" "J5" (at 30.48 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Screw_Terminal_01x02" (at 30.48 62.23 0)
@@ -2306,7 +2306,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "J26") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2516,7 +2516,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C10") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -2525,7 +2525,7 @@
   (symbol (lib_id "Device:C") (at 80.01 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 744f7072-0c87-4351-ae2f-362f074904f7)
-    (property "Reference" "C6" (at 76.2 53.34 0)
+    (property "Reference" "C2" (at 76.2 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 81.28 59.69 0)
@@ -2545,7 +2545,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2554,7 +2554,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 96.52 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7823e246-2583-4f11-8d8a-72f2e90fb11f)
-    (property "Reference" "C13" (at 100.33 53.721 0)
+    (property "Reference" "C3" (at 100.33 53.721 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270u" (at 100.33 56.261 0)
@@ -2574,7 +2574,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C13") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2643,7 +2643,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2683,7 +2683,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C9") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2692,7 +2692,7 @@
   (symbol (lib_id "Device:C") (at 73.66 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b6ed274-ba51-4225-a0d3-4b2c54ec8fb9)
-    (property "Reference" "C20" (at 68.58 53.34 0)
+    (property "Reference" "C4" (at 68.58 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 68.58 58.42 0)
@@ -2712,7 +2712,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C20") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2752,7 +2752,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C16") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -2809,7 +2809,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2855,7 +2855,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2895,7 +2895,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C15") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -2935,7 +2935,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C7") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -2966,7 +2966,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C18") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -2998,7 +2998,7 @@
           (reference "D13") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3038,7 +3038,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C8") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3078,7 +3078,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R8") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3173,7 +3173,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3229,7 +3229,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C17") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )

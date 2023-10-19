@@ -152,7 +152,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2079fa55-1ff6-4ace-a2fe-77251311317e)
-    (property "Reference" "H9" (at 77.47 167.005 0)
+    (property "Reference" "H3" (at 77.47 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 77.47 169.545 0)
@@ -167,7 +167,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H9") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -176,7 +176,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 45.72 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2562405b-2778-4aa7-af29-54800cfda864)
-    (property "Reference" "H7" (at 48.26 167.005 0)
+    (property "Reference" "H1" (at 48.26 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 48.26 169.545 0)
@@ -191,7 +191,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H7") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
