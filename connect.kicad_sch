@@ -5,6 +5,7 @@
   (paper "A4")
 
   (title_block
+    (date "2023-10-20")
     (rev "3.0.1")
   )
 

@@ -1,6 +1,6 @@
 # Change Log
 
-## [3.0.1] - Cost optimization - 2023-10-19 
+## [3.0.1] - Cost optimization - 2023-10-20
 
 ### Changed
 
