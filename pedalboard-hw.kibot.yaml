@@ -105,6 +105,7 @@ outputs:
     - Build Quantity
     - Status
     - Datasheet
+    - Supplier
     - Sheetpath
     - Source BoM
     - Footprint X
