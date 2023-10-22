@@ -70,6 +70,8 @@ Flexible power supply options
 
 ## Generated Hardware Documentation
 
+Interactive [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fpedalboard%2Fpedalboard-hw%2Ftree%2Fmain) viewer.
+
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest/Browse/pedalboard-hw-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
