@@ -21,4 +21,9 @@
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp a30ec54b-ea6b-4043-ab0a-c1283d85de9c))
   (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers "F&B.Cu" "*.Mask" "F.Paste")
     (solder_paste_margin -0.2) (tstamp 804ff500-162b-4cce-94ca-394231c2a810))
+  (model "${KIPRJMOD}/3d-models/spacer.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
