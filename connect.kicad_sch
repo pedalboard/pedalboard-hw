@@ -1354,7 +1354,7 @@
     (property "Reference" "Module1" (at 119.38 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ComputeModule4-CM4" (at 119.38 29.21 0)
+    (property "Value" "CM4" (at 119.38 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Pedalboard Library:Raspberry-Pi-4-Compute-Module" (at 121.92 127 0)
