@@ -10,14 +10,14 @@
   )
 
   (lib_symbols
-    (symbol "pedalboard:ComputeModule4-CM4" (in_bom yes) (on_board yes)
+    (symbol "pedalboard:CM4" (in_bom yes) (on_board yes)
       (property "Reference" "Module" (at 113.03 -68.58 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "ComputeModule4-CM4" (at 140.97 2.54 0)
+      (property "Value" "CM4" (at 140.97 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (at 142.24 -26.67 0)
+      (property "Footprint" "Pedalboard Library:Raspberry-Pi-4-Compute-Module" (at 142.24 -26.67 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 142.24 -26.67 0)
@@ -29,12 +29,12 @@
       (property "Field5" "2x DF40C-100DS-0.4V" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (symbol "ComputeModule4-CM4_1_0"
+      (symbol "CM4_1_0"
         (text "GPIO" (at 0 6.35 0)
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ComputeModule4-CM4_1_1"
+      (symbol "CM4_1_1"
         (rectangle (start -30.48 -71.12) (end 25.4 58.42)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -452,7 +452,7 @@
           (number "99" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ComputeModule4-CM4_2_1"
+      (symbol "CM4_2_1"
         (rectangle (start 114.3 -66.04) (end 165.1 63.5)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1348,7 +1348,7 @@
     )
   )
 
-  (symbol (lib_id "pedalboard:ComputeModule4-CM4") (at -20.32 100.33 0) (unit 2)
+  (symbol (lib_id "pedalboard:CM4") (at -20.32 100.33 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dfcc7ee-574c-471a-9682-2e6f1ab679d6)
     (property "Reference" "Module1" (at 119.38 26.67 0)
