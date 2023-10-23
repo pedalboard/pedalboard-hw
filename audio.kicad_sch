@@ -3800,7 +3800,7 @@
     (property "Footprint" "Pedalboard Library:HiFi Berry DAC ADC+" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-pro/" (at 184.15 80.01 0)
+    (property "Datasheet" "" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier" "" (at 184.15 80.01 0)
