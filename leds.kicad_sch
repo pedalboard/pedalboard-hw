@@ -354,7 +354,7 @@
       )
     )
     (symbol "pedalboard:74AHCT1G32SE-7" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U2" (at 0 12.7 0)
+      (property "Reference" "U" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "74AHCT1G32SE-7" (at 0 10.16 0)

@@ -11,7 +11,7 @@
 
   (lib_symbols
     (symbol "pedalboard:CM4" (in_bom yes) (on_board yes)
-      (property "Reference" "Module" (at 113.03 -68.58 0)
+      (property "Reference" "M" (at 113.03 -68.58 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "CM4" (at 140.97 2.54 0)
@@ -22,12 +22,6 @@
       )
       (property "Datasheet" "" (at 142.24 -26.67 0)
         (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Field4" "Hirose" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Field5" "2x DF40C-100DS-0.4V" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
       )
       (symbol "CM4_1_0"
         (text "GPIO" (at 0 6.35 0)
