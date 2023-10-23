@@ -55,7 +55,6 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
   - or 3.5mm Mini TRS Plug
   - and/or Header Pins for wiring off-board plug
   - USB Midi
-  - Wifi
 
 ### Power Supply
 Flexible power supply options
