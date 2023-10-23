@@ -1999,7 +1999,7 @@
     (property "Footprint" "Pedalboard Library:SO08-E3" (at 87.63 40.64 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "https://rocelec.widen.net/view/pdf/rwygqx6rjd/FAIRS27615-1.pdf?t.download=true" (at 87.63 40.64 0)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fds4435bz_f085-d.pdf" (at 87.63 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier" "https://www.digikey.ch/de/products/detail/onsemi/FDS4435BZ/1305763" (at 87.63 40.64 0)
