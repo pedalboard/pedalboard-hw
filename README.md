@@ -42,11 +42,11 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
   that can be updated via USB or also from the audio module via WLAN.
 - 6 Buttons supporting to trigger on push, on release, long and short presses
 - 2 Rotary Encoders with additional push button
-- Input for Expression Pedal
+- 2 Inputs for Expression Pedal
 - 4 RGB Leds: RGB Leds are visible from long distance and with the color its possible
   to express a lot of information. For example some intensity value can be expressed with a
   color gradient.
-- [LED-ring](https://github.com/pedalboard/pedalboard-led-ring) around the foot buttons.
+- [RGB LED-ring](https://github.com/pedalboard/pedalboard-led-ring) around each foot button.
 - (Optional) RGB Matrix: in a Matrix of RGB Pins even more information can be expressed and
   readable from a large distance. For example the current preset number or a db meter
   value.
