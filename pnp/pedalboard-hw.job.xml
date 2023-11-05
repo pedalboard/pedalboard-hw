@@ -2,8 +2,13 @@
    <panels/>
    <board-locations>
       <board-location side="Top" board-file="pedalboard-hw.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
-         <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-         <placed class="java.util.HashMap"/>
+         <location units="Millimeters" x="122.48175821388152" y="204.0333736702602" z="0.0" rotation="0.04276675992570716"/>
+         <placed class="java.util.HashMap">
+            <entry>
+               <string>CM1B</string>
+               <boolean>false</boolean>
+            </entry>
+         </placed>
       </board-location>
    </board-locations>
 </openpnp-job>
