@@ -26,7 +26,7 @@
          <location units="Millimeters" x="137.2819" y="104.3944" z="0.0" rotation="180.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="C3" side="Top" part-id="CP_Elec_10x10-270u" type="Placement" enabled="true">
+      <placement version="1.4" id="C3" side="Top" part-id="CP_Elec_10x10-270u" type="Placement" enabled="false">
          <location units="Millimeters" x="143.5619" y="92.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -146,7 +146,7 @@
          <location units="Millimeters" x="151.8944" y="74.7944" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="CM1" side="Top" part-id="Raspberry-Pi-4-Compute-Module-CM4" type="Placement" enabled="true">
+      <placement version="1.4" id="CM1" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="true">
          <location units="Millimeters" x="37.46777967027785" y="44.79077306372423" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -154,15 +154,15 @@
          <location units="Millimeters" x="26.5944" y="98.5944" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D2" side="Top" part-id="LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm-SK6812" type="Placement" enabled="true">
+      <placement version="1.4" id="D2" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
          <location units="Millimeters" x="49.4944" y="82.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D3" side="Top" part-id="LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm-SK6812" type="Placement" enabled="true">
+      <placement version="1.4" id="D3" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
          <location units="Millimeters" x="74.4944" y="82.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D4" side="Top" part-id="LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm-SK6812" type="Placement" enabled="true">
+      <placement version="1.4" id="D4" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
          <location units="Millimeters" x="99.4944" y="82.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -174,7 +174,7 @@
          <location units="Millimeters" x="145.3944" y="82.3944" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D7" side="Top" part-id="LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm-SK6812" type="Placement" enabled="true">
+      <placement version="1.4" id="D7" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
          <location units="Millimeters" x="124.4944" y="82.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -182,15 +182,15 @@
          <location units="Millimeters" x="125.4244" y="74.0444" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D9" side="Top" part-id="Y                     LED_0805_2012Metric-LED" type="Placement" enabled="true">
+      <placement version="1.4" id="D9" side="Top" part-id="LED_0805-yellow" type="Placement" enabled="true">
          <location units="Millimeters" x="31.4944" y="60.9944" z="0.0" rotation="180.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D10" side="Top" part-id="G                     LED_0805_2012Metric-LED" type="Placement" enabled="true">
+      <placement version="1.4" id="D10" side="Top" part-id="LED_0805-green" type="Placement" enabled="true">
          <location units="Millimeters" x="31.4944" y="62.9944" z="0.0" rotation="180.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="F1" side="Top" part-id="1.8A             Fuse_1812_4532Metric-Polyfuse" type="Placement" enabled="true">
+      <placement version="1.4" id="F1" side="Top" part-id="F_1812-1.8A" type="Placement" enabled="true">
          <location units="Millimeters" x="148.0644" y="103.2844" z="0.0" rotation="180.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -298,27 +298,27 @@
          <location units="Millimeters" x="31.5444" y="59.0444" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW3" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW3" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="11.9944" y="63.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW4" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW4" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="86.9944" y="63.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW5" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW5" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="161.9944" y="63.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW6" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW6" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="11.9944" y="11.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW7" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW7" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="86.9944" y="11.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="SW8" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="true">
+      <placement version="1.4" id="SW8" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="161.9944" y="11.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -334,7 +334,7 @@
          <location units="Millimeters" x="81.4944" y="78.5444" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="U4" side="Top" part-id="RP2040-QFN-56-RP2040" type="Placement" enabled="true">
+      <placement version="1.4" id="U4" side="Top" part-id="QFN_56-RP2040" type="Placement" enabled="true">
          <location units="Millimeters" x="89.3944" y="85.3944" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -354,23 +354,23 @@
          <location units="Millimeters" x="99.9944" y="74.8944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J23" side="Bottom" part-id="XH 3                  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical-JST" type="Placement" enabled="true">
+      <placement version="1.4" id="J23" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-31.5944" y="102.5194" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J24" side="Bottom" part-id="XH 3                  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical-JST" type="Placement" enabled="true">
+      <placement version="1.4" id="J24" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-31.5944" y="94.7694" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J25" side="Bottom" part-id="Berry                HiFi Berry DAC ADC+-HiFi" type="Placement" enabled="true">
+      <placement version="1.4" id="J25" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-102.2444" y="62.6188" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J26" side="Bottom" part-id="XH 3                  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical-JST" type="Placement" enabled="true">
+      <placement version="1.4" id="J26" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-24.8944" y="3.8944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="CM1B" side="Top" part-id="Raspberry-Pi-4-Compute-Module-CM4" type="Placement" enabled="true">
+      <placement version="1.4" id="CM1B" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="true">
          <location units="Millimeters" x="71.46376685189963" y="44.767015249274465" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
