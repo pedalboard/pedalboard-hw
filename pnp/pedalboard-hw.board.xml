@@ -146,7 +146,7 @@
          <location units="Millimeters" x="151.8944" y="74.7944" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="CM1" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="true">
+      <placement version="1.4" id="CM1" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="false">
          <location units="Millimeters" x="37.46777967027785" y="44.79077306372423" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
@@ -370,7 +370,7 @@
          <location units="Millimeters" x="-24.8944" y="3.8944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="CM1B" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="true">
+      <placement version="1.4" id="CM1B" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="false">
          <location units="Millimeters" x="71.46376685189963" y="44.767015249274465" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
