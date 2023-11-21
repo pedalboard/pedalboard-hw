@@ -1,10 +1,16 @@
 # Change Log
 
-## [3.0.1] - Cost optimization - 2023-10-20
+## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
 ### Changed
 
-- Increase slot size to (restriction of PCBway) 
+- Fix USB Boot mode bug.
+
+## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
+
+### Changed
+
+- Increase slot size to (restriction of PCBway)
 
 ## [3.0.0] - Cost optimization - 2023-10-19 
 
