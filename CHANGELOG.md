@@ -6,11 +6,11 @@ TODO:
 * Decrease stencil sizes
 * Switch insead of header for boot mode
 * Fix Power Supply
-* Fix RPI Power LED
 
-### Changed
+### Fixed
 
 - Fix USB Boot mode bug.
+- Fix CM4 Power LED (invert).
 
 ## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
 
