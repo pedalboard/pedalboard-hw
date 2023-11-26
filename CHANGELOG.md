@@ -6,6 +6,7 @@ TODO:
 * Decrease stencil sizes
 * Switch insead of header for boot mode and reset
 * Fix Power Supply
+* Fix Watchdog and Reset
 
 ### Fixed
 
