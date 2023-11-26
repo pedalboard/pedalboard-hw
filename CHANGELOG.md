@@ -2,6 +2,12 @@
 
 ## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
+TODO:
+* Decrease stencil sizes
+* Switch insead of header for boot mode
+* Fix Power Supply
+* Fix RPI Power LED
+
 ### Changed
 
 - Fix USB Boot mode bug.
