@@ -7,6 +7,7 @@ TODO:
 * Switch insead of header for boot mode and reset
 * Fix Power Supply
 * Fix Watchdog and Reset
+* Increase activity LED Resistor
 
 ### Fixed
 
