@@ -200,7 +200,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6559bc44-dc16-4d75-97d0-19c0910ec271)
-    (property "Reference" "FID2" (at 77.47 185.42 0)
+    (property "Reference" "FID4" (at 77.47 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 77.47 187.96 0)
@@ -215,7 +215,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID2") (unit 1)
+          (reference "FID4") (unit 1)
         )
       )
     )
@@ -248,7 +248,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 45.72 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd0fb106-8d89-4ea6-8fb7-46cd7e6744de)
-    (property "Reference" "FID3" (at 48.26 191.77 0)
+    (property "Reference" "FID2" (at 48.26 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 48.26 194.31 0)
@@ -263,7 +263,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID3") (unit 1)
+          (reference "FID2") (unit 1)
         )
       )
     )
@@ -272,7 +272,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f66a74d1-214e-44f5-98b2-fedf9876f1ed)
-    (property "Reference" "FID4" (at 77.47 191.77 0)
+    (property "Reference" "FID3" (at 77.47 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 77.47 194.31 0)
@@ -287,7 +287,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID4") (unit 1)
+          (reference "FID3") (unit 1)
         )
       )
     )

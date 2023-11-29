@@ -3559,7 +3559,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C11") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3632,7 +3632,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C9") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3699,7 +3699,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H10") (unit 1)
+          (reference "H12") (unit 1)
         )
       )
     )
@@ -3733,7 +3733,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 52.07 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 141b6fdf-01fe-4402-aeff-782f8accadf9)
-    (property "Reference" "L1" (at 52.07 86.36 90)
+    (property "Reference" "L4" (at 52.07 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 52.07 88.9 90)
@@ -3753,7 +3753,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L1") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -3983,7 +3983,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H6") (unit 1)
+          (reference "H9") (unit 1)
         )
       )
     )
@@ -4139,7 +4139,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C7") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -4148,7 +4148,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 58.42 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a27659c-364b-4484-98fa-a9d42873fc6f)
-    (property "Reference" "J2" (at 57.15 101.6 0)
+    (property "Reference" "J1" (at 57.15 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 3.5mm" (at 55.88 118.11 0)
@@ -4174,7 +4174,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4249,7 +4249,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C20") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -4351,7 +4351,7 @@
   (symbol (lib_id "Device:R_Small") (at 21.59 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56d1c6ab-18cf-4dc2-8c30-eab8cb4b184c)
-    (property "Reference" "R1" (at 24.13 27.305 0)
+    (property "Reference" "R3" (at 24.13 27.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 24.13 29.845 0)
@@ -4371,7 +4371,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4504,7 +4504,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C16") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -4596,7 +4596,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C13") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -4639,7 +4639,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C10") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4734,7 +4734,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 31.75 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bda87b1-83a2-4e58-8c39-fd6637cea02b)
-    (property "Reference" "L4" (at 31.75 76.2 90)
+    (property "Reference" "L2" (at 31.75 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 31.75 78.74 90)
@@ -4754,7 +4754,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L4") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -4763,7 +4763,7 @@
   (symbol (lib_id "Connector:DIN-5_180degree") (at 31.75 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7c9812e3-337d-477b-9818-645ce03669d1)
-    (property "Reference" "J1" (at 34.29 86.36 0)
+    (property "Reference" "J2" (at 34.29 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DIN5" (at 33.02 83.82 0)
@@ -4789,7 +4789,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -4832,7 +4832,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C15") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4866,7 +4866,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 60.96 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 837bcae8-dd78-4ba4-beb4-7807e1ac6f67)
-    (property "Reference" "J4" (at 59.69 40.64 0)
+    (property "Reference" "J3" (at 59.69 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 3.5mm" (at 58.42 57.15 0)
@@ -4889,7 +4889,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -4962,7 +4962,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C8") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -5037,7 +5037,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -5068,7 +5068,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5130,7 +5130,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C18") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -5258,7 +5258,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -5291,7 +5291,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H13") (unit 1)
+          (reference "H11") (unit 1)
         )
       )
     )
@@ -5383,7 +5383,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fe876cc-5235-41fc-a9b6-a2315d63303e)
-    (property "Reference" "JP2" (at 255.27 92.71 0)
+    (property "Reference" "JP1" (at 255.27 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SJP" (at 265.43 95.25 0)
@@ -5400,7 +5400,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "JP2") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -5459,7 +5459,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5492,7 +5492,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H9") (unit 1)
+          (reference "H13") (unit 1)
         )
       )
     )
@@ -5501,7 +5501,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae0661ab-839a-47f3-933d-4be69259bd02)
-    (property "Reference" "R3" (at 44.45 76.2 90)
+    (property "Reference" "R1" (at 44.45 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 44.45 78.74 90)
@@ -5521,7 +5521,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -5777,7 +5777,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c34112cf-a8ad-4860-8def-12fe38e878f9)
-    (property "Reference" "JP1" (at 255.27 90.17 0)
+    (property "Reference" "JP2" (at 255.27 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SJP" (at 265.43 92.71 0)
@@ -5794,7 +5794,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "JP1") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -5861,7 +5861,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -6051,7 +6051,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 271.78 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b01da3-b68a-4679-9df8-5ffc35c241f7)
-    (property "Reference" "J7" (at 279.4 124.46 0)
+    (property "Reference" "J5" (at 279.4 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 279.4 127 0)
@@ -6078,7 +6078,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J7") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -6142,7 +6142,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6151,7 +6151,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 21.59 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2bab053-51d7-4c87-8986-196f61f27035)
-    (property "Reference" "L2" (at 22.86 37.465 0)
+    (property "Reference" "L1" (at 22.86 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120_100MHz" (at 17.78 44.45 90)
@@ -6171,7 +6171,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L2") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -6180,7 +6180,7 @@
   (symbol (lib_id "Connector:DIN-5_180degree") (at 35.56 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid f567f89f-d25b-4de4-b939-8b2f76ae093a)
-    (property "Reference" "J3" (at 35.5601 54.61 0)
+    (property "Reference" "J4" (at 35.5601 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DIN5" (at 35.5601 57.15 0)
@@ -6206,7 +6206,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -6289,7 +6289,7 @@
           (reference "H1") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "H5") (unit 1)
+          (reference "H10") (unit 1)
         )
       )
     )

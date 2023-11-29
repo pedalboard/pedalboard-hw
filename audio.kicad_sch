@@ -3197,7 +3197,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 15.24 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c6780d-523e-4fcb-a4d1-12027cd69823)
-    (property "Reference" "H7" (at 17.78 180.975 0)
+    (property "Reference" "H5" (at 17.78 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 17.78 183.515 0)
@@ -3212,7 +3212,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H7") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -3333,7 +3333,7 @@
   (symbol (lib_id "Device:LED") (at 276.86 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f7b5c05-f2f9-474a-951a-e7b5232cacbf)
-    (property "Reference" "D10" (at 279.4 44.45 90)
+    (property "Reference" "D9" (at 279.4 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED R" (at 269.24 44.45 90)
@@ -3350,7 +3350,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3673,7 +3673,7 @@
   (symbol (lib_id "Device:R_Small") (at 276.86 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f7de14e-6837-4623-ba70-c7d48f23d032)
-    (property "Reference" "R15" (at 279.4 36.83 0)
+    (property "Reference" "R17" (at 279.4 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 279.4 39.37 0)
@@ -3693,7 +3693,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3764,7 +3764,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 15.24 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8317f64b-123f-451c-a399-32fdb1c6022c)
-    (property "Reference" "H11" (at 17.78 192.405 0)
+    (property "Reference" "H6" (at 17.78 192.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 17.78 194.945 0)
@@ -3779,7 +3779,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H11") (unit 1)
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -3892,7 +3892,7 @@
   (symbol (lib_id "Device:LED") (at 252.73 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a18a4738-d9f4-4a17-b9cd-ab479bed626f)
-    (property "Reference" "D9" (at 251.1425 26.67 0)
+    (property "Reference" "D8" (at 251.1425 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED Y" (at 251.1425 29.21 0)
@@ -3909,7 +3909,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3918,7 +3918,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 33.02 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab00f229-2e91-4cd2-a1fa-39c1d44a74ed)
-    (property "Reference" "H12" (at 35.56 192.405 0)
+    (property "Reference" "H7" (at 35.56 192.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 35.56 194.945 0)
@@ -3933,7 +3933,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "H12") (unit 1)
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -3994,7 +3994,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 260.35 142.24 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0df36e6-eec1-4ca8-a7c1-1f712688dc39)
-    (property "Reference" "J18" (at 270.51 139.7 90)
+    (property "Reference" "J17" (at 270.51 139.7 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 270.51 142.24 90)
@@ -4021,7 +4021,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J18") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -4030,7 +4030,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 260.35 111.76 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a555d5-fd51-4bb2-a83b-0b8411133b91)
-    (property "Reference" "J17" (at 270.51 109.22 90)
+    (property "Reference" "J18" (at 270.51 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 270.51 111.76 90)
@@ -4057,7 +4057,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J17") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
