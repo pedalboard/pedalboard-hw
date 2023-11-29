@@ -5,7 +5,6 @@
 TODO:
 * Decrease stencil sizes
 * Switch insead of header for boot mode and reset
-* Fix Power Supply
 * Fix Watchdog and Reset
 * Increase activity LED Resistor
 
@@ -13,6 +12,7 @@ TODO:
 
 - Fix USB Boot mode bug.
 - Fix CM4 Power LED (invert).
+- Use power supply based on CM4 IO Board V5
 
 ## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
 
