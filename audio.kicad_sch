@@ -3676,7 +3676,7 @@
     (property "Reference" "R17" (at 279.4 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1K" (at 279.4 39.37 0)
+    (property "Value" "2K2" (at 279.4 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 278.638 38.1 90)

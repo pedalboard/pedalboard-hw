@@ -5,7 +5,6 @@
 TODO:
 * Decrease stencil sizes
 * Fix Watchdog and Reset
-* Increase activity LED Resistor
 
 ### Fixed
 
@@ -13,6 +12,7 @@ TODO:
 - Fix CM4 Power LED (invert).
 - Use power supply based on CM4 IO Board V5
 - Switch for boot mode and reset of RP2040
+- Increase activity LED resistor
 
 ## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
 
