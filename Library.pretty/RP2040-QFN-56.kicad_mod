@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
   (tags "QFN DFN_QFN")
+  (solder_paste_ratio -0.2)
   (attr smd)
   (fp_text reference "REF**" (at 0 -4.82) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
