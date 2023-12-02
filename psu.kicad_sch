@@ -2576,7 +2576,7 @@
     (property "Value" "AP64501SP-13" (at 136.525 116.2558 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias" (at 135.89 123.19 0)
+    (property "Footprint" "Pedalboard Library:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias" (at 135.89 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64501.pdf" (at 135.89 123.19 0)
