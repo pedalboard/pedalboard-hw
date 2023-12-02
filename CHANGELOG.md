@@ -3,6 +3,7 @@
 ## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
 TODO:
+- add 2 more LED rings
 
 ### Fixed
 
