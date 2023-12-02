@@ -4,7 +4,6 @@
 
 TODO:
 * Decrease stencil sizes
-* Fix Watchdog and Reset
 
 ### Fixed
 
