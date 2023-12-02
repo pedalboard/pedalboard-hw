@@ -4,6 +4,7 @@
 
 TODO:
 - add 2 more LED rings
+- better use 10% reduction?
 
 ### Fixed
 
