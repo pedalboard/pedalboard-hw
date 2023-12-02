@@ -3,15 +3,15 @@
 ## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
 TODO:
-* Decrease stencil sizes
 
 ### Fixed
 
-- Fix USB Boot mode bug.
-- Fix CM4 Power LED (invert).
+- Fix USB Boot mode bug
+- Fix CM4 Power LED (invert logic)
 - Use power supply based on CM4 IO Board V5
 - Switch for boot mode and reset of RP2040
 - Increase activity LED resistor
+- Decrease stencil sizes for RP2040- and CM4 connector pads
 
 ## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
 
