@@ -59,7 +59,7 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/3d-models/pedalboard-led-ring-3D.step"
-    (offset (xyz -59 -91 16))
+    (offset (xyz 1 -11 16))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
