@@ -4,16 +4,17 @@
 
 TODO:
 - add 2 more LED rings
-- better use 10% reduction?
+
+### Changed
+- Switch for boot mode and reset of RP2040
+- Increase activity LED resistor
 
 ### Fixed
 
 - Fix USB Boot mode bug
 - Fix CM4 Power LED (invert logic)
 - Use power supply based on CM4 IO Board V5
-- Switch for boot mode and reset of RP2040
-- Increase activity LED resistor
-- Decrease stencil sizes for RP2040- and CM4 connector pads
+- Decrease stencil sizes (10%) for RP2040- and CM4 connector pads
 
 ## [3.0.1] - Cost optimization: Prototype Production Release - 2023-10-20
 
