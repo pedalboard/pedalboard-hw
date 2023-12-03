@@ -3,12 +3,12 @@
 ## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
 TODO:
-- add 2 more LED rings
 - break out I2C
 
 ### Changed
 - Switch for boot mode and reset of RP2040
 - Increase activity LED resistor
+- 2 more LED rings for rotary encoders
 
 ### Fixed
 
