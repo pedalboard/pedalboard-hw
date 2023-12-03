@@ -4,6 +4,7 @@
 
 TODO:
 - add 2 more LED rings
+- break out I2C
 
 ### Changed
 - Switch for boot mode and reset of RP2040
