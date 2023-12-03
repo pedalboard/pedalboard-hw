@@ -1,6 +1,6 @@
 # Change Log
 
-## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
+## [3.1.0] - Cost Optimisation:  Bug Fixes - TBD
 
 ### Added
 - Stemmaa Connector for displays
