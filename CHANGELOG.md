@@ -2,13 +2,13 @@
 
 ## [3.0.2] - Cost Optimisation:  Bug Fixes - TBD
 
-TODO:
-- break out I2C
+### Added
+- Stemmaa Connector for displays
+- Switch for boot mode and reset of RP2040
+- 2 more LED rings for rotary encoders
 
 ### Changed
-- Switch for boot mode and reset of RP2040
 - Increase activity LED resistor
-- 2 more LED rings for rotary encoders
 
 ### Fixed
 
