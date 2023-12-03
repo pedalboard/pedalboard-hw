@@ -10,9 +10,7 @@ An open hardware for processing audio and/or MIDI data on a pedalboard.
 This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0.1-Release/)
 
 ## Design Goals
-- No screen by default. (Although can be added easily, if needed).
-  Usually small screens are not really useful on stage.
-  Instead feedback is done with RGB Leds and an optional RGB LED Matrix readable from distance.
+- Visual Feedback with RGB LED Rings
 - Modular Design:
   - The device can be used:
      1. MIDI controller only (Low Cost)
@@ -43,13 +41,12 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - 6 Buttons supporting to trigger on push, on release, long and short presses
 - 2 Rotary Encoders with additional push button
 - 2 Inputs for Expression Pedal
-- 4 RGB Leds: RGB Leds are visible from long distance and with the color its possible
-  to express a lot of information. For example some intensity value can be expressed with a
-  color gradient.
-- [RGB LED-ring](https://github.com/pedalboard/pedalboard-led-ring) around each foot button.
+- 2 RGB Leds
+- 8 [RGB LED-rings](https://github.com/pedalboard/pedalboard-led-ring) around each foot button.
 - (Optional) RGB Matrix: in a Matrix of RGB Pins even more information can be expressed and
   readable from a large distance. For example the current preset number or a db meter
   value.
+- STEMMA I2C connector for OLED display
 - Flexibile MIDI I/O
   - DIN 5 Plug
   - or 3.5mm Mini TRS Plug
