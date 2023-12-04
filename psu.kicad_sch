@@ -1930,7 +1930,7 @@
   (symbol (lib_id "Device:C") (at 212.09 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03da276b-6fcf-4c12-b2a1-2a41f0cc2240)
-    (property "Reference" "C35" (at 215.011 111.8616 0)
+    (property "Reference" "C37" (at 215.011 111.8616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 215.011 114.173 0)
@@ -1953,7 +1953,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C35") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1967,7 +1967,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 201.295 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04f0f5a6-602f-466a-b592-68bf9bc77137)
-    (property "Reference" "TP1" (at 202.7682 129.0828 0)
+    (property "Reference" "TP2" (at 202.7682 129.0828 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 202.7682 131.3942 0)
@@ -1983,7 +1983,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "TP1") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "Device:R") (at 127.635 109.22 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a8434ed-822d-4d56-9c5c-5c90831dc839)
-    (property "Reference" "R12" (at 126.365 106.045 90)
+    (property "Reference" "R13" (at 126.365 106.045 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R" (at 126.365 104.14 90)
@@ -2020,7 +2020,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2034,7 +2034,7 @@
   (symbol (lib_id "Device:R") (at 172.72 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26a7875e-7b64-43e5-8dfd-16975c804993)
-    (property "Reference" "R14" (at 174.498 138.5316 0)
+    (property "Reference" "R15" (at 174.498 138.5316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K2" (at 174.498 140.843 0)
@@ -2057,7 +2057,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2137,7 +2137,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2176,7 +2176,7 @@
   (symbol (lib_id "Device:CP") (at 245.237 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 323f9b91-049f-428a-9613-08ac85f724ae)
-    (property "Reference" "C37" (at 248.2342 111.887 0)
+    (property "Reference" "C33" (at 248.2342 111.887 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 248.2342 114.173 0)
@@ -2199,7 +2199,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C37") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "Device:C") (at 58.801 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35dc1018-a294-49b5-a3eb-26baf43d4747)
-    (property "Reference" "C8" (at 61.722 125.8316 0)
+    (property "Reference" "C3" (at 61.722 125.8316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 55.245 132.588 0)
@@ -2236,7 +2236,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2310,7 +2310,7 @@
   (symbol (lib_id "Device:C") (at 112.649 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e0feac9-b188-4be1-8724-c8f4ee3568e2)
-    (property "Reference" "C7" (at 115.57 125.8316 0)
+    (property "Reference" "C5" (at 115.57 125.8316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 109.855 132.588 0)
@@ -2333,7 +2333,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2373,7 +2373,7 @@
           (reference "D13") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2382,7 +2382,7 @@
   (symbol (lib_id "Device:C") (at 222.25 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4218c0b5-4eae-463c-9787-3273cf1cf530)
-    (property "Reference" "C30" (at 225.171 111.8616 0)
+    (property "Reference" "C32" (at 225.171 111.8616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 225.171 114.173 0)
@@ -2405,7 +2405,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C30") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2533,7 +2533,7 @@
   (symbol (lib_id "Device:C") (at 182.88 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 501f1b28-6380-4ef7-8335-ae33f290565d)
-    (property "Reference" "C34" (at 185.42 118.11 0)
+    (property "Reference" "C29" (at 185.42 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 185.42 123.19 0)
@@ -2556,7 +2556,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C34") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2611,7 +2611,7 @@
   (symbol (lib_id "Device:C") (at 80.01 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ff9f5d0-a94c-421f-9252-ba83d5caa8ab)
-    (property "Reference" "C9" (at 81.28 53.34 0)
+    (property "Reference" "C2" (at 81.28 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 81.28 59.69 0)
@@ -2634,7 +2634,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2678,7 +2678,7 @@
   (symbol (lib_id "Device:R") (at 172.72 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6433db8d-44a4-4dcb-b698-dd85bb11ce46)
-    (property "Reference" "R13" (at 167.64 119.253 0)
+    (property "Reference" "R12" (at 167.64 119.253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K" (at 163.83 121.793 0)
@@ -2698,7 +2698,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2772,7 +2772,7 @@
   (symbol (lib_id "Device:C") (at 96.52 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 702e5f8a-2a96-466a-9ffc-c20888b5987b)
-    (property "Reference" "C3" (at 99.441 54.7116 0)
+    (property "Reference" "C8" (at 99.441 54.7116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 101.6 59.69 0)
@@ -2795,7 +2795,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C3") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2868,7 +2868,7 @@
   (symbol (lib_id "Device:C") (at 231.14 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83524c1c-03a5-4256-852b-bb0eea84dfcc)
-    (property "Reference" "C38" (at 234.061 111.8616 0)
+    (property "Reference" "C28" (at 234.061 111.8616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 234.061 114.173 0)
@@ -2891,7 +2891,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C38") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2935,7 +2935,7 @@
   (symbol (lib_id "Device:R") (at 162.56 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8766ab91-2fbb-4d6e-bc16-d2b11d5556bf)
-    (property "Reference" "R15" (at 164.338 132.1816 0)
+    (property "Reference" "R14" (at 164.338 132.1816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20K" (at 164.338 134.493 0)
@@ -2958,7 +2958,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -2997,7 +2997,7 @@
   (symbol (lib_id "Device:C") (at 201.93 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c1b775a-7f69-45b6-9346-c8654e4fb739)
-    (property "Reference" "C33" (at 204.851 111.8616 0)
+    (property "Reference" "C36" (at 204.851 111.8616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 204.851 114.173 0)
@@ -3020,7 +3020,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C33") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3136,7 +3136,7 @@
   (symbol (lib_id "Device:C") (at 69.723 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb59ae2c-f3ea-4a8f-9675-1edd0743e060)
-    (property "Reference" "C2" (at 72.644 125.8316 0)
+    (property "Reference" "C10" (at 72.644 125.8316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 66.675 132.588 0)
@@ -3159,7 +3159,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C2") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3173,7 +3173,7 @@
   (symbol (lib_id "Device:C") (at 126.365 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be05abba-107a-4af5-816a-ba5dd9d0b96f)
-    (property "Reference" "C39" (at 128.905 134.62 0)
+    (property "Reference" "C35" (at 128.905 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 128.905 139.7 0)
@@ -3199,7 +3199,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C39") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3213,7 +3213,7 @@
   (symbol (lib_id "Device:C") (at 153.035 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c285ff59-4073-4485-840d-db1aec3ba715)
-    (property "Reference" "C32" (at 155.575 134.62 0)
+    (property "Reference" "C34" (at 155.575 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 155.575 139.7 0)
@@ -3236,7 +3236,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C32") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3250,7 +3250,7 @@
   (symbol (lib_id "Device:C") (at 101.473 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2bf1357-2f5d-45af-85ff-08a7962e35be)
-    (property "Reference" "C5" (at 104.394 125.8316 0)
+    (property "Reference" "C7" (at 104.394 125.8316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 98.425 132.588 0)
@@ -3273,7 +3273,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3380,7 +3380,7 @@
           (reference "D13") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3486,7 +3486,7 @@
   (symbol (lib_id "Device:C") (at 90.805 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3336546-d60c-4cff-95cb-e7691d6fb62c)
-    (property "Reference" "C4" (at 93.726 125.8316 0)
+    (property "Reference" "C9" (at 93.726 125.8316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 86.995 132.588 0)
@@ -3509,7 +3509,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C4") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3523,7 +3523,7 @@
   (symbol (lib_id "Device:C") (at 122.555 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e997081e-3802-4af0-8ee9-1b39b0bab5f9)
-    (property "Reference" "C36" (at 113.665 113.03 0)
+    (property "Reference" "C30" (at 113.665 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 113.665 115.824 0)
@@ -3549,7 +3549,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C36") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3563,7 +3563,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 66.04 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2326096-7cea-4850-9d0a-c2faf91960db)
-    (property "Reference" "TP2" (at 67.5132 116.3828 0)
+    (property "Reference" "TP1" (at 67.5132 116.3828 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 66.675 118.11 0)
@@ -3579,7 +3579,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "TP2") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -3621,7 +3621,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C29") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3630,7 +3630,7 @@
   (symbol (lib_id "Device:C") (at 73.66 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9986029-a6e8-4747-98c0-273dd07a9eeb)
-    (property "Reference" "C10" (at 69.85 53.34 0)
+    (property "Reference" "C4" (at 69.85 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 64.77 59.69 0)
@@ -3653,7 +3653,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-          (reference "C10") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "CM4IOv5"

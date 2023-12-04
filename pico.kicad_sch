@@ -3608,7 +3608,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 276.86 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05f5e8fa-5483-4a2e-804c-3e936e2dac8c)
-    (property "Reference" "J9" (at 284.48 149.86 0)
+    (property "Reference" "J8" (at 284.48 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 273.05 160.02 0)
@@ -3635,7 +3635,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J9") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -3776,7 +3776,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C20") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3877,7 +3877,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 52.07 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 141b6fdf-01fe-4402-aeff-782f8accadf9)
-    (property "Reference" "L4" (at 52.07 86.36 90)
+    (property "Reference" "L1" (at 52.07 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 52.07 88.9 90)
@@ -3897,7 +3897,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L4") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -4046,7 +4046,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 102.87 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 327fb511-7a13-4a6c-9e20-4a221c1a9432)
-    (property "Reference" "SW6" (at 102.87 175.26 0)
+    (property "Reference" "SW8" (at 102.87 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 102.87 177.8 0)
@@ -4069,7 +4069,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW6") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -4136,7 +4136,7 @@
   (symbol (lib_id "Device:R_Small") (at 262.89 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ef0a4f8-16a8-45ac-9c4e-cbee60ee9940)
-    (property "Reference" "R5" (at 265.43 142.24 0)
+    (property "Reference" "R2" (at 265.43 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 265.43 144.78 0)
@@ -4156,7 +4156,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R5") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4190,7 +4190,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 132.08 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44ede4b1-5ce6-41be-a910-4e3a731e938a)
-    (property "Reference" "SW7" (at 132.08 175.26 0)
+    (property "Reference" "SW9" (at 132.08 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 132.08 177.8 0)
@@ -4213,7 +4213,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW7") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -4222,7 +4222,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 66.04 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 465cb268-c590-4cc4-b14f-6e5020047d38)
-    (property "Reference" "J24" (at 67.31 67.31 0)
+    (property "Reference" "J26" (at 67.31 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "JST XH 3" (at 54.61 72.39 0)
@@ -4246,7 +4246,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J24") (unit 1)
+          (reference "J26") (unit 1)
         )
       )
     )
@@ -4283,7 +4283,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C23") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4327,7 +4327,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 102.87 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e9fb43c-2c15-4cce-939a-cdea65d79332)
-    (property "Reference" "SW3" (at 102.87 160.02 0)
+    (property "Reference" "SW5" (at 102.87 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 102.87 162.56 0)
@@ -4350,7 +4350,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW3") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -4393,7 +4393,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C27") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -4495,7 +4495,7 @@
   (symbol (lib_id "Device:R_Small") (at 21.59 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56d1c6ab-18cf-4dc2-8c30-eab8cb4b184c)
-    (property "Reference" "R3" (at 24.13 27.305 0)
+    (property "Reference" "R4" (at 24.13 27.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 24.13 29.845 0)
@@ -4515,7 +4515,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 140.97 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 5ff6c9f5-d1d6-4217-b199-1f10342353b7)
-    (property "Reference" "SW10" (at 134.62 130.81 0)
+    (property "Reference" "SW4" (at 134.62 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro Button" (at 137.16 130.81 0)
@@ -4547,7 +4547,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW10") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -4674,7 +4674,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C13") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4766,7 +4766,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C17") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4809,7 +4809,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C22") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -4818,7 +4818,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 107.95 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f5d31d9-39a7-48e3-aca4-2e69e44523cf)
-    (property "Reference" "J28" (at 106.68 88.9 0)
+    (property "Reference" "J14" (at 106.68 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STEMMA I2C" (at 114.3 81.28 0)
@@ -4837,7 +4837,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J28") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -4846,7 +4846,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 132.08 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 716f6730-535b-4d35-a2f6-c669318ef25b)
-    (property "Reference" "SW4" (at 132.08 160.02 0)
+    (property "Reference" "SW6" (at 132.08 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 132.08 162.56 0)
@@ -4869,7 +4869,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW4") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -4903,7 +4903,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.99 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76bb0224-9809-453f-abd9-b0e1b5d93eaf)
-    (property "Reference" "R2" (at 46.99 21.59 90)
+    (property "Reference" "R5" (at 46.99 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 46.99 24.13 90)
@@ -4926,7 +4926,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4935,7 +4935,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 31.75 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bda87b1-83a2-4e58-8c39-fd6637cea02b)
-    (property "Reference" "L2" (at 31.75 76.2 90)
+    (property "Reference" "L4" (at 31.75 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120_100MHz" (at 31.75 78.74 90)
@@ -4955,7 +4955,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L2") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -5033,7 +5033,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C19") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5163,7 +5163,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C21") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -5172,7 +5172,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 158.75 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a66db3c-d7b7-4caa-8ae7-0515d08d00f7)
-    (property "Reference" "SW8" (at 158.75 173.99 0)
+    (property "Reference" "SW10" (at 158.75 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 158.75 176.53 0)
@@ -5195,7 +5195,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW8") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -5269,7 +5269,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5340,7 +5340,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 158.75 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95ba0cce-bc42-409b-8e0b-3e41042db0ef)
-    (property "Reference" "SW5" (at 158.75 160.02 0)
+    (property "Reference" "SW7" (at 158.75 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tactile Button" (at 158.75 162.56 0)
@@ -5363,7 +5363,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW5") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -5402,7 +5402,7 @@
   (symbol (lib_id "Device:R_Small") (at 262.89 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 973889a2-4d55-4631-9dc0-dc6800006f38)
-    (property "Reference" "R4" (at 265.43 116.84 0)
+    (property "Reference" "R1" (at 265.43 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 265.43 119.38 0)
@@ -5422,7 +5422,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -5459,7 +5459,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5535,7 +5535,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "C14") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -5575,7 +5575,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5660,7 +5660,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5702,7 +5702,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae0661ab-839a-47f3-933d-4be69259bd02)
-    (property "Reference" "R1" (at 44.45 76.2 90)
+    (property "Reference" "R3" (at 44.45 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 44.45 78.74 90)
@@ -5722,7 +5722,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5836,7 +5836,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -5945,7 +5945,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 62.23 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid bf8413e9-c3d1-4980-932e-f6b98bb3d66e)
-    (property "Reference" "J23" (at 63.5 125.73 0)
+    (property "Reference" "J25" (at 63.5 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "JST XH 3" (at 48.26 132.08 0)
@@ -5969,7 +5969,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "J23") (unit 1)
+          (reference "J25") (unit 1)
         )
       )
     )
@@ -6004,7 +6004,7 @@
   (symbol (lib_id "Isolator:TLP2761") (at 72.39 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6a3d7c5-f42e-4df9-9164-2ff6c0432b69)
-    (property "Reference" "U1" (at 67.31 95.25 0)
+    (property "Reference" "U2" (at 67.31 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP2761" (at 78.74 76.2 0)
@@ -6028,7 +6028,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6062,7 +6062,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -6126,7 +6126,7 @@
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 80.01 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid cdbc505b-d7c9-4a4d-82ac-db419ba415c3)
-    (property "Reference" "SW9" (at 73.66 41.91 0)
+    (property "Reference" "SW3" (at 73.66 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro Button" (at 76.2 41.91 0)
@@ -6149,7 +6149,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "SW9") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -6191,7 +6191,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 43.18 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db1c8a8c-9ea3-45d7-8c23-17c95511e6bb)
-    (property "Reference" "L3" (at 44.45 34.925 0)
+    (property "Reference" "L2" (at 44.45 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120_100MHz" (at 44.45 37.465 0)
@@ -6211,7 +6211,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L3") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -6375,7 +6375,7 @@
       )
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -6384,7 +6384,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 21.59 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2bab053-51d7-4c87-8986-196f61f27035)
-    (property "Reference" "L1" (at 22.86 37.465 0)
+    (property "Reference" "L3" (at 22.86 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120_100MHz" (at 17.78 44.45 90)
@@ -6404,7 +6404,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-          (reference "L1") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )

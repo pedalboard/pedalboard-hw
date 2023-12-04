@@ -1007,7 +1007,7 @@
           (reference "D2") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1044,7 +1044,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 123.19 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c35cf4b-19eb-4075-9b30-07b7eb6081cc)
-    (property "Reference" "J13" (at 125.73 92.075 90)
+    (property "Reference" "J15" (at 125.73 92.075 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 125.73 94.615 90)
@@ -1063,7 +1063,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J13") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
           (reference "D3") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1187,7 +1187,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 166.37 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cca75b9-674f-44cb-95c5-744a893d6659)
-    (property "Reference" "J22" (at 168.91 93.345 90)
+    (property "Reference" "J24" (at 168.91 93.345 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 168.91 95.885 90)
@@ -1206,7 +1206,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J22") (unit 1)
+          (reference "J24") (unit 1)
         )
       )
     )
@@ -1247,7 +1247,7 @@
           (reference "C3") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1283,7 +1283,7 @@
           (reference "J4") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J26") (unit 1)
+          (reference "J28") (unit 1)
         )
       )
     )
@@ -1323,7 +1323,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 76.2 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83048abd-ef60-4361-9875-4381dbcc3eb4)
-    (property "Reference" "J14" (at 78.74 135.255 90)
+    (property "Reference" "J17" (at 78.74 135.255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 78.74 137.795 90)
@@ -1342,7 +1342,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J14") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -1415,7 +1415,7 @@
           (reference "R5") (unit 1)
         )
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1480,7 +1480,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 166.37 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d91738e-d0c4-45d4-a207-27b318af9092)
-    (property "Reference" "J8" (at 168.91 135.255 90)
+    (property "Reference" "J9" (at 168.91 135.255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 168.91 137.795 90)
@@ -1499,7 +1499,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1539,7 +1539,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 121.92 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c09073fb-54ba-4dce-8c3a-4e10ed5266ff)
-    (property "Reference" "J11" (at 124.46 136.525 90)
+    (property "Reference" "J10" (at 124.46 136.525 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 124.46 139.065 90)
@@ -1558,7 +1558,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J11") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1567,7 +1567,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 207.01 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6ff7a73-7f5f-47d4-adc2-b3f6a46f4c42)
-    (property "Reference" "J21" (at 209.55 135.255 90)
+    (property "Reference" "J23" (at 209.55 135.255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 209.55 137.795 90)
@@ -1586,7 +1586,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J21") (unit 1)
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -1595,7 +1595,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 77.47 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0900802-8e66-45c1-8dbf-204cd8a05d90)
-    (property "Reference" "J27" (at 80.01 93.345 90)
+    (property "Reference" "J13" (at 80.01 93.345 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 80.01 95.885 90)
@@ -1614,7 +1614,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J27") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1623,7 +1623,7 @@
   (symbol (lib_id "pedalboard:74AHCT1G32SE-7") (at 100.33 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7faa295-ce26-4c38-b48e-cd680e5e2278)
-    (property "Reference" "U2" (at 100.33 38.1 0)
+    (property "Reference" "U1" (at 100.33 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHCT1G32SE-7" (at 100.33 40.64 0)
@@ -1646,7 +1646,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1655,7 +1655,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 208.28 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecd59282-e8d4-4bcb-ab56-45b103a8f9ca)
-    (property "Reference" "J19" (at 210.82 92.075 90)
+    (property "Reference" "J21" (at 210.82 92.075 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED-Ring" (at 210.82 94.615 90)
@@ -1674,7 +1674,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/539b926e-3ef4-477a-b921-49e2b2b26dfc"
-          (reference "J19") (unit 1)
+          (reference "J21") (unit 1)
         )
       )
     )

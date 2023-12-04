@@ -3247,7 +3247,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 104.14 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b2cae1f-5649-41cc-9298-64b03e9c1b0a)
-    (property "Reference" "J20" (at 111.76 176.53 90)
+    (property "Reference" "J22" (at 111.76 176.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jack 6.35mm" (at 111.76 179.07 90)
@@ -3274,7 +3274,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J20") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -3333,7 +3333,7 @@
   (symbol (lib_id "Device:LED") (at 276.86 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f7b5c05-f2f9-474a-951a-e7b5232cacbf)
-    (property "Reference" "D9" (at 279.4 44.45 90)
+    (property "Reference" "D7" (at 279.4 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED R" (at 269.24 44.45 90)
@@ -3350,7 +3350,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "D9") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3731,7 +3731,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 104.14 161.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81af83f0-ec6c-48b4-9f66-c645c3893aae)
-    (property "Reference" "J16" (at 111.76 158.75 90)
+    (property "Reference" "J18" (at 111.76 158.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jack 6.35mm" (at 111.76 161.29 90)
@@ -3758,7 +3758,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J16") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -3791,7 +3791,7 @@
   (symbol (lib_id "pedalboard:Raspberry_Sound_Card") (at 184.15 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e935323-ac75-4d1b-bd3e-ce98e35f2d91)
-    (property "Reference" "J25" (at 177.1141 45.72 0)
+    (property "Reference" "J27" (at 177.1141 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HiFi Berry" (at 177.1141 48.26 0)
@@ -3861,7 +3861,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J25") (unit 1)
+          (reference "J27") (unit 1)
         )
       )
     )
@@ -3895,7 +3895,7 @@
   (symbol (lib_id "Device:LED") (at 252.73 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a18a4738-d9f4-4a17-b9cd-ab479bed626f)
-    (property "Reference" "D8" (at 251.1425 26.67 0)
+    (property "Reference" "D6" (at 251.1425 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED Y" (at 251.1425 29.21 0)
@@ -3912,7 +3912,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "D8") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3970,7 +3970,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 152.4 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bbee1f72-b3e6-46a8-8d30-a0015812aa20)
-    (property "Reference" "J15" (at 153.035 19.05 0)
+    (property "Reference" "J16" (at 153.035 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Debug" (at 153.035 21.59 0)
@@ -3988,7 +3988,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J15") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 260.35 142.24 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0df36e6-eec1-4ca8-a7c1-1f712688dc39)
-    (property "Reference" "J17" (at 270.51 139.7 90)
+    (property "Reference" "J19" (at 270.51 139.7 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 270.51 142.24 90)
@@ -4024,7 +4024,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J17") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -4033,7 +4033,7 @@
   (symbol (lib_id "Connector_Audio:NMJ6HCD2") (at 260.35 111.76 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a555d5-fd51-4bb2-a83b-0b8411133b91)
-    (property "Reference" "J18" (at 270.51 109.22 90)
+    (property "Reference" "J20" (at 270.51 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jack 6.35mm" (at 270.51 111.76 90)
@@ -4060,7 +4060,7 @@
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
-          (reference "J18") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
