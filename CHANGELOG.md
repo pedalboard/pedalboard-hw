@@ -1,6 +1,6 @@
 # Change Log
 
-## [3.1.0] - Cost Optimisation:  Bug Fixes - TBD
+## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-04
 
 ### Added
 - Stemma connector for displays
