@@ -53,10 +53,6 @@ jobs:
         name: generated_outputs
         path: generated
 
-    - name: Remove 3D Model (too large for github)
-      run: |
-        rm -f generated/3D/pedalboard-hw-3D.step 
- 
     - name: Deploy navigate results
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
