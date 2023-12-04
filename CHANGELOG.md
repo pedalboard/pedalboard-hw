@@ -3,16 +3,18 @@
 ## [3.1.0] - Cost Optimisation:  Bug Fixes - TBD
 
 ### Added
-- Stemmaa Connector for displays
+- Stemma connector for displays
 - Switch for boot mode and reset of RP2040
 - 2 more LED rings for rotary encoders
 
 ### Changed
-- Increase activity LED resistor
+- Increase activity LED resistor to reduce brigtness
+- Stemma compatibility for LED out
+- Smaller JST PH connectors for MIDI IN/OUT
 
 ### Fixed
 
-- Fix USB Boot mode bug
+- Fix USB boot mode bug (wrong wiring)
 - Fix CM4 Power LED (invert logic)
 - Use power supply based on CM4 IO Board V5
 - Decrease stencil sizes (10%) for RP2040- and CM4 connector pads
