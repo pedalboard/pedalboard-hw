@@ -1259,7 +1259,7 @@
     (property "Reference" "J4" (at 265.43 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "STEMMA LED" (at 266.7 140.97 0)
+    (property "Value" "JST PH 3" (at 266.7 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" (at 265.43 148.59 0)
