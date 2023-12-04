@@ -4821,7 +4821,7 @@
     (property "Reference" "J28" (at 106.68 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "stemma" (at 114.3 81.28 0)
+    (property "Value" "STEMMA I2C" (at 114.3 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical" (at 107.95 86.36 0)
