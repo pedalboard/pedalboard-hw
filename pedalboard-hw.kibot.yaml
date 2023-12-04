@@ -214,7 +214,7 @@ outputs:
     suffix: F_Fab
     description: Front documentation
   options:
-    old: v3.0.1
+    old: v3.1.0
     old_type: git
     new: HEAD
     new_type: git
@@ -225,7 +225,7 @@ outputs:
   type: diff
   dir: diff
   options:
-    old: v3.0.1
+    old: v3.1.0
     old_type: git
     new: HEAD
     new_type: git

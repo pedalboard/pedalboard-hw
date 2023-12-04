@@ -127,4 +127,4 @@ The release procedure is not yet fully automated. Please follow below steps:
 
 5. Bump the version on main to RC1 (as described above)
   - Change old version for diff on pedalboard-hw.kibot.yaml (2 lines!)
-  - Add a new Release in CHANGES.md
+  - Add a new Release in CHANGELOG.md

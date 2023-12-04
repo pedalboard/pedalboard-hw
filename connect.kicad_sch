@@ -6,7 +6,7 @@
 
   (title_block
     (date "2023-12-04")
-    (rev "3.1.0")
+    (rev "3.1.1-RC")
   )
 
   (lib_symbols

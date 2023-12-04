@@ -1,5 +1,13 @@
 # Change Log
 
+## [3.1.1] - Cost Optimisation: More fixes  - 202X-YY-ZZ
+
+### Added
+
+### Changed
+
+### Fixed
+
 ## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-04
 
 ### Added
