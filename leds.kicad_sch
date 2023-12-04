@@ -1254,7 +1254,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 265.43 148.59 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 79bfc858-1bd6-4981-9684-0cc9fcba5eea)
     (property "Reference" "J4" (at 265.43 153.67 0)
       (effects (font (size 1.27 1.27)))
