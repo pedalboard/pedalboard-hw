@@ -1,12 +1,10 @@
 # Change Log
 
-## [3.1.1] - Cost Optimisation: More fixes  - 202X-YY-ZZ
-
-### Added
+## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
 ### Changed
 
-### Fixed
+- Increase min. through hole size to 0.3mm
 
 ## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-04
 
