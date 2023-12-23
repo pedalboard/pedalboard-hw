@@ -1,5 +1,9 @@
 # Change Log
 
+## TODO
+- use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
+- support differential output
+
 ## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
 ### Changed
