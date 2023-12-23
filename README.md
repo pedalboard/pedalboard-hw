@@ -29,9 +29,11 @@ This PCB is designed with [KiCad 7](https://www.kicad.org/blog/2023/03/KiCad-7.0
 - Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
     - Flexibile memory options for cost optimisation
     - (optional) WiFi
-- HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
-    - Hiqh Quality Stereo Input/Output
     - Very low latency (around 2ms when using ELK Audio OS)
+- [Pedalboard Soundcard DAC ADC](https://github.com/pedalboard/pedalboard-soundcard)  (under construction)
+    - Two channel Differential input/output
+- or HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
+    - Hiqh Quality Stereo Input/Output
 
 ### MIDI and Control Surface
 - 200mm x 100mm control surface. Still not too large but can hold 6 buttons.
