@@ -2,35 +2,15 @@
    <panels/>
    <board-locations>
       <board-location side="Top" board-file="pedalboard-hw.board.xml" panel-id="Panel1" check-fiducials="true" enabled="true">
-         <location units="Millimeters" x="122.465199916648" y="204.0093749604385" z="9.4" rotation="0.012547202173425974"/>
+         <location units="Millimeters" x="122.18947508820204" y="203.80317910570218" z="9.4" rotation="0.022897991796555408"/>
          <placed class="java.util.HashMap">
             <entry>
-               <string>R2</string>
-               <boolean>false</boolean>
+               <string>C15</string>
+               <boolean>true</boolean>
             </entry>
             <entry>
-               <string>R12</string>
-               <boolean>false</boolean>
-            </entry>
-            <entry>
-               <string>R4</string>
-               <boolean>false</boolean>
-            </entry>
-            <entry>
-               <string>R5</string>
-               <boolean>false</boolean>
-            </entry>
-            <entry>
-               <string>CM1B</string>
-               <boolean>false</boolean>
-            </entry>
-            <entry>
-               <string>R13</string>
-               <boolean>false</boolean>
-            </entry>
-            <entry>
-               <string>U4</string>
-               <boolean>false</boolean>
+               <string>C1</string>
+               <boolean>true</boolean>
             </entry>
          </placed>
       </board-location>
