@@ -6,11 +6,11 @@
          <placed class="java.util.HashMap">
             <entry>
                <string>C15</string>
-               <boolean>true</boolean>
+               <boolean>false</boolean>
             </entry>
             <entry>
                <string>C1</string>
-               <boolean>true</boolean>
+               <boolean>false</boolean>
             </entry>
          </placed>
       </board-location>
