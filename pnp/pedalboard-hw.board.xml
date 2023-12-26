@@ -152,6 +152,7 @@
       </placement>
       <placement version="1.4" id="CM1" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="false">
          <location units="Millimeters" x="70.9944" y="67.4944" z="0.0" rotation="180.0"/>
+         <comments>Placed manually</comments>
          <error-handling>Defer</error-handling>
       </placement>
       <placement version="1.4" id="D1" side="Top" part-id="D_SOD-123F-SM4007" type="Placement" enabled="true">
@@ -204,6 +205,7 @@
       </placement>
       <placement version="1.4" id="J14" side="Top" part-id="PH 4                  JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical-JST" type="Placement" enabled="false">
          <location units="Millimeters" x="127.8644" y="77.1844" z="0.0" rotation="90.0"/>
+         <comments>Placed manually</comments>
          <error-handling>Defer</error-handling>
       </placement>
       <placement version="1.4" id="L1" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
@@ -264,6 +266,7 @@
       </placement>
       <placement version="1.4" id="R9" side="Top" type="Placement" enabled="false">
          <location units="Millimeters" x="76.9319" y="75.1444" z="0.0" rotation="0.0"/>
+         <comments>DNP</comments>
          <error-handling>Defer</error-handling>
       </placement>
       <placement version="1.4" id="R10" side="Top" part-id="R_0805_2012Metric-27" type="Placement" enabled="true">
@@ -308,6 +311,7 @@
       </placement>
       <placement version="1.4" id="SW5" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
          <location units="Millimeters" x="11.9944" y="63.9944" z="0.0" rotation="0.0"/>
+         <comments>Currently no tape</comments>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" id="SW6" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
