@@ -81,10 +81,9 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest/Bro
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top30deg.png)
-
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_blender_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_blender_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_blender_30deg.png)
 
 ## Mechanical Parts
 
