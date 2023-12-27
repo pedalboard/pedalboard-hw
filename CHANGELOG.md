@@ -13,6 +13,7 @@
 ## Changed
 - Remove fiducials and holes from BOM
 - Change title to Open Pedalboard Mainboard
+- Use "knowout" text style for better visibility of connectors
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
