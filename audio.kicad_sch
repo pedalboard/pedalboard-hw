@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Open Pedalboard")
+    (title "Open Pedalboard Mainboard")
     (date "2023-12-05")
-    (rev "3.1.1")
+    (rev "3.2.0-RC1")
+    (company "https://github.com/pedalboard")
     (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
     (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
   )
@@ -3195,7 +3196,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 15.24 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c6780d-523e-4fcb-a4d1-12027cd69823)
     (property "Reference" "H5" (at 17.78 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3209,6 +3210,9 @@
     (property "Datasheet" "~" (at 15.24 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 15.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7/6bd0afd4-cd8b-4c1d-a236-891eed0b2d91"
@@ -3219,7 +3223,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 77.47 181.61 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1b2933fc-9201-443f-bdb3-5a44bf80933e)
     (property "Reference" "JP4" (at 80.01 184.15 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3612,7 +3616,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 33.02 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 688267cf-9ed9-4ba8-98e2-ca1a19172970)
     (property "Reference" "H4" (at 35.56 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3624,6 +3628,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 33.02 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -3703,7 +3710,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 69.85 190.5 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 80a7b282-da73-4c8d-8839-d46a40b271b3)
     (property "Reference" "JP3" (at 64.77 193.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3765,7 +3772,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 15.24 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8317f64b-123f-451c-a399-32fdb1c6022c)
     (property "Reference" "H6" (at 17.78 192.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3777,6 +3784,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 15.24 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 15.24 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -3919,7 +3929,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 33.02 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab00f229-2e91-4cd2-a1fa-39c1d44a74ed)
     (property "Reference" "H7" (at 35.56 192.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3931,6 +3941,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 33.02 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

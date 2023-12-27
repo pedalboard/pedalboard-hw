@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Open Pedalboard")
+    (title "Open Pedalboard Mainboard")
     (date "2023-12-05")
-    (rev "3.1.1")
+    (rev "3.2.0-RC1")
+    (company "https://github.com/pedalboard")
     (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
     (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
   )

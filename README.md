@@ -1,6 +1,6 @@
-# Pedalboard Audio/MIDI Processer Hardware
+# Open Pedalboard  Mainboard
 
-An open hardware for processing audio and/or MIDI data on a pedalboard.
+Mainboard for processing audio and/or MIDI data on a pedalboard.
 
 | Open Source Hardware | OSHWA Certification|
 |---|---|
@@ -124,7 +124,7 @@ The release procedure is not yet fully automated. Please follow below steps:
   - Upload the zip as artifact of the release
 
 4. Tag the pedalboard-hw-site commit of the tagged Action run.
-  - Add a link to the tag on pedalboard-hw-site also in the release descritpion
+  - Add a link to the tag on pedalboard-hw-site also in the release description
   - copy the tagged files into a subdirectory
 
 5. Bump the version on main to RC1 (as described above)

@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Open Pedalboard")
+    (title "Open Pedalboard Mainboard")
     (date "2023-12-05")
-    (rev "3.1.1")
+    (rev "3.2.0-RC1")
+    (company "https://github.com/pedalboard")
     (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
     (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
   )
@@ -3552,7 +3553,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 20.32 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 015c62e4-9bf9-4183-8585-abc73afc454a)
     (property "Reference" "H2" (at 22.86 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3564,6 +3565,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.32 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 20.32 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -3835,6 +3839,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Notes" "MIDI In" (at 120.65 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 120.65 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -4119,6 +4126,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Notes" "MIDI In" (at 120.65 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 120.65 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -5489,6 +5499,9 @@
     (property "Notes" "MIDI In" (at 148.59 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 148.59 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
@@ -5585,7 +5598,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 93.98 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 9fe876cc-5235-41fc-a9b6-a2315d63303e)
     (property "Reference" "JP1" (at 255.27 92.71 0)
       (effects (font (size 1.27 1.27)))
@@ -5688,6 +5701,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Notes" "MIDI In" (at 97.79 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 97.79 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -5979,7 +5995,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 260.35 91.44 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c34112cf-a8ad-4860-8def-12fe38e878f9)
     (property "Reference" "JP2" (at 255.27 90.17 0)
       (effects (font (size 1.27 1.27)))
@@ -6177,6 +6193,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Notes" "MIDI In" (at 148.59 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 148.59 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -6517,6 +6536,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Notes" "MIDI In" (at 97.79 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 97.79 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

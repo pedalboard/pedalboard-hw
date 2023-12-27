@@ -5,7 +5,16 @@
 - support differential output
 - include pedalboard soundcard instead of HiFi Berry
 
-## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-05
+## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
+
+### Added
+- OSHW Symbol
+
+## Changed
+- Remove fiducials and holes from BOM
+- Change title to Open Pedalboard Mainboard
+
+## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
 ### Changed
 
