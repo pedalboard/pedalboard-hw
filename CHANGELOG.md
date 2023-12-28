@@ -4,6 +4,7 @@
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
 - support differential output
 - include pedalboard soundcard instead of HiFi Berry
+- clearance around mounting holes
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
