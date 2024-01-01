@@ -5,6 +5,12 @@
 - support differential output
 - include pedalboard soundcard instead of HiFi Berry
 - clearance around mounting holes
+- silkscreen for reset/boot switches
+- RGB LEDs are placed in wrong direction
+- Q1 is placed in wrong direction
+- swap power symbol
+- two more mounting holes
+- 3.3v LED on RP2040
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
