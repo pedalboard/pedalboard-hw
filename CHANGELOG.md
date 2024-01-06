@@ -11,6 +11,7 @@
 - swap power symbol
 - two more mounting holes
 - 3.3v LED on RP2040
+- Pullup resistors for I2C bus
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
