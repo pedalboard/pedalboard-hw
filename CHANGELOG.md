@@ -5,13 +5,11 @@
 - support differential output
 - include pedalboard soundcard instead of HiFi Berry
 - clearance around mounting holes
-- silkscreen for reset/boot switches
-- RGB LEDs are placed in wrong direction
-- Q1 is placed in wrong direction
 - swap power symbol
 - two more mounting holes
 - 3.3v LED on RP2040
 - Pullup resistors for I2C bus
+- SMD Debug connectors
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
@@ -22,6 +20,7 @@
 - Remove fiducials and holes from BOM
 - Change title to Open Pedalboard Mainboard
 - Use "knowout" text style for better visibility of connectors
+- Silkscreen  text for reset/boot switches
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
