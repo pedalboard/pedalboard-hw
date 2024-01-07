@@ -17,6 +17,7 @@
 - Git revision is added to schematics and PCB
 - Pull-up resistors for I2C bus
 - Two more mounting holes (for development)
+- 3D model for JST (Stemma)
 
 ## Changed
 - Remove fiducials and holes from BOM
