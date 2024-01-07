@@ -7,9 +7,9 @@
 - clearance around mounting holes
 - two more mounting holes
 - 3.3v LED on RP2040?
-- Pullup resistors for I2C bus
 - SMD Debug connectors
 - Silkscreen text for controller inputs
+- Placement hight for micro buttons
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
@@ -17,6 +17,7 @@
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
 - Git revision is added to schematics and PCB
+- Pull-up resistors for I2C bus
 
 ## Changed
 - Remove fiducials and holes from BOM
