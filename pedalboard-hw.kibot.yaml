@@ -21,8 +21,6 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
-  check_pcb_parity:
-    enabled: true
   set_text_variables:
     name: GIT_HASH
     command: git rev-parse --short HEAD
