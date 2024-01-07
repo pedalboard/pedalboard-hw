@@ -3,6 +3,7 @@ kibot:
 
 global:
   kicad_dnp_applies_to_3D: true
+  drc_exclusions_workaround: true
   filters:
   - number: 1007
   - number: 1015
