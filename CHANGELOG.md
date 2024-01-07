@@ -1,13 +1,13 @@
 # Change Log
 
 ## TODO
-- use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
 - support differential output
-- clearance around mounting holes
 - two more mounting holes
-- SMD Debug connectors
-- Placement hight for micro buttons
+- clearance around mounting holes
+- use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
+- Placement higth for micro buttons
 - 3.3v LED on RP2040?
+- SMD Debug connectors
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
