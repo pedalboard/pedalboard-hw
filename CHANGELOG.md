@@ -5,9 +5,8 @@
 - support differential output
 - include pedalboard soundcard instead of HiFi Berry
 - clearance around mounting holes
-- swap power symbol
 - two more mounting holes
-- 3.3v LED on RP2040
+- 3.3v LED on RP2040?
 - Pullup resistors for I2C bus
 - SMD Debug connectors
 - Silkscreen text for controller inputs
@@ -16,12 +15,13 @@
 
 ### Added
 - OSHW Symbol
+- Silkscreen text for reset/boot switches
 
 ## Changed
 - Remove fiducials and holes from BOM
 - Change title to Open Pedalboard Mainboard
 - Use "knowout" text style for better visibility of connectors
-- Silkscreen text for reset/boot switches
+- Swap power symbol to better refelct the terminal connector
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
