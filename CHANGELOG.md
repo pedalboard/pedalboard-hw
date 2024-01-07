@@ -16,6 +16,7 @@
 ### Added
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
+- Git revision is added to schematics and PCB
 
 ## Changed
 - Remove fiducials and holes from BOM
