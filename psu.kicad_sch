@@ -2183,7 +2183,7 @@
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 31.75 46.99 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2e7a8003-6827-4a30-9e96-a8e87e96f0b7)
     (property "Reference" "J7" (at 41.91 54.61 0)
       (effects (font (size 1.27 1.27)))
@@ -2486,7 +2486,7 @@
   )
 
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 30.48 68.58 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e33789a-2c69-4baa-87a3-cb2cc51063bc)
     (property "Reference" "J6" (at 30.48 59.69 0)
       (effects (font (size 1.27 1.27)))
