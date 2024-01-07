@@ -21,6 +21,9 @@ preflight:
   run_drc: false
   check_zone_fills: true
   ignore_unconnected: false
+  set_text_variables:
+    name: GIT_HASH
+    command: git rev-parse --short HEAD
 
 outputs:
 - name: basic_blender_export
