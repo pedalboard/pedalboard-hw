@@ -2145,7 +2145,7 @@
   )
 
   (symbol (lib_id "pedalboard:USB_B_Micro-Connector") (at 158.75 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2dd44026-9a20-4aeb-83ff-4d4e3a28aa28)
     (property "Reference" "J1" (at 154.94 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
