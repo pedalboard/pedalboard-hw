@@ -2,8 +2,7 @@
 
 ## TODO
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
-- include pedalboard soundcard instead of HiFi Berry
-    - support differential output
+- support differential output
 - clearance around mounting holes
 - two more mounting holes
 - SMD Debug connectors
@@ -24,6 +23,7 @@
 - Change title to Open Pedalboard Mainboard
 - Use "knowout" text style for better visibility of connectors
 - Swap power symbol to better refelct the terminal connector
+- Replace HiFi Berry by pedalboard-soundcard
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
