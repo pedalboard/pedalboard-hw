@@ -2,20 +2,20 @@
 
 ## TODO
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
-- support differential output
 - include pedalboard soundcard instead of HiFi Berry
+    - support differential output
 - clearance around mounting holes
 - two more mounting holes
-- 3.3v LED on RP2040?
 - SMD Debug connectors
-- Silkscreen text for controller inputs
 - Placement hight for micro buttons
+- 3.3v LED on RP2040?
 
 ## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
 
 ### Added
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
+- Silkscreen text for MIDI controller inputs
 - Git revision is added to schematics and PCB
 - Pull-up resistors for I2C bus
 
