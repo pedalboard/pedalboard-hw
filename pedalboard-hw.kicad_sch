@@ -540,6 +540,33 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 45.72 177.8 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ba2ec15-778d-4278-b26a-916c3bccdd38)
+    (property "Reference" "H14" (at 48.26 177.165 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 48.26 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 45.72 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 45.72 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 45.72 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+          (reference "H14") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 186.69 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6559bc44-dc16-4d75-97d0-19c0910ec271)
@@ -589,6 +616,33 @@
       (project "pedalboard-hw"
         (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
           (reference "FID1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 74.93 177.8 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a01708c1-130e-406f-9c64-2060878c4b36)
+    (property "Reference" "H15" (at 77.47 177.165 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 77.47 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 74.93 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.93 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 74.93 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "pedalboard-hw"
+        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+          (reference "H15") (unit 1)
         )
       )
     )

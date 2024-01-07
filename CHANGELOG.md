@@ -2,7 +2,6 @@
 
 ## TODO
 - support differential output
-- two more mounting holes
 - clearance around mounting holes
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
 - Placement higth for micro buttons
@@ -17,6 +16,7 @@
 - Silkscreen text for MIDI controller inputs
 - Git revision is added to schematics and PCB
 - Pull-up resistors for I2C bus
+- Two more mounting holes (for development)
 
 ## Changed
 - Remove fiducials and holes from BOM
