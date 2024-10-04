@@ -5,16 +5,16 @@ name: "Generate output"
 on:
   push:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '.github/workflows/ci.yml'
-      - 'pedalboard-hw.kibot.yaml'
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - ".github/workflows/ci.yml"
+      - "pedalboard-hw.kibot.yaml"
   pull_request:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '.github/workflows/ci.yml'
-      - 'pedalboard-hw.kibot.yaml'
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - ".github/workflows/ci.yml"
+      - "pedalboard-hw.kibot.yaml"
   repository_dispatch:
     types: [run_qs]
 
@@ -25,43 +25,43 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad7_auto_full:latest
 
     steps:
-    - uses: actions/checkout@v3
-      with:
-        # So we can run a diff between last 2 changes
-        fetch-depth: '0'
+      - uses: actions/checkout@v4
+        with:
+          # So we can run a diff between last 2 changes
+          fetch-depth: "0"
 
-    - name: Kibot Generator
-      run: |
-        kibot -e pedalboard-hw.kicad_sch -d generated
-    - name: Retrieve results
-      uses: actions/upload-artifact@v3
-      with:
-        name: generated_outputs
-        path: generated
+      - name: Kibot Generator
+        run: |
+          kibot -e pedalboard-hw.kicad_sch -d generated
+      - name: Retrieve results
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated_outputs
+          path: generated
 
-# This step is to upload the results to another repo (web pages)
+  # This step is to upload the results to another repo (web pages)
   deploy:
     runs-on: ubuntu-latest
     needs: kibot
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-    - name: Retrieve results
-      uses: actions/download-artifact@v3
-      with:
-        name: generated_outputs
-        path: generated
+      - name: Retrieve results
+        uses: actions/download-artifact@v4
+        with:
+          name: generated_outputs
+          path: generated
 
-    - name: Remove 3D Model (too large for github)
-      run: |
-        rm -f generated/3D/pedalboard-hw-3D.step 
- 
-    - name: Deploy navigate results
-      uses: JamesIves/github-pages-deploy-action@v4.4.1
-      with:
-        branch: main
-        folder: generated
-        target-folder: latest
-        repository-name: pedalboard/pedalboard-hw-site
-        token: ${{ secrets.DEPLOY_TO_PEDALBOARD_HW_SITE }}
+      - name: Remove 3D Model (too large for github)
+        run: |
+          rm -f generated/3D/pedalboard-hw-3D.step
+
+      - name: Deploy navigate results
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: main
+          folder: generated
+          target-folder: latest
+          repository-name: pedalboard/pedalboard-hw-site
+          token: ${{ secrets.DEPLOY_TO_PEDALBOARD_HW_SITE }}
