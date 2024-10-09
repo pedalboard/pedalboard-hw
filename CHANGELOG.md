@@ -3,8 +3,7 @@
 ## TODO
 
 - support differential output
-- use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
-- Placement higth for micro buttons
+- Placement hight for micro buttons
 - 3.3v LED on RP2040
 - SMD Debug connectors
 - SMD STEMMA connectors
@@ -35,6 +34,7 @@
 - Swap power symbol to better reflect the terminal connector
 - Replace HiFi Berry by pedalboard-soundcard
 - Upgrade to KiCad 8
+- use smaller XTAL ABM8-272-T3
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
