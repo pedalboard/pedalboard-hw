@@ -3,13 +3,12 @@
 ## TODO
 
 - support differential output
-- clearance around mounting holes
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
 - Placement higth for micro buttons
-- 3.3v LED on RP2040?
+- 3.3v LED on RP2040
 - SMD Debug connectors
 - SMD STEMMA connectors
-- One more mounting hole in the center
+- clearance around mounting holes
 
 ## [4.0.0-RC1 - Pedalboard Display - TBD
 
@@ -26,6 +25,7 @@
 - Pull-up resistors for I2C bus
 - Two more mounting holes (for development)
 - 3D model for JST (Stemma)
+- One more mounting hole in the center
 
 ## Changed
 
