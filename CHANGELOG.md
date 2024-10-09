@@ -1,16 +1,24 @@
 # Change Log
 
 ## TODO
+
 - support differential output
 - clearance around mounting holes
 - use smaller XTAL Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm
 - Placement higth for micro buttons
 - 3.3v LED on RP2040?
 - SMD Debug connectors
+- SMD STEMMA connectors
+- One more mounting hole in the center
 
-## [3.2.0-RC1] - Cost Optimisation:  Small improvments - TBD
+## [4.0.0-RC1 - Pedalboard Display - TBD
+
+### Removed
+
+- LEDs are removed (only 5V adapter left) in favour of the pedalboard-display
 
 ### Added
+
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
 - Silkscreen text for MIDI controller inputs
@@ -20,11 +28,13 @@
 - 3D model for JST (Stemma)
 
 ## Changed
+
 - Remove fiducials and holes from BOM
 - Change title to Open Pedalboard Mainboard
 - Use "knowout" text style for better visibility of connectors
-- Swap power symbol to better refelct the terminal connector
+- Swap power symbol to better reflect the terminal connector
 - Replace HiFi Berry by pedalboard-soundcard
+- Upgrade to KiCad 8
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
@@ -35,11 +45,13 @@
 ## [3.1.0] - Cost Optimisation:  Bug Fixes - 2023-12-04
 
 ### Added
+
 - Stemma connector for displays
 - Switch for boot mode and reset of RP2040
 - 2 more LED rings for rotary encoders
 
 ### Changed
+
 - Increase activity LED resistor to reduce brigtness
 - Stemma compatibility for LED out
 - Smaller JST PH connectors for MIDI IN/OUT
@@ -57,7 +69,7 @@
 
 - Increase slot size to (restriction of PCBway)
 
-## [3.0.0] - Cost optimization - 2023-10-19 
+## [3.0.0] - Cost optimization - 2023-10-19
 
 ### Changed
 
@@ -77,7 +89,6 @@
 - Additional analog (EXP 2) input
 - Fidcuials for PnP
 - Alternative screw terminal for power input
-
 
 ## [2.1.0] - LED rings - 2023-08-09
 

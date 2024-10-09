@@ -1,841 +1,1387 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid df521c2a-9827-4355-b809-366f4b88d5d7)
-
-  (paper "A4")
-
-  (title_block
-    (title "Open Pedalboard Mainboard")
-    (date "2023-12-05")
-    (rev "3.2.0-RC1")
-    (company "https://github.com/pedalboard")
-    (comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
-    (comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
-    (comment 3 "Git commit hash: ${GIT_HASH}")
-  )
-
-  (lib_symbols
-    (symbol "Graphic:Logo_Open_Hardware_Small" (in_bom no) (on_board no)
-      (property "Reference" "#SYM" (at 0 6.985 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "Logo_Open_Hardware_Small" (at 0 -5.715 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Enable" "0" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Logo" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Open Hardware logo, small" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Logo_Open_Hardware_Small_0_1"
-        (polyline
-          (pts
-            (xy 3.3528 -4.3434)
-            (xy 3.302 -4.318)
-            (xy 3.175 -4.2418)
-            (xy 2.9972 -4.1148)
-            (xy 2.7686 -3.9624)
-            (xy 2.54 -3.81)
-            (xy 2.3622 -3.7084)
-            (xy 2.2352 -3.6068)
-            (xy 2.1844 -3.5814)
-            (xy 2.159 -3.6068)
-            (xy 2.0574 -3.6576)
-            (xy 1.905 -3.7338)
-            (xy 1.8034 -3.7846)
-            (xy 1.6764 -3.8354)
-            (xy 1.6002 -3.8354)
-            (xy 1.6002 -3.8354)
-            (xy 1.5494 -3.7338)
-            (xy 1.4732 -3.5306)
-            (xy 1.3462 -3.302)
-            (xy 1.2446 -3.0226)
-            (xy 1.1176 -2.7178)
-            (xy 0.9652 -2.413)
-            (xy 0.8636 -2.1082)
-            (xy 0.7366 -1.8288)
-            (xy 0.6604 -1.6256)
-            (xy 0.6096 -1.4732)
-            (xy 0.5842 -1.397)
-            (xy 0.5842 -1.397)
-            (xy 0.6604 -1.3208)
-            (xy 0.7874 -1.2446)
-            (xy 1.0414 -1.016)
-            (xy 1.2954 -0.6858)
-            (xy 1.4478 -0.3302)
-            (xy 1.524 0.0762)
-            (xy 1.4732 0.4572)
-            (xy 1.3208 0.8128)
-            (xy 1.0668 1.143)
-            (xy 0.762 1.3716)
-            (xy 0.4064 1.524)
-            (xy 0 1.5748)
-            (xy -0.381 1.5494)
-            (xy -0.7366 1.397)
-            (xy -1.0668 1.143)
-            (xy -1.2192 0.9906)
-            (xy -1.397 0.6604)
-            (xy -1.524 0.3048)
-            (xy -1.524 0.2286)
-            (xy -1.4986 -0.1778)
-            (xy -1.397 -0.5334)
-            (xy -1.1938 -0.8636)
-            (xy -0.9144 -1.143)
-            (xy -0.8636 -1.1684)
-            (xy -0.7366 -1.27)
-            (xy -0.635 -1.3462)
-            (xy -0.5842 -1.397)
-            (xy -1.0668 -2.5908)
-            (xy -1.143 -2.794)
-            (xy -1.2954 -3.1242)
-            (xy -1.397 -3.4036)
-            (xy -1.4986 -3.6322)
-            (xy -1.5748 -3.7846)
-            (xy -1.6002 -3.8354)
-            (xy -1.6002 -3.8354)
-            (xy -1.651 -3.8354)
-            (xy -1.7272 -3.81)
-            (xy -1.905 -3.7338)
-            (xy -2.0066 -3.683)
-            (xy -2.1336 -3.6068)
-            (xy -2.2098 -3.5814)
-            (xy -2.2606 -3.6068)
-            (xy -2.3622 -3.683)
-            (xy -2.54 -3.81)
-            (xy -2.7686 -3.9624)
-            (xy -2.9718 -4.0894)
-            (xy -3.1496 -4.2164)
-            (xy -3.302 -4.318)
-            (xy -3.3528 -4.3434)
-            (xy -3.3782 -4.3434)
-            (xy -3.429 -4.318)
-            (xy -3.5306 -4.2164)
-            (xy -3.7084 -4.064)
-            (xy -3.937 -3.8354)
-            (xy -3.9624 -3.81)
-            (xy -4.1656 -3.6068)
-            (xy -4.318 -3.4544)
-            (xy -4.4196 -3.3274)
-            (xy -4.445 -3.2766)
-            (xy -4.445 -3.2766)
-            (xy -4.4196 -3.2258)
-            (xy -4.318 -3.0734)
-            (xy -4.2164 -2.8956)
-            (xy -4.064 -2.667)
-            (xy -3.6576 -2.0828)
-            (xy -3.8862 -1.5494)
-            (xy -3.937 -1.3716)
-            (xy -4.0386 -1.1684)
-            (xy -4.0894 -1.0414)
-            (xy -4.1148 -0.9652)
-            (xy -4.191 -0.9398)
-            (xy -4.318 -0.9144)
-            (xy -4.5466 -0.8636)
-            (xy -4.8006 -0.8128)
-            (xy -5.0546 -0.7874)
-            (xy -5.2578 -0.7366)
-            (xy -5.4356 -0.7112)
-            (xy -5.5118 -0.6858)
-            (xy -5.5118 -0.6858)
-            (xy -5.5372 -0.635)
-            (xy -5.5372 -0.5588)
-            (xy -5.5372 -0.4318)
-            (xy -5.5626 -0.2286)
-            (xy -5.5626 0.0762)
-            (xy -5.5626 0.127)
-            (xy -5.5372 0.4064)
-            (xy -5.5372 0.635)
-            (xy -5.5372 0.762)
-            (xy -5.5372 0.8382)
-            (xy -5.5372 0.8382)
-            (xy -5.461 0.8382)
-            (xy -5.3086 0.889)
-            (xy -5.08 0.9144)
-            (xy -4.826 0.9652)
-            (xy -4.8006 0.9906)
-            (xy -4.5466 1.0414)
-            (xy -4.318 1.0668)
-            (xy -4.1656 1.1176)
-            (xy -4.0894 1.143)
-            (xy -4.0894 1.143)
-            (xy -4.0386 1.2446)
-            (xy -3.9624 1.4224)
-            (xy -3.8608 1.6256)
-            (xy -3.7846 1.8288)
-            (xy -3.7084 2.0066)
-            (xy -3.6576 2.159)
-            (xy -3.6322 2.2098)
-            (xy -3.6322 2.2098)
-            (xy -3.683 2.286)
-            (xy -3.7592 2.413)
-            (xy -3.8862 2.5908)
-            (xy -4.064 2.8194)
-            (xy -4.064 2.8448)
-            (xy -4.2164 3.0734)
-            (xy -4.3434 3.2512)
-            (xy -4.4196 3.3782)
-            (xy -4.445 3.4544)
-            (xy -4.445 3.4544)
-            (xy -4.3942 3.5052)
-            (xy -4.2926 3.6322)
-            (xy -4.1148 3.81)
-            (xy -3.937 4.0132)
-            (xy -3.8608 4.064)
-            (xy -3.6576 4.2926)
-            (xy -3.5052 4.4196)
-            (xy -3.4036 4.4958)
-            (xy -3.3528 4.5212)
-            (xy -3.3528 4.5212)
-            (xy -3.302 4.4704)
-            (xy -3.1496 4.3688)
-            (xy -2.9718 4.2418)
-            (xy -2.7432 4.0894)
-            (xy -2.7178 4.0894)
-            (xy -2.4892 3.937)
-            (xy -2.3114 3.81)
-            (xy -2.1844 3.7084)
-            (xy -2.1336 3.683)
-            (xy -2.1082 3.683)
-            (xy -2.032 3.7084)
-            (xy -1.8542 3.7592)
-            (xy -1.6764 3.8354)
-            (xy -1.4732 3.937)
-            (xy -1.27 4.0132)
-            (xy -1.143 4.064)
-            (xy -1.0668 4.1148)
-            (xy -1.0668 4.1148)
-            (xy -1.0414 4.191)
-            (xy -1.016 4.3434)
-            (xy -0.9652 4.572)
-            (xy -0.9144 4.8514)
-            (xy -0.889 4.9022)
-            (xy -0.8382 5.1562)
-            (xy -0.8128 5.3848)
-            (xy -0.7874 5.5372)
-            (xy -0.762 5.588)
-            (xy -0.7112 5.6134)
-            (xy -0.5842 5.6134)
-            (xy -0.4064 5.6134)
-            (xy -0.1524 5.6134)
-            (xy 0.0762 5.6134)
-            (xy 0.3302 5.6134)
-            (xy 0.5334 5.6134)
-            (xy 0.6858 5.588)
-            (xy 0.7366 5.588)
-            (xy 0.7366 5.588)
-            (xy 0.762 5.5118)
-            (xy 0.8128 5.334)
-            (xy 0.8382 5.1054)
-            (xy 0.9144 4.826)
-            (xy 0.9144 4.7752)
-            (xy 0.9652 4.5212)
-            (xy 1.016 4.2926)
-            (xy 1.0414 4.1402)
-            (xy 1.0668 4.0894)
-            (xy 1.0668 4.0894)
-            (xy 1.1938 4.0386)
-            (xy 1.3716 3.9624)
-            (xy 1.5748 3.8608)
-            (xy 2.0828 3.6576)
-            (xy 2.7178 4.0894)
-            (xy 2.7686 4.1402)
-            (xy 2.9972 4.2926)
-            (xy 3.175 4.4196)
-            (xy 3.302 4.4958)
-            (xy 3.3782 4.5212)
-            (xy 3.3782 4.5212)
-            (xy 3.429 4.4704)
-            (xy 3.556 4.3434)
-            (xy 3.7338 4.191)
-            (xy 3.9116 3.9878)
-            (xy 4.064 3.8354)
-            (xy 4.2418 3.6576)
-            (xy 4.3434 3.556)
-            (xy 4.4196 3.4798)
-            (xy 4.4196 3.429)
-            (xy 4.4196 3.4036)
-            (xy 4.3942 3.3274)
-            (xy 4.2926 3.2004)
-            (xy 4.1656 2.9972)
-            (xy 4.0132 2.794)
-            (xy 3.8862 2.5908)
-            (xy 3.7592 2.3876)
-            (xy 3.6576 2.2352)
-            (xy 3.6322 2.159)
-            (xy 3.6322 2.1336)
-            (xy 3.683 2.0066)
-            (xy 3.7592 1.8288)
-            (xy 3.8608 1.6002)
-            (xy 4.064 1.1176)
-            (xy 4.3942 1.0414)
-            (xy 4.5974 1.016)
-            (xy 4.8768 0.9652)
-            (xy 5.1308 0.9144)
-            (xy 5.5372 0.8382)
-            (xy 5.5626 -0.6604)
-            (xy 5.4864 -0.6858)
-            (xy 5.4356 -0.6858)
-            (xy 5.2832 -0.7366)
-            (xy 5.0546 -0.762)
-            (xy 4.8006 -0.8128)
-            (xy 4.5974 -0.8636)
-            (xy 4.3688 -0.9144)
-            (xy 4.2164 -0.9398)
-            (xy 4.1402 -0.9398)
-            (xy 4.1148 -0.9652)
-            (xy 4.064 -1.0668)
-            (xy 3.9878 -1.2446)
-            (xy 3.9116 -1.4478)
-            (xy 3.81 -1.651)
-            (xy 3.7338 -1.8542)
-            (xy 3.683 -2.0066)
-            (xy 3.6576 -2.0828)
-            (xy 3.683 -2.1336)
-            (xy 3.7846 -2.2606)
-            (xy 3.8862 -2.4638)
-            (xy 4.0386 -2.667)
-            (xy 4.191 -2.8956)
-            (xy 4.318 -3.0734)
-            (xy 4.3942 -3.2004)
-            (xy 4.445 -3.2766)
-            (xy 4.4196 -3.3274)
-            (xy 4.3434 -3.429)
-            (xy 4.1656 -3.5814)
-            (xy 3.937 -3.8354)
-            (xy 3.8862 -3.8608)
-            (xy 3.683 -4.064)
-            (xy 3.5306 -4.2164)
-            (xy 3.4036 -4.318)
-            (xy 3.3528 -4.3434)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-    )
-    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
-      (property "Reference" "FID" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fiducial" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "fiducial marker" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Fiducial Marker" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Fiducial*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fiducial_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 0.508) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-  (junction (at 194.31 19.05) (diameter 0) (color 0 0 0 0)
-    (uuid 0914b992-0414-44db-be2c-ef6ec13eff7a)
-  )
-  (junction (at 189.23 15.24) (diameter 0) (color 0 0 0 0)
-    (uuid 6bb850ca-7d44-40d4-a9a7-6395b5c74510)
-  )
-
-  (wire (pts (xy 99.06 15.24) (xy 189.23 15.24))
-    (stroke (width 0) (type default))
-    (uuid 02e5b162-bf52-4bae-ae2c-1089a24cf6e6)
-  )
-  (wire (pts (xy 99.06 34.29) (xy 99.06 15.24))
-    (stroke (width 0) (type default))
-    (uuid 3fc57d14-de6d-494e-a232-29078bd8e0b6)
-  )
-  (wire (pts (xy 60.96 78.74) (xy 60.96 88.9))
-    (stroke (width 0) (type default))
-    (uuid 44692e73-b58e-46c5-8a56-edf6f039cc3c)
-  )
-  (wire (pts (xy 81.28 55.88) (xy 120.65 55.88))
-    (stroke (width 0) (type default))
-    (uuid 4ff9592d-dbb4-4d3f-ae7a-328b37944c20)
-  )
-  (wire (pts (xy 186.69 100.33) (xy 194.31 100.33))
-    (stroke (width 0) (type default))
-    (uuid 5a4930be-47a8-4566-ab45-7f5071ba7eb4)
-  )
-  (wire (pts (xy 194.31 19.05) (xy 101.6 19.05))
-    (stroke (width 0) (type default))
-    (uuid 6263498b-6a80-4da7-8c77-3f84bf93bbb3)
-  )
-  (wire (pts (xy 81.28 59.69) (xy 120.65 59.69))
-    (stroke (width 0) (type default))
-    (uuid 637992d7-c86e-4869-bb3b-430ffd76d0b1)
-  )
-  (wire (pts (xy 234.95 15.24) (xy 234.95 25.4))
-    (stroke (width 0) (type default))
-    (uuid 77c8f243-2e13-4fad-b93b-47e3e3247198)
-  )
-  (wire (pts (xy 189.23 15.24) (xy 234.95 15.24))
-    (stroke (width 0) (type default))
-    (uuid 7e70d7fa-1916-490a-8458-58bd07df03db)
-  )
-  (wire (pts (xy 227.33 25.4) (xy 227.33 19.05))
-    (stroke (width 0) (type default))
-    (uuid 841d6321-8553-4db6-9d1a-42cca99181dd)
-  )
-  (wire (pts (xy 101.6 19.05) (xy 101.6 38.1))
-    (stroke (width 0) (type default))
-    (uuid 8e23bcb4-31bd-4161-96e9-6dff5fa2ba19)
-  )
-  (wire (pts (xy 81.28 34.29) (xy 99.06 34.29))
-    (stroke (width 0) (type default))
-    (uuid 93b04a97-9c35-47fb-a2b9-2a9a69cf50de)
-  )
-  (wire (pts (xy 186.69 96.52) (xy 189.23 96.52))
-    (stroke (width 0) (type default))
-    (uuid 99697b9f-3e63-4d7b-a976-c109e3884b92)
-  )
-  (wire (pts (xy 101.6 38.1) (xy 81.28 38.1))
-    (stroke (width 0) (type default))
-    (uuid c3b99ec2-470e-4c62-ae7b-2b9e90852963)
-  )
-  (wire (pts (xy 227.33 19.05) (xy 194.31 19.05))
-    (stroke (width 0) (type default))
-    (uuid ca3de356-af03-4dfc-80b6-eb2d139c587f)
-  )
-  (wire (pts (xy 194.31 100.33) (xy 194.31 19.05))
-    (stroke (width 0) (type default))
-    (uuid cee4b0c7-0aa3-4b24-aeb7-bdf3f51aeaba)
-  )
-  (wire (pts (xy 189.23 96.52) (xy 189.23 15.24))
-    (stroke (width 0) (type default))
-    (uuid e6f9caeb-31c8-4c91-9125-1b2ffbcd49bd)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 74.93 167.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2079fa55-1ff6-4ace-a2fe-77251311317e)
-    (property "Reference" "H3" (at 77.47 167.005 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 77.47 169.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 129.54 181.61 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 24c2aed5-1e73-4266-9d67-e4e6455cf344)
-    (property "Reference" "SYM1" (at 129.54 174.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Logo_Open_Hardware_Small" (at 129.54 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen" (at 129.54 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 129.54 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "SYM1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 45.72 167.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2562405b-2778-4aa7-af29-54800cfda864)
-    (property "Reference" "H1" (at 48.26 167.005 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 48.26 169.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 45.72 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 45.72 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 45.72 177.8 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5ba2ec15-778d-4278-b26a-916c3bccdd38)
-    (property "Reference" "H14" (at 48.26 177.165 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 48.26 179.705 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 45.72 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 45.72 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 74.93 186.69 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6559bc44-dc16-4d75-97d0-19c0910ec271)
-    (property "Reference" "FID4" (at 77.47 185.42 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 77.47 187.96 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm" (at 74.93 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 74.93 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 45.72 186.69 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83bdf2a4-2c0b-403d-95cb-ae14a25220e2)
-    (property "Reference" "FID1" (at 48.26 185.42 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 48.26 187.96 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm" (at 45.72 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 45.72 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 74.93 177.8 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a01708c1-130e-406f-9c64-2060878c4b36)
-    (property "Reference" "H15" (at 77.47 177.165 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 77.47 179.705 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (at 74.93 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 74.93 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "H15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 45.72 193.04 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bd0fb106-8d89-4ea6-8fb7-46cd7e6744de)
-    (property "Reference" "FID2" (at 48.26 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 48.26 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm" (at 45.72 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 45.72 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 74.93 193.04 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f66a74d1-214e-44f5-98b2-fedf9876f1ed)
-    (property "Reference" "FID3" (at 77.47 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 77.47 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm" (at 74.93 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 74.93 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7"
-          (reference "FID3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 119.38 90.17) (size 67.31 52.07) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0d7c87b0-1309-475f-a9d7-edcf3dee5e4e)
-    (property "Sheetname" "Power Supply" (at 119.38 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "psu.kicad_sch" (at 119.38 142.8246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_DP" input (at 186.69 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a9757d84-3ba1-4945-9e05-adad4277ee5a)
-    )
-    (pin "USB_DN" input (at 186.69 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ef7fb744-3d14-431f-bd07-50ea988e9cf9)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 21.59 88.9) (size 58.42 53.34) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 539b926e-3ef4-477a-b921-49e2b2b26dfc)
-    (property "Sheetname" "LEDs" (at 21.59 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "leds.kicad_sch" (at 21.59 142.8246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RGB_DATA" input (at 60.96 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c3e5f99b-9260-47ca-83a0-7296d638ecba)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 120.65 25.4) (size 66.04 53.34) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6bd0afd4-cd8b-4c1d-a236-891eed0b2d91)
-    (property "Sheetname" "Audio" (at 120.65 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "audio.kicad_sch" (at 120.65 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "INT_MIDI_TX" input (at 120.65 59.69 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 05fa2416-d95c-4ca5-bcf9-1b46e4d54ca7)
-    )
-    (pin "INT_MIDI_RX" input (at 120.65 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b1e22aa8-b497-4bb5-914a-4a1066caede4)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 21.59 25.4) (size 59.69 53.34) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d36964e5-9373-47ae-95a7-088f8df77199)
-    (property "Sheetname" "MIDI" (at 21.59 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pico.kicad_sch" (at 21.59 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_DN" input (at 81.28 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 92ffa346-745e-41b5-a47e-c83c473abc38)
-    )
-    (pin "USB_DP" input (at 81.28 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ffd02ad0-e5c6-4ff1-a73b-3293e8acbc34)
-    )
-    (pin "INT_MIDI_TX" input (at 81.28 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 52a59fa9-06dd-488b-a380-13fe23f76759)
-    )
-    (pin "INT_MIDI_RX" input (at 81.28 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d9c9e6ef-d068-4b5b-9e0e-5ac6900aa485)
-    )
-    (pin "RGB_DATA" input (at 60.96 78.74 270)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid befe0c14-bc80-4f40-803d-df1ea674008d)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 203.2 25.4) (size 68.58 52.07) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e8ab7a61-8d57-4690-876b-f6a417060d03)
-    (property "Sheetname" "Connectivity" (at 203.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "connect.kicad_sch" (at 203.2 78.0546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB2_N" input (at 227.33 25.4 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f16e509b-b59a-4cc3-bf28-eb7e28e7b38a)
-    )
-    (pin "USB2_P" input (at 234.95 25.4 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b2758e71-1dcd-4ec9-a34d-f69495060d28)
-    )
-    (instances
-      (project "pedalboard-hw"
-        (path "/df521c2a-9827-4355-b809-366f4b88d5d7" (page "6"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "df521c2a-9827-4355-b809-366f4b88d5d7")
+	(paper "A4")
+	(title_block
+		(title "Open Pedalboard Mainboard")
+		(date "2023-12-05")
+		(rev "4.0.0-RC1")
+		(company "https://github.com/pedalboard")
+		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
+		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")
+		(comment 3 "Git commit hash: ${GIT_HASH}")
+	)
+	(lib_symbols
+		(symbol "Graphic:Logo_Open_Hardware_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open Hardware logo, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 194.31 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0914b992-0414-44db-be2c-ef6ec13eff7a")
+	)
+	(junction
+		(at 189.23 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb850ca-7d44-40d4-a9a7-6395b5c74510")
+	)
+	(wire
+		(pts
+			(xy 99.06 15.24) (xy 189.23 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e5b162-bf52-4bae-ae2c-1089a24cf6e6")
+	)
+	(wire
+		(pts
+			(xy 99.06 34.29) (xy 99.06 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc57d14-de6d-494e-a232-29078bd8e0b6")
+	)
+	(wire
+		(pts
+			(xy 60.96 78.74) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44692e73-b58e-46c5-8a56-edf6f039cc3c")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 120.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff9592d-dbb4-4d3f-ae7a-328b37944c20")
+	)
+	(wire
+		(pts
+			(xy 186.69 100.33) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4930be-47a8-4566-ab45-7f5071ba7eb4")
+	)
+	(wire
+		(pts
+			(xy 194.31 19.05) (xy 101.6 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6263498b-6a80-4da7-8c77-3f84bf93bbb3")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637992d7-c86e-4869-bb3b-430ffd76d0b1")
+	)
+	(wire
+		(pts
+			(xy 234.95 15.24) (xy 234.95 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c8f243-2e13-4fad-b93b-47e3e3247198")
+	)
+	(wire
+		(pts
+			(xy 189.23 15.24) (xy 234.95 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e70d7fa-1916-490a-8458-58bd07df03db")
+	)
+	(wire
+		(pts
+			(xy 227.33 25.4) (xy 227.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841d6321-8553-4db6-9d1a-42cca99181dd")
+	)
+	(wire
+		(pts
+			(xy 101.6 19.05) (xy 101.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e23bcb4-31bd-4161-96e9-6dff5fa2ba19")
+	)
+	(wire
+		(pts
+			(xy 81.28 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b04a97-9c35-47fb-a2b9-2a9a69cf50de")
+	)
+	(wire
+		(pts
+			(xy 186.69 96.52) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99697b9f-3e63-4d7b-a976-c109e3884b92")
+	)
+	(wire
+		(pts
+			(xy 101.6 38.1) (xy 81.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b99ec2-470e-4c62-ae7b-2b9e90852963")
+	)
+	(wire
+		(pts
+			(xy 227.33 19.05) (xy 194.31 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3de356-af03-4dfc-80b6-eb2d139c587f")
+	)
+	(wire
+		(pts
+			(xy 194.31 100.33) (xy 194.31 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee4b0c7-0aa3-4b24-aeb7-bdf3f51aeaba")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 189.23 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f9caeb-31c8-4c91-9125-1b2ffbcd49bd")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 74.93 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2079fa55-1ff6-4ace-a2fe-77251311317e")
+		(property "Reference" "H3"
+			(at 77.47 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 77.47 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 129.54 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c2aed5-1e73-4266-9d67-e4e6455cf344")
+		(property "Reference" "SYM1"
+			(at 129.54 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Logo_Open_Hardware_Small"
+			(at 129.54 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2562405b-2778-4aa7-af29-54800cfda864")
+		(property "Reference" "H1"
+			(at 48.26 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba2ec15-778d-4278-b26a-916c3bccdd38")
+		(property "Reference" "H14"
+			(at 48.26 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 74.93 186.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6559bc44-dc16-4d75-97d0-19c0910ec271")
+		(property "Reference" "FID4"
+			(at 77.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 45.72 186.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bdf2a4-2c0b-403d-95cb-ae14a25220e2")
+		(property "Reference" "FID1"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 48.26 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 74.93 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a01708c1-130e-406f-9c64-2060878c4b36")
+		(property "Reference" "H15"
+			(at 77.47 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 77.47 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 45.72 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0fb106-8d89-4ea6-8fb7-46cd7e6744de")
+		(property "Reference" "FID2"
+			(at 48.26 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 48.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 74.93 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66a74d1-214e-44f5-98b2-fedf9876f1ed")
+		(property "Reference" "FID3"
+			(at 77.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 77.47 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 74.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 90.17)
+		(size 67.31 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d7c87b0-1309-475f-a9d7-edcf3dee5e4e")
+		(property "Sheetname" "Power Supply"
+			(at 119.38 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 119.38 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" input
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9757d84-3ba1-4945-9e05-adad4277ee5a")
+		)
+		(pin "USB_DN" input
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef7fb744-3d14-431f-bd07-50ea988e9cf9")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 88.9)
+		(size 58.42 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "539b926e-3ef4-477a-b921-49e2b2b26dfc")
+		(property "Sheetname" "LEDs"
+			(at 21.59 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 21.59 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_DATA" input
+			(at 60.96 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3e5f99b-9260-47ca-83a0-7296d638ecba")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 25.4)
+		(size 66.04 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bd0afd4-cd8b-4c1d-a236-891eed0b2d91")
+		(property "Sheetname" "Audio"
+			(at 120.65 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 120.65 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT_MIDI_TX" input
+			(at 120.65 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05fa2416-d95c-4ca5-bcf9-1b46e4d54ca7")
+		)
+		(pin "INT_MIDI_RX" input
+			(at 120.65 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1e22aa8-b497-4bb5-914a-4a1066caede4")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 25.4)
+		(size 59.69 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d36964e5-9373-47ae-95a7-088f8df77199")
+		(property "Sheetname" "MIDI"
+			(at 21.59 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pico.kicad_sch"
+			(at 21.59 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92ffa346-745e-41b5-a47e-c83c473abc38")
+		)
+		(pin "USB_DP" input
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffd02ad0-e5c6-4ff1-a73b-3293e8acbc34")
+		)
+		(pin "INT_MIDI_TX" input
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52a59fa9-06dd-488b-a380-13fe23f76759")
+		)
+		(pin "INT_MIDI_RX" input
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9c9e6ef-d068-4b5b-9e0e-5ac6900aa485")
+		)
+		(pin "RGB_DATA" input
+			(at 60.96 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "befe0c14-bc80-4f40-803d-df1ea674008d")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 25.4)
+		(size 68.58 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8ab7a61-8d57-4690-876b-f6a417060d03")
+		(property "Sheetname" "Connectivity"
+			(at 203.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connect.kicad_sch"
+			(at 203.2 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB2_N" input
+			(at 227.33 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f16e509b-b59a-4cc3-bf28-eb7e28e7b38a")
+		)
+		(pin "USB2_P" input
+			(at 234.95 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2758e71-1dcd-4ec9-a34d-f69495060d28")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
