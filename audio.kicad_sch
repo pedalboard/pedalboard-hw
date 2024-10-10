@@ -6889,6 +6889,12 @@
 		(uuid "f24acd21-2772-4907-a4cc-8df8f04e5ecd")
 	)
 	(junction
+		(at 179.07 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61baacb-9ef9-49d5-9ef7-0ca78bfc479c")
+	)
+	(junction
 		(at 257.81 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7939,6 +7945,16 @@
 			(type default)
 		)
 		(uuid "6bb62ebd-26bc-48e6-98de-1d27c1167a79")
+	)
+	(wire
+		(pts
+			(xy 171.45 36.83) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be136c6-9ca0-47c4-8b6a-3b1901ff6697")
 	)
 	(wire
 		(pts
@@ -10104,6 +10120,18 @@
 			(justify left)
 		)
 		(uuid "2e569ecd-2672-451e-9324-d7e7d34d687a")
+	)
+	(hierarchical_label "CM4_3V"
+		(shape input)
+		(at 171.45 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "836efa94-b060-4405-aafb-929d833fe1fa")
 	)
 	(hierarchical_label "INT_MIDI_RX"
 		(shape input)

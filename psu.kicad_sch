@@ -1040,153 +1040,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers hide)
 			(pin_names
@@ -2041,361 +1894,6 @@
 				)
 			)
 		)
-		(symbol "pedalboard:USB_B_Micro-Connector"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -3.81 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "USB_B_Micro"
-				(at 13.97 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Pedalboard Library:USB_Micro-B_Wuerth_614105150721_Vertical"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/614105150721.pdf"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Vertical USB B Micro Connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/614105150721/5047749"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_B_Micro-Connector_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_B_Micro-Connector_1_1"
-				(pin power_out line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -2732,126 +2230,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "pspice:INDUCTOR"
 			(pin_numbers hide)
 			(pin_names
@@ -3039,18 +2417,6 @@
 		(uuid "1c97580f-3345-469f-b07d-0824698b6058")
 	)
 	(junction
-		(at 173.99 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b61813-6ef7-4241-b645-67f109fbf174")
-	)
-	(junction
-		(at 156.21 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2553fda7-9949-471d-a4cc-2a6b6468fd5a")
-	)
-	(junction
 		(at 121.92 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3201,12 +2567,6 @@
 		(uuid "bee2b1dd-4336-472d-a3e7-30ae6706f798")
 	)
 	(junction
-		(at 193.04 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7a3c6cc-154d-455b-80f5-145a2b75c814")
-	)
-	(junction
 		(at 80.01 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3279,10 +2639,6 @@
 		(uuid "ff9d20e3-cf15-4138-9cff-e1bba40dfb60")
 	)
 	(no_connect
-		(at 166.37 54.61)
-		(uuid "303d4d82-0de0-4afd-aad7-d986aa1dfd3f")
-	)
-	(no_connect
 		(at 39.37 46.99)
 		(uuid "6f5d4e3d-65f9-46e5-9183-5f88e5728d42")
 	)
@@ -3295,16 +2651,6 @@
 			(type solid)
 		)
 		(uuid "00bd41b0-5071-4650-9fda-199bbbd4be89")
-	)
-	(wire
-		(pts
-			(xy 173.99 44.45) (xy 186.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015dce85-9eb4-4b3a-9b11-48a508520431")
 	)
 	(wire
 		(pts
@@ -3468,16 +2814,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 44.45) (xy 173.99 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "185b0241-b859-46b9-81e6-cd1f16b36645")
-	)
-	(wire
-		(pts
 			(xy 170.18 109.22) (xy 172.72 109.22)
 		)
 		(stroke
@@ -3495,26 +2831,6 @@
 			(type default)
 		)
 		(uuid "202bf95b-9e1d-4eaf-9ee8-31cccfbfd5ca")
-	)
-	(wire
-		(pts
-			(xy 193.04 44.45) (xy 205.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2422d63f-ba07-4441-8873-a985497c8854")
-	)
-	(wire
-		(pts
-			(xy 191.77 31.75) (xy 193.04 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2492c660-ea43-4e9f-a2b4-f91f8dded26b")
 	)
 	(wire
 		(pts
@@ -3645,16 +2961,6 @@
 			(type default)
 		)
 		(uuid "3b03eb53-4f9b-450f-be87-734f2824de11")
-	)
-	(wire
-		(pts
-			(xy 156.21 60.96) (xy 156.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cca1994-6d60-4396-b04a-023af9ee76b0")
 	)
 	(polyline
 		(pts
@@ -3868,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 31.75) (xy 193.04 44.45)
+			(xy 195.58 26.67) (xy 195.58 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3885,16 +3191,6 @@
 			(type default)
 		)
 		(uuid "608f9f3e-ac1c-4e41-bb35-361d4cd5b112")
-	)
-	(wire
-		(pts
-			(xy 191.77 44.45) (xy 193.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a6a01a-03bd-4995-bae8-2d1c7cd08d9e")
 	)
 	(wire
 		(pts
@@ -3955,26 +3251,6 @@
 			(type default)
 		)
 		(uuid "6e2ce12b-d0e6-4d7f-8ac9-345cd946986d")
-	)
-	(wire
-		(pts
-			(xy 173.99 43.18) (xy 173.99 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb62a69-b7ed-440c-968e-9fad2902568b")
-	)
-	(wire
-		(pts
-			(xy 156.21 59.69) (xy 156.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a8f2f0-6220-447f-8263-37ddd3c997f7")
 	)
 	(wire
 		(pts
@@ -4178,16 +3454,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 59.69) (xy 158.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bbd3419-5d5c-4a05-9ea9-44c5348aac20")
-	)
-	(wire
-		(pts
 			(xy 69.85 40.64) (xy 73.66 40.64)
 		)
 		(stroke
@@ -4275,16 +3541,6 @@
 			(type solid)
 		)
 		(uuid "a255fffc-0674-4665-8a1b-a928f5ce3211")
-	)
-	(wire
-		(pts
-			(xy 185.42 26.67) (xy 185.42 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26dc047-4441-41c9-97f1-072084be161a")
 	)
 	(wire
 		(pts
@@ -4558,6 +3814,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 44.45) (xy 205.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00300dc-e129-496a-867f-5ce1aa1bb99b")
+	)
+	(wire
+		(pts
 			(xy 162.56 125.73) (xy 162.56 130.81)
 		)
 		(stroke
@@ -4628,16 +3894,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 31.75) (xy 186.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3ebc68-9d83-4686-bc9d-8ae8731c1ae9")
-	)
-	(wire
-		(pts
 			(xy 162.56 143.51) (xy 162.56 144.78)
 		)
 		(stroke
@@ -4685,16 +3941,6 @@
 			(type solid)
 		)
 		(uuid "faad39e5-72aa-45cd-aba0-a366e1639580")
-	)
-	(wire
-		(pts
-			(xy 158.75 60.96) (xy 156.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb20930-664d-4f2b-96b7-aad2b25f96b2")
 	)
 	(text_box "RP2040 power"
 		(exclude_from_sim no)
@@ -4760,17 +4006,6 @@
 		)
 		(uuid "ab3c2914-2e5b-4939-8eba-d1a774769825")
 	)
-	(label "ored"
-		(at 199.39 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b6eff32-9658-457b-921b-949a4dab9105")
-	)
 	(label "fused"
 		(at 74.93 40.64 0)
 		(fields_autoplaced yes)
@@ -4825,30 +4060,6 @@
 			(justify left bottom)
 		)
 		(uuid "d772b6f6-d297-44b3-a536-57dc80070fe3")
-	)
-	(hierarchical_label "USB_DN"
-		(shape input)
-		(at 166.37 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7effd7b7-04f5-427d-9b70-b61c2f163755")
-	)
-	(hierarchical_label "USB_DP"
-		(shape input)
-		(at 166.37 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8cfe9e7-71e5-4a45-8389-62151e8b2c98")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5287,102 +4498,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
 					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedalboard:USB_B_Micro-Connector")
-		(at 158.75 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "2dd44026-9a20-4aeb-83ff-4d4e3a28aa28")
-		(property "Reference" "J1"
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pedalboard Library:USB_Micro-B_Wuerth_614105150721_Vertical"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/614105150721.pdf"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/614105150721/5047749"
-			(at 158.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39ddd6a8-2bac-491e-bc2c-3b23cedcf782")
-		)
-		(pin "2"
-			(uuid "6811841c-a61e-4a3b-a560-db0b81731788")
-		)
-		(pin "3"
-			(uuid "41fa7f17-f26b-42c4-b43f-589c0faf31ac")
-		)
-		(pin "4"
-			(uuid "8e65c6d0-5975-448b-ab32-5085245caf80")
-		)
-		(pin "5"
-			(uuid "c5fa7be4-037c-4251-a867-44a4d250f3d2")
-		)
-		(pin "6"
-			(uuid "15cdad04-1216-4763-8274-f2b39592afb3")
-		)
-		(instances
-			(project "RP2040_minimal"
-				(path "/aa156aab-bead-4c71-9076-01087371a0f1"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "pedalboard-hw"
-				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5894,92 +5009,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 189.23 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fd74276-a05c-4ca0-b4d7-cbafc276b3c7")
-		(property "Reference" "D4"
-			(at 189.5475 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34HF"
-			(at 189.5475 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 189.23 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/20190514101641.pdf"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/comchip-technology/SS34-HF/10279693"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "40V/3A"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c159fc4c-3058-42cd-a771-ac57309f22cf")
-		)
-		(pin "2"
-			(uuid "71dd4234-a7c0-4b7b-bc8b-b40ea195fc43")
-		)
-		(instances
-			(project "pedalboard-hw"
-				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6803,148 +5832,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d742aea-f48d-423e-9a15-91c639ee53be")
-		(property "Reference" "#PWR01"
-			(at 156.21 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.337 66.6242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a085cebb-465e-44bd-acfd-50af3d5f879a")
-		)
-		(instances
-			(project "RP2040_minimal"
-				(path "/aa156aab-bead-4c71-9076-01087371a0f1"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "pedalboard-hw"
-				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 173.99 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6df01253-f97e-4ac5-a2e7-99a70edcc96d")
-		(property "Reference" "#PWR03"
-			(at 173.99 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 174.371 38.7858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f7206d7-515b-4d11-b708-45ef73bf00c2")
-		)
-		(instances
-			(project "RP2040_minimal"
-				(path "/aa156aab-bead-4c71-9076-01087371a0f1"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "pedalboard-hw"
-				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8403,91 +7290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 189.23 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d28df35a-4449-4c69-a010-5f95117c93f3")
-		(property "Reference" "D5"
-			(at 189.5475 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34HF"
-			(at 189.5475 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 189.23 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/20190514101641.pdf"
-			(at 189.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/comchip-technology/SS34-HF/10279693"
-			(at 189.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "40V/3A"
-			(at 189.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ad60e08-8947-4893-a6db-4f5a6a34d79b")
-		)
-		(pin "2"
-			(uuid "782a6536-eddb-4fd7-b0d6-bcd97bdb984e")
-		)
-		(instances
-			(project "pedalboard-hw"
-				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/0d7c87b0-1309-475f-a9d7-edcf3dee5e4e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 127 0)
 		(unit 1)
@@ -9178,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 185.42 26.67 0)
+		(at 195.58 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9187,7 +7989,7 @@
 		(dnp no)
 		(uuid "fca25649-2964-429d-97fd-f41c19b2bee3")
 		(property "Reference" "#PWR034"
-			(at 185.42 30.48 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +7998,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 185.42 21.59 0)
+			(at 195.58 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +8006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 26.67 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +8015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 26.67 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +8024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 26.67 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
