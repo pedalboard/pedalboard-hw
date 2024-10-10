@@ -4,9 +4,8 @@
 
 - support differential output
 - Placement hight for micro buttons
-- 3.3v LED on RP2040
 - SMD Debug connectors
-- SMD STEMMA connectors
+- SMD connectors for MIDI
 - clearance around mounting holes
 
 ## [4.0.0-RC1 - Pedalboard Display - TBD
@@ -25,6 +24,7 @@
 - Two more mounting holes (for development)
 - 3D model for JST (Stemma)
 - One more mounting hole in the center
+- User (Test) LED on RP2040
 
 ## Changed
 

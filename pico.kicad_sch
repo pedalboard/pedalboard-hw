@@ -783,6 +783,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1476,6 +1578,175 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2634,6 +2905,102 @@
 				)
 			)
 			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -5901,6 +6268,12 @@
 		(uuid "9931722f-a9b4-4bb9-8f3f-49d0223c01c0")
 	)
 	(junction
+		(at 260.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5a4f90-493d-484d-b960-0175b6254edf")
+	)
+	(junction
 		(at 50.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6119,10 +6492,6 @@
 		(uuid "92a8c108-1802-4e06-be07-b2e123250cfe")
 	)
 	(no_connect
-		(at 228.6 96.52)
-		(uuid "9802b8e7-e754-4003-a60a-737727ee0dc9")
-	)
-	(no_connect
 		(at 228.6 139.7)
 		(uuid "b1347f36-9fd0-4b2a-beb2-3a918ee6debf")
 	)
@@ -6273,6 +6642,16 @@
 			(type default)
 		)
 		(uuid "0e4a67cb-e0b6-4b69-bd65-18858b8b18b4")
+	)
+	(wire
+		(pts
+			(xy 260.35 100.33) (xy 262.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1688bb-1f5c-4ae7-8dcb-ba47abf1c80a")
 	)
 	(wire
 		(pts
@@ -6666,6 +7045,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 100.33) (xy 275.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327eec2d-15c1-43fd-a50e-f5f104273150")
+	)
+	(wire
+		(pts
+			(xy 260.35 96.52) (xy 260.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33efdf99-18c7-43fd-943f-afbd7ba86a9c")
+	)
+	(wire
+		(pts
 			(xy 107.95 181.61) (xy 107.95 191.77)
 		)
 		(stroke
@@ -6876,6 +7275,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 102.87) (xy 260.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf88457-290f-4f55-83d4-b0603bf074b2")
+	)
+	(wire
+		(pts
 			(xy 43.18 26.67) (xy 44.45 26.67)
 		)
 		(stroke
@@ -6916,16 +7325,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 269.24 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545bd06d-6540-4a39-895b-3ae1e7b0acce")
-	)
-	(wire
-		(pts
 			(xy 156.21 20.32) (xy 156.21 22.86)
 		)
 		(stroke
@@ -6943,6 +7342,16 @@
 			(type default)
 		)
 		(uuid "547a1267-40a2-40e2-8bd9-5dbfb3cce89e")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a00b434-b5ac-4b04-ac3d-eb2749b12f82")
 	)
 	(wire
 		(pts
@@ -7966,6 +8375,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 106.68) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4246446-e375-4b56-9e9c-cdde64342ffe")
+	)
+	(wire
+		(pts
 			(xy 57.15 124.46) (xy 46.99 124.46)
 		)
 		(stroke
@@ -8566,6 +8985,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 96.52) (xy 234.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de80ee4f-fd5d-4c5e-9b86-b56a971cc262")
+	)
+	(wire
+		(pts
 			(xy 228.6 119.38) (xy 243.84 119.38)
 		)
 		(stroke
@@ -8733,6 +9162,16 @@
 			(type default)
 		)
 		(uuid "f894a1c7-3cc3-4740-88fe-9a6f30de5275")
+	)
+	(wire
+		(pts
+			(xy 260.35 96.52) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ebeb14-fc6c-44fd-a13f-bd966749926a")
 	)
 	(wire
 		(pts
@@ -9566,7 +10005,7 @@
 	)
 	(hierarchical_label "RGB_DATA"
 		(shape input)
-		(at 269.24 99.06 0)
+		(at 243.84 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10680,6 +11119,73 @@
 			(project "pedalboard-hw"
 				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 275.59 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19714d3e-36d8-488a-bebd-201aafbda3a4")
+		(property "Reference" "#PWR04"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4845c49e-123c-4795-906e-48190b38aace")
+		)
+		(instances
+			(project ""
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12149,6 +12655,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a941e7-ca2a-4343-b614-523641cf177c")
+		(property "Reference" "TP4"
+			(at 258.2418 103.5812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 259.08 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "922027bc-5188-4c77-a049-bc7d90a41f00")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 140.97 130.81 90)
 		(unit 1)
@@ -13544,6 +14116,82 @@
 			(project "pedalboard-hw"
 				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 237.49 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5feb4b-8d73-49b0-be29-c69b8804885d")
+		(property "Reference" "R21"
+			(at 237.49 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27R"
+			(at 237.49 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 237.49 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT27R0/1712920"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "769ba0c8-8805-4663-93be-a9bb33315e3d")
+		)
+		(pin "2"
+			(uuid "053685aa-8163-49ea-86ab-086f0254932e")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16457,6 +17105,73 @@
 			(project "pedalboard-hw"
 				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 266.7 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb24435f-0d1f-4bcc-8a10-ea1289ac90e8")
+		(property "Reference" "D2"
+			(at 266.7 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED Y"
+			(at 267.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 266.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "704ccd41-4331-4004-a6f1-d7aceebef6a3")
+		)
+		(pin "2"
+			(uuid "9a3bfd8f-7988-4146-8bb8-fa9d3fdb2af3")
+		)
+		(instances
+			(project "pedalboard-hw"
+				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
+					(reference "D2")
 					(unit 1)
 				)
 			)
