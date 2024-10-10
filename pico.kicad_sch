@@ -8985,7 +8985,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 234.95 96.52)
+			(xy 228.6 96.52) (xy 245.11 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9165,7 +9165,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 96.52) (xy 240.03 96.52)
+			(xy 260.35 96.52) (xy 250.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14123,7 +14123,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 237.49 96.52 90)
+		(at 247.65 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14131,15 +14131,15 @@
 		(dnp no)
 		(uuid "7e5feb4b-8d73-49b0-be29-c69b8804885d")
 		(property "Reference" "R21"
-			(at 237.49 96.52 90)
+			(at 251.968 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "27R"
-			(at 237.49 98.298 90)
+		(property "Value" "1K"
+			(at 247.65 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14147,7 +14147,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 237.49 98.298 90)
+			(at 247.65 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14156,7 +14156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 237.49 96.52 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,7 +14165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 96.52 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14174,7 +14174,7 @@
 			)
 		)
 		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT27R0/1712920"
-			(at 237.49 96.52 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
