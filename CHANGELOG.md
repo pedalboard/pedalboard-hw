@@ -2,6 +2,8 @@
 
 ## TODO
 
+- Once more change the location of the mounting holes
+- Move the LED out
 - support differential output
 - Placement hight for micro buttons
 - SMD Debug connectors
@@ -16,6 +18,7 @@
 
 ### Added
 
+- USB OTG and USB out
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
 - Silkscreen text for MIDI controller inputs
