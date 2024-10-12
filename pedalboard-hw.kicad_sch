@@ -335,6 +335,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 41.91) (xy 203.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345bddf1-8041-4599-a06c-6045f667be59")
+	)
+	(wire
+		(pts
 			(xy 99.06 34.29) (xy 99.06 15.24)
 		)
 		(stroke
@@ -362,6 +372,16 @@
 			(type default)
 		)
 		(uuid "4ff9592d-dbb4-4d3f-ae7a-328b37944c20")
+	)
+	(wire
+		(pts
+			(xy 186.69 52.07) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2473fa-3598-4680-aeee-170d5357cb1a")
 	)
 	(wire
 		(pts
@@ -1289,6 +1309,26 @@
 			)
 			(uuid "b1e22aa8-b497-4bb5-914a-4a1066caede4")
 		)
+		(pin "CM4_3V" input
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dfe6eaaa-7150-4541-a21e-894576e8f691")
+		)
+		(pin "nEXTRST" input
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a7800d2-e962-43d6-a809-ebec35c38ac0")
+		)
 		(instances
 			(project "pedalboard-hw"
 				(path "/df521c2a-9827-4355-b809-366f4b88d5d7"
@@ -1434,6 +1474,26 @@
 				(justify right)
 			)
 			(uuid "b2758e71-1dcd-4ec9-a34d-f69495060d28")
+		)
+		(pin "CM4_3V" input
+			(at 203.2 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e765ba1d-b7d1-458e-94ef-6c8de59abbc5")
+		)
+		(pin "nEXTRST" input
+			(at 203.2 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f7a711d-deac-4cec-9e02-c270542a3cb8")
 		)
 		(instances
 			(project "pedalboard-hw"

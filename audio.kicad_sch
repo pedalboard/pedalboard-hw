@@ -6947,10 +6947,6 @@
 		(uuid "25d050e8-4560-437d-ae52-cc1206380f80")
 	)
 	(no_connect
-		(at 40.64 148.59)
-		(uuid "2bedd327-d56e-4f32-8a01-5763c7668377")
-	)
-	(no_connect
 		(at 262.89 147.32)
 		(uuid "34a7db0d-56af-4fcb-8557-f7334c1d2d65")
 	)
@@ -7775,6 +7771,16 @@
 			(type default)
 		)
 		(uuid "5a07deb1-a539-48cf-8949-60d1787ddf2b")
+	)
+	(wire
+		(pts
+			(xy 29.21 158.75) (xy 40.64 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2d07c5-2ec4-44f0-90f2-67f2a4a6dbd2")
 	)
 	(wire
 		(pts
@@ -9198,6 +9204,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 148.59) (xy 40.64 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbccee1f-d142-4673-9100-13a9049bcada")
+	)
+	(wire
+		(pts
 			(xy 16.51 77.47) (xy 40.64 77.47)
 		)
 		(stroke
@@ -10132,6 +10148,18 @@
 			(justify right)
 		)
 		(uuid "836efa94-b060-4405-aafb-929d833fe1fa")
+	)
+	(hierarchical_label "nEXTRST"
+		(shape input)
+		(at 29.21 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc038ac4-c76c-4f05-90f9-dc19528d77c2")
 	)
 	(hierarchical_label "INT_MIDI_RX"
 		(shape input)

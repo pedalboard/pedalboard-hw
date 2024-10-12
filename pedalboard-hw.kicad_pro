@@ -106,7 +106,6 @@
         "courtyards_overlap|37999999|72770001|36a20320-2cbc-44d7-b545-9a2e659f653e|892925bc-ab55-44fc-a20e-5c76a8714f23",
         "courtyards_overlap|41729999|92970001|14ae77cf-b1dd-4548-94b7-09c7472a9807|36a20320-2cbc-44d7-b545-9a2e659f653e",
         "unresolved_variable|178002200|171007200||",
-        "unresolved_variable|44200000|55800000|78fc9f42-dbb9-4dcf-8bde-d309ecea9cb1|00000000-0000-0000-0000-000000000000",
         "unresolved_variable|67860000|55840000|60200048-e0a4-476a-bc9e-cdcaf8d1cb54|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -603,7 +602,7 @@
       },
       {
         "netclass": "USB Data",
-        "pattern": "/Connectivity/USB2_*"
+        "pattern": "/Connectivity/USB_*"
       },
       {
         "netclass": "Power",
