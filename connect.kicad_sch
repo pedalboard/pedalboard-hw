@@ -8076,7 +8076,7 @@
 		(uuid "d58e2067-e194-44a6-9602-6675782719aa")
 	)
 	(no_connect
-		(at 224.79 48.26)
+		(at 224.79 44.45)
 		(uuid "d727ebff-4407-4008-8235-9fe4221fb707")
 	)
 	(no_connect
@@ -8437,6 +8437,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 49.53) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b26c059-c7e5-45f6-8a64-9121d3b7d0bb")
+	)
+	(wire
+		(pts
 			(xy 87.63 102.87) (xy 91.44 102.87)
 		)
 		(stroke
@@ -8474,16 +8484,6 @@
 			(type default)
 		)
 		(uuid "3ffcb0a7-ea9b-408f-9759-544c7b601382")
-	)
-	(wire
-		(pts
-			(xy 214.63 39.37) (xy 214.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40612f89-7aea-4c02-b6c1-44930e41f433")
 	)
 	(wire
 		(pts
@@ -8554,16 +8554,6 @@
 			(type default)
 		)
 		(uuid "4cd4617a-0242-4d55-94c3-166ea80572c1")
-	)
-	(wire
-		(pts
-			(xy 212.09 45.72) (xy 224.79 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d29a656-4697-46ba-bdd4-a79c9dff75e4")
 	)
 	(wire
 		(pts
@@ -8897,7 +8887,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 41.91) (xy 212.09 41.91)
+			(xy 199.39 41.91) (xy 224.79 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8917,7 +8907,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 39.37) (xy 214.63 39.37)
+			(xy 199.39 39.37) (xy 224.79 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9107,16 +9097,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 43.18) (xy 224.79 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c65ed7d-3a02-428f-bccf-380b758a4af9")
-	)
-	(wire
-		(pts
 			(xy 213.36 123.19) (xy 243.84 123.19)
 		)
 		(stroke
@@ -9277,7 +9257,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 38.1) (xy 224.79 38.1)
+			(xy 219.71 34.29) (xy 224.79 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9657,7 +9637,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 19.05) (xy 219.71 38.1)
+			(xy 219.71 19.05) (xy 219.71 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9784,26 +9764,6 @@
 			(type default)
 		)
 		(uuid "db764f99-2c86-495d-a914-6d96a01256da")
-	)
-	(wire
-		(pts
-			(xy 212.09 41.91) (xy 212.09 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df109f7c-6bb2-47ad-a4c2-b23b8af66ca3")
-	)
-	(wire
-		(pts
-			(xy 232.41 53.34) (xy 234.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dffa3ad1-09c1-4f29-8c03-e6491ced97e1")
 	)
 	(wire
 		(pts
@@ -9947,6 +9907,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 49.53) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ed9140-7ffd-47f0-8b1f-e919f4200a2a")
+	)
+	(wire
+		(pts
 			(xy 260.35 80.01) (xy 264.16 80.01)
 		)
 		(stroke
@@ -9974,6 +9944,16 @@
 			(type default)
 		)
 		(uuid "f4712820-48f6-42e9-88b1-6f86d0ea03aa")
+	)
+	(wire
+		(pts
+			(xy 234.95 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81ab4f8-e08c-4633-9f21-03a0f4fcedff")
 	)
 	(wire
 		(pts
@@ -10337,7 +10317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 131.191 120.523 0)
 			(effects
 				(font
@@ -11208,7 +11188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
 			(at 265.43 121.92 0)
 			(effects
 				(font
@@ -11396,7 +11376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -11994,7 +11974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 117.221 120.523 0)
 			(effects
 				(font
@@ -13571,7 +13551,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_OTG")
-		(at 232.41 43.18 0)
+		(at 232.41 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13580,7 +13560,7 @@
 		(dnp no)
 		(uuid "eaba7cb2-60ea-4a3e-aadb-92fd5689b007")
 		(property "Reference" "J9"
-			(at 232.41 30.48 0)
+			(at 232.41 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,15 +13568,15 @@
 			)
 		)
 		(property "Value" "USB_OTG"
-			(at 232.41 33.02 0)
+			(at 232.41 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 44.45 0)
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
+			(at 228.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,7 +13585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 44.45 0)
+			(at 228.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13614,7 +13594,7 @@
 			)
 		)
 		(property "Description" "USB mini/micro connector"
-			(at 232.41 43.18 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
