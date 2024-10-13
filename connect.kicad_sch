@@ -14478,7 +14478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
+		(property "Footprint" "Pedalboard Library:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
 			(at 228.6 40.64 0)
 			(effects
 				(font
