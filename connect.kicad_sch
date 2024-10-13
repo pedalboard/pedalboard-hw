@@ -7503,12 +7503,6 @@
 		(uuid "2a15a001-3bd2-4cd8-ac19-1fabc4c7019d")
 	)
 	(junction
-		(at 158.75 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d10612e-d80c-4d38-abdd-d7478b1453fd")
-	)
-	(junction
 		(at 91.44 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7651,6 +7645,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d061d9b-c7c6-44d8-b118-ef5c5bfe2694")
+	)
+	(junction
+		(at 158.75 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e4ff259-65c1-4a0a-98c1-0b0fa109c486")
 	)
 	(junction
 		(at 180.34 69.85)
@@ -8220,16 +8220,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 158.75 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b1543e9-9be3-44fa-b0c6-0a7b16a7365c")
-	)
-	(wire
-		(pts
 			(xy 254 80.01) (xy 254 78.74)
 		)
 		(stroke
@@ -8330,7 +8320,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 49.53) (xy 158.75 49.53)
+			(xy 158.75 49.53) (xy 179.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8640,6 +8630,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 19.05) (xy 158.75 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e78ca61-2518-4ce9-b9b3-36673eb4464b")
+	)
+	(wire
+		(pts
 			(xy 62.23 186.69) (xy 71.12 186.69)
 		)
 		(stroke
@@ -8927,16 +8927,6 @@
 			(type default)
 		)
 		(uuid "6883f048-9153-450a-9cfc-cf8c26097e42")
-	)
-	(wire
-		(pts
-			(xy 170.18 49.53) (xy 179.07 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a630f3b-f840-453a-964f-b529aeab7d96")
 	)
 	(wire
 		(pts
@@ -10097,6 +10087,16 @@
 			(type default)
 		)
 		(uuid "f4712820-48f6-42e9-88b1-6f86d0ea03aa")
+	)
+	(wire
+		(pts
+			(xy 158.75 29.21) (xy 158.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f0d716-3f9d-436a-8796-2d09ac409da0")
 	)
 	(wire
 		(pts
@@ -12379,32 +12379,34 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 49.53 90)
+		(at 158.75 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "788ea350-61ee-456f-a4a6-0fe0d43dc533")
+		(uuid "819900d7-f664-4799-ac97-72f101de3755")
 		(property "Reference" "R22"
-			(at 167.64 44.45 90)
+			(at 161.29 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "2K2"
-			(at 167.64 46.99 90)
+			(at 161.29 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.64 51.308 90)
+			(at 160.528 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 167.64 49.53 0)
+			(at 158.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 49.53 0)
+			(at 158.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +12433,7 @@
 			)
 		)
 		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229"
-			(at 167.64 49.53 0)
+			(at 158.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,10 +12442,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "444ba85a-6f5c-47ec-a559-ff683a42f009")
+			(uuid "1474a36d-3180-4a4b-a3ca-b50b643e7946")
 		)
 		(pin "2"
-			(uuid "ad676649-b9d6-401e-8a11-74d54b3753de")
+			(uuid "844601a7-70e9-40ed-8a19-33370bb754eb")
 		)
 		(instances
 			(project "pedalboard-hw"
