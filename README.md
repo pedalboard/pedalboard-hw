@@ -15,7 +15,7 @@ This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8
   - The device can be used:
      1. MIDI controller only (Low Cost)
      1. both for MIDI and Audio, communication between the modules is done via MIDI.
-  - MIDI Moudule has independent microcontroller and firmware with immediate startup
+  - MIDI Module has independent microcontroller and firmware with immediate startup
   - Optional Power supply module if no USB Power is available on the board.
 - Maker friendly
   - Use of existing modules for the heavy lifting
@@ -35,6 +35,8 @@ This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8
   - Two channel Differential input/output
 - or HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
   - Hiqh Quality Stereo Input/Output
+  - USB A Host
+  - Mini USB OTG for firmware update
 
 ### MIDI and Control Surface
 
