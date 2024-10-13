@@ -2,8 +2,6 @@
 
 ## TODO
 
-- Once more change the location of the mounting holes
-- Move the LED out
 - support differential output
 - Placement hight for micro buttons
 - SMD Debug connectors
