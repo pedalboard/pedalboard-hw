@@ -2,7 +2,6 @@
 
 ## TODO
 
-- support differential output
 - Placement hight for micro buttons
 - SMD Debug connectors
 - SMD connectors for MIDI
