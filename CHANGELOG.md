@@ -15,7 +15,7 @@
 
 ### Added
 
-- USB OTG and USB out
+- USB Device in and USB out
 - OSHW Symbol
 - Silkscreen text for reset/boot switches
 - Silkscreen text for MIDI controller inputs
@@ -25,6 +25,7 @@
 - 3D model for JST (Stemma)
 - One more mounting hole in the center
 - User (Test) LED on RP2040
+- EEPROM for storing configuration
 
 ## Changed
 
@@ -35,6 +36,10 @@
 - Replace HiFi Berry by pedalboard-soundcard
 - Upgrade to KiCad 8
 - use smaller XTAL ABM8-272-T3
+
+## Removed
+
+- LED ring connectors (now on Display)
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
