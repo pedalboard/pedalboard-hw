@@ -35,8 +35,8 @@ This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8
   - Two channel Differential input/output
 - or HiFiBerry [DAC+ ADC PRO](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/)
   - Hiqh Quality Stereo Input/Output
-  - USB A Host
-  - Mini USB OTG for firmware update
+- USB A Host
+- Mini USB Device mode (for firmware update)
 
 ### MIDI and Control Surface
 
@@ -54,6 +54,7 @@ This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8
   and readable from a large distance. For example the current preset number or a
   db meter value.
 - STEMMA I2C connector for 2 OLED displays
+- I2C EEPROM for config storage
 - Flexibile MIDI I/O
   - DIN 5 Plug
   - or 3.5mm Mini TRS Plug
