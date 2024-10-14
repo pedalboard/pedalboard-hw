@@ -7343,7 +7343,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 33.02) (xy 257.81 33.02)
+			(xy 256.54 26.67) (xy 257.81 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7853,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 49.53) (xy 276.86 50.8)
+			(xy 276.86 44.45) (xy 276.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7913,7 +7913,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 33.02) (xy 276.86 33.02)
+			(xy 262.89 26.67) (xy 276.86 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8513,7 +8513,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 40.64) (xy 276.86 41.91)
+			(xy 276.86 34.29) (xy 276.86 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8533,7 +8533,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 33.02) (xy 276.86 35.56)
+			(xy 276.86 26.67) (xy 276.86 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8573,7 +8573,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 33.02) (xy 248.92 33.02)
+			(xy 245.11 26.67) (xy 248.92 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8873,7 +8873,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 50.8) (xy 276.86 50.8)
+			(xy 273.05 48.26) (xy 276.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8920,16 +8920,6 @@
 			(type default)
 		)
 		(uuid "d49af164-8183-4f64-824d-69482b814de9")
-	)
-	(wire
-		(pts
-			(xy 273.05 48.26) (xy 273.05 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5146340-78b7-4f97-9eeb-34ef66b11f56")
 	)
 	(wire
 		(pts
@@ -9363,8 +9353,8 @@
 	)
 	(text_box "Activity"
 		(exclude_from_sim no)
-		(at 224.79 25.4 0)
-		(size 58.42 50.8)
+		(at 224.79 16.51 0)
+		(size 58.42 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -9398,6 +9388,16 @@
 			(justify left top)
 		)
 		(uuid "c1b53087-a128-4d37-810a-3da93152cdc3")
+	)
+	(text "JP4 and JP6: \nClose to support differential output. \nHIFIberry has 5V on these outputs!"
+		(exclude_from_sim no)
+		(at 260.858 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67a1b246-e1b1-4adb-bb83-899ecda9312f")
 	)
 	(label "in_L+"
 		(at 128.27 180.34 0)
@@ -9631,7 +9631,7 @@
 		(uuid "3e729a83-fbb6-4802-869c-80aa5cae1673")
 	)
 	(label "CM4_3V3"
-		(at 267.97 33.02 0)
+		(at 267.97 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9961,7 +9961,7 @@
 		(uuid "9fd45b4c-739d-4d97-bd12-99b59fcd4553")
 	)
 	(label "CM4_LED_ACT"
-		(at 245.11 33.02 180)
+		(at 245.11 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10703,7 +10703,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 276.86 45.72 90)
+		(at 276.86 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10711,7 +10711,7 @@
 		(dnp no)
 		(uuid "4f7b5c05-f2f9-474a-951a-e7b5232cacbf")
 		(property "Reference" "D7"
-			(at 279.4 44.45 90)
+			(at 279.4 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +10720,7 @@
 			)
 		)
 		(property "Value" "LED R"
-			(at 269.24 44.45 90)
+			(at 269.24 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +10729,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 276.86 45.72 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10738,7 +10738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 45.72 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +10747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 45.72 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,10 +11588,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c6b9a31-f82c-4ccc-95d8-19806971a02b")
 		(property "Reference" "U7"
-			(at 255.27 38.1 0)
+			(at 255.27 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11668,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 276.86 38.1 180)
+		(at 276.86 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11678,7 +11677,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f7de14e-6837-4623-ba70-c7d48f23d032")
 		(property "Reference" "R17"
-			(at 279.4 36.83 0)
+			(at 279.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11687,7 +11686,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 279.4 39.37 0)
+			(at 279.4 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11695,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 278.638 38.1 90)
+			(at 278.638 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,7 +11704,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 276.86 38.1 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +11713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 38.1 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11722,7 @@
 			)
 		)
 		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT2K20/1760345"
-			(at 276.86 38.1 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11731,7 @@
 			)
 		)
 		(property "Notes" "Resistor 2.2K 1% 63mW"
-			(at 276.86 38.1 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +12281,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 252.73 33.02 0)
+		(at 252.73 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12291,7 +12290,7 @@
 		(fields_autoplaced yes)
 		(uuid "a18a4738-d9f4-4a17-b9cd-ab479bed626f")
 		(property "Reference" "D6"
-			(at 251.1425 26.67 0)
+			(at 251.1425 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +12298,7 @@
 			)
 		)
 		(property "Value" "LED Y"
-			(at 251.1425 29.21 0)
+			(at 251.1425 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12306,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 252.73 33.02 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 33.02 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,7 +12324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 33.02 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,7 +12813,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 260.35 33.02 90)
+		(at 260.35 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12823,7 +12822,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9207788-0949-4cfb-b9a1-3cc22176409c")
 		(property "Reference" "R16"
-			(at 260.35 26.67 90)
+			(at 260.35 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12831,7 +12830,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 260.35 29.21 90)
+			(at 260.35 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +12838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 260.35 34.798 90)
+			(at 260.35 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12848,7 +12847,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 260.35 33.02 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,7 +12856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 33.02 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +12865,7 @@
 			)
 		)
 		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229"
-			(at 260.35 33.02 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
