@@ -6,7 +6,6 @@
 - SMD Debug connectors
 - SMD connectors for MIDI
 - clearance around mounting holes
-- GND vs shield
 
 ## [4.0.0-RC1 - Pedalboard Display - TBD
 
