@@ -30,6 +30,26 @@ step:
 		--force \
 		$(PROJECT_NAME).kicad_pcb
 
+pdf:
+	mkdir -p out
+	kicad-cli pcb export pdf \
+		--define-var GIT_HASH=$(GIT_HASH) \
+		--output out/$(PROJECT_NAME)-pcb-front.pdf \
+		--layers F.Cu \
+		$(PROJECT_NAME).kicad_pcb
+	kicad-cli pcb export pdf \
+		--define-var GIT_HASH=$(GIT_HASH) \
+		--output out/$(PROJECT_NAME)-pcb-back.pdf \
+		--layers B.Cu \
+		$(PROJECT_NAME).kicad_pcb
+	kicad-cli sch export pdf \
+		--define-var GIT_HASH=$(GIT_HASH) \
+		--output out/$(PROJECT_NAME)-schematic.pdf \
+		$(PROJECT_NAME).kicad_sch
+
+
+
+
 
 clean:
 	rm -rf out
