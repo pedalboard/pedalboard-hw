@@ -40,6 +40,7 @@
 
 - LED ring connectors (now on Display)
 - Fiducials and holes from BOM
+- Direct USB connection to RP2040
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
