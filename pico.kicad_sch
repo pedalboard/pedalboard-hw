@@ -13487,7 +13487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6387/ABM8_272_T3-3392615-pages.pdf"
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 93.98 116.84 0)
 			(effects
 				(font
@@ -13498,6 +13498,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/abracon-llc/ABM8-272-T3/22472366"
 			(at 93.98 116.84 0)
 			(effects
 				(font
