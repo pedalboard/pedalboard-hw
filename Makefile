@@ -48,6 +48,12 @@ pdf:
 		$(PROJECT_NAME).kicad_sch
 
 
+bom:
+	mkdir -p out
+	kicad-cli sch export bom \
+    --preset "Grouped By Value" \
+		--output out/$(PROJECT_NAME)-bom.csv \
+		$(PROJECT_NAME).kicad_sch
 
 
 
