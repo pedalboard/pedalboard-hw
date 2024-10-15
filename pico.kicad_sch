@@ -15755,6 +15755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/microchip-technology/AT24CS01-STUM-T/3973063"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0f7458e2-dcae-488e-8d25-f7097f65c363")
 		)

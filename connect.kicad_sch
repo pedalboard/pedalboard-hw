@@ -11728,6 +11728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/onsemi/FSUSB42MUX/2036916"
+			(at 189.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "675ade0d-6283-4d6e-b3e2-d38405f64f14")
 		)
@@ -12110,7 +12119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/676433910?display=pdf"
 			(at 266.7 104.14 0)
 			(effects
 				(font
@@ -12120,6 +12129,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/molex/0676433910/3598521"
 			(at 270.51 102.87 0)
 			(effects
 				(font
@@ -15090,6 +15108,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/microchip-technology/USB2514B-I-M2/5639468"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "afc130d8-11e5-48d8-a21d-4ca4c6d0b45b")
 		)
@@ -15322,6 +15349,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/texas-instruments/TPD4EUSB30DQAR/2503665"
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -15711,7 +15747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
 			(at 228.6 40.64 0)
 			(effects
 				(font
@@ -15721,6 +15757,15 @@
 			)
 		)
 		(property "Description" "USB mini/micro connector"
+			(at 232.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/amphenol-cs-fci/10103594-0001LF/2350351"
 			(at 232.41 39.37 0)
 			(effects
 				(font
