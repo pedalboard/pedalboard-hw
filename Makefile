@@ -55,7 +55,15 @@ bom:
 		--output out/$(PROJECT_NAME)-bom.csv \
 		$(PROJECT_NAME).kicad_sch
 
-
+pos:
+	mkdir -p out
+	kicad-cli pcb export pos \
+		--output out/$(PROJECT_NAME)-pos.csv \
+		--format csv \
+		--side front \
+		--units mm \
+		--smd-only \
+		$(PROJECT_NAME).kicad_pcb
 
 clean:
 	rm -rf out
