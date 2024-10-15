@@ -17,7 +17,7 @@ import:
   - file: PCBWay
 
 preflight:
-  run_erc: false
+  run_erc: true
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
