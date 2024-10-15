@@ -57,8 +57,8 @@ bom: ## export BOM
 pos: ## export Position file
 	mkdir -p out
 	kicad-cli pcb export pos \
-		--output out/$(PROJECT_NAME)-pos.csv \
-		--format csv \
+		--output out/$(PROJECT_NAME).pos \
+		--format ascii \
 		--side front \
 		--units mm \
 		--smd-only \
