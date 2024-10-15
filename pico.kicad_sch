@@ -13461,7 +13461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63285645-e961-474e-9751-faad9b77493e")
-		(property "Reference" "X1"
+		(property "Reference" "Y2"
 			(at 106.68 109.22 0)
 			(effects
 				(font
@@ -13530,7 +13530,7 @@
 		(instances
 			(project ""
 				(path "/df521c2a-9827-4355-b809-366f4b88d5d7/d36964e5-9373-47ae-95a7-088f8df77199"
-					(reference "X1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)

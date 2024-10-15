@@ -12687,7 +12687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Crystals/crystals-445-datasheet.pdf"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -12697,6 +12697,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/cts-frequency-controls/445C33D24M00000/3135787"
 			(at 120.65 113.03 0)
 			(effects
 				(font
