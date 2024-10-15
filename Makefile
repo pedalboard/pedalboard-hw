@@ -20,6 +20,17 @@ test:
 		--exit-code-violations \
 		$(PROJECT_NAME).kicad_pcb
 
+
+step:
+	mkdir -p out
+	kicad-cli pcb export step \
+		--define-var GIT_HASH=$(GIT_HASH) \
+		--output out/$(PROJECT_NAME).step \
+		--subst-models \
+		--force \
+		$(PROJECT_NAME).kicad_pcb
+
+
 clean:
 	rm -rf out
 
