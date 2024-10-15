@@ -8842,10 +8842,6 @@
 		(uuid "a09f0354-db55-4f60-9ce9-8eaf562f5998")
 	)
 	(no_connect
-		(at 213.36 130.81)
-		(uuid "a1f456ee-364e-4856-ad55-dfdf66cb1f18")
-	)
-	(no_connect
 		(at 87.63 100.33)
 		(uuid "a26f6336-f688-4715-8e58-b31d83dc2722")
 	)
@@ -8896,10 +8892,6 @@
 	(no_connect
 		(at 26.67 39.37)
 		(uuid "c20d5dd7-e706-495a-8fdf-a67fb96186bf")
-	)
-	(no_connect
-		(at 213.36 118.11)
-		(uuid "c24cc8ea-3e78-4ab4-aa5b-d816a8cd3730")
 	)
 	(no_connect
 		(at 87.63 46.99)
@@ -9425,6 +9417,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48719ae5-6a72-4c05-b460-3ec52d51deed")
+	)
+	(wire
+		(pts
 			(xy 266.7 69.85) (xy 266.7 71.12)
 		)
 		(stroke
@@ -9645,7 +9647,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 105.41) (xy 217.17 105.41)
+			(xy 213.36 105.41) (xy 218.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10405,6 +10407,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 130.81) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c01f9e-8db5-488a-9709-7740982ac609")
+	)
+	(wire
+		(pts
 			(xy 203.2 49.53) (xy 199.39 49.53)
 		)
 		(stroke
@@ -11035,7 +11047,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 92.71) (xy 217.17 92.71)
+			(xy 213.36 92.71) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11118,6 +11130,17 @@
 		)
 		(uuid "3dbbc419-e21c-4e5f-8a2c-098f57c6eb6c")
 	)
+	(label "nOCS1"
+		(at 218.44 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e809a01-eb8a-49aa-bf05-dbaf46b8112b")
+	)
 	(label "USB_UP_P"
 		(at 172.72 62.23 0)
 		(fields_autoplaced yes)
@@ -11163,7 +11186,7 @@
 		(uuid "61611b76-f925-408e-b45d-f6e4ec516b99")
 	)
 	(label "nOCS1"
-		(at 217.17 92.71 0)
+		(at 218.44 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11251,7 +11274,18 @@
 		(uuid "b99ca13f-8554-47df-8363-669e5a5d5df6")
 	)
 	(label "nOCS1"
-		(at 217.17 105.41 0)
+		(at 218.44 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86ade2b-ed17-4c55-937d-09050482347f")
+	)
+	(label "nOCS1"
+		(at 218.44 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
