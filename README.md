@@ -94,17 +94,9 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-hw-site/latest/Bro
 
 ## Mechanical Parts
 
-Mounting case can be found in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
+3D printable parts can be found in the [pedalboard-case](https://github.com/pedalboard/pedalboard-case) project.
 
-![Case](https://raw.githubusercontent.com/pedalboard/pedalboard-case/main/generated/pedalboard-case.png)
-
-SMT spacers:
-
-- <https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/9774027151R/5320625>
-
-## Notes
-
-### KiCad component sources
+### References
 
 - [HifiBerry DAC/ADC+](https://github.com/hifiberry/kicad_template_dac_adc_stage)
 - [PIHat Mechanical Spec](https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf)
