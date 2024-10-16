@@ -7,11 +7,9 @@
 - SMD connectors for MIDI
 - clearance around mounting holes
 
-## [4.0.0-RC1 - Pedalboard Display - TBD
+## 4.0.0 - Pedalboard Display and USB - 2024.10.16
 
 ### Removed
-
-- LEDs are removed (only 5V adapter left) in favour of the pedalboard-display
 
 ### Added
 
@@ -38,9 +36,9 @@
 
 ## Removed
 
-- LED ring connectors (now on Display)
 - Fiducials and holes from BOM
 - Direct USB connection to RP2040
+- LEDs are removed (only 5V adapter left) in favour of the pedalboard-display
 
 ## [3.1.1] - Cost Optimisation:  Bug Fixes - 2023-12-05
 
