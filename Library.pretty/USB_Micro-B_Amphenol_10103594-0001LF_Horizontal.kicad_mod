@@ -389,17 +389,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bfa9c6a5-815d-4a31-bf93-2ea5b772ca87")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Amphenol_10103594-0001LF_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/3d-models/10103594-0001LF--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 -1 0)
