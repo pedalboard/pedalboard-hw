@@ -7,7 +7,7 @@
 	(title_block
 		(title "Open Pedalboard Mainboard")
 		(date "2024-10-16")
-		(rev "4.0.0")
+		(rev "4.0.1-RC")
 		(company "https://github.com/pedalboard")
 		(comment 1 "Source Code: https://github.com/pedalboard/pedalboard-hw")
 		(comment 2 "License: CERN Open Hardware Licence Version 2 - Permissive")

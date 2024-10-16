@@ -7,9 +7,9 @@
 - SMD connectors for MIDI
 - clearance around mounting holes
 
-## 4.0.0 - Pedalboard Display and USB - 2024.10.16
+## 4.0.1-RC - -
 
-### Removed
+## 4.0.0 - Pedalboard Display and USB - 2024.10.16
 
 ### Added
 
