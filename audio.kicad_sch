@@ -6836,12 +6836,6 @@
 		)
 	)
 	(junction
-		(at 17.78 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15d01337-1e30-4a4e-807d-64f3b2609469")
-	)
-	(junction
 		(at 78.74 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6882,6 +6876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37a11b15-29a8-486a-8644-039716f8df9a")
+	)
+	(junction
+		(at 25.4 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ebee73-cfb1-43cc-b249-b18779f3686d")
 	)
 	(junction
 		(at 35.56 31.75)
@@ -7323,7 +7323,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 120.65) (xy 17.78 128.27)
+			(xy 25.4 120.65) (xy 25.4 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7450,16 +7450,6 @@
 			(type default)
 		)
 		(uuid "15953314-575b-4093-ba9a-e49c1abfe021")
-	)
-	(wire
-		(pts
-			(xy 17.78 128.27) (xy 40.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170d990c-314a-4f37-9013-08cdce9dfd26")
 	)
 	(wire
 		(pts
@@ -8323,6 +8313,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 128.27) (xy 40.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8278afed-6b3b-4332-ba26-88341977a1a7")
+	)
+	(wire
+		(pts
 			(xy 187.96 153.67) (xy 185.42 153.67)
 		)
 		(stroke
@@ -8433,7 +8433,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 130.81) (xy 40.64 130.81)
+			(xy 25.4 130.81) (xy 40.64 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8523,7 +8523,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 120.65) (xy 40.64 120.65)
+			(xy 25.4 120.65) (xy 40.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9093,7 +9093,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 128.27) (xy 17.78 130.81)
+			(xy 25.4 128.27) (xy 25.4 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9410,17 +9410,6 @@
 		)
 		(uuid "0302f74e-9276-4a5c-81d8-bdbfb4ad905c")
 	)
-	(label "CM4_3V3"
-		(at 237.49 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0664dcf9-0e66-4db3-a48b-9075b32c9594")
-	)
 	(label "CM4_ID_SC"
 		(at 146.05 59.69 0)
 		(fields_autoplaced yes)
@@ -9618,17 +9607,6 @@
 			(justify left bottom)
 		)
 		(uuid "3e729a83-fbb6-4802-869c-80aa5cae1673")
-	)
-	(label "CM4_3V3"
-		(at 267.97 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fb7790b-6dc3-48ac-b856-ac891dea3c3d")
 	)
 	(label "CM4_LED_ACT"
 		(at 110.49 49.53 0)
@@ -10026,28 +10004,6 @@
 		)
 		(uuid "c8e47048-cce7-4cac-9c30-4ce0daade8aa")
 	)
-	(label "CM4_3V3"
-		(at 179.07 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd295d89-a825-474d-8a91-2fa47d8238ec")
-	)
-	(label "CM4_3V3"
-		(at 17.78 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cefb0a26-a395-4256-b000-cb2361552b22")
-	)
 	(label "CM4_GPIO12"
 		(at 146.05 97.79 0)
 		(fields_autoplaced yes)
@@ -10196,6 +10152,18 @@
 	)
 	(hierarchical_label "CM4_3V"
 		(shape input)
+		(at 276.86 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b55f9d5-8f51-41ea-b698-7a5c0f838ff6")
+	)
+	(hierarchical_label "CM4_3V"
+		(shape input)
 		(at 171.45 36.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10217,6 +10185,18 @@
 			(justify left)
 		)
 		(uuid "9a4f9d98-b1b3-48d0-ac72-1523d342d87f")
+	)
+	(hierarchical_label "CM4_3V"
+		(shape input)
+		(at 25.4 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af2f1a25-9f6d-4a17-9da5-478585ccd26f")
 	)
 	(hierarchical_label "nEXTRST"
 		(shape input)
@@ -10253,6 +10233,18 @@
 			(justify left)
 		)
 		(uuid "db3d9061-367a-4e63-b3b8-0abc14b8f21f")
+	)
+	(hierarchical_label "CM4_3V"
+		(shape input)
+		(at 237.49 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed507ef9-38cc-46c5-8e1d-8bcf56df15c2")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
