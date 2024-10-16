@@ -8293,7 +8293,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 24.13) (xy 177.8 24.13)
+			(xy 157.48 24.13) (xy 193.04 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8633,7 +8633,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 57.15) (xy 220.98 57.15)
+			(xy 204.47 57.15) (xy 208.28 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9303,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 59.69) (xy 220.98 59.69)
+			(xy 204.47 59.69) (xy 208.28 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9373,7 +9373,7 @@
 	(text_box "Serial Debug"
 		(exclude_from_sim no)
 		(at 139.7 13.97 0)
-		(size 48.26 17.78)
+		(size 59.055 17.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -9420,17 +9420,6 @@
 			(justify right bottom)
 		)
 		(uuid "0664dcf9-0e66-4db3-a48b-9075b32c9594")
-	)
-	(label "CM4_GPIO15"
-		(at 111.76 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0739c0ba-c5af-4831-b37e-5ecc3bdd75d0")
 	)
 	(label "CM4_ID_SC"
 		(at 146.05 59.69 0)
@@ -9641,17 +9630,6 @@
 		)
 		(uuid "3fb7790b-6dc3-48ac-b856-ac891dea3c3d")
 	)
-	(label "CM4_GPIO15"
-		(at 208.28 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "411177b8-9332-42d9-a409-3e17b871a59e")
-	)
 	(label "CM4_LED_ACT"
 		(at 110.49 49.53 0)
 		(fields_autoplaced yes)
@@ -9673,17 +9651,6 @@
 			(justify left bottom)
 		)
 		(uuid "44508907-ca13-4a44-8f86-2b0f35144870")
-	)
-	(label "CM4_GPIO14"
-		(at 158.75 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4603b255-35c6-417c-97a3-7bd7f28df5b6")
 	)
 	(label "audio_in_stereo"
 		(at 16.51 82.55 0)
@@ -9805,17 +9772,6 @@
 			(justify left bottom)
 		)
 		(uuid "631aad4d-aa25-4c3a-abbf-f9eea6efdeb9")
-	)
-	(label "CM4_GPIO15"
-		(at 158.75 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "662b5fdc-e419-4be0-a2c3-b9ab50c74edc")
 	)
 	(label "CM4_GPIO17"
 		(at 208.28 67.31 0)
@@ -10059,17 +10015,6 @@
 		)
 		(uuid "bd9a7264-b9cd-43de-a205-d27fb4a72ff1")
 	)
-	(label "CM4_GPIO14"
-		(at 208.28 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1941c0b-0c7c-4705-988d-99a3b1f6467e")
-	)
 	(label "CM4_GPIO22"
 		(at 208.28 85.09 0)
 		(fields_autoplaced yes)
@@ -10169,17 +10114,6 @@
 		)
 		(uuid "e2eaef2e-53e3-40d9-b8c1-bda50a54934b")
 	)
-	(label "CM4_GPIO14"
-		(at 111.76 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e50c06ed-290e-4502-be02-4db9a737ee53")
-	)
 	(label "GND_in_L"
 		(at 128.27 190.5 0)
 		(fields_autoplaced yes)
@@ -10226,6 +10160,18 @@
 	)
 	(hierarchical_label "INT_MIDI_TX"
 		(shape input)
+		(at 208.28 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05e44807-7ff1-432b-8a61-a19b52d63371")
+	)
+	(hierarchical_label "INT_MIDI_TX"
+		(shape input)
 		(at 124.46 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10235,6 +10181,18 @@
 			(justify left)
 		)
 		(uuid "2e569ecd-2672-451e-9324-d7e7d34d687a")
+	)
+	(hierarchical_label "INT_MIDI_TX"
+		(shape input)
+		(at 171.45 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3369b8aa-0f52-420c-9621-df4f595b908b")
 	)
 	(hierarchical_label "CM4_3V"
 		(shape input)
@@ -10248,6 +10206,18 @@
 		)
 		(uuid "836efa94-b060-4405-aafb-929d833fe1fa")
 	)
+	(hierarchical_label "INT_MIDI_RX"
+		(shape input)
+		(at 171.45 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a4f9d98-b1b3-48d0-ac72-1523d342d87f")
+	)
 	(hierarchical_label "nEXTRST"
 		(shape input)
 		(at 29.21 158.75 180)
@@ -10259,6 +10229,18 @@
 			(justify right)
 		)
 		(uuid "bc038ac4-c76c-4f05-90f9-dc19528d77c2")
+	)
+	(hierarchical_label "INT_MIDI_RX"
+		(shape input)
+		(at 208.28 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcddc5a0-8d0e-418e-9120-66a4affdefe4")
 	)
 	(hierarchical_label "INT_MIDI_RX"
 		(shape input)
@@ -12413,7 +12395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 24.13 0)
+		(at 193.04 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12422,7 +12404,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4ba22d3-a774-468d-8af3-03e2b29f5cae")
 		(property "Reference" "#PWR042"
-			(at 177.8 30.48 0)
+			(at 193.04 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +12413,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 29.21 0)
+			(at 193.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 24.13 0)
+			(at 193.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +12430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 24.13 0)
+			(at 193.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 24.13 0)
+			(at 193.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
