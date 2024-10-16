@@ -503,9 +503,9 @@
 		)
 		(symbol "power:+5VP"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -603,8 +603,8 @@
 			(symbol "+5VP_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5VP"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -623,9 +623,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -699,8 +699,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -772,16 +772,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 209.55 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69296612-08c7-4902-8f94-339c528ad2d1")
-	)
-	(wire
-		(pts
 			(xy 82.55 48.26) (xy 82.55 25.4)
 		)
 		(stroke
@@ -850,16 +840,6 @@
 		)
 		(uuid "cd527c98-1ae4-49a6-a9c2-33b137133f75")
 	)
-	(wire
-		(pts
-			(xy 209.55 19.05) (xy 209.55 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f835faa9-bae1-44b4-8449-83181d97c1e6")
-	)
 	(hierarchical_label "RGB_DATA"
 		(shape input)
 		(at 30.48 53.34 180)
@@ -917,7 +897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 53.34 0)
 			(effects
 				(font
@@ -940,7 +920,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 209.55 19.05 0)
+		(at 165.1 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -949,7 +929,7 @@
 		(fields_autoplaced yes)
 		(uuid "2628f88a-62bc-4eb2-8b18-5c0022ec72bd")
 		(property "Reference" "#PWR02"
-			(at 209.55 22.86 0)
+			(at 165.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +938,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 209.55 15.24 0)
+			(at 165.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 19.05 0)
+			(at 165.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 19.05 0)
+			(at 165.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,8 +963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 209.55 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 165.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 67.31 0)
 			(effects
 				(font
