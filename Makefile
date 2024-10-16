@@ -8,6 +8,7 @@ test: ## Run ERC and DRC checks
 	kicad-cli sch erc \
 		--define-var GIT_HASH=$(GIT_HASH) \
 		--output out/erc.rpt \
+		--severity-warning \
 		--severity-error \
 		--exit-code-violations \
 		$(PROJECT_NAME).kicad_sch
