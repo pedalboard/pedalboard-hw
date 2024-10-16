@@ -9923,17 +9923,6 @@
 		)
 		(uuid "ffd998df-afbd-4c10-a657-30b6ad2aa397")
 	)
-	(label "USB_RP_P"
-		(at 229.87 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0de67279-b64f-43eb-84e0-df69c6c03b9b")
-	)
 	(label "USB_OUT_P"
 		(at 226.06 100.33 0)
 		(fields_autoplaced yes)
@@ -10043,17 +10032,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ce4b10c-6939-45e3-b872-945cf9b9d190")
-	)
-	(label "USB_RP_N"
-		(at 229.87 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d979341-fb3b-42ab-9619-bd5d6b037718")
 	)
 	(label "VBUS"
 		(at 254 69.85 0)
@@ -10176,7 +10154,7 @@
 		)
 		(uuid "f55a1ea5-f112-4ee3-9b06-d5cc8bb10ed3")
 	)
-	(hierarchical_label "USB2_P"
+	(hierarchical_label "USB_RP_P"
 		(shape input)
 		(at 240.03 87.63 0)
 		(fields_autoplaced yes)
@@ -10212,7 +10190,7 @@
 		)
 		(uuid "d271267c-8e2c-45f5-bca7-02dfbb3c1635")
 	)
-	(hierarchical_label "USB2_N"
+	(hierarchical_label "USB_RP_N"
 		(shape input)
 		(at 240.03 85.09 0)
 		(fields_autoplaced yes)

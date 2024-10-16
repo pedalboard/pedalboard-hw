@@ -10013,7 +10013,7 @@
 		)
 		(uuid "5224c04f-6bf0-485f-896f-22f5541f3ff3")
 	)
-	(hierarchical_label "USB_DN"
+	(hierarchical_label "USB_RP_N"
 		(shape input)
 		(at 269.24 63.5 0)
 		(fields_autoplaced yes)
@@ -10025,7 +10025,7 @@
 		)
 		(uuid "8e267653-6e3a-4d54-a1c4-b40e6f84a01a")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_RP_P"
 		(shape input)
 		(at 269.24 55.88 0)
 		(fields_autoplaced yes)
