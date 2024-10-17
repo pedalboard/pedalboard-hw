@@ -1,4 +1,5 @@
 .DEFAULT_GOAL := help
+.PHONY: bom test step pdf pos clean
 
 GIT_HASH = $(shell git rev-parse HEAD:sourceDirectory HEAD:file.py | git hash-object --stdin)
 PROJECT_NAME = pedalboard-hw
@@ -51,7 +52,7 @@ pdf: ## export PDF (schematic and PCB)
 bom: ## export BOM
 	mkdir -p out
 	kicad-cli sch export bom \
-    --preset "Grouped By Value" \
+    --preset "pedalboard" \
 		--output out/$(PROJECT_NAME)-bom.csv \
 		$(PROJECT_NAME).kicad_sch
 
