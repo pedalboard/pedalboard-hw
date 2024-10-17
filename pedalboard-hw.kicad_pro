@@ -638,7 +638,102 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Digikey",
+            "name": "Digikey",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser",
+            "name": "Mouser",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Notes",
+            "name": "Notes",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Supplier",
+            "name": "Supplier",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Field4",
+            "name": "Field4",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Field5",
+            "name": "Field5",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "pedalboard",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -662,20 +757,8 @@
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
           "show": true
         },
         {
@@ -706,7 +789,13 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         },
         {
           "group_by": false,
@@ -725,6 +814,12 @@
           "label": "Field5",
           "name": "Field5",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
         }
       ],
       "filter_string": "",

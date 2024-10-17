@@ -5250,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-2-1715022?type=pdf"
 			(at 30.48 68.58 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
 			(at 172.72 120.65 0)
 			(effects
 				(font
@@ -5844,6 +5844,15 @@
 			)
 		)
 		(property "Notes" "Resistor 12K 1% 63mW"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229"
 			(at 172.72 120.65 0)
 			(effects
 				(font

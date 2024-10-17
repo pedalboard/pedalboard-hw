@@ -10333,7 +10333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-CML.PDF"
 			(at 128.27 119.38 0)
 			(effects
 				(font
@@ -10360,7 +10360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21C270JCANNNC/3888280"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/CML0805C0G180JT50V/10659995"
 			(at 128.27 119.38 0)
 			(effects
 				(font
@@ -10847,7 +10847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT2K20/1760345"
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -11382,6 +11382,15 @@
 			)
 		)
 		(property "Field5" "AP2553W6-7DICT-ND"
+			(at 237.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/AP2553W6-7/AP2553W6-7DICT-ND/3882112"
 			(at 237.49 72.39 0)
 			(effects
 				(font
@@ -12201,7 +12210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT2K20/1760345"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -12519,7 +12528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-CML.PDF"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -12546,7 +12555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21C270JCANNNC/3888280"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/CML0805C0G180JT50V/10659995"
 			(at 114.3 119.38 0)
 			(effects
 				(font

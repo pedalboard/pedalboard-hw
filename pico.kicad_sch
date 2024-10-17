@@ -12006,7 +12006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-PH-K-S/926612"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/B3B-PH-K-S/926612"
 			(at 62.23 62.23 0)
 			(effects
 				(font
@@ -12078,7 +12078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-CML.PDF"
 			(at 90.17 114.3 0)
 			(effects
 				(font
@@ -12105,7 +12105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21C270JCANNNC/3888280"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/CML0805C0G150JT50V/10660046"
 			(at 90.17 114.3 0)
 			(effects
 				(font
@@ -14253,7 +14253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
 			(at 247.65 96.52 0)
 			(effects
 				(font
@@ -14271,7 +14271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT27R0/1712920"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/RMCF0805FT2K20/1760345"
 			(at 247.65 96.52 0)
 			(effects
 				(font
@@ -15332,7 +15332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-CML.PDF"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -15359,7 +15359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21C270JCANNNC/3888280"
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/stackpole-electronics-inc/CML0805C0G150JT50V/10660046"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -17011,7 +17011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-PH-K-S/926612"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/B3B-PH-K-S/926612"
 			(at 58.42 120.65 0)
 			(effects
 				(font
