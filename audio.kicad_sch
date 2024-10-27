@@ -10711,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3739/B1701URO-20D000114U1930.pdf"
 			(at 276.86 40.64 0)
 			(effects
 				(font
@@ -10721,6 +10721,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/harvatek-corporation/B1701URO-20D000114U1930/16671739"
 			(at 276.86 40.64 0)
 			(effects
 				(font
@@ -12288,7 +12297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3804/B1701NG--20D000314U1930.pdf"
 			(at 252.73 26.67 0)
 			(effects
 				(font
@@ -12298,6 +12307,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/harvatek-corporation/B1701NG-20D000314U1930/16671738"
 			(at 252.73 26.67 0)
 			(effects
 				(font

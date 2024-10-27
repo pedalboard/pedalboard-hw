@@ -17392,7 +17392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3804/B1701NG--20D000314U1930.pdf"
 			(at 266.7 100.33 0)
 			(effects
 				(font
@@ -17402,6 +17402,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 266.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/harvatek-corporation/B1701NG-20D000314U1930/16671738"
 			(at 266.7 100.33 0)
 			(effects
 				(font
