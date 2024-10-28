@@ -17,10 +17,9 @@ import:
   - file: PCBWay
 
 preflight:
-  run_erc: true
-  run_drc: true
+  erc: true
+  drc: true
   check_zone_fills: true
-  ignore_unconnected: false
   set_text_variables:
     name: GIT_HASH
     command: git rev-parse --short HEAD
