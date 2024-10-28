@@ -4501,7 +4501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3µH Semi-Shielded Wirewound Inductor 7.8A 21mOhm Nonstandard "
+		(property "Notes" "3.3µH Semi-Shielded Wirewound Inductor 7.8A 21mOhm Nonstandard"
 			(at 163.83 109.22 0)
 			(effects
 				(font
