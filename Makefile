@@ -55,6 +55,7 @@ bom: ## export BOM
     --preset "pedalboard" \
 		--output out/$(PROJECT_NAME)-bom.csv \
 		$(PROJECT_NAME).kicad_sch
+	../dotgithub/scripts/bon2inventree out/$(PROJECT_NAME)-bom.csv out/$(PROJECT_NAME)-inventree-bom.csv
 
 pos: ## export Position file
 	mkdir -p out
