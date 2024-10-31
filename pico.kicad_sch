@@ -16715,7 +16715,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary"
+		(property "Value" "24P/R 24mm"
 			(at 43.18 158.75 0)
 			(effects
 				(font
@@ -16732,7 +16732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/482016514001.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
 			(at 43.18 158.496 0)
 			(effects
 				(font
@@ -16750,7 +16750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/482016514001/10056402"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/bourns-inc/PEC11R-4225F-S0024/4499659"
 			(at 43.18 165.1 0)
 			(effects
 				(font
@@ -16880,7 +16880,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary"
+		(property "Value" "24P/R 24mm"
 			(at 43.18 135.89 0)
 			(effects
 				(font
@@ -16897,7 +16897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/482016514001.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
 			(at 43.18 135.636 0)
 			(effects
 				(font
@@ -16915,7 +16915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/w%C3%BCrth-elektronik/482016514001/10056402"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/bourns-inc/PEC11R-4225F-S0024/4499659"
 			(at 43.18 142.24 0)
 			(effects
 				(font
