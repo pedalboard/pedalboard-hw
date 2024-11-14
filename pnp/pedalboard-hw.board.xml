@@ -2,370 +2,6 @@
    <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
    <fiducials/>
    <placements>
-      <placement version="1.4" id="C1" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="59.7944" y="98.7944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C2" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="146.8244" y="100.2644" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C3" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="143.2244" y="97.2644" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C4" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="146.1644" y="106.9644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C5" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="139.7844" y="93.3244" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C6" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="139.8144" y="97.2644" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C7" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="143.1944" y="93.3144" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C8" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="136.4144" y="101.3244" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C9" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="139.7944" y="95.3044" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C10" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="143.2044" y="95.2844" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C11" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="69.9944" y="82.3844" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C12" side="Top" part-id="C_0805_2012Metric-1u" type="Placement" enabled="true">
-         <location units="Millimeters" x="82.7244" y="88.4644" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C13" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="90.7344" y="91.5344" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C14" side="Top" part-id="C_0805_2012Metric-1u" type="Placement" enabled="true">
-         <location units="Millimeters" x="84.1944" y="90.4944" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C15" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="76.8819" y="77.1444" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C16" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="95.0444" y="83.2944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C17" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="84.1844" y="92.4544" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C18" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="77.1344" y="87.7444" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C19" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="85.4444" y="78.2944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C20" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="90.6344" y="78.1944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C21" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="81.4344" y="91.1444" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C22" side="Top" part-id="C_0805_2012Metric-27p" type="Placement" enabled="true">
-         <location units="Millimeters" x="95.1944" y="78.4944" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C23" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="97.7444" y="86.7244" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C24" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="114.0844" y="78.7744" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C25" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="101.1444" y="86.7244" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C26" side="Top" part-id="C_0805_2012Metric-27p" type="Placement" enabled="true">
-         <location units="Millimeters" x="102.0944" y="78.4944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C27" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="117.5044" y="78.7444" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C28" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="138.6444" y="77.7744" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C29" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
-         <location units="Millimeters" x="137.8344" y="83.8344" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C30" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="145.2044" y="90.2744" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C31" side="Top" part-id="C_0805_2012Metric-1.2n" type="Placement" enabled="true">
-         <location units="Millimeters" x="142.6644" y="81.1744" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C32" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="142.6144" y="77.7744" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C33" side="Top" part-id="CP_EIA-7343-31_Kemet-D-100u" type="Placement" enabled="true">
-         <location units="Millimeters" x="135.2644" y="75.8644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C34" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
-         <location units="Millimeters" x="141.6344" y="83.8844" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C35" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
-         <location units="Millimeters" x="137.8344" y="90.6244" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C36" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="140.6244" y="77.7644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="C37" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
-         <location units="Millimeters" x="151.1244" y="77.2644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="CM1" side="Top" part-id="DF40C-100DS-04V" type="Placement" enabled="false">
-         <location units="Millimeters" x="70.9944" y="67.4944" z="0.0" rotation="180.0"/>
-         <comments>Placed manually</comments>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D1" side="Top" part-id="D_SOD-123F-SM4007" type="Placement" enabled="true">
-         <location units="Millimeters" x="65.7444" y="87.4544" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D2" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
-         <location units="Millimeters" x="74.4944" y="82.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D3" side="Top" part-id="LED_5050-SK6812" type="Placement" enabled="true">
-         <location units="Millimeters" x="99.4944" y="82.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D4" side="Top" part-id="D_SMA-SS34HF" type="Placement" enabled="true">
-         <location units="Millimeters" x="121.3244" y="73.8944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D5" side="Top" part-id="D_SMA-SS34HF" type="Placement" enabled="true">
-         <location units="Millimeters" x="121.3344" y="80.9669" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D6" side="Top" part-id="LED_0805-yellow" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.4944" y="60.9944" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="D7" side="Top" part-id="LED_0805-green" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.4944" y="62.9944" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="F1" side="Top" part-id="F_1812-1.8A" type="Placement" enabled="true">
-         <location units="Millimeters" x="148.0644" y="103.2844" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="FID1" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
-         <location units="Millimeters" x="6.9944" y="107.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="FID2" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
-         <location units="Millimeters" x="171.9944" y="101.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="FID3" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
-         <location units="Millimeters" x="6.4944" y="2.4944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="FID4" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
-         <location units="Millimeters" x="166.9944" y="2.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="J14" side="Top" part-id="PH 4                  JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical-JST" type="Placement" enabled="false">
-         <location units="Millimeters" x="127.8644" y="77.1844" z="0.0" rotation="90.0"/>
-         <comments>Placed manually</comments>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="L1" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
-         <location units="Millimeters" x="64.2444" y="89.3344" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="L2" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
-         <location units="Millimeters" x="60.9244" y="79.3544" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="L3" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
-         <location units="Millimeters" x="62.3844" y="79.3544" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="L4" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
-         <location units="Millimeters" x="67.4844" y="89.3344" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="L5" side="Top" part-id="L_Bourns_SRN6045TA-SRN6045TA-3R3Y" type="Placement" enabled="true">
-         <location units="Millimeters" x="146.8944" y="80.8544" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="Q1" side="Top" part-id="SO08-E3-FDS4435BZ" type="Placement" enabled="true">
-         <location units="Millimeters" x="141.8544" y="102.8344" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R1" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
-         <location units="Millimeters" x="153.0944" y="100.1644" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R2" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
-         <location units="Millimeters" x="24.6944" y="83.5344" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R3" side="Top" part-id="R_0805_2012Metric-220" type="Placement" enabled="true">
-         <location units="Millimeters" x="67.2844" y="91.0144" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R4" side="Top" part-id="R_0805_2012Metric-33" type="Placement" enabled="true">
-         <location units="Millimeters" x="62.6244" y="76.1544" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R5" side="Top" part-id="R_0805_2012Metric-10" type="Placement" enabled="true">
-         <location units="Millimeters" x="60.7244" y="76.1544" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R6" side="Top" part-id="R_0805_2012Metric-27" type="Placement" enabled="true">
-         <location units="Millimeters" x="80.1344" y="84.6344" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R7" side="Top" part-id="R_0805_2012Metric-220" type="Placement" enabled="true">
-         <location units="Millimeters" x="70.9044" y="75.3644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R8" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
-         <location units="Millimeters" x="76.9319" y="79.1444" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R9" side="Top" type="Placement" enabled="false">
-         <location units="Millimeters" x="76.9319" y="75.1444" z="0.0" rotation="0.0"/>
-         <comments>DNP</comments>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R10" side="Top" part-id="R_0805_2012Metric-27" type="Placement" enabled="true">
-         <location units="Millimeters" x="80.1344" y="86.5344" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R11" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
-         <location units="Millimeters" x="98.6944" y="78.4944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R12" side="Top" part-id="R_0805_2012Metric-12K" type="Placement" enabled="true">
-         <location units="Millimeters" x="135.9044" y="83.8644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R13" side="Top" part-id="R_0805_2012Metric-10" type="Placement" enabled="true">
-         <location units="Millimeters" x="145.2044" y="86.8644" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R14" side="Top" part-id="R_0805_2012Metric-20K" type="Placement" enabled="true">
-         <location units="Millimeters" x="140.6644" y="81.1944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R15" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
-         <location units="Millimeters" x="137.8244" y="87.2244" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R16" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.5444" y="59.0444" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="R17" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.4944" y="64.8944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="SW3" side="Top" part-id="Button              SW_SPST_B3U-1000P-Micro" type="Placement" enabled="true">
-         <location units="Millimeters" x="73.5044" y="77.3444" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="SW4" side="Top" part-id="Button              SW_SPST_B3U-1000P-Micro" type="Placement" enabled="true">
-         <location units="Millimeters" x="106.0044" y="86.1344" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="SW5" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="11.9944" y="63.9944" z="0.0" rotation="0.0"/>
-         <comments>Currently no tape</comments>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="SW6" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="86.9944" y="63.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="SW7" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="161.9944" y="63.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="SW8" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="11.9944" y="11.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="SW9" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="86.9944" y="11.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="SW10" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile" type="Placement" enabled="false">
-         <location units="Millimeters" x="161.9944" y="11.9944" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="U1" side="Top" part-id="SOT-353_SC-70-5-74AHCT1G32SE-7" type="Placement" enabled="true">
-         <location units="Millimeters" x="70.4544" y="78.6444" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U2" side="Top" part-id="SO-6L_10x3.84mm_P1.27mm-TLP2761" type="Placement" enabled="true">
-         <location units="Millimeters" x="65.7444" y="80.6544" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U3" side="Top" part-id="QFN_56-RP2040" type="Placement" enabled="true">
-         <location units="Millimeters" x="89.3944" y="85.3944" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U4" side="Top" part-id="SOIC-8_5.23x5.23mm_P1.27mm-W25Q128JVS" type="Placement" enabled="true">
-         <location units="Millimeters" x="81.4944" y="78.5444" z="0.0" rotation="90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U5" side="Top" part-id="SOT-223-3_TabPin2-NCP1117-3.3_SOT223" type="Placement" enabled="true">
-         <location units="Millimeters" x="115.1644" y="74.1444" z="0.0" rotation="180.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U6" side="Top" part-id="SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias-AP64501SP-13" type="Placement" enabled="true">
-         <location units="Millimeters" x="141.5144" y="88.5944" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="U7" side="Top" part-id="SOT-353_SC-70-5-74AHCT1G32SE-7" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.3944" y="67.4938" z="0.0" rotation="-90.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
-      <placement version="1.4" id="Y1" side="Top" part-id="Crystal_SMD_HC49-US-ABLS-12.000MHZ-B4-T" type="Placement" enabled="true">
-         <location units="Millimeters" x="99.9944" y="74.8944" z="0.0" rotation="0.0"/>
-         <error-handling>Defer</error-handling>
-      </placement>
       <placement version="1.4" id="J25" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-54.9544" y="107.5044" z="0.0" rotation="180.0"/>
          <error-handling>Alert</error-handling>
@@ -380,6 +16,494 @@
       </placement>
       <placement version="1.4" id="J28" side="Bottom" type="Placement" enabled="true">
          <location units="Millimeters" x="-28.7544" y="3.1644" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C1" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="77.8" y="-32.2" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C2" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="164.83" y="-30.73" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C3" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="161.23" y="-33.73" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C4" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="164.17" y="-24.03" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C5" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="157.79" y="-37.67" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C6" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="157.82" y="-33.73" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C7" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="161.2" y="-37.68" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C8" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="154.42" y="-29.67" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C9" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="157.8" y="-35.69" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C10" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="161.21" y="-35.71" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C11" side="Top" part-id="C_0805_2012Metric-18p" type="Placement" enabled="true">
+         <location units="Millimeters" x="63.96" y="-46.36" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C12" side="Top" part-id="C_0805_2012Metric-1u" type="Placement" enabled="true">
+         <location units="Millimeters" x="100.73" y="-42.53" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C13" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="108.74" y="-39.46" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C14" side="Top" part-id="C_0805_2012Metric-1u" type="Placement" enabled="true">
+         <location units="Millimeters" x="102.2" y="-40.5" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C15" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="94.8875" y="-53.85" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C16" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="113.2" y="-47.7" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C17" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="102.19" y="-38.54" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C18" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="94.9112" y="-49.8958" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C19" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="103.35" y="-52.7" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C20" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="108.64" y="-52.8" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C21" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="99.44" y="-39.85" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C22" side="Top" part-id="C_0805_2012Metric-15p" type="Placement" enabled="true">
+         <location units="Millimeters" x="113.2" y="-51.3877" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C23" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="115.75" y="-44.27" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C24" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="121.81" y="-49.42" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C25" side="Top" part-id="C_0805_2012Metric-18p" type="Placement" enabled="true">
+         <location units="Millimeters" x="63.96" y="-49.76" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C26" side="Top" part-id="C_0805_2012Metric-15p" type="Placement" enabled="true">
+         <location units="Millimeters" x="117.4" y="-48.7" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C27" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="125.23" y="-49.45" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C28" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="156.65" y="-53.22" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C29" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
+         <location units="Millimeters" x="155.84" y="-47.16" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C30" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="163.21" y="-40.72" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C31" side="Top" part-id="C_0805_2012Metric-1.2n" type="Placement" enabled="true">
+         <location units="Millimeters" x="160.67" y="-49.82" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C32" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="160.62" y="-53.22" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C33" side="Top" part-id="CP_EIA-7343-31_Kemet-D-100u" type="Placement" enabled="true">
+         <location units="Millimeters" x="154.779" y="-57.4142" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C34" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
+         <location units="Millimeters" x="159.64" y="-47.11" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C35" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="155.84" y="-40.37" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C36" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="158.63" y="-53.23" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C37" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="169.13" y="-53.73" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C38" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="69.6382" y="-52.9438" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C39" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="56.31" y="-36.25" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C40" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="54.35" y="-36.25" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C41" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="39.5646" y="-24.9276" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C42" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="41.5246" y="-24.9276" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C43" side="Top" part-id="CP_EIA-7343-31_Kemet-D-100u" type="Placement" enabled="true">
+         <location units="Millimeters" x="36.415" y="-29.0424" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C44" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="49.98" y="-40.26" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C45" side="Top" part-id="C_0805_2012Metric-10u" type="Placement" enabled="true">
+         <location units="Millimeters" x="58.24" y="-43.99" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C46" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="51.52" y="-60.3" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C47" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="55.03" y="-51.44" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C48" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="47.01" y="-42.96" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C49" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="47.01" y="-47.74" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C50" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.75" y="-59.65" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C51" side="Top" part-id="C_0805_2012Metric-1n" type="Placement" enabled="true">
+         <location units="Millimeters" x="57.7" y="-32.75" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="C52" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
+         <location units="Millimeters" x="142.9" y="-44.5" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="CM1" side="Top" part-id="Raspberry-Pi-4-Compute-Module-CM4" type="Placement" enabled="false">
+         <location units="Millimeters" x="89.0" y="-63.5" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="D1" side="Top" part-id="D_SOD-123F-SM4007" type="Placement" enabled="true">
+         <location units="Millimeters" x="83.6616" y="-41.9214" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="D2" side="Top" part-id="LED_0805_2012Metric-LED_Y" type="Placement" enabled="true">
+         <location units="Millimeters" x="116.7" y="-57.68" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="D6" side="Top" part-id="LED_0805_2012Metric-LED_Y" type="Placement" enabled="true">
+         <location units="Millimeters" x="107.09" y="-77.7525" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="D7" side="Top" part-id="LED_0805_2012Metric-LED_R" type="Placement" enabled="true">
+         <location units="Millimeters" x="105.09" y="-77.7525" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="F1" side="Top" part-id="Fuse_1812_4532Metric-Polyfuse_1.8A" type="Placement" enabled="true">
+         <location units="Millimeters" x="166.07" y="-27.71" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="FID1" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="20.0" y="-28.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="FID2" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="190.0056" y="-27.9944" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="FID3" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="20.0056" y="-122.9944" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="FID4" side="Top" part-id="Fiducial_1.5mm_Mask3mm-Fiducial" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="190.0056" y="-122.9944" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="J9" side="Top" part-id="USB_Micro-B_Amphenol_10103594-0001LF_Horizontal-USB_OTG" type="Placement" enabled="true">
+         <location units="Millimeters" x="20.67" y="-56.5" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="J14" side="Top" part-id="JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical-JST_PH_4" type="Placement" enabled="true">
+         <location units="Millimeters" x="146.2366" y="-52.9692" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="J28" side="Top" part-id="JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical-JST_PH_3" type="Placement" enabled="true">
+         <location units="Millimeters" x="137.3" y="-52.8" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="L1" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
+         <location units="Millimeters" x="81.0216" y="-43.4214" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="L2" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
+         <location units="Millimeters" x="90.009" y="-43.6474" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="L3" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
+         <location units="Millimeters" x="90.009" y="-42.1742" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="L4" side="Top" part-id="L_0603_1608Metric-120_100MHz" type="Placement" enabled="true">
+         <location units="Millimeters" x="79.8216" y="-41.1964" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="L5" side="Top" part-id="L_Bourns_SRN6045TA-SRN6045TA-3R3Y" type="Placement" enabled="true">
+         <location units="Millimeters" x="164.9" y="-50.14" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="Q1" side="Top" part-id="SO08-E3-FDS4435BZ" type="Placement" enabled="true">
+         <location units="Millimeters" x="159.86" y="-28.16" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R1" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
+         <location units="Millimeters" x="151.1976" y="-23.7338" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R2" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
+         <location units="Millimeters" x="42.7" y="-47.46" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R3" side="Top" part-id="R_0805_2012Metric-220R" type="Placement" enabled="true">
+         <location units="Millimeters" x="81.5466" y="-40.9964" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R4" side="Top" part-id="R_0805_2012Metric-33R" type="Placement" enabled="true">
+         <location units="Millimeters" x="93.209" y="-42.3914" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R5" side="Top" part-id="R_0805_2012Metric-10R" type="Placement" enabled="true">
+         <location units="Millimeters" x="93.209" y="-44.2914" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R6" side="Top" part-id="R_0805_2012Metric-27R" type="Placement" enabled="true">
+         <location units="Millimeters" x="99.4" y="-46.36" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R7" side="Top" part-id="R_0805_2012Metric-220R" type="Placement" enabled="true">
+         <location units="Millimeters" x="137.12" y="-43.79" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R8" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
+         <location units="Millimeters" x="94.9375" y="-51.85" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R9" side="Top" part-id="R_0805_2012Metric-DNF" type="Placement" enabled="false">
+         <location units="Millimeters" x="94.9375" y="-55.85" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R10" side="Top" part-id="R_0805_2012Metric-27R" type="Placement" enabled="true">
+         <location units="Millimeters" x="99.4" y="-44.46" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R11" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
+         <location units="Millimeters" x="116.7" y="-51.3877" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R12" side="Top" part-id="R_0805_2012Metric-12K" type="Placement" enabled="true">
+         <location units="Millimeters" x="153.91" y="-47.13" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R13" side="Top" part-id="R_0805_2012Metric-10R" type="Placement" enabled="true">
+         <location units="Millimeters" x="163.21" y="-44.13" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R14" side="Top" part-id="R_0805_2012Metric-20K" type="Placement" enabled="true">
+         <location units="Millimeters" x="158.67" y="-49.8" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R15" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
+         <location units="Millimeters" x="155.83" y="-43.77" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R16" side="Top" part-id="R_0805_2012Metric-1K" type="Placement" enabled="true">
+         <location units="Millimeters" x="109.04" y="-77.7025" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R17" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
+         <location units="Millimeters" x="103.19" y="-77.7525" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R18" side="Top" part-id="R_0805_2012Metric-3K9" type="Placement" enabled="true">
+         <location units="Millimeters" x="149.85" y="-45.25" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R19" side="Top" part-id="R_0805_2012Metric-3K9" type="Placement" enabled="true">
+         <location units="Millimeters" x="149.75" y="-42.95" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R20" side="Top" part-id="R_0805_2012Metric-220R" type="Placement" enabled="true">
+         <location units="Millimeters" x="139.7676" y="-46.1366" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R21" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
+         <location units="Millimeters" x="111.89" y="-54.81" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R22" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
+         <location units="Millimeters" x="42.8666" y="-59.2176" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R23" side="Top" part-id="R_0805_2012Metric-2K2" type="Placement" enabled="true">
+         <location units="Millimeters" x="45.5082" y="-60.132" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R24" side="Top" part-id="R_0805_2012Metric-12K" type="Placement" enabled="true">
+         <location units="Millimeters" x="60.97" y="-44.62" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R25" side="Top" part-id="R_0805_2012Metric-36K" type="Placement" enabled="true">
+         <location units="Millimeters" x="50.38" y="-52.6644" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R26" side="Top" part-id="R_0805_2012Metric-36K" type="Placement" enabled="true">
+         <location units="Millimeters" x="48.48" y="-52.6644" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R27" side="Top" part-id="R_0805_2012Metric-36K" type="Placement" enabled="true">
+         <location units="Millimeters" x="60.7" y="-47.98" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R28" side="Top" part-id="R_0805_2012Metric-36K" type="Placement" enabled="true">
+         <location units="Millimeters" x="52.28" y="-52.6744" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="R29" side="Top" part-id="R_0805_2012Metric-36K" type="Placement" enabled="true">
+         <location units="Millimeters" x="72.991" y="-48.1178" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW3" side="Top" part-id="SW_SPST_B3U-1000P-Micro_Button" type="Placement" enabled="true">
+         <location units="Millimeters" x="91.51" y="-53.65" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW4" side="Top" part-id="SW_SPST_B3U-1000P-Micro_Button" type="Placement" enabled="true">
+         <location units="Millimeters" x="124.01" y="-44.86" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW5" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="30.0" y="-67.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW6" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="105.0" y="-67.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW7" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="180.0" y="-67.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW8" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="30.0" y="-119.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW9" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="105.0" y="-119.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="SW10" side="Top" part-id="SW_PUSH-12mm_Wuerth-Tactile_Button" type="Placement" enabled="false">
+         <location units="Millimeters" x="180.0" y="-119.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U1" side="Top" part-id="SOT-353_SC-70-5-74AHCT1G32SE-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="139.75" y="-43.5" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U2" side="Top" part-id="SO-6L_10x3.84mm_P1.27mm-TLP2761" type="Placement" enabled="true">
+         <location units="Millimeters" x="90.4616" y="-39.2714" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U3" side="Top" part-id="RP2040-QFN-56-RP2040" type="Placement" enabled="true">
+         <location units="Millimeters" x="107.4" y="-45.6" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U4" side="Top" part-id="SOIC-8_5.23x5.23mm_P1.27mm-W25Q128JVS" type="Placement" enabled="true">
+         <location units="Millimeters" x="99.5" y="-52.45" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U5" side="Top" part-id="SOT-223-3_TabPin2-NCP1117-3.3_SOT223" type="Placement" enabled="true">
+         <location units="Millimeters" x="122.89" y="-54.05" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U6" side="Top" part-id="SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias-AP64501SP-13" type="Placement" enabled="true">
+         <location units="Millimeters" x="159.52" y="-42.4" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U7" side="Top" part-id="SOT-353_SC-70-5-74AHCT1G32SE-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="100.5906" y="-77.8525" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U8" side="Top" part-id="TSSOP-10_3x3mm_P0.5mm-FSUSB42MUX" type="Placement" enabled="true">
+         <location units="Millimeters" x="56.12" y="-57.11" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U9" side="Top" part-id="QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm-USB2514B_Bi" type="Placement" enabled="true">
+         <location units="Millimeters" x="52.19" y="-45.96" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U10" side="Top" part-id="SOT-23-6-AP2553W6" type="Placement" enabled="true">
+         <location units="Millimeters" x="73.0926" y="-51.877" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U11" side="Top" part-id="USON-10_2.5x1.0mm_P0.5mm-TPD4EUSB30" type="Placement" enabled="true">
+         <location units="Millimeters" x="25.05" y="-56.95" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="U12" side="Top" part-id="SOT-23-5-AT24CS01-STUM" type="Placement" enabled="true">
+         <location units="Millimeters" x="146.0" y="-44.5" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="Y1" side="Top" part-id="Crystal_SMD_5032-2Pin_5.0x3.2mm-Crystal_Small" type="Placement" enabled="true">
+         <location units="Millimeters" x="66.84" y="-48.12" z="0.0" rotation="-90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" id="Y2" side="Top" part-id="ABM8-272-T3_ABR-ABM8-272-T3" type="Placement" enabled="true">
+         <location units="Millimeters" x="116.0" y="-54.0877" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
    </placements>
