@@ -1141,8 +1141,8 @@ outputs:
     type: stencil_for_jig
     dir: Assembly
     options:
-      jigwidth: 250
-      jigheight: 200
+      jigwidth: 180
+      jigheight: 120
   - name: basic_step
     comment: 3D model in STEP format
     type: step
