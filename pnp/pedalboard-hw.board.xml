@@ -2,22 +2,6 @@
    <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
    <fiducials/>
    <placements>
-      <placement version="1.4" id="J25" side="Bottom" type="Placement" enabled="true">
-         <location units="Millimeters" x="-54.9544" y="107.5044" z="0.0" rotation="180.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="J26" side="Bottom" type="Placement" enabled="true">
-         <location units="Millimeters" x="-46.0244" y="107.4944" z="0.0" rotation="180.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="J27" side="Bottom" type="Placement" enabled="true">
-         <location units="Millimeters" x="-102.2444" y="62.6188" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
-      <placement version="1.4" id="J28" side="Bottom" type="Placement" enabled="true">
-         <location units="Millimeters" x="-28.7544" y="3.1644" z="0.0" rotation="0.0"/>
-         <error-handling>Alert</error-handling>
-      </placement>
       <placement version="1.4" id="C1" side="Top" part-id="C_0805_2012Metric-100n" type="Placement" enabled="true">
          <location units="Millimeters" x="77.8" y="-32.2" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
@@ -266,15 +250,15 @@
          <location units="Millimeters" x="190.0056" y="-122.9944" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J9" side="Top" part-id="USB_Micro-B_Amphenol_10103594-0001LF_Horizontal-USB_OTG" type="Placement" enabled="true">
+      <placement version="1.4" id="J9" side="Top" part-id="USB_Micro-B_Amphenol_10103594-0001LF_Horizontal-USB_OTG" type="Placement" enabled="false">
          <location units="Millimeters" x="20.67" y="-56.5" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J14" side="Top" part-id="JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical-JST_PH_4" type="Placement" enabled="true">
+      <placement version="1.4" id="J14" side="Top" part-id="JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical-JST_PH_4" type="Placement" enabled="false">
          <location units="Millimeters" x="146.2366" y="-52.9692" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="J28" side="Top" part-id="JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical-JST_PH_3" type="Placement" enabled="true">
+      <placement version="1.4" id="J28" side="Top" part-id="JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical-JST_PH_3" type="Placement" enabled="false">
          <location units="Millimeters" x="137.3" y="-52.8" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
