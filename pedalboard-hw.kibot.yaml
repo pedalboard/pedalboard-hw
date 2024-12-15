@@ -17,8 +17,8 @@ import:
   - file: PCBWay
 
 preflight:
-  erc: true
-  drc: true
+  run_erc: true
+  run_drc: true
   check_zone_fills: true
   set_text_variables:
     name: GIT_HASH
