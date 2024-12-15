@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 .PHONY: bom test step pdf pos clean
 
-GIT_HASH = $(shell git rev-parse HEAD:sourceDirectory HEAD:file.py | git hash-object --stdin)
+GIT_HASH = $(shell git rev-parse --short HEAD)
 PROJECT_NAME = pedalboard-hw
 
 test: ## Run ERC and DRC checks
