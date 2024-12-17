@@ -2,7 +2,8 @@
 
 ## TODO
 
-- Placement hight for micro buttons
+- 2nd USB out
+- CM5 support?
 - SMD Debug connectors
 - SMD connectors for MIDI
 - clearance around mounting holes
