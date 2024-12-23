@@ -4,9 +4,10 @@
 
 - 2nd USB out
 - CM5 support?
-- SMD Debug connectors
-- SMD connectors for MIDI
-- clearance around mounting holes
+- Analog input protection
+- SMD Debug connectors (angled)
+- Consistent clearance around mounting holes
+- Larger EEPROM
 
 ## 4.0.1-RC - -
 
