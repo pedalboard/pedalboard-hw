@@ -4,7 +4,8 @@
 
 - 2nd USB out
 - CM5 support?
-- Analog input protection
+- Input protection
+- Bypass USB for MIDI-only controller
 - SMD Debug connectors (angled)
 - Consistent clearance around mounting holes
 - Larger EEPROM
