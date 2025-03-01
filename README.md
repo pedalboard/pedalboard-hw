@@ -26,7 +26,7 @@ This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8
 
 ### Audio Processing
 
-- Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/)
+- Raspberry Pi [Compute Module 4](https://www.raspberrypi.com/products/compute-module-4/) or [Compute Module 5](https://www.raspberrypi.com/products/compute-module-5/)
   - Flexible memory options for cost optimisation
   - (optional) WiFi
   - Very low latency (around 2ms when using ELK Audio OS)
