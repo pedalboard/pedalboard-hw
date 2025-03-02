@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "df521c2a-9827-4355-b809-366f4b88d5d7")
 	(paper "A4")
 	(title_block
@@ -148,6 +148,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -227,6 +228,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -309,6 +311,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -1084,6 +1087,10 @@
 	(sheet
 		(at 119.38 90.17)
 		(size 67.31 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1122,6 +1129,10 @@
 	(sheet
 		(at 21.59 88.9)
 		(size 58.42 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1151,13 +1162,13 @@
 		)
 		(pin "RGB_DATA" input
 			(at 60.96 88.9 90)
+			(uuid "c3e5f99b-9260-47ca-83a0-7296d638ecba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c3e5f99b-9260-47ca-83a0-7296d638ecba")
 		)
 		(instances
 			(project "pedalboard-hw"
@@ -1170,6 +1181,10 @@
 	(sheet
 		(at 120.65 25.4)
 		(size 66.04 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1199,43 +1214,43 @@
 		)
 		(pin "INT_MIDI_TX" input
 			(at 120.65 59.69 180)
+			(uuid "05fa2416-d95c-4ca5-bcf9-1b46e4d54ca7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "05fa2416-d95c-4ca5-bcf9-1b46e4d54ca7")
 		)
 		(pin "INT_MIDI_RX" input
 			(at 120.65 55.88 180)
+			(uuid "b1e22aa8-b497-4bb5-914a-4a1066caede4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1e22aa8-b497-4bb5-914a-4a1066caede4")
 		)
 		(pin "CM4_3V" input
 			(at 186.69 41.91 0)
+			(uuid "dfe6eaaa-7150-4541-a21e-894576e8f691")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dfe6eaaa-7150-4541-a21e-894576e8f691")
 		)
 		(pin "nEXTRST" input
 			(at 186.69 52.07 0)
+			(uuid "8a7800d2-e962-43d6-a809-ebec35c38ac0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a7800d2-e962-43d6-a809-ebec35c38ac0")
 		)
 		(instances
 			(project "pedalboard-hw"
@@ -1248,6 +1263,10 @@
 	(sheet
 		(at 21.59 25.4)
 		(size 59.69 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1277,53 +1296,53 @@
 		)
 		(pin "USB_RP_N" input
 			(at 81.28 38.1 0)
+			(uuid "92ffa346-745e-41b5-a47e-c83c473abc38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "92ffa346-745e-41b5-a47e-c83c473abc38")
 		)
 		(pin "USB_RP_P" input
 			(at 81.28 34.29 0)
+			(uuid "ffd02ad0-e5c6-4ff1-a73b-3293e8acbc34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ffd02ad0-e5c6-4ff1-a73b-3293e8acbc34")
 		)
 		(pin "INT_MIDI_TX" input
 			(at 81.28 55.88 0)
+			(uuid "52a59fa9-06dd-488b-a380-13fe23f76759")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52a59fa9-06dd-488b-a380-13fe23f76759")
 		)
 		(pin "INT_MIDI_RX" input
 			(at 81.28 59.69 0)
+			(uuid "d9c9e6ef-d068-4b5b-9e0e-5ac6900aa485")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9c9e6ef-d068-4b5b-9e0e-5ac6900aa485")
 		)
 		(pin "RGB_DATA" input
 			(at 60.96 78.74 270)
+			(uuid "befe0c14-bc80-4f40-803d-df1ea674008d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "befe0c14-bc80-4f40-803d-df1ea674008d")
 		)
 		(instances
 			(project "pedalboard-hw"
@@ -1336,6 +1355,10 @@
 	(sheet
 		(at 203.2 25.4)
 		(size 68.58 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1365,43 +1388,43 @@
 		)
 		(pin "USB_RP_N" input
 			(at 227.33 25.4 90)
+			(uuid "f16e509b-b59a-4cc3-bf28-eb7e28e7b38a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f16e509b-b59a-4cc3-bf28-eb7e28e7b38a")
 		)
 		(pin "USB_RP_P" input
 			(at 234.95 25.4 90)
+			(uuid "b2758e71-1dcd-4ec9-a34d-f69495060d28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2758e71-1dcd-4ec9-a34d-f69495060d28")
 		)
 		(pin "CM4_3V" input
 			(at 203.2 41.91 180)
+			(uuid "e765ba1d-b7d1-458e-94ef-6c8de59abbc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e765ba1d-b7d1-458e-94ef-6c8de59abbc5")
 		)
 		(pin "nEXTRST" input
 			(at 203.2 52.07 180)
+			(uuid "8f7a711d-deac-4cec-9e02-c270542a3cb8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8f7a711d-deac-4cec-9e02-c270542a3cb8")
 		)
 		(instances
 			(project "pedalboard-hw"
@@ -1416,4 +1439,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
