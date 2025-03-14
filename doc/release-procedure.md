@@ -36,6 +36,9 @@ The release procedure is not yet fully automated. Please follow below steps:
 
 - Change old version for diff on pedalboard-hw.kibot.yaml (2 lines!)
 - Add a new Release in CHANGELOG.md
+
   ```sh
   sed -i 's#/latest#/v1.0.0#g' README.md
   ```
+
+1. Update the OSHWA registration (../../oshwa/README.md)
