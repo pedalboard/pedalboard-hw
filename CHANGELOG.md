@@ -3,7 +3,6 @@
 ## TODO
 
 - 2nd USB out
-- CM5 support?
 - Input protection
 - Bypass USB for MIDI-only controller
 - SMD Debug connectors (angled)
@@ -13,6 +12,7 @@
 ## 4.0.1-RC - -
 
 - Upgrade to KiCad 9
+- Tested with CM5
 
 ## 4.0.0 - Pedalboard Display and USB - 2024.10.16
 
