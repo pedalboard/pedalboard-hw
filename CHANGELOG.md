@@ -12,6 +12,8 @@
 
 ## 4.0.1-RC - -
 
+- Upgrade to KiCad 9
+
 ## 4.0.0 - Pedalboard Display and USB - 2024.10.16
 
 ### Added

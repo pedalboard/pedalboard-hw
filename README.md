@@ -6,7 +6,7 @@ Mainboard for processing audio and/or MIDI data on a pedalboard.
 |---|---|
 | ![](https://i0.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-200-px.png) | [<img src="img/certification-mark-CH000023-stacked.svg" alt="OSHWA" width="200"/>](https://certification.oshwa.org/ch000023.html) |
 
-This PCB is designed with [KiCad 8](https://www.kicad.org/blog/2024/02/Version-8.0.0-Released/)
+This PCB is designed with [KiCad 9](https://www.kicad.org/blog/2025/02/Version-9.0.0-Released/)
 
 ## Design Goals
 
