@@ -7,7 +7,7 @@
 - Bypass USB for MIDI-only controller
 - SMD Debug connectors (angled)
 - Consistent clearance around mounting holes
-- Larger EEPROM
+- Larger (cheaper) EEPROM
 
 ## 4.0.1-RC - -
 
