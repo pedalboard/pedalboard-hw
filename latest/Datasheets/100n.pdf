@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=1286">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<link rel="shortcut icon" href="/resources/images/common/favicon.ico">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>삼성전기</title>
+<style>
+/* font */
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/fonts/NotoSansKR-Light.woff2) format('woff2'),
+    url(/resources/fonts/NotoSansKR-Light.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/fonts/NotoSansKR-Medium.woff2) format('woff2'),
+    url(/resources/fonts/NotoSansKR-Medium.woff) format('woff');
+}
+
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, dl, dt, dd, table, thead, tbody, th, td, form, fieldset, legend, input, textarea, button, select {padding:0; margin:0;}
+body {font-family:Arial, Meiryo,"Yu Gothic","Microsoft YaHei New", "Microsoft Yahei", "MS PGothic","MS Gothic", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑",'NotoSans', sans-serif, Helvetica; font-size:16px; font-weight:400; color:#333; letter-spacing:-0.5px;}
+h1, h2, h3, h4, h5, h6 {font-family:Arial, Meiryo,"Yu Gothic","Microsoft YaHei New", "Microsoft Yahei", "MS PGothic","MS Gothic", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑",'NotoSans', sans-serif, Helvetica; font-size:100%; color:#000; letter-spacing:-0.5px;}
+fieldset, img, button {border:0;}
+img, input, button {vertical-align:top;}
+ol, ul {list-style:none;}
+a {text-decoration:none; color:#333; letter-spacing:-0.5px;}
+a:hover, a:focus {text-decoration:none;}
+
+/* error */
+.btn{display:inline-block; min-width:160px; height:45px; line-height:45px; padding:0 14px; text-align:center; background:#043285; color:#fff; box-sizing:border-box;}
+.btn:after{display:inline-block; vertical-align:middle; width:5px; height:9px; margin-left:8px; background-image:url(/resources/images/kr/common/btn_arrow_ico_w.png); background-position:0 50%; background-repeat:no-repeat; content:"";}
+.error #content{padding:0;}
+.error_section{width:1140px; margin:0 auto; padding:305px 0; text-align:center;}
+.error_section.on{display:block;}
+.error_section h2{margin-bottom:18px; font-size:38px; font-weight:600; color:#000; line-height:1em;}
+.error_section h2:before{display:block; width:73px; height:73px; margin:0 auto 30px; background:url(/resources/images/common/error_ico.png) 0 0 no-repeat; content:"";}
+.error_section p{font-size:16px; line-height:1.6em; color:#333;}
+.error_section .btn_area{padding-top:30px;}
+</style>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- container -->
+        <div id="container" class="error">
+            <!-- content -->
+            <div id="content" class="content">
+                <div class="error_section global" id="divGlobal">
+                    <h2>We Apologize for the Inconvenience.</h2>
+                    <p>Either the address of the webpage you are trying to access was entered incorrectly, <br>or the requested webpage cannot be accessed due to an error.</p>
+                    <div class="btn_area">
+                        <a href="/global/index.do" class="btn">Go to Samsung Electro-Mechanics</a>
+                    </div>
+                </div>
+            </div>
+            <!-- //content -->
+        </div>
+        <!-- //container -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+### Module positions - created on Tue 14 Apr 2026 18:43:39  ###
+### Printed by KiBot
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref    Val                       Package                                                                PosX       PosY       Rot        Side  
+J25      JST PH 3                  JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical                                  54.9544    107.5044   0.0000     bottom
+J26      JST PH 3                  JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical                                  46.0244    107.4944   0.0000     bottom
+J27      Pedalboard Soundcard      Pedalboard_Soundcard                                                   102.2444   62.6188    180.0000   bottom
+## End

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>/Schematic/docs</title>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="styles.css">
+ <link rel="icon" href="favicon.ico">
+ <script src="markdown-it.min.js"></script>
+</head>
+<body>
+<div id="theSideNav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <ul>
+  <li><a href="pedalboard-hw-navigate_Schematic.html">Schematic</a></li>
+  <ul>
+   <li><a href="pedalboard-hw-navigate_Schematic_docs.html">docs</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#erc">erc</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_diff_sch">basic_diff_sch</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_download_datasheets">basic_download_datasheets</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_dxf_sch_print">basic_dxf_sch_print</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_hpgl_sch_print">basic_hpgl_sch_print</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_info">basic_info</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_pdf_sch_print">basic_pdf_sch_print</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_ps_sch_print">basic_ps_sch_print</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_docs.html#basic_svg_sch_print">basic_svg_sch_print</a></li>
+   </ul>
+   <li><a href="pedalboard-hw-navigate_Schematic_BoM.html">BoM</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#_JLCPCB_bom">_JLCPCB_bom</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#_macrofab_xyrs">_macrofab_xyrs</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_html">generic_bom_html</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_csv">generic_bom_csv</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_hrtxt">generic_bom_hrtxt</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_tsv">generic_bom_tsv</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_xml">generic_bom_xml</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#generic_bom_xlsx">generic_bom_xlsx</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#positional_bom_html">positional_bom_html</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#positional_bom_xlsx">positional_bom_xlsx</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#costs_bom_xlsx">costs_bom_xlsx</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#macrofab_xyrs">macrofab_xyrs</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#JLCPCB_bom">JLCPCB_bom</a></li>
+    <li><a href="pedalboard-hw-navigate_Schematic_BoM.html#basic_ibom">basic_ibom</a></li>
+   </ul>
+  </ul>
+  <li><a href="pedalboard-hw-navigate_PCB.html">PCB</a></li>
+  <ul>
+   <li><a href="pedalboard-hw-navigate_PCB_docs.html">docs</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#drc">drc</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#_PCB2Blender_layers_2_1">_PCB2Blender_layers_2_1</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_diff_pcb">basic_diff_pcb</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_hpgl">basic_hpgl</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_info">basic_info</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_kikit_present">basic_kikit_present</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#renderer_for_present">renderer_for_present</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcb_print_pdf">basic_pcb_print_pdf</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcb_print_svg">basic_pcb_print_svg</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcb_print_png">basic_pcb_print_png</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcb_print_eps">basic_pcb_print_eps</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcb_print_ps">basic_pcb_print_ps</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_top">basic_pcbdraw_svg_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_top">basic_pcbdraw_png_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_top">basic_pcbdraw_jpg_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_top">basic_pcbdraw_svg_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_top">basic_pcbdraw_png_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_top">basic_pcbdraw_jpg_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_top">basic_pcbdraw_svg_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_top">basic_pcbdraw_png_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_top">basic_pcbdraw_jpg_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_bottom">basic_pcbdraw_svg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_bottom">basic_pcbdraw_png_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_bottom">basic_pcbdraw_jpg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_bottom">basic_pcbdraw_svg_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_bottom">basic_pcbdraw_png_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_bottom">basic_pcbdraw_jpg_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_bottom">basic_pcbdraw_svg_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_bottom">basic_pcbdraw_png_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_bottom">basic_pcbdraw_jpg_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_pdf">basic_pdf</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_ps">basic_ps</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_docs.html#basic_svg">basic_svg</a></li>
+   </ul>
+   <li><a href="pedalboard-hw-navigate_PCB_fabrication.html">fabrication</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html">gerber</a></li>
+    <ul>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_Elecrow_gerbers">_Elecrow_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_Elecrow_compress">_Elecrow_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_FusionPCB_gerbers">_FusionPCB_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_JLCPCB_gerbers">_JLCPCB_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_PCBWay_gerbers">_PCBWay_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#_PCBWay_compress">_PCBWay_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#gerber_modern">gerber_modern</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#Elecrow_gerbers">Elecrow_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#Elecrow">Elecrow</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#PCBWay_gerbers">PCBWay_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#PCBWay">PCBWay</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#FusionPCB_gerbers">FusionPCB_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#FusionPCB">FusionPCB</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#JLCPCB_gerbers">JLCPCB_gerbers</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#JLCPCB">JLCPCB</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_gerber.html#gerbers_for_present">gerbers_for_present</a></li>
+    </ul>
+    <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html">drill</a></li>
+    <ul>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_Elecrow_drill">_Elecrow_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_Elecrow_compress">_Elecrow_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_FusionPCB_drill">_FusionPCB_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_JLCPCB_drill">_JLCPCB_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_PCBWay_drill">_PCBWay_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#_PCBWay_compress">_PCBWay_compress</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#basic_excellon">basic_excellon</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#basic_gerb_drill">basic_gerb_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#Elecrow_drill">Elecrow_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#Elecrow">Elecrow</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#PCBWay_drill">PCBWay_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#PCBWay">PCBWay</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#FusionPCB_drill">FusionPCB_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#FusionPCB">FusionPCB</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#JLCPCB_drill">JLCPCB_drill</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_drill.html#JLCPCB">JLCPCB</a></li>
+    </ul>
+    <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html">assembly</a></li>
+    <ul>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#_JLCPCB_position">_JLCPCB_position</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_boardview">basic_boardview</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#JLCPCB_position">JLCPCB_position</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#JLCPCB">JLCPCB</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_ibom">basic_ibom</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_position_ASCII">basic_position_ASCII</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_position_CSV">basic_position_CSV</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_stencil_3d">basic_stencil_3d</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_fabrication_assembly.html#basic_stencil_for_jig">basic_stencil_for_jig</a></li>
+    </ul>
+   </ul>
+   <li><a href="pedalboard-hw-navigate_PCB_3D.html">3D</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_PCB_3D_Auxiliar.html">Auxiliar</a></li>
+    <ul>
+     <li><a href="pedalboard-hw-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_tools_2_1">_PCB2Blender_tools_2_1</a></li>
+     <li><a href="pedalboard-hw-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    </ul>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#_PCB2Blender_vrml_2_1">_PCB2Blender_vrml_2_1</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_blender_export">basic_blender_export</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_render_3d_top">basic_render_3d_top</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_render_3d_30deg">basic_render_3d_30deg</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_render_3d_bottom">basic_render_3d_bottom</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_step">basic_step</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_3D.html#basic_vrml">basic_vrml</a></li>
+   </ul>
+   <li><a href="pedalboard-hw-navigate_PCB_repair.html">repair</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_PCB_repair.html#basic_boardview">basic_boardview</a></li>
+   </ul>
+   <li><a href="pedalboard-hw-navigate_PCB_export.html">export</a></li>
+   <ul>
+    <li><a href="pedalboard-hw-navigate_PCB_export.html#basic_dxf">basic_dxf</a></li>
+    <li><a href="pedalboard-hw-navigate_PCB_export.html#basic_gencad">basic_gencad</a></li>
+   </ul>
+  </ul>
+ </ul>
+</div>
+<div id="theTopMenu" class="topmenu">
+ <table style="width:100%">
+  <tr>
+   <td valign="top" align="left">
+    <span id="bmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+   </td>
+   <td>
+     <a href="https://github.com/INTI-CMNB/KiBot/">
+     <img src="images/logo.png" alt="Logo" width="370" height="200">
+     </a>
+   </td>
+   <td>
+     <a href="https://github.com/pedalboard/pedalboard-hw">
+     <span style="font-size:30px;">Open Pedalboard Mainboard</span>
+     </a>
+   </td>
+  </tr>
+ </table>
+</div>
+<div id="main">
+<table id="erc" class="output-table">
+<thead><tr><th colspan="12">Erc</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../pedalboard-hw-erc.html"><table class="out-img"><tr><td><img src="images/erc.svg_64.png" alt="pedalboard-hw-erc.html" width="64" height="64"></td></tr><tr><td class="td-small">pedalboard-hw-erc.html</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_diff_sch" class="output-table">
+<thead><tr><th colspan="12">Basic diff sch: Schematic diff between the last two changes</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../diff/pedalboard-hw-diff_sch.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_diff_sch_pedalboard-hw-diff_sch.png" alt="pedalboard-hw-diff_sch.pdf" width="256" height="181"></td></tr><tr><td class="td-small">pedalboard-hw-diff_sch.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_download_datasheets" class="output-table">
+<thead><tr><th colspan="12">Basic download datasheets: Download the datasheets</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="1"><a href="../Datasheets/100n.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="100n.pdf" width="64" height="64"></td></tr><tr><td class="td-small">100n.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="4"><a href="../Datasheets/18p.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_18p.png" alt="18p.pdf" width="256" height="331"></td></tr><tr><td class="td-small">18p.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="4"><a href="../Datasheets/1.2n.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_1.2n.png" alt="1.2n.pdf" width="256" height="362"></td></tr><tr><td class="td-small">1.2n.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/100u.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="100u.pdf" width="64" height="64"></td></tr><tr><td class="td-small">100u.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="2"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/CM4.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_CM4.png" alt="CM4.pdf" width="256" height="362"></td></tr><tr><td class="td-small">CM4.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-2"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/SM4007.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_SM4007.png" alt="SM4007.pdf" width="256" height="345"></td></tr><tr><td class="td-small">SM4007.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/Polyfuse 1.8A.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="Polyfuse 1.8A.pdf" width="64" height="64"></td></tr><tr><td class="td-small">Polyfuse 1.8A.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-7"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/Spacer.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_Spacer.png" alt="Spacer.pdf" width="256" height="188"></td></tr><tr><td class="td-small">Spacer.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-11"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/Jack 3.5mm.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_Jack 3.5mm.png" alt="Jack 3.5mm.pdf" width="256" height="331"></td></tr><tr><td class="td-small">Jack 3.5mm.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/USB_A.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="USB_A.pdf" width="64" height="64"></td></tr><tr><td class="td-small">USB_A.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-16"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/JST PH 4.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_JST PH 4.png" alt="JST PH 4.pdf" width="256" height="362"></td></tr><tr><td class="td-small">JST PH 4.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-20"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/Jack 6.35mm.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_Jack 6.35mm.png" alt="Jack 6.35mm.pdf" width="256" height="362"></td></tr><tr><td class="td-small">Jack 6.35mm.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/Screw_Terminal_01x02.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="Screw_Terminal_01x02.pdf" width="64" height="64"></td></tr><tr><td class="td-small">Screw_Terminal_01x02.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/USB_OTG.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="USB_OTG.pdf" width="64" height="64"></td></tr><tr><td class="td-small">USB_OTG.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/120_100MHz.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="120_100MHz.pdf" width="64" height="64"></td></tr><tr><td class="td-small">120_100MHz.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-27"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/SRN6045TA-3R3Y.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_SRN6045TA-3R3Y.png" alt="SRN6045TA-3R3Y.pdf" width="256" height="341"></td></tr><tr><td class="td-small">SRN6045TA-3R3Y.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/FDS4435BZ.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="FDS4435BZ.pdf" width="64" height="64"></td></tr><tr><td class="td-small">FDS4435BZ.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-32"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/24P_R 24mm.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_24P_R 24mm.png" alt="24P_R 24mm.pdf" width="256" height="341"></td></tr><tr><td class="td-small">24P_R 24mm.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-36"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/Tactile Button.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_Tactile Button.png" alt="Tactile Button.pdf" width="256" height="188"></td></tr><tr><td class="td-small">Tactile Button.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-40"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/74AHCT1G32SE-7.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_74AHCT1G32SE-7.png" alt="74AHCT1G32SE-7.pdf" width="256" height="331"></td></tr><tr><td class="td-small">74AHCT1G32SE-7.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-44"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/AP2553W6.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_AP2553W6.png" alt="AP2553W6.pdf" width="256" height="331"></td></tr><tr><td class="td-small">AP2553W6.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-48"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/TPD4EUSB30.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_TPD4EUSB30.png" alt="TPD4EUSB30.pdf" width="256" height="331"></td></tr><tr><td class="td-small">TPD4EUSB30.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-52"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/AT24CS01-STUM.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_AT24CS01-STUM.png" alt="AT24CS01-STUM.pdf" width="256" height="340"></td></tr><tr><td class="td-small">AT24CS01-STUM.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/TLP2761.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="TLP2761.pdf" width="64" height="64"></td></tr><tr><td class="td-small">TLP2761.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-57"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/RP2040.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_RP2040.png" alt="RP2040.pdf" width="256" height="362"></td></tr><tr><td class="td-small">RP2040.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-61"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/W25Q128JVS.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_W25Q128JVS.png" alt="W25Q128JVS.pdf" width="256" height="331"></td></tr><tr><td class="td-small">W25Q128JVS.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-65"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/NCP1117-3.3_SOT223.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_NCP1117-3.3_SOT223.png" alt="NCP1117-3.3_SOT223.pdf" width="256" height="331"></td></tr><tr><td class="td-small">NCP1117-3.3_SOT223.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-69"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/AP64501SP-13.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_AP64501SP-13.png" alt="AP64501SP-13.pdf" width="256" height="331"></td></tr><tr><td class="td-small">AP64501SP-13.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../Datasheets/FSUSB42MUX.pdf"><table class="out-img"><tr><td><img src="images/file_pdf_64.png" alt="FSUSB42MUX.pdf" width="64" height="64"></td></tr><tr><td class="td-small">FSUSB42MUX.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-74"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/USB2514B_Bi.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_USB2514B_Bi.png" alt="USB2514B_Bi.pdf" width="256" height="331"></td></tr><tr><td class="td-small">USB2514B_Bi.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-78"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/Crystal_Small.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_Crystal_Small.png" alt="Crystal_Small.pdf" width="256" height="331"></td></tr><tr><td class="td-small">Crystal_Small.pdf</td></tr></table></a></td>
+<td class="out-cell" colspan="-82"></td></tr>
+<tr>
+<td class="out-cell" colspan="4"><a href="../Datasheets/ABM8-272-T3.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_download_datasheets_ABM8-272-T3.png" alt="ABM8-272-T3.pdf" width="256" height="331"></td></tr><tr><td class="td-small">ABM8-272-T3.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_dxf_sch_print" class="output-table">
+<thead><tr><th colspan="12">Basic dxf sch print: Schematic in DXF format</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../Schematic/pedalboard-hw-schematic.dxf"><table class="out-img"><tr><td><img src="images/file_dxf_64.png" alt="pedalboard-hw-schematic.dxf" width="64" height="64"></td></tr><tr><td class="td-small">pedalboard-hw-schematic.dxf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_hpgl_sch_print" class="output-table">
+<thead><tr><th colspan="12">Basic hpgl sch print: Schematic in HPGL format</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../Schematic/pedalboard-hw-schematic.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="pedalboard-hw-schematic.plt" width="64" height="64"></td></tr><tr><td class="td-small">pedalboard-hw-schematic.plt</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_info" class="output-table">
+<thead><tr><th colspan="12">Basic info: Information about the run</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../pedalboard-hw-info.txt"><table class="out-img"><tr><td><img src="images/file_txt_64.png" alt="pedalboard-hw-info.txt" width="64" height="64"></td></tr><tr><td class="td-small">pedalboard-hw-info.txt</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_pdf_sch_print" class="output-table">
+<thead><tr><th colspan="12">Basic pdf sch print: Schematic in PDF format</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../Schematic/pedalboard-hw-schematic.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_sch_print_pedalboard-hw-schematic.png" alt="pedalboard-hw-schematic.pdf" width="256" height="181"></td></tr><tr><td class="td-small">pedalboard-hw-schematic.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_ps_sch_print" class="output-table">
+<thead><tr><th colspan="12">Basic ps sch print: Schematic in PS format</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../Schematic/pedalboard-hw-schematic.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_sch_print_pedalboard-hw-schematic.png" alt="pedalboard-hw-schematic.ps" width="362" height="256"></td></tr><tr><td class="td-small">pedalboard-hw-schematic.ps</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="basic_svg_sch_print" class="output-table">
+<thead><tr><th colspan="12">Basic svg sch print: Schematic in SVG format</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../Schematic/pedalboard-hw-schematic.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_sch_print_pedalboard-hw-schematic.png" alt="pedalboard-hw-schematic.svg" width="256" height="182"></td></tr><tr><td class="td-small">pedalboard-hw-schematic.svg</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="nav-table"> <tr>  <td><a href="pedalboard-hw-navigate_Schematic.html"><img src="images/back_64.png" width="64" height="64" alt="go back"></a></td>  <td><a href="pedalboard-hw-navigate.html"><img src="images/home_64.png" width="64" height="64" alt="go home"></a></td> </tr></table><p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.8.5</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("theSideNav").style.width = "360px";
+  document.getElementById("main").style.marginLeft = "360px";
+  document.getElementById("theTopMenu").style.marginLeft = "360px";
+  document.getElementById("bmenu").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("theSideNav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("theTopMenu").style.marginLeft = "0";
+  document.getElementById("bmenu").style.display = "block";
+}
+
+function ScrollUp() {
+  /* When we come here from the navbar we must scroll to avoid the top menu */
+  var p = document.getElementById("main");
+  var style = p.currentStyle || window.getComputedStyle(p);
+  var m_top = parseInt(style.marginTop)
+
+  window.scrollBy(0, -(m_top + 5));
+}
+
+window.onload = ScrollUp;
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const md = window.markdownit({
+        html: true,
+        linkify: true,
+        typographer: true
+    });
+
+    // Find all markdown containers and render them
+    document.querySelectorAll('.markdown-content').forEach(container => {
+        const rawMarkdown = container.innerHTML;
+        container.style.display = 'block';
+        container.innerHTML = md.render(rawMarkdown);
+    });
+});
+</script>
+</body>
+</html>

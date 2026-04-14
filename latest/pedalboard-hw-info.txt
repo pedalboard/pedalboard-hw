@@ -1,0 +1,161 @@
+KiBot installation checker
+
+Core:
+Linux: 6.17.0.1010 (Linux efc8acdb694d 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
+  /usr/bin/uname
+Python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+  /usr/lib/python3.13/os.py
+  /usr/bin/python3
+KiCad: 9.0.7+1
+  /usr/lib/python3/dist-packages/pcbnew.py
+  /usr/bin/kicad
+Kibot: 1.8.5
+  /usr/lib/python3/dist-packages/kibot/__main__.py
+  /usr/bin/kibot
+
+Modules:
+Colorama: 0.4.6
+  /usr/lib/python3/dist-packages/colorama/__init__.py
+LXML: 5.4.0
+  /usr/lib/python3/dist-packages/lxml/__init__.py
+Lark: 1.2.2
+  /usr/lib/python3/dist-packages/lark/__init__.py
+PyYAML: 6.0.2
+  /usr/lib/python3/dist-packages/yaml/__init__.py
+QRCodeGen: Ok
+  /usr/lib/python3/dist-packages/qrcodegen.py
+Requests: 2.32.3
+  /usr/lib/python3/dist-packages/requests/__init__.py
+XLSXWriter: 3.1.9
+  /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+Xvfbwrapper: Ok
+  /usr/lib/python3/dist-packages/xvfbwrapper.py
+markdown2: 2.4.11
+  /usr/lib/python3/dist-packages/markdown2.py
+numpy: 2.2.4
+  /usr/lib/python3/dist-packages/numpy/__init__.py
+
+Tools:
+Bash: 5.2.37 (GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu))
+  /usr/bin/bash
+Blender: 4.2.4 (Blender 4.2.4 LTS)
+  /usr/bin/blender
+Ghostscript: 10.5.1 (10.05.1)
+  /usr/bin/gs
+Git: 2.47.3 (git version 2.47.3)
+  /usr/bin/git
+ImageMagick: 7.1.1.43 (Version: ImageMagick 7.1.1-43 Q16 x86_64 22550 https://imagemagick.org)
+  /usr/bin/convert
+Interactive HTML BoM: 2.11.0 (v2.11.0)
+  /usr/bin/python3
+KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
+  /usr/bin/KiBOM_CLI.py
+KiCad Automation tools (kiauto): 2.3.6 (pcbnew_do 2.3.6 - Copyright 2018-2026, INTI/Productize SPRL - License: Apache)
+  /usr/bin/pcbnew_do
+KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
+  /usr/bin/kicad-diff.py
+KiCost: 1.1.20 (KiCost v1.1.20)
+  /usr/bin/kicost
+KiKit: 1.7.2.1 (kikit, version 1.7.2-1)
+  /usr/bin/kikit
+OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
+  /usr/bin/openscad
+Pandoc: 3.1.11.1 (pandoc 3.1.11.1)
+  /usr/bin/pandoc
+RAR: 7.11.0 (RAR 7.11   Copyright (c) 1993-2025 Alexander Roshal   20 Mar 2025)
+  /usr/bin/rar
+RSVG tools: 2.60.0 (rsvg-convert version 2.60.0)
+  /usr/bin/rsvg-convert
+Xvfb: Ok (xvfb-run)
+  /usr/bin/rsvg-convert
+
+Environment:
+ACTIONS_ORCHESTRATION_ID
+CI
+GITHUB_ACTION
+GITHUB_ACTIONS
+GITHUB_ACTION_REF
+GITHUB_ACTION_REPOSITORY
+GITHUB_ACTOR
+GITHUB_ACTOR_ID
+GITHUB_API_URL
+GITHUB_BASE_REF
+GITHUB_ENV
+GITHUB_EVENT_NAME
+GITHUB_EVENT_PATH
+GITHUB_GRAPHQL_URL
+GITHUB_HEAD_REF
+GITHUB_JOB
+GITHUB_OUTPUT
+GITHUB_PATH
+GITHUB_REF
+GITHUB_REF_NAME
+GITHUB_REF_PROTECTED
+GITHUB_REF_TYPE
+GITHUB_REPOSITORY
+GITHUB_REPOSITORY_ID
+GITHUB_REPOSITORY_OWNER
+GITHUB_REPOSITORY_OWNER_ID
+GITHUB_RETENTION_DAYS
+GITHUB_RUN_ATTEMPT
+GITHUB_RUN_ID
+GITHUB_RUN_NUMBER
+GITHUB_SERVER_URL
+GITHUB_SHA
+GITHUB_STATE
+GITHUB_STEP_SUMMARY
+GITHUB_TRIGGERING_ACTOR
+GITHUB_WORKFLOW
+GITHUB_WORKFLOW_REF
+GITHUB_WORKFLOW_SHA
+GITHUB_WORKSPACE
+GIT_TERMINAL_PROMPT
+HOME
+HOSTNAME
+INTERACTIVE_HTML_BOM_NO_DISPLAY
+KIBOT_ITERATION
+KIBOT_PCB_NAME
+KIBOT_SCH_NAME
+KICAD6_3RD_PARTY
+KICAD6_FOOTPRINT_DIR
+KICAD6_SYMBOL_DIR
+KICAD6_TEMPLATE_DIR
+KICAD7_3RD_PARTY
+KICAD7_FOOTPRINT_DIR
+KICAD7_SYMBOL_DIR
+KICAD7_TEMPLATE_DIR
+KICAD8_3RD_PARTY
+KICAD8_FOOTPRINT_DIR
+KICAD8_SYMBOL_DIR
+KICAD8_TEMPLATE_DIR
+KICAD9_3RD_PARTY
+KICAD9_FOOTPRINT_DIR
+KICAD9_SYMBOL_DIR
+KICAD9_TEMPLATE_DIR
+KICAD_AUTO_FULL
+KIPRJMOD
+KISYSMOD
+LC_CTYPE
+PATH
+PWD
+RUNNER_ARCH
+RUNNER_ENVIRONMENT
+RUNNER_NAME
+RUNNER_OS
+RUNNER_TEMP
+RUNNER_TOOL_CACHE
+RUNNER_WORKSPACE
+TZ
+
+KiAuto:
+This is KiAuto v2.3.6
+Installed at: /usr/bin/pcbnew_do
+Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
+Interpreted by Python: /usr/bin/python3 (v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0])
+Tools:
+- kicad: /usr/bin/kicad (v9.0.7+1)
+- xdotool: /usr/bin/xdotool
+- recordmydesktop: /usr/bin/recordmydesktop
+- xsltproc: /usr/bin/xsltproc
+- xclip: /usr/bin/xclip
+- convert: /usr/bin/convert
