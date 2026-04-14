@@ -8,36 +8,37 @@
     body { font-family: system-ui, sans-serif; max-width: 600px; margin: 80px auto; padding: 0 20px; text-align: center; color: #333; }
     h1 { font-size: 1.5em; }
     select { font-size: 1.1em; padding: 8px 16px; margin: 20px 0; }
+    button { font-size: 1.1em; padding: 8px 20px; cursor: pointer; }
     a { color: #0366d6; }
-    .versions { margin: 30px 0; }
-    .versions a { display: inline-block; margin: 4px 8px; }
   </style>
 </head>
 <body>
   <h1>Open Pedalboard — Hardware Documentation</h1>
   <p>Select a version:</p>
   <div>
-    <select id="version" onchange="go()">
+    <select id="version">
       <option value="">Loading…</option>
     </select>
+    <button onclick="go()">Go</button>
   </div>
-  <noscript>
-    <div class="versions" id="list"></div>
-  </noscript>
   <p><a href="https://github.com/pedalboard/pedalboard-hw">GitHub Repository</a></p>
   <script>
-    const BASE = 'Browse/pedalboard-hw-navigate.html';
+    const NAV = '/Browse/pedalboard-hw-navigate.html';
+    const OLD_BASE = 'https://pedalboard.github.io/pedalboard-hw-site';
     fetch('versions.json')
       .then(r => r.json())
-      .then(versions => {
+      .then(data => {
         const sel = document.getElementById('version');
-        sel.innerHTML = versions.map(v =>
-          `<option value="${v}">${v === 'latest' ? 'latest (dev)' : v}</option>`
-        ).join('');
+        sel.innerHTML = '<option value="">— choose —</option>' +
+          data.map(e => {
+            const url = (typeof e === 'string') ? e + NAV : e.url + NAV;
+            const label = (typeof e === 'string') ? (e === 'latest' ? 'latest (dev)' : e) : e.label;
+            return `<option value="${url}">${label}</option>`;
+          }).join('');
       });
     function go() {
       const v = document.getElementById('version').value;
-      if (v) window.location.href = v + '/' + BASE;
+      if (v) window.location.href = v;
     }
   </script>
 </body>

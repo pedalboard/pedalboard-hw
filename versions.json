@@ -1,2 +1,11 @@
-["latest"
+[
+  "latest"
+  ,"versions.json"
+  ,{"label":"v4.0.0","url":"https://pedalboard.github.io/pedalboard-hw-site/v4.0.0"}
+  ,{"label":"v3.1.1","url":"https://pedalboard.github.io/pedalboard-hw-site/v3.1.1"}
+  ,{"label":"v3.1.0","url":"https://pedalboard.github.io/pedalboard-hw-site/v3.1.0"}
+  ,{"label":"v3.0.1","url":"https://pedalboard.github.io/pedalboard-hw-site/v3.0.1"}
+  ,{"label":"v2.1.0","url":"https://pedalboard.github.io/pedalboard-hw-site/v2.1.0"}
+  ,{"label":"v2.0.0","url":"https://pedalboard.github.io/pedalboard-hw-site/v2.0.0"}
+  ,{"label":"v1.0.2","url":"https://pedalboard.github.io/pedalboard-hw-site/v1.0.2"}
 ]
