@@ -31,6 +31,10 @@ jobs:
         with:
           fetch-depth: "0"
 
+      - name: Install rsync
+        run: |
+          apt-get update -qq && apt-get install -y -qq rsync > /dev/null 2>&1
+
       - name: KiBot
         run: |
           kibot -e pedalboard-hw.kicad_sch -d generated
