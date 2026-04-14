@@ -82,6 +82,7 @@ jobs:
             echo ']'
           } > landing/versions.json
           cp site/index.html landing/index.html
+          touch landing/.nojekyll
 
       - name: Deploy landing page
         if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
