@@ -66,11 +66,21 @@ jobs:
         if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
         run: |
           git fetch origin gh-pages:gh-pages || true
-          VERSIONS=$(git ls-tree --name-only gh-pages | grep -E '^v' | sort -rV)
+          NEW_VERSIONS=$(git ls-tree --name-only gh-pages | grep -E '^v' | sort -rV)
+          OLD_SITE="https://pedalboard.github.io/pedalboard-hw-site"
+          OLD_VERSIONS="v4.0.0 v3.1.1 v3.1.0 v3.0.1 v2.1.0 v2.0.0 v1.0.2"
           mkdir -p landing
-          echo '["latest"' > landing/versions.json
-          for v in $VERSIONS; do echo ",\"$v\"" >> landing/versions.json; done
-          echo ']' >> landing/versions.json
+          {
+            echo '['
+            echo '  "latest"'
+            for v in $NEW_VERSIONS; do echo "  ,\"$v\""; done
+            for v in $OLD_VERSIONS; do
+              # skip if already deployed locally
+              echo "$NEW_VERSIONS" | grep -qw "$v" && continue
+              echo "  ,{\"label\":\"$v\",\"url\":\"$OLD_SITE/$v\"}"
+            done
+            echo ']'
+          } > landing/versions.json
           cp site/index.html landing/index.html
 
       - name: Deploy landing page
