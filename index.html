@@ -1,1 +1,44 @@
-<meta http-equiv="refresh" content="0;url=latest/Browse/pedalboard-hw-navigate.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Pedalboard — Hardware Documentation</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 80px auto; padding: 0 20px; text-align: center; color: #333; }
+    h1 { font-size: 1.5em; }
+    select { font-size: 1.1em; padding: 8px 16px; margin: 20px 0; }
+    a { color: #0366d6; }
+    .versions { margin: 30px 0; }
+    .versions a { display: inline-block; margin: 4px 8px; }
+  </style>
+</head>
+<body>
+  <h1>Open Pedalboard — Hardware Documentation</h1>
+  <p>Select a version:</p>
+  <div>
+    <select id="version" onchange="go()">
+      <option value="">Loading…</option>
+    </select>
+  </div>
+  <noscript>
+    <div class="versions" id="list"></div>
+  </noscript>
+  <p><a href="https://github.com/pedalboard/pedalboard-hw">GitHub Repository</a></p>
+  <script>
+    const BASE = 'Browse/pedalboard-hw-navigate.html';
+    fetch('versions.json')
+      .then(r => r.json())
+      .then(versions => {
+        const sel = document.getElementById('version');
+        sel.innerHTML = versions.map(v =>
+          `<option value="${v}">${v === 'latest' ? 'latest (dev)' : v}</option>`
+        ).join('');
+      });
+    function go() {
+      const v = document.getElementById('version').value;
+      if (v) window.location.href = v + '/' + BASE;
+    }
+  </script>
+</body>
+</html>
