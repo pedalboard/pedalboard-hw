@@ -32,75 +32,124 @@ jobs:
         with:
           fetch-depth: "0"
 
-      - name: Install rsync
-        run: |
-          apt-get update -qq && apt-get install -y -qq rsync > /dev/null 2>&1
+      - name: Install dependencies
+        run: apt-get update -qq && apt-get install -y -qq rsync wget jq > /dev/null 2>&1
 
       - name: KiBot
-        run: |
-          kibot -e pedalboard-hw.kicad_sch -d generated
+        run: kibot -e pedalboard-hw.kicad_sch -d generated
 
-      - name: Remove 3D Model (too large for github)
+      - name: KiBot diffs (tag only)
+        if: startsWith(github.ref, 'refs/tags/')
+        continue-on-error: true
+        run: kibot -e pedalboard-hw.kicad_sch -d generated -s run_erc,run_drc diff_sch diff_pcb
+
+      - name: Remove large STEP file
+        run: rm -f generated/3D/pedalboard-hw-3D.step
+
+      - name: Determine version
+        id: ver
         run: |
-          rm -f generated/3D/pedalboard-hw-3D.step
+          case "$GITHUB_REF" in
+            refs/tags/*) echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT" ;;
+            *) echo "tag=latest" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Discover assets
+        id: assets
+        run: |
+          GEN=generated
+          RENDERS="[]"
+          [ -d "$GEN/3D" ] && RENDERS=$(find "$GEN/3D" -name '*.png' -printf '%f\n' | sort | jq -R . | jq -s .)
+          echo "renders=$(echo $RENDERS | jq -c .)" >> "$GITHUB_OUTPUT"
+
+          DL="[]"
+          add() {
+            local m=$(find "$GEN" -path "$GEN/$2" -type f 2>/dev/null | head -1)
+            [ -n "$m" ] && DL=$(echo "$DL" | jq --arg n "$1" --arg p "${m#$GEN/}" '. + [{"name":$n,"path":$p}]')
+          }
+          add "Schematic (PDF)" "Schematic/*.pdf"
+          add "BOM (HTML)" "BoM/Generic/*bom*.html"
+          add "Interactive BOM" "Assembly/*ibom*.html"
+          add "JLCPCB" "Manufacturers/JLCPCB/*.zip"
+          add "PCBWay" "Manufacturers/PCBWay/*.zip"
+          echo "downloads=$(echo $DL | jq -c .)" >> "$GITHUB_OUTPUT"
+
+          DIFFS="[]"
+          for f in $(find "$GEN/diff" -name '*.html' -type f 2>/dev/null | sort); do
+            NAME=$(basename "$f" .html | sed 's/-/ /g')
+            DIFFS=$(echo "$DIFFS" | jq --arg n "$NAME" --arg p "${f#$GEN/}" '. + [{"name":$n,"path":$p}]')
+          done
+          echo "diffs=$(echo $DIFFS | jq -c .)" >> "$GITHUB_OUTPUT"
+
+      - name: Install Hugo and Go
+        run: |
+          wget -q "https://go.dev/dl/go1.23.8.linux-amd64.tar.gz" -O /tmp/go.tar.gz
+          tar -xzf /tmp/go.tar.gz -C /usr/local
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v0.147.0/hugo_extended_0.147.0_linux-amd64.tar.gz" -O /tmp/hugo.tar.gz
+          tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo
+
+      - name: Build Hugo site
+        env:
+          PATH: "/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin"
+        run: |
+          TAG="${{ steps.ver.outputs.tag }}"
+          VERSION="$TAG"
+          [ "$TAG" = "latest" ] && VERSION="main"
+          rsync -a generated/ site/static/
+          mkdir -p site/static/kicad
+          cp *.kicad_sch *.kicad_pcb site/static/kicad/
+          KICAD_FILES=$(cd site/static/kicad && ls *.kicad_sch *.kicad_pcb 2>/dev/null | jq -R . | jq -s -c .)
+          RENDERS='${{ steps.assets.outputs.renders }}'
+          if [ "$TAG" = "latest" ]; then
+            DOWNLOADS='[]'
+            DIFFS='[]'
+          else
+            DOWNLOADS='${{ steps.assets.outputs.downloads }}'
+            DIFFS='${{ steps.assets.outputs.diffs }}'
+          fi
+          GH_URL="https://github.com/pedalboard/pedalboard-hw"
+          [ "$VERSION" != "main" ] && GH_URL="$GH_URL/tree/$TAG"
+          printf 'baseURL: https://pedalboard.github.io/pedalboard-hw/%s/\nparams:\n  version: "%s"\n  kicadFiles: %s\n  renders: %s\n  downloads: %s\n  diffs: %s\n  socialIcons:\n    - name: github\n      url: "%s"\n' \
+            "$TAG" "$VERSION" "$KICAD_FILES" "$RENDERS" "$DOWNLOADS" "$DIFFS" "$GH_URL" > site/config_override.yaml
+          cd site
+          hugo mod get
+          hugo --minify --config hugo.yaml,config_override.yaml
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: generated_outputs
-          path: generated
+          name: site-${{ steps.ver.outputs.tag }}
+          path: site/public
 
-      - name: Deploy latest to GitHub Pages
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: generated
-          target-folder: latest
-          clean-exclude: |
-            v*
-            index.html
-            versions.json
-
-      - name: Build landing page
-        if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
+      - name: Update versions.json
+        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
         run: |
-          git fetch origin gh-pages:gh-pages || true
-          NEW_VERSIONS=$(git ls-tree --name-only gh-pages | grep -E '^v[0-9]' | sort -rV)
-          OLD_SITE="https://pedalboard.github.io/pedalboard-hw-site"
-          OLD_VERSIONS="v4.0.0 v3.1.1 v3.1.0 v3.0.1 v2.1.0 v2.0.0 v1.0.2"
-          mkdir -p landing
-          {
-            echo '['
-            echo '  "latest"'
-            for v in $NEW_VERSIONS; do echo "  ,\"$v\""; done
-            for v in $OLD_VERSIONS; do
-              # skip if already deployed locally
-              echo "$NEW_VERSIONS" | grep -qw "$v" && continue
-              echo "  ,{\"label\":\"$v\",\"url\":\"$OLD_SITE/$v\"}"
-            done
-            echo ']'
-          } > landing/versions.json
-          cp site/index.html landing/index.html
-          touch landing/.nojekyll
+          TAG="${{ steps.ver.outputs.tag }}"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+          EXISTING="[]"
+          git show gh-pages:versions.json > /tmp/old.json 2>/dev/null && \
+            EXISTING=$(jq '[.[] | if type == "string" then {tag: .} elif .label then {tag: .label, external_base: .url} else . end] | map(select(.tag != "'"$TAG"'"))' /tmp/old.json)
+          NEW=$(jq -n --arg tag "$TAG" '{tag:$tag}')
+          echo "$EXISTING" | jq --argjson new "$NEW" \
+            '[$new] + [.[] | del(.latest)] | .[0].latest = true' > /tmp/versions.json
+          mkdir -p deploy-root
+          cp /tmp/versions.json deploy-root/versions.json
+          echo '<meta http-equiv="refresh" content="0;url=latest/">' > deploy-root/index.html
+          touch deploy-root/.nojekyll
 
-      - name: Deploy landing page
-        if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
+      - name: Deploy root files
+        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: landing
+          folder: deploy-root
           clean: false
 
-      - name: Deploy versioned to GitHub Pages
-        if: startsWith(github.ref, 'refs/tags/v')
+      - name: Deploy versioned site
+        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: generated
-          target-folder: ${{ github.ref_name }}
-          clean-exclude: |
-            v*
-            latest
-            index.html
-            versions.json
+          folder: site/public
+          target-folder: ${{ steps.ver.outputs.tag }}

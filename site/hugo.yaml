@@ -1,0 +1,38 @@
+baseURL: https://pedalboard.github.io/pedalboard-hw/latest/
+languageCode: en-us
+title: Open Pedalboard — Mainboard
+
+module:
+  imports:
+    - path: github.com/laenzlinger/hugo-kicad-site
+
+params:
+  projectName: "Open Pedalboard — Mainboard"
+  description: "Open-source KiCad mainboard for guitar pedalboards"
+  repoURL: "https://github.com/pedalboard/pedalboard-hw"
+  schematicFile: "pedalboard-hw.kicad_sch"
+  pcbFile: "pedalboard-hw.kicad_pcb"
+  oshwaID: "CH000023"
+  version: "main"
+  renders: []
+  downloads: []
+  kicadFiles: []
+  env: production
+
+menu:
+  main:
+    - name: Changes
+      url: /changes/
+      weight: 15
+    - name: Schematic
+      url: /schematic/
+      weight: 20
+    - name: Gallery
+      url: /gallery/
+      weight: 30
+    - name: Downloads
+      url: /downloads/
+      weight: 40
+    - name: GitHub
+      url: https://github.com/pedalboard/pedalboard-hw
+      weight: 100
