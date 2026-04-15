@@ -64,7 +64,7 @@ jobs:
 
           DL="[]"
           add() {
-            local m=$(find "$GEN" -path "$GEN/$2" -type f 2>/dev/null | head -1)
+            m=$(find "$GEN" -path "$GEN/$2" -type f 2>/dev/null | head -1)
             [ -n "$m" ] && DL=$(echo "$DL" | jq --arg n "$1" --arg p "${m#$GEN/}" '. + [{"name":$n,"path":$p}]')
           }
           add "Schematic (PDF)" "Schematic/*.pdf"
