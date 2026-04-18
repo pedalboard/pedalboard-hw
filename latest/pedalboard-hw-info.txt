@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 6.17.0.1010 (Linux 4eaf814c7993 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
+Linux: 6.17.0.1010 (Linux df4a39e03d43 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
   /usr/lib/python3.13/os.py
@@ -46,7 +46,7 @@ Git: 2.47.3 (git version 2.47.3)
   /usr/bin/git
 ImageMagick: 7.1.1.43 (Version: ImageMagick 7.1.1-43 Q16 x86_64 22550 https://imagemagick.org)
   /usr/bin/convert
-Interactive HTML BoM: 2.11.0 (v2.11.0)
+Interactive HTML BoM: 2.11.1 (v2.11.1)
   /usr/bin/python3
 KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
@@ -56,7 +56,7 @@ KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, I
   /usr/bin/kicad-diff.py
 KiCost: 1.1.20 (KiCost v1.1.20)
   /usr/bin/kicost
-KiKit: 1.7.2.1 (kikit, version 1.7.2-1)
+KiKit: 1.8.0.1 (kikit, version 1.8.0-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
