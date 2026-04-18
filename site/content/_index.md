@@ -18,5 +18,4 @@ Modular design supporting MIDI-only or combined MIDI + audio configurations.
 - 2 expression pedal inputs
 - USB-A host + Mini USB device (firmware update)
 - 6–28V DC input with 3A buck converter, or USB powered
-- [OSHWA certified (CH000023)](https://certification.oshwa.org/ch000023.html)
 
