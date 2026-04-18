@@ -19,3 +19,8 @@ Modular design supporting MIDI-only or combined MIDI + audio configurations.
 - USB-A host + Mini USB device (firmware update)
 - 6–28V DC input with 3A buck converter, or USB powered
 
+## Related
+
+- [Sound Card](https://pedalboard.github.io/pedalboard-soundcard/latest/) — I²S audio codec HAT
+- [Display Board](https://pedalboard.github.io/pedalboard-display/latest/) — LED rings and OLED displays
+
