@@ -1,26 +1,8 @@
 [
-  {
-    "tag": "latest",
-    "latest": true
-  },
-  {
-    "tag": "v4.0.0",
-    "url": "https://github.com/pedalboard/pedalboard-hw/releases/tag/v4.0.0"
-  },
-  {
-    "tag": "v3.1.1",
-    "url": "https://github.com/pedalboard/pedalboard-hw/releases/tag/v3.1.1"
-  },
-  {
-    "tag": "v3.0.1",
-    "url": "https://github.com/pedalboard/pedalboard-hw/releases/tag/v3.0.1"
-  },
-  {
-    "tag": "v2.1.0",
-    "url": "https://github.com/pedalboard/pedalboard-hw/releases/tag/v2.1.0"
-  },
-  {
-    "tag": "v2.0.0",
-    "url": "https://github.com/pedalboard/pedalboard-hw/releases/tag/v2.0.0"
-  }
+  {"tag": "latest", "latest": true},
+  {"tag": "v4.0.0", "url": "https://pedalboard.github.io/pedalboard-hw-site/v4.0.0/Browse/pedalboard-hw-navigate.html"},
+  {"tag": "v3.1.1", "url": "https://pedalboard.github.io/pedalboard-hw-site/v3.1.1/Browse/pedalboard-hw-navigate.html"},
+  {"tag": "v3.0.1", "url": "https://pedalboard.github.io/pedalboard-hw-site/v3.0.1/Browse/pedalboard-hw-navigate.html"},
+  {"tag": "v2.1.0", "url": "https://pedalboard.github.io/pedalboard-hw-site/v2.1.0/Browse/pedalboard-hw-navigate.html"},
+  {"tag": "v2.0.0", "url": "https://pedalboard.github.io/pedalboard-hw-site/v2.0.0/Browse/pedalboard-hw-navigate.html"}
 ]
