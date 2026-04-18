@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "tag": "latest",
+    "latest": true
+  }
+]
