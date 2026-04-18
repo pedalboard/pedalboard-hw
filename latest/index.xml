@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Overview on Open Pedalboard — Mainboard</title><link>https://pedalboard.github.io/pedalboard-hw/latest/</link><description>Recent content in Overview on Open Pedalboard — Mainboard</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pedalboard.github.io/pedalboard-hw/latest/index.xml" rel="self" type="application/rss+xml"/><item><title>Board</title><link>https://pedalboard.github.io/pedalboard-hw/latest/board/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pedalboard.github.io/pedalboard-hw/latest/board/</guid><description/></item><item><title>Release</title><link>https://pedalboard.github.io/pedalboard-hw/latest/release/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pedalboard.github.io/pedalboard-hw/latest/release/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Overview on Open Pedalboard — Mainboard</title><link>https://pedalboard.github.io/pedalboard-hw/latest/</link><description>Recent content in Overview on Open Pedalboard — Mainboard</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pedalboard.github.io/pedalboard-hw/latest/index.xml" rel="self" type="application/rss+xml"/><item><title>Board</title><link>https://pedalboard.github.io/pedalboard-hw/latest/board/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pedalboard.github.io/pedalboard-hw/latest/board/</guid><description>&lt;h2 id="audio-processing"&gt;Audio Processing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi &lt;a href="https://www.raspberrypi.com/products/compute-module-4/"&gt;Compute Module 4&lt;/a&gt; or &lt;a href="https://www.raspberrypi.com/products/compute-module-5/"&gt;Compute Module 5&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Flexible memory options for cost optimisation&lt;/li&gt;
+&lt;li&gt;Optional WiFi&lt;/li&gt;
+&lt;li&gt;Very low latency (~2ms with &lt;a href="https://www.elk.audio/how-elk-audio-os-works"&gt;ELK Audio OS&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pedalboard.github.io/pedalboard-soundcard/latest/"&gt;Pedalboard Soundcard&lt;/a&gt; — two channel differential I/O&lt;/li&gt;
+&lt;li&gt;or HiFiBerry &lt;a href="https://www.hifiberry.com/shop/boards/hifiberry-dac-adc-pro/"&gt;DAC+ ADC PRO&lt;/a&gt; — high quality stereo I/O&lt;/li&gt;
+&lt;li&gt;USB-A host + Mini USB device mode (firmware update)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="midi-and-control-surface"&gt;MIDI and Control Surface&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raspberry &lt;a href="https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"&gt;RP-2040&lt;/a&gt; with custom &lt;a href="https://github.com/pedalboard/pedalboard-midi"&gt;firmware&lt;/a&gt; (USB or WLAN update)&lt;/li&gt;
+&lt;li&gt;6 foot buttons (push, release, long/short press)&lt;/li&gt;
+&lt;li&gt;2 rotary encoders with push button&lt;/li&gt;
+&lt;li&gt;2 expression pedal inputs&lt;/li&gt;
+&lt;li&gt;8 &lt;a href="https://github.com/pedalboard/pedalboard-led-ring"&gt;RGB LED rings&lt;/a&gt; around each foot button&lt;/li&gt;
+&lt;li&gt;2 RGB status LEDs&lt;/li&gt;
+&lt;li&gt;STEMMA I2C connector for 2 OLED displays&lt;/li&gt;
+&lt;li&gt;I2C EEPROM for config storage&lt;/li&gt;
+&lt;li&gt;Flexible MIDI I/O: DIN 5, 3.5mm TRS, header pins, USB MIDI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="power-supply"&gt;Power Supply&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;6–28V DC input (standard pedalboard PSU) with 3A buck converter&lt;/li&gt;
+&lt;li&gt;USB powered option for MIDI module&lt;/li&gt;
+&lt;li&gt;ORing support between onboard PSU and USB power&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Release</title><link>https://pedalboard.github.io/pedalboard-hw/latest/release/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pedalboard.github.io/pedalboard-hw/latest/release/</guid><description/></item></channel></rss>
