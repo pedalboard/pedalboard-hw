@@ -3,6 +3,8 @@ title: Overview
 weight: 10
 ---
 
+![PCB 3D Render](3D/pedalboard-hw-3D_blender_top.png)
+
 The Open Pedalboard Mainboard is the central PCB of the modular pedalboard system.
 It provides power distribution, MIDI routing, and audio switching for up to 8 effect pedals.
 

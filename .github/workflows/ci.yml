@@ -1,4 +1,4 @@
-name: "Generate output"
+name: "Hardware CI"
 
 on:
   push:
@@ -7,149 +7,23 @@ on:
     paths:
       - "*.kicad_sch"
       - "*.kicad_pcb"
-      - ".github/workflows/ci.yml"
-      - "pedalboard-hw.kibot.yaml"
+      - "*.kibot.yaml"
       - "site/**"
+      - ".github/workflows/ci.yml"
   pull_request:
     paths:
       - "*.kicad_sch"
       - "*.kicad_pcb"
-      - ".github/workflows/ci.yml"
-      - "pedalboard-hw.kibot.yaml"
-  repository_dispatch:
-    types: [run_qs]
 
 permissions:
   contents: write
 
 jobs:
-  generate:
-    runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: "0"
-
-      - name: Install dependencies
-        run: apt-get update -qq && apt-get install -y -qq rsync wget jq > /dev/null 2>&1
-
-      - name: KiBot
-        run: kibot -e pedalboard-hw.kicad_sch -d generated
-
-      - name: KiBot diffs (tag only)
-        if: startsWith(github.ref, 'refs/tags/')
-        continue-on-error: true
-        run: kibot -e pedalboard-hw.kicad_sch -d generated -s run_erc,run_drc diff_sch diff_pcb
-
-      - name: Remove large STEP file
-        run: rm -f generated/3D/pedalboard-hw-3D.step
-
-      - name: Determine version
-        id: ver
-        run: |
-          case "$GITHUB_REF" in
-            refs/tags/*) echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT" ;;
-            *) echo "tag=latest" >> "$GITHUB_OUTPUT" ;;
-          esac
-
-      - name: Discover assets
-        id: assets
-        run: |
-          GEN=generated
-          RENDERS="[]"
-          [ -d "$GEN/3D" ] && RENDERS=$(find "$GEN/3D" -name '*.png' -printf '%f\n' | sort | jq -R . | jq -s .)
-          echo "renders=$(echo $RENDERS | jq -c .)" >> "$GITHUB_OUTPUT"
-
-          DL="[]"
-          add() {
-            m=$(find "$GEN" -path "$GEN/$2" -type f 2>/dev/null | head -1)
-            [ -n "$m" ] && DL=$(echo "$DL" | jq --arg n "$1" --arg p "${m#$GEN/}" '. + [{"name":$n,"path":$p}]')
-          }
-          add "Schematic (PDF)" "Schematic/*.pdf"
-          add "BOM (HTML)" "BoM/Generic/*bom*.html"
-          add "Interactive BOM" "Assembly/*ibom*.html"
-          add "JLCPCB" "Manufacturers/JLCPCB/*.zip"
-          add "PCBWay" "Manufacturers/PCBWay/*.zip"
-          echo "downloads=$(echo $DL | jq -c .)" >> "$GITHUB_OUTPUT"
-
-          DIFFS="[]"
-          for f in $(find "$GEN/diff" -name '*.html' -type f 2>/dev/null | sort); do
-            NAME=$(basename "$f" .html | sed 's/-/ /g')
-            DIFFS=$(echo "$DIFFS" | jq --arg n "$NAME" --arg p "${f#$GEN/}" '. + [{"name":$n,"path":$p}]')
-          done
-          echo "diffs=$(echo $DIFFS | jq -c .)" >> "$GITHUB_OUTPUT"
-
-      - name: Install Hugo and Go
-        run: |
-          wget -q "https://go.dev/dl/go1.23.8.linux-amd64.tar.gz" -O /tmp/go.tar.gz
-          tar -xzf /tmp/go.tar.gz -C /usr/local
-          wget -q "https://github.com/gohugoio/hugo/releases/download/v0.147.0/hugo_extended_0.147.0_linux-amd64.tar.gz" -O /tmp/hugo.tar.gz
-          tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo
-
-      - name: Build Hugo site
-        env:
-          PATH: "/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin"
-        run: |
-          TAG="${{ steps.ver.outputs.tag }}"
-          VERSION="$TAG"
-          [ "$TAG" = "latest" ] && VERSION="main"
-          rsync -a generated/ site/static/
-          mkdir -p site/static/kicad
-          cp *.kicad_sch *.kicad_pcb site/static/kicad/
-          KICAD_FILES=$(cd site/static/kicad && ls *.kicad_sch *.kicad_pcb 2>/dev/null | jq -R . | jq -s -c .)
-          RENDERS='${{ steps.assets.outputs.renders }}'
-          if [ "$TAG" = "latest" ]; then
-            DOWNLOADS='[]'
-            DIFFS='[]'
-          else
-            DOWNLOADS='${{ steps.assets.outputs.downloads }}'
-            DIFFS='${{ steps.assets.outputs.diffs }}'
-          fi
-          GH_URL="https://github.com/pedalboard/pedalboard-hw"
-          [ "$VERSION" != "main" ] && GH_URL="$GH_URL/tree/$TAG"
-          printf 'baseURL: https://pedalboard.github.io/pedalboard-hw/%s/\nparams:\n  version: "%s"\n  kicadFiles: %s\n  renders: %s\n  downloads: %s\n  diffs: %s\n  socialIcons:\n    - name: github\n      url: "%s"\n' \
-            "$TAG" "$VERSION" "$KICAD_FILES" "$RENDERS" "$DOWNLOADS" "$DIFFS" "$GH_URL" > site/config_override.yaml
-          cd site
-          hugo mod get
-          hugo --minify --config hugo.yaml,config_override.yaml
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-${{ steps.ver.outputs.tag }}
-          path: site/public
-
-      - name: Update versions.json
-        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
-        run: |
-          TAG="${{ steps.ver.outputs.tag }}"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
-          EXISTING="[]"
-          git show gh-pages:versions.json > /tmp/old.json 2>/dev/null && \
-            EXISTING=$(jq '[.[] | if type == "string" then {tag: .} elif .label then {tag: .label, external_base: .url} else . end] | map(select(.tag != "'"$TAG"'"))' /tmp/old.json)
-          NEW=$(jq -n --arg tag "$TAG" '{tag:$tag}')
-          echo "$EXISTING" | jq --argjson new "$NEW" \
-            '[$new] + [.[] | del(.latest)] | .[0].latest = true' > /tmp/versions.json
-          mkdir -p deploy-root
-          cp /tmp/versions.json deploy-root/versions.json
-          echo '<meta http-equiv="refresh" content="0;url=latest/">' > deploy-root/index.html
-          touch deploy-root/.nojekyll
-
-      - name: Deploy root files
-        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: deploy-root
-          clean: false
-
-      - name: Deploy versioned site
-        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: site/public
-          target-folder: ${{ steps.ver.outputs.tag }}
+  site:
+    uses: laenzlinger/hugo-kicad-site/.github/workflows/kicad-site.yml@main
+    with:
+      project_name: "pedalboard-hw"
+      schematic: "pedalboard-hw.kicad_sch"
+      pcb: "pedalboard-hw.kicad_pcb"
+      kibot_config: "pedalboard-hw.kibot.yaml"
+      site_base_url: "https://pedalboard.github.io/pedalboard-hw"

@@ -10,29 +10,25 @@ params:
   projectName: "Open Pedalboard — Mainboard"
   description: "Open-source KiCad mainboard for guitar pedalboards"
   repoURL: "https://github.com/pedalboard/pedalboard-hw"
-  schematicFile: "pedalboard-hw.kicad_sch"
-  pcbFile: "pedalboard-hw.kicad_pcb"
   oshwaID: "CH000023"
+  license: "CERN-OHL-P-2.0"
   version: "main"
   renders: []
   downloads: []
   kicadFiles: []
   env: production
+  socialIcons:
+    - name: github
+      url: "https://github.com/pedalboard/pedalboard-hw"
 
 menu:
   main:
-    - name: Changes
-      url: /changes/
-      weight: 15
-    - name: Schematic
-      url: /schematic/
+    - name: Board
+      url: /board/
       weight: 20
-    - name: Gallery
-      url: /gallery/
+    - name: Release
+      url: /release/
       weight: 30
-    - name: Downloads
-      url: /downloads/
-      weight: 40
     - name: GitHub
       url: https://github.com/pedalboard/pedalboard-hw
       weight: 100
