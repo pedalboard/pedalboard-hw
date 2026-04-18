@@ -21,7 +21,6 @@ Mainboard for processing audio and/or MIDI data on a pedalboard.
 - [Downloads & releases](https://pedalboard.github.io/pedalboard-hw/latest/release/)
 - [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/DJ3I9KG222)
 - [PCBWay manufacturing](https://www.pcbway.com/project/shareproject/Open_Source_Pedalboard_Platform_8e065d23.html)
-- [Build instructions (wiki)](https://github.com/pedalboard/pedalboard-hw/wiki)
 - [Mechanical parts (3D printable)](https://github.com/pedalboard/pedalboard-case)
 - [Release procedure](doc/release-procedure.md)
 
