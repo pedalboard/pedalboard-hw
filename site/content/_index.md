@@ -19,3 +19,5 @@ Modular design supporting MIDI-only or combined MIDI + audio configurations.
 - USB-A host + Mini USB device (firmware update)
 - 6–28V DC input with 3A buck converter, or USB powered
 - [OSHWA certified (CH000023)](https://certification.oshwa.org/ch000023.html)
+
+[![OSHWA Certified](https://img.shields.io/badge/OSHWA-CH000023-blue)](https://certification.oshwa.org/ch000023.html) [![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-green)](LICENSE.txt)
