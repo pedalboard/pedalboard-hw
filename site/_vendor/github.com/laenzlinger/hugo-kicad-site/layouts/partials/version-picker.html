@@ -1,0 +1,33 @@
+<script>
+(function() {
+  var baseURL = {{ .Site.BaseURL }};
+  var root = baseURL.replace(/\/[^/]*\/?$/, '');
+
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch(root + '/versions.json')
+      .then(function(r) { return r.json(); })
+      .then(function(versions) {
+        var sel = document.createElement('select');
+        sel.className = 'version-select';
+        sel.setAttribute('aria-label', 'Select version');
+        var path = window.location.pathname.replace(baseURL.replace(/^https?:\/\/[^/]+/, ''), '');
+        sel.innerHTML = versions.map(function(v) {
+          var tag = (typeof v === 'string') ? v : v.tag;
+          var label = tag;
+          var url = (typeof v === 'object' && v.url) ? v.url : '';
+          if (typeof v === 'object' && v.latest && tag !== 'latest') label += ' (latest)';
+          var selected = baseURL.indexOf('/' + tag + '/') !== -1 ? ' selected' : '';
+          return '<option value="' + tag + '"' + selected + (url ? ' data-url="' + url + '"' : '') + '>' + label + '</option>';
+        }).join('');
+        sel.addEventListener('change', function() {
+          var opt = sel.options[sel.selectedIndex];
+          var url = opt.dataset.url;
+          window.location.href = url ? url : root + '/' + sel.value + '/' + path;
+        });
+        var target = document.querySelector('.logo-switches');
+        if (target) target.appendChild(sel);
+      })
+      .catch(function() {});
+  });
+})();
+</script>

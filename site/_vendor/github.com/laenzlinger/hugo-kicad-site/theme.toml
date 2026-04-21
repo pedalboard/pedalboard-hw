@@ -1,0 +1,10 @@
+name = "Hugo KiCad Site"
+license = "GPL-3.0-or-later"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.html"
+description = "A reusable Hugo theme for KiCad hardware project sites with KiCanvas viewer, versioned assets, 3D gallery, and download sections."
+homepage = "https://github.com/laenzlinger/hugo-kicad-site"
+min_version = "0.160.0"
+
+[author]
+  name = "Christof Länzlinger"
+  homepage = "https://christof.laenzlinger.net"

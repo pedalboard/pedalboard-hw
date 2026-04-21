@@ -1,0 +1,10 @@
+{{- $diffs := .Site.Params.diffs -}}
+{{ with $diffs }}
+<h2>Schematic &amp; PCB Diff</h2>
+<p>Visual diff against the previous release:</p>
+<ul class="download-list">
+  {{ range . }}
+  <li><a href="{{ $.Site.BaseURL }}{{ .path }}">{{ .name }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

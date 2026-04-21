@@ -1,0 +1,15 @@
+<div class="viewer-wrap">
+  {{ partial "fullscreen-btn.html" . }}
+  <kicanvas-embed id="kicanvas-viewer">
+    {{ range .Site.Params.kicadFiles }}
+    <kicanvas-source src="{{ $.Site.BaseURL }}kicad/{{ . }}"></kicanvas-source>
+    {{ end }}
+  </kicanvas-embed>
+</div>
+<script>
+  var v = document.getElementById('kicanvas-viewer');
+  v.setAttribute('controls', 'full');
+  v.setAttribute('theme', 'kicad');
+  v.setAttribute('controlslist', 'nooverlay');
+</script>
+<script type="module" src="https://kicanvas.org/kicanvas/kicanvas.js"></script>

@@ -1,0 +1,3 @@
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod

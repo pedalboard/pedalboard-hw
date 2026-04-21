@@ -1,0 +1,9 @@
+{{- $downloads := .Site.Params.downloads -}}
+{{ with $downloads }}
+<h2>Downloads</h2>
+<ul class="download-list">
+  {{ range . }}
+  <li><a href="{{ $.Site.BaseURL }}{{ .path }}">{{ .name }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    <div class="post-meta"></div>
+  </header>
+  <div class="post-content md-content">
+  {{ .Content }}
+  {{ $models := .Site.Params.assemblyModels }}
+  {{ with $models }}
+  {{ range $i, $m := . }}
+  {{ $thumb := $m.file | replaceRE `\.(step|glb|3mf)$` ".png" }}
+  <section class="assembly-model">
+    <h2>{{ $m.name }}</h2>
+    <div class="viewer-wrap">
+      {{ partial "fullscreen-btn.html" $ }}
+      <div class="viewer-placeholder" data-viewer-id="viewer-{{ $i }}"
+           data-model="{{ $.Site.BaseURL }}assembly/{{ $m.file }}">
+        <img src="{{ $.Site.BaseURL }}assembly/{{ $thumb }}" alt="{{ $m.name }}" onerror="this.style.display='none'">
+        <button class="viewer-load-btn">▶ Load 3D Model</button>
+      </div>
+      <div id="viewer-{{ $i }}" class="online_3d_viewer" style="display:none;"></div>
+    </div>
+  </section>
+  {{ end }}
+  <script src="https://cdn.jsdelivr.net/npm/online-3d-viewer@0.18.0/build/engine/o3dv.min.js"></script>
+  <script>
+    document.querySelectorAll('.viewer-placeholder').forEach(function(ph) {
+      ph.querySelector('.viewer-load-btn').addEventListener('click', function() {
+        var el = document.getElementById(ph.dataset.viewerId);
+        el.style.display = 'block';
+        ph.style.display = 'none';
+        OV.Init3DViewerFromUrlList(el, [ph.dataset.model]);
+      });
+    });
+  </script>
+  {{ else }}
+  <p>No assembly models available for this version.</p>
+  {{ end }}
+  </div>
+</article>
+{{ end }}

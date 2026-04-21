@@ -1,0 +1,10 @@
+{{ with .Site.Params.renders }}
+<div class="gallery-grid">
+  {{ range . }}
+  <figure>
+    <img src="{{ $.Site.BaseURL }}3D/{{ . }}" alt="{{ . | replaceRE `[-_]` " " | replaceRE `\.png$` "" }}" loading="lazy">
+    <figcaption>{{ . | replaceRE `[-_]` " " | replaceRE `\.png$` "" }}</figcaption>
+  </figure>
+  {{ end }}
+</div>
+{{ end }}

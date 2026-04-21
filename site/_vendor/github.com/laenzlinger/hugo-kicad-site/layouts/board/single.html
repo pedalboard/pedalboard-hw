@@ -1,0 +1,44 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    <div class="post-meta"></div>
+  </header>
+  <div class="post-content md-content">
+
+  <h2>Schematic &amp; PCB</h2>
+  {{ partial "kicanvas.html" . }}
+
+  {{ with .Site.Params.renders }}
+  <h2>3D Renders</h2>
+  {{ end }}
+  {{ partial "gallery.html" . }}
+
+  {{ with .Site.Params.ibom }}
+  <h2>Interactive BOM</h2>
+  <div class="viewer-wrap">
+    {{ partial "fullscreen-btn.html" $ }}
+    <iframe class="ibom-viewer" src="{{ $.Site.BaseURL }}{{ . }}" title="Interactive BOM"></iframe>
+  </div>
+  <script>
+    (function() {
+      var iframe = document.querySelector('.ibom-viewer');
+      function syncTheme() {
+        try {
+          var dark = document.documentElement.dataset.theme === 'dark';
+          var body = iframe.contentDocument.querySelector('.topmostdiv');
+          if (body) body.classList.toggle('dark', dark);
+        } catch(e) {}
+      }
+      iframe.addEventListener('load', syncTheme);
+      new MutationObserver(syncTheme).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+    })();
+  </script>
+  {{ end }}
+
+  {{ with .Content }}
+  {{ . }}
+  {{ end }}
+  </div>
+</article>
+{{ end }}

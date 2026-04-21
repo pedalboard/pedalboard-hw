@@ -1,0 +1,96 @@
+<style>
+.version-select {
+  background: var(--code-bg);
+  color: var(--content);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+kicanvas-embed { width: 100%; height: 600px; display: block; border: 1px solid var(--border); border-radius: 6px; margin: 1rem 0; }
+.gallery-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1rem 0; }
+.gallery-grid figure { background: var(--code-bg); border-radius: 6px; overflow: hidden; border: 1px solid var(--border); margin: 0; }
+.gallery-grid img { width: 100%; height: auto; display: block; }
+.gallery-grid figcaption { padding: 0.4rem 0.6rem; font-size: 0.85rem; color: var(--secondary); }
+.download-list { list-style: none; padding: 0; }
+.download-list li { padding: 0.4rem 0; }
+.download-list li::before { content: "⬇ "; }
+.assembly-model { margin: 1.5rem 0; }
+.assembly-model .online_3d_viewer { width: 100%; height: 600px; border: 1px solid var(--border); border-radius: 6px; }
+.viewer-placeholder {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.viewer-placeholder img { width: 100%; height: 100%; object-fit: contain; }
+.viewer-load-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  padding: 0.8rem 1.5rem;
+  background: var(--code-bg);
+  color: var(--content);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+.viewer-placeholder:hover .viewer-load-btn { opacity: 1; }
+.ibom-viewer { width: 100%; height: 600px; border: 1px solid var(--border); border-radius: 6px; display: block; }
+.release-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--content);
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+.release-card:hover { border-color: var(--primary); }
+.release-card-icon { width: 32px; height: 32px; flex-shrink: 0; }
+.release-card strong { display: block; font-size: 1.05rem; }
+.release-card span { color: var(--secondary); font-size: 0.9rem; }
+.viewer-wrap { position: relative; }
+.viewer-fullscreen-btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 10;
+  background: var(--code-bg);
+  color: var(--content);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.viewer-fullscreen-btn:hover { opacity: 1; }
+.viewer-wrap:fullscreen, .viewer-wrap:-webkit-full-screen, .viewer-wrap--fullscreen { background: var(--theme, #fff); }
+.viewer-wrap--fullscreen { position: fixed; inset: 0; z-index: 9999; overflow: auto; }
+.viewer-wrap:fullscreen kicanvas-embed, .viewer-wrap:-webkit-full-screen kicanvas-embed, .viewer-wrap--fullscreen kicanvas-embed,
+.viewer-wrap:fullscreen .online_3d_viewer, .viewer-wrap:-webkit-full-screen .online_3d_viewer, .viewer-wrap--fullscreen .online_3d_viewer { width: 100% !important; height: 100% !important; border: none; border-radius: 0; }
+.viewer-wrap:fullscreen .viewer-fullscreen-btn, .viewer-wrap:-webkit-full-screen .viewer-fullscreen-btn, .viewer-wrap--fullscreen .viewer-fullscreen-btn { position: fixed; top: 12px; left: 12px; padding: 10px 16px; font-size: 24px; opacity: 0.9; }
+.viewer-wrap:fullscreen .ibom-viewer, .viewer-wrap:-webkit-full-screen .ibom-viewer, .viewer-wrap--fullscreen .ibom-viewer { width: 100% !important; height: 100% !important; border: none; border-radius: 0; }
+.post-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.post-content th, .post-content td { padding: 0.5rem 0.75rem; border: 1px solid var(--border); text-align: left; }
+.post-content th { background: var(--code-bg); font-weight: 600; }
+.post-content tr:nth-child(even) td { background: var(--code-bg); }
+</style>
