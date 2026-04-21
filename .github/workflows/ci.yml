@@ -27,3 +27,5 @@ jobs:
       pcb: "pedalboard-hw.kicad_pcb"
       kibot_config: "pedalboard-hw.kibot.yaml"
       site_base_url: "https://pedalboard.github.io/pedalboard-hw"
+      container_image: "ghcr.io/inti-cmnb/kicad10_auto_full:dev"
+      kibot_install: "apt-get install -y -qq kicad-packages3d > /dev/null 2>&1"
