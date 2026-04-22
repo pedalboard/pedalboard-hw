@@ -31,3 +31,10 @@ weight: 20
 - 6–28V DC input (standard pedalboard PSU) with 3A buck converter
 - USB powered option for MIDI module
 - ORing support between onboard PSU and USB power
+
+## Design Decisions
+
+- **USB 2.0 only** — 480 Mbps is more than sufficient for audio (stereo 24-bit/192kHz ≈ 9 Mbps) and MIDI. USB 3.0 would add cost, routing complexity, and require a 4-layer PCB — with no practical benefit for this use case.
+- **2-layer PCB** — keeps manufacturing cost low and the project accessible to makers. USB 2.0 signal integrity is manageable on 2 layers with careful routing and short trace lengths.
+- **Dual-processor architecture** — the RP2040 handles MIDI control with instant startup, while the CM4/CM5 runs ELK Audio OS for audio processing. This separation ensures the control surface is always responsive, independent of the audio OS boot state.
+- **Modular design** — the board works as a standalone MIDI controller without a CM4 installed, or as a full audio processing platform with CM4/CM5 + soundcard. Common components and existing modules (HiFiBerry, CM4) keep the BOM accessible.
