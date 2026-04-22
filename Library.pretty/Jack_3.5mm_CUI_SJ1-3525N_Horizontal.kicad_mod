@@ -468,7 +468,7 @@
 		(remove_unused_layers no)
 		(uuid "1e85fd63-1943-4c11-8b94-66b8fbf95e55")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)
