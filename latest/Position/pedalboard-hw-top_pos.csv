@@ -61,8 +61,19 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FID2","Fiducial","Fiducial_1.5mm_Mask3mm",172.0000,103.0000,0.0000,top
 "FID3","Fiducial","Fiducial_1.5mm_Mask3mm",2.0000,8.0000,0.0000,top
 "FID4","Fiducial","Fiducial_1.5mm_Mask3mm",172.0000,8.0000,0.0000,top
+"H1","MountingHole","MountingHole_2.7mm_M2.5_DIN965",6.9944,107.9944,0.0000,top
 "H2","Midi Bites","MIDI bites",87.0944,110.9194,0.0000,top
+"H3","MountingHole","MountingHole_2.7mm_M2.5_DIN965",167.0000,108.0000,0.0000,top
+"H4","MountingHole","MountingHole_2.7mm_M2.5_DIN965",149.9944,67.4944,0.0000,top
+"H5","MountingHole","MountingHole_2.7mm_M2.5_DIN965",100.9944,67.4944,0.0000,top
+"H6","MountingHole","MountingHole_2.7mm_M2.5_DIN965",100.9744,9.4744,0.0000,top
+"H7","MountingHole","MountingHole_2.7mm_M2.5_DIN965",149.9944,9.4944,0.0000,top
+"H14","MountingHole","MountingHole_2.7mm_M2.5_DIN965",23.9944,2.9944,0.0000,top
+"H15","MountingHole","MountingHole_2.7mm_M2.5_DIN965",149.9944,2.9944,0.0000,top
+"H16","MountingHole","MountingHole_2.7mm_M2.5_DIN965",86.9944,32.9944,0.0000,top
+"J1","Jack 3.5mm","Jack_3.5mm_CUI_SJ1-3525N_Horizontal",71.9889,106.4944,180.0000,top
 "J2","DIN5","CP-2350",71.9944,108.9944,180.0000,top
+"J3","Jack 3.5mm","Jack_3.5mm_CUI_SJ1-3525N_Horizontal",101.9944,106.4944,180.0000,top
 "J4","DIN5","CP-2350",101.9944,108.9944,180.0000,top
 "J5","Jack 6.35mm","Jack_6.35mm_Horizontal",157.6094,97.1944,0.0000,top
 "J6","Screw_Terminal_01x02","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",157.6316,102.7958,90.0000,top
@@ -78,6 +89,12 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J20","Jack 6.35mm","Jack_6.35mm_Horizontal",16.3944,39.9944,180.0000,top
 "J22","Jack 6.35mm","Jack_6.35mm_Horizontal",157.5944,35.9994,0.0000,top
 "J28","JST PH 3","JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical",119.2944,78.1944,90.0000,top
+"JP1","SJP","SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",76.2944,55.4944,90.0000,top
+"JP2","SJP","SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",78.7944,55.4944,90.0000,top
+"JP3","SJP","SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",31.5444,28.3444,0.0000,top
+"JP4","SJP","SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",150.8944,15.9944,90.0000,top
+"JP5","SJP","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",129.4944,7.9944,180.0000,top
+"JP6","SJP","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",129.1944,3.8944,180.0000,top
 "L1","120_100MHz","L_0603_1608Metric",63.0160,87.5730,0.0000,top
 "L2","120_100MHz","L_0603_1608Metric",72.0034,87.3470,0.0000,top
 "L3","120_100MHz","L_0603_1608Metric",72.0034,88.8202,0.0000,top
@@ -123,6 +140,11 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW8","Tactile Button","SW_PUSH-12mm_Wuerth",11.9944,11.9944,0.0000,top
 "SW9","Tactile Button","SW_PUSH-12mm_Wuerth",86.9944,11.9944,0.0000,top
 "SW10","Tactile Button","SW_PUSH-12mm_Wuerth",161.9944,11.9944,0.0000,top
+"SYM1","Logo_Open_Hardware_Small","OSHW-Logo_7.5x8mm_SilkScreen",44.7944,8.8944,0.0000,top
+"TP1","TestPoint","TestPoint_Pad_2.0x2.0mm",135.2144,98.0644,0.0000,top
+"TP2","TestPoint","TestPoint_Pad_2.0x2.0mm",136.2244,105.0544,0.0000,top
+"TP3","TestPoint","TestPoint_Pad_2.0x2.0mm",146.7544,74.1344,0.0000,top
+"TP4","TestPoint","TestPoint_Pad_2.0x2.0mm",95.4844,73.3344,0.0000,top
 "U1","74AHCT1G32SE-7","SOT-353_SC-70-5",121.7444,87.4944,0.0000,top
 "U2","TLP2761","SO-6L_10x3.84mm_P1.27mm",72.4560,91.7230,0.0000,top
 "U3","RP2040","RP2040-QFN-56",89.3944,85.3944,90.0000,top
@@ -135,5 +157,5 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "U10","AP2553W6","SOT-23-6",55.0870,79.1174,90.0000,top
 "U11","TPD4EUSB30","USON-10_2.5x1.0mm_P0.5mm",7.0444,74.0444,180.0000,top
 "U12","AT24CS01-STUM","SOT-23-5",127.9944,86.4944,180.0000,top
-"Y1","Crystal_Small","Crystal_SMD_5032-2Pin_5.0x3.2mm",48.8344,82.8744,-90.0000,top
-"Y2","ABM8-272-T3","ABM8-272-T3_ABR",97.9944,76.9067,90.0000,top
+"Y1","Crystal_Small","Crystal_SMD_5032-2Pin_5.0x3.2mm",49.0344,82.8744,-90.0000,top
+"Y2","ABM8-272-T3","ABM8-272-T3_ABR",98.0476,76.8476,90.0000,top

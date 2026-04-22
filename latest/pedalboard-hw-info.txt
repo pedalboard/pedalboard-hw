@@ -1,17 +1,20 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
 KiBot installation checker
 
 Core:
-Linux: 6.17.0.1010 (Linux 7b2a49c302e8 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
+Linux: 6.17.0.1011 (Linux 8ddc24621d3a 6.17.0-1011-azure #11~24.04.2-Ubuntu SMP Wed Mar 25 22:46:36 UTC 2026 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
   /usr/lib/python3.13/os.py
   /usr/bin/python3
-KiCad: 9.0.7+1
+KiCad: 10.0.1-10.0.1~ubuntu25.10.1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.8.5
-  /usr/lib/python3/dist-packages/kibot/__main__.py
-  /usr/bin/kibot
+Kibot: 1.8.6
+  /usr/local/lib/python3.13/dist-packages/kibot/__main__.py
+  /usr/local/bin/kibot
 
 Modules:
 Colorama: 0.4.6
@@ -24,12 +27,16 @@ PyYAML: 6.0.2
   /usr/lib/python3/dist-packages/yaml/__init__.py
 QRCodeGen: Ok
   /usr/lib/python3/dist-packages/qrcodegen.py
+ReportLab: 4.3.1
+  /usr/lib/python3/dist-packages/reportlab/__init__.py
 Requests: 2.32.3
   /usr/lib/python3/dist-packages/requests/__init__.py
 XLSXWriter: 3.1.9
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
 Xvfbwrapper: Ok
   /usr/lib/python3/dist-packages/xvfbwrapper.py
+ZStd: Ok
+  /usr/lib/python3/dist-packages/zstd.cpython-313-x86_64-linux-gnu.so
 markdown2: 2.4.11
   /usr/lib/python3/dist-packages/markdown2.py
 numpy: 2.2.4
@@ -40,6 +47,8 @@ Bash: 5.2.37 (GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu))
   /usr/bin/bash
 Blender: 4.2.4 (Blender 4.2.4 LTS)
   /usr/bin/blender
+Curl: 8.14.1 (curl 8.14.1 (x86_64-pc-linux-gnu) libcurl/8.14.1 OpenSSL/3.5.4 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.2 libssh2/1.11.1 nghttp2/1.64.0 nghttp3/1.8.0 librtmp/2.3 OpenLDAP/2.6.10)
+  /usr/bin/curl
 Ghostscript: 10.5.1 (10.05.1)
   /usr/bin/gs
 Git: 2.47.3 (git version 2.47.3)
@@ -50,10 +59,10 @@ Interactive HTML BoM: 2.11.1 (v2.11.1)
   /usr/bin/python3
 KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.3.6 (pcbnew_do 2.3.6 - Copyright 2018-2026, INTI/Productize SPRL - License: Apache)
-  /usr/bin/pcbnew_do
+KiCad Automation tools (kiauto): 2.3.7 (pcbnew_do 2.3.7 - Copyright 2018-2026, INTI/Productize SPRL - License: Apache)
+  /usr/local/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
-  /usr/bin/kicad-diff.py
+  /usr/local/bin/kicad-diff.py
 KiCost: 1.1.20 (KiCost v1.1.20)
   /usr/bin/kicost
 KiKit: 1.8.0.1 (kikit, version 1.8.0-1)
@@ -113,27 +122,39 @@ GIT_TERMINAL_PROMPT
 HOME
 HOSTNAME
 INTERACTIVE_HTML_BOM_NO_DISPLAY
+KIBOT_3D_MODELS
 KIBOT_ITERATION
 KIBOT_PCB_NAME
+KIBOT_REPO_HASH
 KIBOT_SCH_NAME
+KICAD10_3DMODEL_DIR
+KICAD10_3RD_PARTY
+KICAD10_FOOTPRINT_DIR
+KICAD10_SYMBOL_DIR
+KICAD10_TEMPLATE_DIR
+KICAD6_3DMODEL_DIR
 KICAD6_3RD_PARTY
 KICAD6_FOOTPRINT_DIR
 KICAD6_SYMBOL_DIR
 KICAD6_TEMPLATE_DIR
+KICAD7_3DMODEL_DIR
 KICAD7_3RD_PARTY
 KICAD7_FOOTPRINT_DIR
 KICAD7_SYMBOL_DIR
 KICAD7_TEMPLATE_DIR
+KICAD8_3DMODEL_DIR
 KICAD8_3RD_PARTY
 KICAD8_FOOTPRINT_DIR
 KICAD8_SYMBOL_DIR
 KICAD8_TEMPLATE_DIR
+KICAD9_3DMODEL_DIR
 KICAD9_3RD_PARTY
 KICAD9_FOOTPRINT_DIR
 KICAD9_SYMBOL_DIR
 KICAD9_TEMPLATE_DIR
 KICAD_AUTO_FULL
 KIPRJMOD
+KISYS3DMOD
 KISYSMOD
 LC_CTYPE
 PATH
@@ -148,12 +169,15 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.3.6
-Installed at: /usr/bin/pcbnew_do
-Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+This is KiAuto v2.3.7
+Installed at: /usr/local/bin/pcbnew_do
+Using kiauto module from: /usr/local/lib/python3.13/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0])
 Tools:
-- kicad: /usr/bin/kicad (v9.0.7+1)
+- kicad: /usr/bin/kicad (v10.0.1-10.0.1~ubuntu25.10.1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc

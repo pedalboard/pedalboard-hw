@@ -1,42 +1,42 @@
 (kicad_symbol_lib (version 20211014) (generator kibot)
   (symbol "QR_data" (pin_numbers hide) (pin_names hide) (in_bom no) (on_board yes)
-    (property "Reference" "#QR" (at 0 8.75 0)
+    (property "Reference" "#QR" (at 0 8.75 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)))
 
     )
-    (property "Value" "QR_data" (at 0 -8.75 0)
+    (property "Value" "QR_data" (at 0 -8.75 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)))
 
     )
-    (property "Footprint" "QR:QR_data" (at 0 -10.45 0)
+    (property "Footprint" "QR:QR_data" (at 0 -10.45 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "Datasheet" "" (at 0 -12.15 0)
+    (property "Datasheet" "" (at 0 -12.15 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_version" "3" (at 0 -13.85 0)
+    (property "qr_version" "3" (at 0 -13.85 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_size" "29" (at 0 -15.55 0)
+    (property "qr_size" "29" (at 0 -15.55 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_ecc" "1,0" (at 0 -17.25 0)
+    (property "qr_ecc" "1,0" (at 0 -17.25 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_mask" "3" (at 0 -18.95 0)
+    (property "qr_mask" "3" (at 0 -18.95 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_text" "Open Pedalboard Mainboard 4.0.1-RC" (at 0 -20.65 0)
+    (property "qr_text" "Open Pedalboard Mainboard 4.0.1-RC" (at 0 -20.65 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "Sim.Enable" "0" (at 0 -22.35 0)
+    (property "Sim.Enable" "0" (at 0 -22.35 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
@@ -1826,43 +1826,43 @@
     )
   )
   (symbol "QR_kibot" (pin_numbers hide) (pin_names hide) (in_bom no) (on_board yes)
-    (property "Reference" "#QR" (at 0 8.75 0)
+    (property "Reference" "#QR" (at 0 8.75 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)))
 
     )
-    (property "Value" "QR_kibot" (at 0 -8.75 0)
+    (property "Value" "QR_kibot" (at 0 -8.75 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)))
 
     )
-    (property "Footprint" "QR:QR_kibot" (at 0 -10.45 0)
+    (property "Footprint" "QR:QR_kibot" (at 0 -10.45 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "Datasheet" "" (at 0 -12.15 0)
+    (property "Datasheet" "" (at 0 -12.15 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_version" "3" (at 0 -13.85 0)
+    (property "qr_version" "3" (at 0 -13.85 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_size" "29" (at 0 -15.55 0)
+    (property "qr_size" "29" (at 0 -15.55 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_ecc" "1,0" (at 0 -17.25 0)
+    (property "qr_ecc" "1,0" (at 0 -17.25 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_mask" "1" (at 0 -18.95 0)
+    (property "qr_mask" "1" (at 0 -18.95 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "qr_text" "https://github.com/INTI-CMNB/KiBot/" (at 0 -20.65 0)
+    (property "qr_text" "https://github.com/INTI-CMNB/KiBot/" (at 0 -20.65 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )
-    (property "Sim.Enable" "0" (at 0 -22.35 0)
+    (property "Sim.Enable" "0" (at 0 -22.35 0) (do_not_autoplace no) (show_name no)
       (effects (font (size 1.27 1.27)) (hide yes))
 
     )

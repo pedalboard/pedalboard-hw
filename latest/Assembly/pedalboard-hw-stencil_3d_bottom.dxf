@@ -14,6 +14,10 @@ $ANGDIR
 $MEASUREMENT
   70
 1
+  9
+$INSUNITS
+  70
+4
   0
 ENDSEC
   0
@@ -201,7 +205,7 @@ BLACK
   70
 0
   62
-7
+250
   6
 CONTINUOUS
   0
