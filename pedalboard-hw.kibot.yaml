@@ -45,6 +45,8 @@ outputs:
           pos_z: 'size*4'
           energy: 0
       render_options:
+        resolution_x: 3840
+        resolution_y: 2160
         samples: 20
         transparent_background: true
         auto_crop: true
