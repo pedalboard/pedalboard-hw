@@ -28,4 +28,11 @@
 &lt;li&gt;6–28V DC input (standard pedalboard PSU) with 3A buck converter&lt;/li&gt;
 &lt;li&gt;USB powered option for MIDI module&lt;/li&gt;
 &lt;li&gt;ORing support between onboard PSU and USB power&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="design-decisions"&gt;Design Decisions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;USB 2.0 only&lt;/strong&gt; — 480 Mbps is more than sufficient for audio (stereo 24-bit/192kHz ≈ 9 Mbps) and MIDI. USB 3.0 would add cost, routing complexity, and require a 4-layer PCB — with no practical benefit for this use case.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2-layer PCB&lt;/strong&gt; — keeps manufacturing cost low and the project accessible to makers. USB 2.0 signal integrity is manageable on 2 layers with careful routing and short trace lengths.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dual-processor architecture&lt;/strong&gt; — the RP2040 handles MIDI control with instant startup, while the CM4/CM5 runs ELK Audio OS for audio processing. This separation ensures the control surface is always responsive, independent of the audio OS boot state.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modular design&lt;/strong&gt; — the board works as a standalone MIDI controller without a CM4 installed, or as a full audio processing platform with CM4/CM5 + soundcard. Common components and existing modules (HiFiBerry, CM4) keep the BOM accessible.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Release</title><link>https://pedalboard.github.io/pedalboard-hw/latest/release/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pedalboard.github.io/pedalboard-hw/latest/release/</guid><description/></item></channel></rss>

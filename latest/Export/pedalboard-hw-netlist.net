@@ -2,10 +2,10 @@
 	(version "E")
 	(design
 		(source "/__w/pedalboard-hw/pedalboard-hw/pedalboard-hw.kicad_sch")
-		(date "2026-04-22T21:27:29")
+		(date "2026-04-22T21:54:28")
 		(tool "Eeschema 10.0.1-10.0.1~ubuntu25.10.1")
 		(textvar
-			(name "GIT_HASH") "7c74a99")
+			(name "GIT_HASH") "0643ffc8")
 		(textvar
 			(name "REVISION") "dev")
 		(sheet
@@ -28,7 +28,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
@@ -76,7 +76,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
@@ -124,7 +124,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
@@ -172,7 +172,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
@@ -220,7 +220,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
@@ -268,7 +268,7 @@
 				)
 				(comment
 					(number "3")
-					(value "Git commit hash: 7c74a99")
+					(value "Git commit hash: 0643ffc8")
 				)
 				(comment
 					(number "4")
