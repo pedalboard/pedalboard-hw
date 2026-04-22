@@ -28,20 +28,35 @@ preflight:
 
 outputs:
   - name: basic_blender_export
-    comment: 3D view from top/30 deg/bottom (Blender)
+    comment: 3D renders (Blender)
     type: blender_export
     dir: 3D
     options:
       pcb3d: _PCB2Blender_2_1
+      add_default_light: false
+      light:
+        - name: sun
+          type: SUN
+          energy: 3
+        - name: fill
+          type: POINT
+          pos_x: 'size*3'
+          pos_y: '-size*3'
+          pos_z: 'size*4'
+          energy: 0
+      render_options:
+        samples: 20
+        transparent_background: true
+        auto_crop: true
       outputs:
         - type: render
-        - type: blender
       point_of_view:
-        - view: top
         - rotate_x: 30
           rotate_z: -20
-          file_id: _30deg
-        - view: bottom
+          file_id: _1_top
+        - rotate_x: 210
+          rotate_z: -20
+          file_id: _2_bottom
   - name: basic_boardview
     comment: Board View export
     type: boardview
@@ -240,6 +255,7 @@ outputs:
     comment: Download the datasheets
     type: download_datasheets
     dir: Datasheets
+    run_by_default: false
   - name: basic_dxf
     comment: Individual layers in DXF format
     type: dxf
@@ -488,54 +504,6 @@ outputs:
           dest: /
         - from_output: JLCPCB_position
           dest: /
-  - name: basic_hpgl
-    comment: Individual layers in HPGL format
-    type: hpgl
-    dir: Individual_Layers/HPGL
-    layers:
-      - layer: F.Cu
-        suffix: F_Cu
-        description: Front copper
-      - layer: B.Cu
-        suffix: B_Cu
-        description: Bottom copper
-      - layer: B.Silkscreen
-        suffix: B_Silkscreen
-        description: Bottom silkscreen (artwork)
-      - layer: F.Silkscreen
-        suffix: F_Silkscreen
-        description: Front silkscreen (artwork)
-      - layer: B.Mask
-        suffix: B_Mask
-        description: Bottom soldermask (negative)
-      - layer: F.Mask
-        suffix: F_Mask
-        description: Front soldermask (negative)
-      - layer: User.Drawings
-        suffix: User_Drawings
-        description: User drawings
-      - layer: User.Comments
-        suffix: User_Comments
-        description: User comments
-      - layer: Edge.Cuts
-        suffix: Edge_Cuts
-        description: Board shape
-      - layer: B.Courtyard
-        suffix: B_Courtyard
-        description: Bottom courtyard area
-      - layer: F.Courtyard
-        suffix: F_Courtyard
-        description: Front courtyard area
-      - layer: B.Fab
-        suffix: B_Fab
-        description: Bottom documentation
-      - layer: F.Fab
-        suffix: F_Fab
-        description: Front documentation
-  - name: basic_hpgl_sch_print
-    comment: Schematic in HPGL format
-    type: hpgl_sch_print
-    dir: Schematic
   - name: basic_ibom
     comment: Interactive HTML BoM
     type: ibom
@@ -544,31 +512,6 @@ outputs:
     comment: Information about the run
     type: info
     dir: .
-  - name: basic_kikit_present
-    comment: Simple project presentation
-    type: kikit_present
-    dir: Presentation
-    options:
-      description: "# Presentation for pedalboard-hw
-
-        This is an automatically generated presentation page"
-      boards:
-        mode: local
-        comment: Resources included
-        front_image: renderer_for_present
-        back_image: renderer_for_present
-        gerbers: gerbers_for_present
-  - name: renderer_for_present
-    comment: Renderer for the presentation
-    type: pcbdraw
-    dir: Render_for_presentation
-    run_by_default: false
-  - name: gerbers_for_present
-    comment: Gerbers for the presentation
-    type: gerber
-    dir: Gerber_for_presentation
-    layers: copper
-    run_by_default: false
   - name: basic_navigate_results
     comment: Web page to browse the results
     type: navigate_results
@@ -852,141 +795,6 @@ outputs:
             - layer: User.Comments
           sheet: Front documentation
       keep_temporal_files: true
-  - name: basic_pcbdraw_svg_jlcpcb_green_enig_top
-    comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: svg
-  - name: basic_pcbdraw_png_jlcpcb_green_enig_top
-    comment: PCB 2D render in PNG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: png
-  - name: basic_pcbdraw_jpg_jlcpcb_green_enig_top
-    comment: PCB 2D render in JPG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: jpg
-  - name: basic_pcbdraw_svg_set_blue_enig_top
-    comment: PCB 2D render in SVG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: svg
-  - name: basic_pcbdraw_png_set_blue_enig_top
-    comment: PCB 2D render in PNG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: png
-  - name: basic_pcbdraw_jpg_set_blue_enig_top
-    comment: PCB 2D render in JPG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: jpg
-  - name: basic_pcbdraw_svg_set_red_hasl_top
-    comment: PCB 2D render in SVG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: svg
-  - name: basic_pcbdraw_png_set_red_hasl_top
-    comment: PCB 2D render in PNG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: png
-  - name: basic_pcbdraw_jpg_set_red_hasl_top
-    comment: PCB 2D render in JPG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: jpg
-  - name: basic_pcbdraw_svg_jlcpcb_green_enig_bottom
-    comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: svg
-      bottom: true
-  - name: basic_pcbdraw_png_jlcpcb_green_enig_bottom
-    comment: PCB 2D render in PNG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: png
-      bottom: true
-  - name: basic_pcbdraw_jpg_jlcpcb_green_enig_bottom
-    comment: PCB 2D render in JPG format, using jlcpcb-green-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/jlcpcb_green_enig
-    options:
-      style: jlcpcb-green-enig
-      format: jpg
-      bottom: true
-  - name: basic_pcbdraw_svg_set_blue_enig_bottom
-    comment: PCB 2D render in SVG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: svg
-      bottom: true
-  - name: basic_pcbdraw_png_set_blue_enig_bottom
-    comment: PCB 2D render in PNG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: png
-      bottom: true
-  - name: basic_pcbdraw_jpg_set_blue_enig_bottom
-    comment: PCB 2D render in JPG format, using set-blue-enig style
-    type: pcbdraw
-    dir: PCB/2D_render/set_blue_enig
-    options:
-      style: set-blue-enig
-      format: jpg
-      bottom: true
-  - name: basic_pcbdraw_svg_set_red_hasl_bottom
-    comment: PCB 2D render in SVG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: svg
-      bottom: true
-  - name: basic_pcbdraw_png_set_red_hasl_bottom
-    comment: PCB 2D render in PNG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: png
-      bottom: true
-  - name: basic_pcbdraw_jpg_set_red_hasl_bottom
-    comment: PCB 2D render in JPG format, using set-red-hasl style
-    type: pcbdraw
-    dir: PCB/2D_render/set_red_hasl
-    options:
-      style: set-red-hasl
-      format: jpg
-      bottom: true
   - name: basic_pdf
     comment: Individual layers in PDF format
     type: pdf
@@ -1110,30 +918,6 @@ outputs:
           name: QR_kibot
           text: https://github.com/INTI-CMNB/KiBot/
       use_sch_dir: false
-  - name: basic_render_3d_top
-    comment: 3D view from top
-    type: render_3d
-    dir: 3D
-    options:
-      ray_tracing: true
-      orthographic: true
-  - name: basic_render_3d_30deg
-    comment: 3D view from 30 degrees
-    type: render_3d
-    dir: 3D
-    output_id: 30deg
-    options:
-      ray_tracing: true
-      rotate_x: 3
-      rotate_z: -2
-  - name: basic_render_3d_bottom
-    comment: 3D view from bottom
-    type: render_3d
-    dir: 3D
-    options:
-      ray_tracing: true
-      orthographic: true
-      view: bottom
   - name: basic_stencil_3d
     comment: 3D self-registering stencil
     type: stencil_3d

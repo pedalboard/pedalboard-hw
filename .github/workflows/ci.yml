@@ -27,4 +27,3 @@ jobs:
       pcb: "pedalboard-hw.kicad_pcb"
       kibot_config: "pedalboard-hw.kibot.yaml"
       site_base_url: "https://pedalboard.github.io/pedalboard-hw"
-      container_image: "ghcr.io/inti-cmnb/kicad10_auto_full:dev"

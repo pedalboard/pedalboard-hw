@@ -4,7 +4,7 @@ Mainboard for processing audio and/or MIDI data on a pedalboard.
 
 **[Documentation →](https://pedalboard.github.io/pedalboard-hw/latest/)**
 
-![PCB 3D Render](https://pedalboard.github.io/pedalboard-hw/latest/3D/pedalboard-hw-3D_blender_top.png)
+![PCB 3D Render](https://pedalboard.github.io/pedalboard-hw/latest/3D/pedalboard-hw-3D_blender_1_top.png)
 
 ## Design Goals
 

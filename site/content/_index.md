@@ -3,7 +3,7 @@ title: Overview
 weight: 10
 ---
 
-![PCB 3D Render](3D/pedalboard-hw-3D_blender_top.png)
+![PCB 3D Render](3D/pedalboard-hw-3D_blender_1_top.png)
 
 Mainboard for processing audio and/or MIDI data on a pedalboard.
 Modular design supporting MIDI-only or combined MIDI + audio configurations.
