@@ -4,7 +4,7 @@
 KiBot installation checker
 
 Core:
-Linux: 6.17.0.1010 (Linux 562071bc9dc5 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
+Linux: 6.17.0.1010 (Linux 531e332fe2e0 6.17.0-1010-azure #10~24.04.1-Ubuntu SMP Fri Mar  6 22:00:57 UTC 2026 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
   /usr/lib/python3.13/os.py
@@ -61,7 +61,7 @@ KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
 KiCad Automation tools (kiauto): 2.3.7 (pcbnew_do 2.3.7 - Copyright 2018-2026, INTI/Productize SPRL - License: Apache)
   /usr/local/bin/pcbnew_do
-KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
+KiCad PCB/SCH Diff (kidiff): 2.5.9 (kicad-diff.py 2.5.9 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
   /usr/local/bin/kicad-diff.py
 KiCost: 1.1.20 (KiCost v1.1.20)
   /usr/bin/kicost
@@ -81,6 +81,7 @@ Xvfb: Ok (xvfb-run)
 Environment:
 ACTIONS_ORCHESTRATION_ID
 CI
+GEN_DIR
 GITHUB_ACTION
 GITHUB_ACTIONS
 GITHUB_ACTION_REF
@@ -166,6 +167,7 @@ RUNNER_OS
 RUNNER_TEMP
 RUNNER_TOOL_CACHE
 RUNNER_WORKSPACE
+SITE_DIR
 TZ
 
 KiAuto:
