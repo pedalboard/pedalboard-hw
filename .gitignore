@@ -64,4 +64,4 @@ tags
 .history/
 mise.local.toml
 site/.hugo_build.lock
-site/static/
+site/static/site/_vendor/
